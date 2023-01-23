@@ -7,5 +7,5 @@
     <input type="mail" name="email" placeholder="jackfrost@payetonmail.com">
     <label for="password">Mot de passe</label>
     <input type="password" name="password">
-    <button type="submit">Envoyer</button>
+    <button type="submit">S'inscrire</button>
 </form>

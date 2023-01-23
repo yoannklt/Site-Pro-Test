@@ -1,10 +1,7 @@
-nav a + a:before{
-    content: " | ";
-    padding: 0 10px;
-}
-
-.dropdown-menu{
-    width:500px !important;
+body{
+    background-image: url(../img/DESIGN-DE-FOND.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -16,8 +13,11 @@ nav .navbar-brand img{
     width: 40px;
 }
 
-body{
-    background-image: url(../img/DESIGN-DE-FOND.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+nav a + a:before{
+    content: " | ";
+    padding: 0 10px;
 }
+
+
+
+
