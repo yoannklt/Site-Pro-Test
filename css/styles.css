@@ -4,8 +4,7 @@ nav a + a:before{
 }
 
 .dropdown-menu{
-    height: 272px !important;
-    width:544px !important;
+    width:500px !important;
 }
 
 nav{

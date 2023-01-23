@@ -1,16 +1,32 @@
-<div class="dropdown">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-    Connexion
-  </button>
-  <form class="dropdown-menu p-4">
-    <div class="mb-3">
-      <label for="exampleDropdownFormEmail2"  class="form-label">Identifiant</label>
-      <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="eurbain@gaming.bs">
+<a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Connexion</a>
+<div class="modal" id="exampleModal">
+    <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4 ms-auto">.col-md-4 .ms-auto</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 ms-auto">.col-md-3 .ms-auto</div>
+                <div class="col-md-2 ms-auto">.col-md-2 .ms-auto</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ms-auto">.col-md-6 .ms-auto</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-9">
+                        Level 1: .col-sm-9
+                    <div class="row">
+                    <div class="col-8 col-sm-6">
+                        Level 2: .col-8 .col-sm-6
+                    </div>
+                    <div class="col-4 col-sm-6">
+                        Level 2: .col-4 .col-sm-6
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="mb-3">
-      <label for="exampleDropdownFormPassword2" class="form-label">Mot de passe</label>
-      <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Votre mot de passes">
-    </div>
-    <button type="submit" action="../action/signup.php" class="btn btn-primary">Connexion</button>
-  </form>
 </div>
