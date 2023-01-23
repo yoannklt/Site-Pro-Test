@@ -13,4 +13,8 @@ $pre->bindParam("password", $_POST['password']);
 
 $pre->execute();
 
+$user = $pre->fetch(PDO::FETCH_ASSOC);
+if(isset($user)){
+    $_SESSION['user'] = $user;
+};
 header('Location:../pages/index.php');
