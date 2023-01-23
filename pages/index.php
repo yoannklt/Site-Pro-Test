@@ -36,9 +36,11 @@
     </div>
 
     <div id="whatisthat">
-        <h2>Qu'est ce que</h2>
-        <img src="../img/SENSE.png" alt="">
-        <h2>?</h2>
+        <div class="title">
+            <h2>Qu'est ce que&nbsp;&nbsp;</h2>
+            <img src="../img/SENSE.png" alt="">
+            <h2>&nbsp;&nbsp;?</h2>
+        </div>
         <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d'autres dimensions et vivez l'impossible en intérragissant avec un environnement dynamique et virtuel. Ce n'est pas une expérience en réalité virtuelle que vous vivez, c'est la réalité.</p>
         <a href="../about.php">Découvrez The Sense</a>
     </div>
