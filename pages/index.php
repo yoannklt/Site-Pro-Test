@@ -16,15 +16,21 @@
     } else {
         echo "Bonjour, veuillez vous connecter pour réserver une session";
     }?>
-    <div class="container test-inscription NEPASENLEVER">
-        <?php require_once "../components/signup.php"?>
-    </div>
-    <div class="container test-connexion NEPASENLEVER">
-        <?php require_once "../components/signin.php"?>
-    </div>
-    <div class="container">
-        <?php require_once "../components/logout.php"?>
-    </div>
+
+    <?php if(isset($_SESSION['user'])){?> 
+        <div class="container">
+            <?php require_once "../components/logout.php"?>
+        </div> 
+    <?php }else{?>
+         <div class="container test-inscription NEPASENLEVER">
+            <?php require_once "../components/signup.php"?>
+        </div>
+        <div class="container test-connexion NEPASENLEVER">
+            <?php require_once "../components/signin.php"?>
+        </div>
+    <?php }?>
+    
+    
 
 
 
