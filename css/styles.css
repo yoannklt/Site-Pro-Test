@@ -3,6 +3,11 @@ nav a + a:before{
     padding: 0 10px;
 }
 
+.dropdown-menu{
+    height: 272px !important;
+    width:544px !important;
+}
+
 nav{
     text-transform: uppercase;
 }
