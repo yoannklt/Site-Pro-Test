@@ -1,32 +1,11 @@
-<a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Connexion</a>
-<div class="modal" id="exampleModal">
-    <div class="modal-body">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">.col-md-4</div>
-                <div class="col-md-4 ms-auto">.col-md-4 .ms-auto</div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 ms-auto">.col-md-3 .ms-auto</div>
-                <div class="col-md-2 ms-auto">.col-md-2 .ms-auto</div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 ms-auto">.col-md-6 .ms-auto</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-9">
-                        Level 1: .col-sm-9
-                    <div class="row">
-                    <div class="col-8 col-sm-6">
-                        Level 2: .col-8 .col-sm-6
-                    </div>
-                    <div class="col-4 col-sm-6">
-                        Level 2: .col-4 .col-sm-6
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<form action="../action/signup.php" method="post">
+    <label for="last_name">Nom de famille</label>
+    <input type="text" name="last_name" placeholder="Votre nom">
+    <label for="first_name">Prénom</label>
+    <input type="text" name="first_name" placeholder="Votre prénom">
+    <label for="email">Mail</label>
+    <input type="mail" name="email" placeholder="jackfrost@payetonmail.com">
+    <label for="password">Mot de passe</label>
+    <input type="password" name="password">
+    <button type="submit">Envoyer</button>
+</form>

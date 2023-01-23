@@ -9,11 +9,22 @@
     <title>The Sense</title>
 </head>
 <body>
-
+    <?php require_once "../cfg/config.php"?>
     <?php require_once "../components/navbar.php"?>
-
-
-
+    <?php if(isset($_SESSION['user'])){
+        echo $_SESSION['user']['first_name'];
+    } else {
+        echo "Bonjour, veuillez vous connecter pour réserver une session";
+    }?>
+    <div class="container test-inscription NEPASENLEVER">
+        <?php require_once "../components/signup.php"?>
+    </div>
+    <div class="container test-connexion NEPASENLEVER">
+        <?php require_once "../components/signin.php"?>
+    </div>
+    <div class="container">
+        <?php require_once "../components/logout.php"?>
+    </div>
 
 
 

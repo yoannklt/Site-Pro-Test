@@ -7,7 +7,6 @@
         <a class="nav-link" href="../pages/btob.php">Nos expériences</a>
         <a class="nav-link" href="../pages/about.php">à propos de nous</a>
         <a class="nav-link" href="../pages/equipements.php">Nos équipements</a>
-        <?php require_once "../components/signup.php"?>
       </div>
     </div>
   </div>
