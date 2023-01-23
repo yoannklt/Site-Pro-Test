@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T12:33:11.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="BTujW8jSawGBq0VkDlFk" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T12:59:39.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lOuruWf3CFCeRj8Mc8si" version="20.8.10" type="github">
   <diagram name="Page-1" id="ot0bOh7A77iG_1bBQBcy">
-    <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,16 +10,16 @@
         <mxCell id="HR9AWC5PWtq5WHYGUAck-2" value="users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="70" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PmpWFGW_LLDsfuvFvZXX-1" value="&lt;u&gt;&lt;br&gt;id_room&lt;br&gt;&lt;/u&gt;nom&lt;br&gt;type&lt;br&gt;description&lt;br&gt;regle" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="PmpWFGW_LLDsfuvFvZXX-1" value="&lt;u&gt;&lt;br&gt;id_room&lt;br&gt;&lt;/u&gt;nom&lt;br&gt;type&lt;br&gt;description&lt;br&gt;regle" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="660" y="130" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="PmpWFGW_LLDsfuvFvZXX-2" value="room" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PmpWFGW_LLDsfuvFvZXX-2" value="room" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="70" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PmpWFGW_LLDsfuvFvZXX-3" value="&lt;u&gt;id_reservation&lt;br&gt;&lt;/u&gt;nom&lt;br&gt;prénom&lt;br&gt;mail&lt;br&gt;téléphone&lt;br&gt;nb_player&lt;br&gt;discovered_how&lt;br&gt;code promo&lt;br&gt;#id_room" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="PmpWFGW_LLDsfuvFvZXX-3" value="&lt;u&gt;id_reservation&lt;br&gt;&lt;/u&gt;nom&lt;br&gt;prénom&lt;br&gt;mail&lt;br&gt;téléphone&lt;br&gt;nb_player&lt;br&gt;discovered_how&lt;br&gt;code promo&lt;br&gt;#id_room" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="425" y="130" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="PmpWFGW_LLDsfuvFvZXX-4" value="reservation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PmpWFGW_LLDsfuvFvZXX-4" value="reservation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="425" y="70" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
