@@ -18,6 +18,11 @@ nav a + a:before{
     padding: 0 10px;
 }
 
+.discover{
+    justify-content: center;
+    align-items: center;
+    display: block
+}
 
 
 
