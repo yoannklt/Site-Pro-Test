@@ -9,8 +9,15 @@ nav a + a:before{
 
 nav{
     text-transform: uppercase;
+    opacity: 75%;
 }
 
 nav .navbar-brand img{
     width: 40px;
+}
+
+body{
+    background-image: url(../img/DESIGN-DE-FOND.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
