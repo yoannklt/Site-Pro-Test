@@ -47,9 +47,19 @@
                 <img src="../img/SENSE.png" alt="">
                 <h2>&nbsp;&nbsp;?</h2>
             </div>
+            <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d'autres dimensions et vivez l'impossible en intérragissant avec un environnement dynamique et virtuel. Ce n'est pas une expérience en réalité virtuelle que vous vivez, c'est la réalité.</p>
+            <a href="../pages/about.php">Découvrez The Sense</a>
         </div>
-        <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d'autres dimensions et vivez l'impossible en intérragissant avec un environnement dynamique et virtuel. Ce n'est pas une expérience en réalité virtuelle que vous vivez, c'est la réalité.</p>
-        <a href="../about.php">Découvrez The Sense</a>
+    </div>
+
+    <div>
+        <h1>La réalité à portée de main</h1>
+        <p>Vous rêvez de voyager, de frisonner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis et famille et franchissez la fronuière de la réalité. Plusieurs dimensions s'offrent à vous, vous donnant accès à de nombreuses expériences.</p>
+    </div>
+
+    <div>
+        <h2>Nos expériences les plus appréciées</h2>
+        <img src="../img/image-45.png" alt="">
     </div>
     
     
