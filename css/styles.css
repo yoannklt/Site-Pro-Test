@@ -18,6 +18,14 @@ nav a + a:before{
     padding: 0 10px;
 }
 
+.discover{
+    display: flex;
+    justify-content: center;
+    margin-top: 600px;
+}
 
+#whatisthat{
+    background-color: #EAFFFB;
+}
 
 
