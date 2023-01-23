@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T12:59:39.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lOuruWf3CFCeRj8Mc8si" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T17:08:09.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t4Ne_6p9KGK2wHrpQQev" version="20.6.0" type="github">
   <diagram name="Page-1" id="ot0bOh7A77iG_1bBQBcy">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,12 @@
         </mxCell>
         <mxCell id="PmpWFGW_LLDsfuvFvZXX-4" value="reservation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="425" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1x76J5wzZvy7FMvj_Z2V-1" value="&lt;u&gt;&lt;br&gt;id_page&lt;br&gt;&lt;/u&gt;nom&lt;br&gt;titre&lt;br&gt;description&lt;br&gt;regle&lt;br&gt;image" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1x76J5wzZvy7FMvj_Z2V-2" value="Pages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
