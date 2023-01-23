@@ -6,3 +6,7 @@ nav a + a:before{
 nav{
     text-transform: uppercase;
 }
+nav .navbar-brand img{
+    height: 20px;
+    width: 20px;
+}
