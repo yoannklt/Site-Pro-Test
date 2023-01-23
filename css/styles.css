@@ -10,3 +10,7 @@ nav a + a:before{
 nav{
     text-transform: uppercase;
 }
+
+nav .navbar-brand img{
+    width: 40px;
+}
