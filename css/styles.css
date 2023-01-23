@@ -19,10 +19,13 @@ nav a + a:before{
 }
 
 .discover{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    display: block
+    margin-top: 600px;
 }
 
+#whatisthat{
+    background-color: #EAFFFB;
+}
 
 
