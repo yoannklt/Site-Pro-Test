@@ -18,19 +18,12 @@ a{
   text-transform: uppercase;
 }
 
-a:hover{
-
-}
-
 nav a + a:before{
   content: " | ";
   padding: 0 10px;
 }
 
-<<<<<<< HEAD
-=======
 a:hover{
   transform:scale(1.06);
   transition: 100ms;
 }
->>>>>>> 9df787c39a5937607b1cd2d5149933d26c23db09
