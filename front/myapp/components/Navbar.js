@@ -10,11 +10,11 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link href="../pages/News.js">News</Nav.Link>
-            <Nav.Link href="../pages/Lightroom.js">Nos expériences</Nav.Link>
-            <Nav.Link href="../pages/About.js">à propos de nous</Nav.Link>
-            <Nav.Link href="../pages/Equipements.js">Nos équipements</Nav.Link>
-            <Nav.Link href="#">Connexion</Nav.Link>
+            <a hover="" href="../pages/News.js">News</a>
+            <a hover="" href="../pages/Lightroom.js">Nos expériences</a>
+            <a hover="" href="../pages/About.js">à propos de nous</a>
+            <a hover="" href="../pages/Equipements.js">Nos équipements</a>
+            <a hover="" href="#"><strong>Connexion</strong></a>
           </Nav>
         </Navbar.Collapse>
       </Container>
