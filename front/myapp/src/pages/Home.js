@@ -15,6 +15,7 @@ function Home() {
         .then(result => setUsers(result))
         .catch(error=>console.error("Erreur avec notre API :",error.message));
     },[]);
+    
     return <div>
         <Navbarbar />
         <div className='container'>
