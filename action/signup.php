@@ -2,12 +2,12 @@
 
 require_once "../cfg/config.php"; 
 
-$sql = "INSERT INTO user(first_name,last_name,mail,password) VALUES(:first_name,:last_name,:email,:SHA1(password))";
+$sql = "INSERT INTO user(first_name,last_name,mail,password) VALUES(:first_name,:last_name,:email,:password)";
 
 $pre = $pdo->prepare($sql);
 
-$pre->bindParam("first_name", $_POST['first_name']);
-$pre->bindParam("last_name", $_POST['last_name']);
+$pre->bindParam('first_name',htmlspecialchars($_POST['first_name'], ENT_QUOTES,'UTF_8'));
+$pre->bindParam('last_name',htmlspecialchars($_POST['last_name'], ENT_QUOTES,'UTF_8'));
 $pre->bindParam('mail',htmlspecialchars($_POST['email'], ENT_QUOTES,'UTF_8'));
 $pre->bindParam("password", sha1($_POST['password']));
 
