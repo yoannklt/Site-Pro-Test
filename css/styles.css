@@ -27,6 +27,12 @@ nav a + a:before{
 #whatisthat{
     background-color: #EAFFFB;
     margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#whatisthat .blabla{
+    margin-left: 50px;
 }
 
 .title{
