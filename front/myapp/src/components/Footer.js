@@ -1,9 +1,13 @@
-function Footer() {
-    return (
-            <footer>
+import '../index.css';
+import Footer from 'react-bootstrap/Nav';
 
-            </footer>
+function Footerter() {
+    return (
+      <Footer>
+        <h4>Nous contacter</h4>
+
+      </Footer>
     );
   }
 
-export default Footer;
+export default Footerter;

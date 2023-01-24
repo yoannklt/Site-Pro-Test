@@ -1,6 +1,7 @@
 import '../index.css';
 import React, { useEffect, useState } from "react";
 import Navbarbar from "../components/Navbar"
+import Footerter from "../components/Footer"
 import { getAll } from '../api/Users';
 
 
@@ -29,6 +30,7 @@ function Home() {
                 }
             </div> 
         </div>
+        <Footerter />
     </div>
 }
 
