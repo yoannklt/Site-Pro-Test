@@ -1,8 +1,11 @@
 const express = require("express");
+var cors = require('cors');
 const dbo = require("./db/db");
 const app = express();
 const port = 4444;
 
+app.use(cors())
+ 
 dbo.connectToServer();
 
 app.listen(port, function () {

@@ -11,11 +11,6 @@ nav a{
   text-transform: uppercase;
 }
 
-nav a:hover {
-  width: 2px;
-  height: 2px;
-  }
-
 nav a + a:before{
   content: " | ";
   padding: 0 10px;
