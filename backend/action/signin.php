@@ -5,8 +5,12 @@ $sql = "SELECT * FROM user WHERE mail='".$_POST['email']."' AND password='".$_PO
 $pre = $pdo->prepare($sql); 
 $pre->execute();
 $user = $pre->fetch(PDO::FETCH_ASSOC);
+if(empty($user)){ 
+     
+     echo "Utilisateur ou mot de passe incorrect !";
+}else{
+     $_SESSION['user'] = $user; 
+}
 
-session_destroy();
-
-header('Location:../index.php');//on le redirige sur la page d'accueil du site !
+header('Location:../index.php');
 ?>

@@ -1,5 +1,5 @@
 <?php
-//pour démarrer la session
+
 session_start();
 
 $pdo = new PDO(
