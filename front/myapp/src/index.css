@@ -1,5 +1,7 @@
 body{
   background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar{
@@ -16,7 +18,12 @@ a{
   text-transform: uppercase;
 }
 
+a:hover{
+
+}
+
 nav a + a:before{
   content: " | ";
   padding: 0 10px;
 }
+
