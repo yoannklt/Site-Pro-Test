@@ -1,18 +1,18 @@
 import Home from "./pages/Home";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 
 //App.js
 function App(props){
   return <Router>
-      <Switch>
+      <Routes>
         <Route exact path="/"> 
           <Home /> 
         </Route>
-      </Switch>
+      </Routes>
   </Router>
 }
 
