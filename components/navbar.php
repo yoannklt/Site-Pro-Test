@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../pages/index.php"><img src="../img/logo.png" alt=""></a>
+    <a class="navbar-brand" href="../index.php"><img src="../img/logo.png" alt=""></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link text-dark" href="../pages/news.php">News</a>

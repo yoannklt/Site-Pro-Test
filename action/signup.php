@@ -17,4 +17,4 @@ $user = $pre->fetch(PDO::FETCH_ASSOC);
 if(isset($user)){
     $_SESSION['user'] = $user;
 };
-header('Location:../pages/index.php');
+header('Location:../index.php');
