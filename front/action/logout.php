@@ -8,5 +8,5 @@ $user = $pre->fetch(PDO::FETCH_ASSOC);
 
 session_destroy();
 
-header('Location:../pages/index.php');//on le redirige sur la page d'accueil du site !
+header('Location:../index.php');//on le redirige sur la page d'accueil du site !
 ?>
