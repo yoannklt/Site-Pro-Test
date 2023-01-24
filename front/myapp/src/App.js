@@ -1,3 +1,4 @@
+import "./index.css";
 import Home from "./pages/Home";
 import {
   BrowserRouter as Router,

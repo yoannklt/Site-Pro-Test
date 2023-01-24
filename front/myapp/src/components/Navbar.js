@@ -1,8 +1,9 @@
+import '../index.css'; 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Nav_bar() {
+function Navbarbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
       <Container>
@@ -22,4 +23,4 @@ function Nav_bar() {
   );
 }
 
-export default Nav_bar;
+export default Navbarbar;
