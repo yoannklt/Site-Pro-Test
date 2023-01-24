@@ -12,11 +12,11 @@ function Navbarbar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container>
             <Nav>
-              <Nav.Link href="../pages/News">News</Nav.Link>
-              <Nav.Link href="../pages/Lightroom">Nos expériences</Nav.Link>
-              <Nav.Link href="../pages/About">à propos de nous</Nav.Link>
-              <Nav.Link href="../pages/Equipements">Nos équipements</Nav.Link>
-              <Nav.Link href="#"><strong>Connexion</strong></Nav.Link>
+              <Nav.Link className='buttons' href="../pages/News">News</Nav.Link>
+              <Nav.Link className='buttons' href="../pages/Lightroom">Nos expériences</Nav.Link>
+              <Nav.Link className='buttons' href="../pages/About">à propos de nous</Nav.Link>
+              <Nav.Link className='buttons' href="../pages/Equipements">Nos équipements</Nav.Link>
+              <Nav.Link className='buttons' href="#"><strong>Connexion</strong></Nav.Link>
             </Nav>
           </Container>
         </Navbar.Collapse>
