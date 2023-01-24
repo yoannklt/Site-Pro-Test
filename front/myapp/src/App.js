@@ -1,18 +1,18 @@
 import Home from "./pages/Home";
 import {
   BrowserRouter as Router,
-  Routes,
+  Switch,
   Route
 } from "react-router-dom";
 
 //App.js
 function App(props){
   return <Router>
-      <Routes>
-        <Route exact path="/"> 
-          <Home /> 
+      <Switch>
+        <Route exact path="/"> {/*ici on met l'URL dans le navigateur*/}
+          <Home /> {/*ici on donne la page à afficher en fonction de cette URL*/}
         </Route>
-      </Routes>
+      </Switch>
   </Router>
 }
 
