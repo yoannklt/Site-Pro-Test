@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function CollapsibleExample() {
+function Navbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
       <Container>
@@ -22,4 +22,4 @@ function CollapsibleExample() {
   );
 }
 
-export default CollapsibleExample;
+export default Navbar;
