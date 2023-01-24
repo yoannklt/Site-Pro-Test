@@ -1,6 +1,6 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from 'node_modules/react-bootstrap/Container';
+import Nav from 'node_modules/react-bootstrap/Nav';
+import Navbar from 'node_modules/react-bootstrap/Navbar';
 
 function CollapsibleExample() {
   return (
@@ -10,11 +10,11 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <a hover="" href="../pages/News.js">News</a>
-            <a hover="" href="../pages/Lightroom.js">Nos expériences</a>
-            <a hover="" href="../pages/About.js">à propos de nous</a>
-            <a hover="" href="../pages/Equipements.js">Nos équipements</a>
-            <a hover="" href="#"><strong>Connexion</strong></a>
+            <a href="../pages/News">News</a>
+            <a href="../pages/Lightroom">Nos expériences</a>
+            <a href="../pages/About">à propos de nous</a>
+            <a href="../pages/Equipements">Nos équipements</a>
+            <a href="#"><strong>Connexion</strong></a>
           </Nav>
         </Navbar.Collapse>
       </Container>
