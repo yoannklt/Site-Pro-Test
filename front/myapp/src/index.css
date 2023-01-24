@@ -1,13 +1,13 @@
-.navbar{
+nav .navbar{
   opacity: 75%;
   text-transform: uppercase;
 }
 
-.navbrand img{
+nav .navbrand img{
   width: 40px;
 }
 
- a + a:before{
+nav a + a:before{
   content: " | ";
   padding: 0 10px;
 }
