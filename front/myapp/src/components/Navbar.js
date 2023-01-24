@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
+function Nav_bar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
       <Container>
@@ -22,4 +22,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Nav_bar;
