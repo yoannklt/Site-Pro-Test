@@ -15,7 +15,7 @@ function Home() {
         .then(result => setUsers(result))
         .catch(error=>console.error("Erreur avec notre API :",error.message));
     },[]);
-    
+
     return <div>
         <Navbarbar />
         <div className='container'>
@@ -23,7 +23,7 @@ function Home() {
                 {
                     users.map((users,key) =>{
                     return <div key={key} className="bloc-users">
-                        <h2>{users.first_name}</h2>
+                        <h2>{users.first_name} {users.last_name}</h2>
                     </div>
                     })
                 }
