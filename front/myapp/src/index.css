@@ -27,3 +27,7 @@ a:hover{
   transform:scale(1.06);
   transition: 100ms;
 }
+
+.footer{
+  background-color: #3B4040;
+}

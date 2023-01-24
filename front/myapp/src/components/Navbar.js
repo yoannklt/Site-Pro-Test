@@ -11,12 +11,12 @@ function Navbarbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container>
-            <Nav className='row text-end'>
-              <Nav.Link className='buttons col' href="../pages/News">News</Nav.Link>
-              <Nav.Link className='buttons col' href="../pages/Lightroom">Nos expériences</Nav.Link>
-              <Nav.Link className='buttons col' href="../pages/About">à propos de nous</Nav.Link>
-              <Nav.Link className='buttons col' href="../pages/Equipements">Nos équipements</Nav.Link>
-              <Nav.Link className='buttons col' href="#"><strong>Connexion</strong></Nav.Link>
+            <Nav>
+              <Nav.Link className='buttons' href="../pages/News">News</Nav.Link>
+              <Nav.Link className='buttons' href="../pages/Lightroom">Nos expériences</Nav.Link>
+              <Nav.Link className='buttons' href="../pages/About">à propos de nous</Nav.Link>
+              <Nav.Link className='buttons' href="../pages/Equipements">Nos équipements</Nav.Link>
+              <Nav.Link className='buttons' href="#"><strong>Connexion</strong></Nav.Link>
             </Nav>
           </Container>
         </Navbar.Collapse>
