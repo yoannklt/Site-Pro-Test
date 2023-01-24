@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/Home";
+import DisplayPokedex from "./pages/DisplayPokedex";
+import AllPokemons from "./pages/AllPokemons";
+import PannelAdmin from "./pages/PannelAdmin"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//App.js
+function App(props){
+  return <Router>
+      <Switch>
+        <Route exact path="/"> 
+          <Home /> 
+        </Route>
+        <Route path="/Pokedex">
+          <DisplayPokedex />
+        </Route>
+        <Route path="/Pokemons">
+          <AllPokemons />
+        </Route>
+        <Route path="/PannelAdmin">
+          <PannelAdmin/>
+        </Route>
+      </Switch>
+  </Router>
 }
 
 export default App;
