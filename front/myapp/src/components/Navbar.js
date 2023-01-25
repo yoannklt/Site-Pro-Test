@@ -7,7 +7,7 @@ function Navbarbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
       <div className='col-lg-1 row'>
-        <Nav.Link className="navbrand col-lg-1" href="../pages/Home"><img src={Logo} alt="" /></Nav.Link>
+        <Nav.Link className="navbrand col-lg-1" href="/"><img src={Logo} alt="" /></Nav.Link>
       </div>
       <Navbar.Toggle className="test" aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className='list col-lg-10'>
