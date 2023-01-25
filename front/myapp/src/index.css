@@ -27,7 +27,8 @@ a{
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
-
+  margin-left: 5px !important;
+  margin-right: 5px !important;
 }
 
 a:hover{
