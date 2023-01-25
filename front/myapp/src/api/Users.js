@@ -31,3 +31,18 @@ export const signUp = async (data) => {
     const useradd = await response.json()
     return useradd;
 }
+
+export const deleteUser = async(data) => {
+    const response = await fetch(
+        'http://localhost:4444/user/delete', {
+            method: 'DELETE',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                'first_name':data.first_name
+            })
+        }
+    )
+}
