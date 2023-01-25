@@ -2,7 +2,7 @@ import '../index.css';
 import React, { useEffect, useState } from "react";
 import Navbarbar from "../components/Navbar"
 import Footerter from "../components/Footer"
-import { getAll } from '../api/Users';
+import { getAll, signUp } from '../api/Users';
 import { useForm } from "react-hook-form";
 
 
@@ -22,9 +22,8 @@ function Home() {
     const { register, handleSubmit } = useForm();
     const onSubmit = (data) => {
         console.log(data)
-        /*Coder ici pour préparer l'appel réseau POST avec FETCH !*/
-        //On peut transformer les données en JSON pour les envoyer dans notre appel
-        JSON.stringify(data);
+        //JSON.stringify(data);
+        signUp(data);  
     }
     return <div>
         <Navbarbar />
@@ -41,11 +40,11 @@ function Home() {
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)}>
-            <input {...register("firstName")} placeholder="First name" />
-            <input {...register("lastName")} placeholder="Last name" />
-            <input {...register("mail")} type="email" placeholder="@" />
+            <input {...register("first_name")} placeholder="First name" />
+            <input {...register("last_name")} placeholder="Last name" />
+            <input {...register("email")} type="email" placeholder="@" />
             <input {...register("password")} type="password" placeholder="mdp" />
-            <button type="submit">Valider</button>
+            <input className="userButton" type="submit"/>
         </form>
 
         <Footerter />
