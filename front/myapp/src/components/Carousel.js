@@ -3,11 +3,15 @@ import image23 from '../img/image23.png'
 import image22 from '../img/image22.png'
 import image21 from '../img/image21.png'
 import image20 from '../img/image20.png'
+import image27 from '../img/image27.png'
 import CarouselItem from 'react-bootstrap/esm/CarouselItem';
 
 function FadeCarousel() {
   return (
-    <Carousel fade>
+    <Carousel 
+        fade
+        pause hover
+        >
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -57,7 +61,19 @@ function FadeCarousel() {
             <p> Nicolas, 3 Septembre 2020 </p>
         </Carousel.Caption>
       </CarouselItem>
+      <CarouselItem>
+        <img
+          className="d-block w-100"
+          src={image27}
+          alt="Fifth slide"
+        />
+        <Carousel.Caption>
+        <h3>“C'est dingue, j'ai vraiment eu l'impression d'être transporté dans un autre monde. Avant je ne faisais pas d'expérience VR car je ne croyais pas en la qualité mais grâce à The Sense, j'ai pu traverser la frontière du réel.”</h3>
+        <p> Denise, 23 Octobre 2020 </p>
+        </Carousel.Caption>
+      </CarouselItem>
     </Carousel>
+    
   );
 }
 
