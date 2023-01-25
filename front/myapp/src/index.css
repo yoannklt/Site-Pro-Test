@@ -97,3 +97,19 @@ h1{
   
   
 }
+
+.head img{
+  width: 100%;
+}
+
+.blblbl{
+  margin-top: 250px;
+  background-color: #F2F2F2;
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+
+}
+
+.blblbl img{
+  width: 120%;
+}
