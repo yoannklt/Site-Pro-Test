@@ -2,6 +2,7 @@ import '../index.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../img/Logo.png';
+import SinginLogin from './SigninLogin';
 
 function Navbarbar() {
   return (
@@ -19,7 +20,7 @@ function Navbarbar() {
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
         <Nav.Link className="navbtn" href="../pages/Equipements">Nos équipements</Nav.Link>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <Nav.Link className="navbtn" href="#"><strong>Connexion</strong></Nav.Link>
+        <SinginLogin />
       </Navbar.Collapse>
     </Navbar>
   );
