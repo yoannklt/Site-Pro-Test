@@ -1,4 +1,3 @@
-import FadeCarousel from "../components/Carousel";
 import Navbarbar from "../components/Navbar";
 import image26 from '../img/image26.png';
 import image25 from '../img/image25.png';
@@ -10,8 +9,8 @@ function BtoB() {
         <div>
             <div className="backgroundBtoB">
                 <Navbarbar />
-                <div className="news">
-                    <h1>BTOB</h1>
+                <div className="btob">
+                    <h1>NOS SERVICES B TO B</h1>
                 </div>
             </div>
             <div className="class">
@@ -63,9 +62,6 @@ function BtoB() {
                         <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                     </div>
-                </div>
-                <div className="carousel">
-                    <FadeCarousel/>
                 </div>
 
             </div>

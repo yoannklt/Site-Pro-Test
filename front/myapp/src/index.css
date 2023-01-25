@@ -204,3 +204,27 @@ h3{
 .blocgrisnews h3{
   margin-top: 20px;
 }
+
+/* BtoB */
+
+.backgroundBtoB{
+  height: 540px;
+  background-image: url(../src/img/bob.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.5%;
+}
+
+.btob h1{
+  font-family: 'Amiko', sans-serif; 
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  height: 1%;
+}
