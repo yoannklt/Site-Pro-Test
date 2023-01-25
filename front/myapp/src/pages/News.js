@@ -4,6 +4,7 @@ import image26 from '../img/image26.png';
 import image25 from '../img/image25.png';
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
+import FadeCarousel from "../components/Carousel";
 
 function News() {
     return (
@@ -64,6 +65,9 @@ function News() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                     </div>
                 </div>
+            </div>
+            <div className="carousel">
+                <FadeCarousel/>
             </div>
         </div>
     )
