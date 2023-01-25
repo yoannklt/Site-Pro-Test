@@ -29,7 +29,7 @@ app.get("/user/list", function (req, res) {
     });
 });
 
-// INSERER DES UTILISATEUR
+// INSERER DES UTILISATEURS
 app.post('/user/insert', jsonParser, (req, res) => {
   const body = req.body;
   const dbConnect = dbo.getDb();
@@ -45,50 +45,27 @@ app.post('/user/insert', jsonParser, (req, res) => {
   }
 });
 
-// SUPPRIMER LES UTILISATEUR
+// SUPPRIMER LES UTILISATEURS
 app.delete('/user/delete', jsonParser, (req, res) => {
   const body = req.body;
   const dbConnect = dbo.getDb();
-  const doc = {
-    name: body.name
-  };
+  console.log('Got body delete user:', body);
   dbConnect
     .collection("user")
-    .deleteOne(doc)
-    .then(function (result, err) {
-      if (err) {
-        res.status(400).send("ok");
-      } else {
-        res.json(result)
-      }
-    })
-
-  res.json("Utilisateur supprimé");
+    .deleteOne(body);
+  res.json(body);
 });
 
-// MODIFIER LES UTILISATEUR
-app.post('/user/updateUser', jsonParser, (req, res) => {
-  const body = req.body;
+// MODIFIER LES UTILISATEURS
+app.post('/user/update', jsonParser, (req, res) => {
   const dbConnect = dbo.getDb();
+  const body = req.body;
+  console.log(body)
   dbConnect
     .collection("user")
-    .updateOne({
-      name: body.prevname
-    }, {
-      $set: {
-        name: body.newname
-      }
-    })
-    .toArray(function (err, result) {
-      if (err) {
-        res.status(400).send("Error fetching users!");
-      } else {
-        res.json(result);
-      }
-    });
-
-  res.json("Utilisateur modifié");
-});
+    .updateOne( { first_name:req.query.name }, { $set: { ...body} }, { upsert: false })
+  res.json(body);
+})
 
 
 //LISTE DES ROOM
@@ -123,48 +100,25 @@ app.post('/room/insert', jsonParser, (req, res) => {
 });
 
 // SUPPRIMER LES ROOM
-app.post('/room/delete', jsonParser, (req, res) => {
+app.delete('/room/delete', jsonParser, (req, res) => {
   const body = req.body;
   const dbConnect = dbo.getDb();
-  const doc = {
-    name: body.name
-  };
+  console.log('Got body delete room:', body);
   dbConnect
     .collection("room")
-    .deleteOne(doc)
-    .then(function (result, err) {
-      if (err) {
-        res.status(400).send("ok");
-      } else {
-        res.json(result)
-      }
-    })
-
-  res.json("Room supprimé");
+    .deleteOne(body);
+  res.json(body);
 });
 
 // MODIFIER LES ROOM
-app.post('/room/updateRoom', jsonParser, (req, res) => {
-  const body = req.body;
+app.post('/room/update', jsonParser, (req, res) => {
   const dbConnect = dbo.getDb();
+  const body = req.body;
+  console.log(body)
   dbConnect
     .collection("room")
-    .updateOne({
-      name: body.prevname
-    }, {
-      $set: {
-        name: body.newname
-      }
-    })
-    .toArray(function (err, result) {
-      if (err) {
-        res.status(400).send("Error fetching room!");
-      } else {
-        res.json(result);
-      }
-    });
-
-  res.json("Room modifié");
-});
+    .updateOne( { name:req.query.name }, { $set: { ...body} }, { upsert: false })
+  res.json(body);
+})
 
 
