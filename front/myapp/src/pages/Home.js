@@ -6,6 +6,7 @@ import { DeleteButton } from '../components/DeleteUser'
 import { deleteUser, getAll, signUp } from '../api/Users';
 import { getAllRoom, signUpRoom } from '../api/Room';
 import { useForm } from "react-hook-form";
+import { getAllPage, signUpPage } from '../api/Page';
 
 
 function Home() {
@@ -31,6 +32,17 @@ function Home() {
             .catch(error => console.error("Erreur avec notre API :", error.message));
     }, []);
 
+    const [page, setPage] = useState([]);
+
+    //va s'executer seulement au lancement du composant (dep: [])
+    useEffect(() => {
+        // récupérer la liste des users seulement au chargement du composant ! 
+        const pageFetched = getAllPage();
+        pageFetched
+            .then(result => setPage(result))
+            .catch(error => console.error("Erreur avec notre API :", error.message));
+    }, []);
+
 
     const { handleSubmitDe } = useForm();
     const onSubmitDe = (data) => {
@@ -38,13 +50,27 @@ function Home() {
         //JSON.stringify(data);
         deleteUser(data);  
     }
-    const { register, handleSubmit } = useForm();
-    const onSubmit = (data) => {
+    const { registers, handleSubmite } = useForm();
+    const onSubmits = (data) => {
         console.log(data)
         //JSON.stringify(data);
         signUp(data);
+    }
+
+    const { register, handleSubmit } = useForm();
+    const onSubmite = (data) => {
+        console.log(data)
+        //JSON.stringify(data);
         signUpRoom(data);
     }
+
+    const { Register, handleSubmits } = useForm();
+    const onSubmit = (data) => {
+        console.log(data)
+        //JSON.stringify(data);
+        signUpPage(data);
+    }
+    
     return <div>
         <Navbarbar />
         <div className='container'>
@@ -88,6 +114,28 @@ function Home() {
             <input {...register("type")} placeholder="Types de la room" />
             <input {...register("description")} placeholder="Description de la room" />
             <input {...register("rules")}placeholder="Regle de la room" />
+            <input className="userButton" type="submit"/>
+        </form>
+
+        <div className='container'>
+            <div className="flex">
+                {
+                    page.map((page, key) => {
+                        return <div key={key} className="bloc-page">
+                            <h2>{page.title} </h2>
+                            <h2>{page.desc}</h2>
+                        </div>
+                    })
+                }
+            </div>
+        </div>
+
+        <form onSubmit={handleSubmit(onSubmit)}>
+            <input {...register("name")} placeholder="Nom de la page" />
+            <input {...register("title")} placeholder="titre de la page" />
+            <input {...register("desc")} placeholder="Description de la page" />
+            <input {...register("rules")}placeholder="Regle de la page" />
+            <input {...register("img")}placeholder="placer le lien de l'image" />
             <input className="userButton" type="submit"/>
         </form>
 

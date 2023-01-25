@@ -1,6 +1,6 @@
-export const getAllRoom = async () => {
+export const getAllPage = async () => {
     const response = await fetch(
-        'http://localhost:4444/room/list', {
+        'http://localhost:4444/page/list', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -8,26 +8,27 @@ export const getAllRoom = async () => {
             }
         }
     )
-    const room = await response.json()
-    return room
+    const pages = await response.json()
+    return pages
 }
 
-export const signUpRoom = async (data) => {
+export const signUpPage = async (data) => {
     const response = await fetch(
-        'http://localhost:4444/room/insert', {
+        'http://localhost:4444/page/insert', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
                 'Content-Type':'application/json'
             },
             body: JSON.stringify({
-                'nom':data.nom,
-                'type':data.type,
-                'description':data.description,
-                'rules':data.rules
+                'name':data.name,
+                'title':data.title,
+                'desc':data.desc,
+                'rules':data.rules,
+                'img': data.img
             })
         }
     )
-    const roomAdd = await response.json()
-    return roomAdd;
+    const pageAdd = await response.json()
+    return pageAdd;
 }
