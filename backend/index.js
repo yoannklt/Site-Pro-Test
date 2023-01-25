@@ -36,13 +36,13 @@ app.post('/user/insert', jsonParser, (req, res) => {
   .insertOne({...body})
   .toArray(function (err, result) {
       if (err) {
-      res.status(400).send("Error fetching pokemons!");
+      res.status(400).send("Error fetching users!");
       } else {
       res.json(result);
       }
   });
   
-  res.json("c'est inserer");
+  res.json("Utilisateur inséré");
 });
 
 // SUPPRIMER LES UTILISATEUR
@@ -63,7 +63,7 @@ app.post('/user/delete', jsonParser, (req, res) =>{
           }
       })
       
-      res.json("c'est supprimer");
+      res.json("Utilisateur supprimé");
   });
 
 // MODIFIER LES UTILISATEUR
@@ -81,13 +81,13 @@ app.post('/user/updateUser', jsonParser, (req, res) =>{
   })
   .toArray(function (err, result) {
       if (err) {
-      res.status(400).send("Error fetching pokemons!");
+      res.status(400).send("Error fetching users!");
       } else {
       res.json(result);
       }
   });
 
-  res.json("c'est modifier");
+  res.json("Utilisateur modifié");
 });
 
 

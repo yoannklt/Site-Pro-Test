@@ -24,7 +24,7 @@ function Home() {
         console.log(data)
         /*Coder ici pour préparer l'appel réseau POST avec FETCH !*/
         //On peut transformer les données en JSON pour les envoyer dans notre appel
-        //JSON.stringify(data);
+        JSON.stringify(data);
     }
     return <div>
         <Navbarbar />
@@ -42,9 +42,9 @@ function Home() {
 
         <form onSubmit={handleSubmit(onSubmit)}>
             <input {...register("firstName")} placeholder="First name" />
-            <input {...register("lastName")} placeholder="First name" />
-            <input {...register("mail")} type="mail" placeholder="First name" />
-            <input {...register("password")} type="password" placeholder="First name" />
+            <input {...register("lastName")} placeholder="Last name" />
+            <input {...register("mail")} type="email" placeholder="@" />
+            <input {...register("password")} type="password" placeholder="mdp" />
             <button type="submit">Valider</button>
         </form>
 
