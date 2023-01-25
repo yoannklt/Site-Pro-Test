@@ -46,7 +46,7 @@ app.post('/user/insert', jsonParser, (req, res) => {
 });
 
 // SUPPRIMER LES UTILISATEUR
-app.post('/user/delete', jsonParser, (req, res) => {
+app.delete('/user/delete', jsonParser, (req, res) => {
   const body = req.body;
   const dbConnect = dbo.getDb();
   const doc = {
