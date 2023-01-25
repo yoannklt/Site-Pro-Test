@@ -3,9 +3,7 @@ import image26 from '../img/image26.png';
 import image25 from '../img/image25.png';
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
-import vector8 from '../img/vector8.png';
-import vector9 from '../img/vector9.png';
-import vector10 from '../img/vector10.png';
+import FadeCarousel from "../components/Carousel";
 
 function News() {
     return (
@@ -22,7 +20,7 @@ function News() {
                     <div className="container blocimg">
                         <img className="img-fluid" src={image26} alt="img" />
                     </div>
-                    <div className="container blocgris">
+                    <div className="container blocgrisnews">
                         <div className="row">
                         </div>
                         <h3><strong>évènement : la légende du père noël</strong></h3>
@@ -35,7 +33,7 @@ function News() {
                         <div className="container blocimg">
                             <img className="img-fluid" src={image7} alt="rg" />
                         </div>
-                        <div className="container blocgris">
+                        <div className="container blocgrisnews">
                             <div className="row">
                             </div>
                             <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
@@ -43,10 +41,10 @@ function News() {
                         </div>
                     </div>
                     <div className="container col-lg-5">
-                        <div className="container blocimg">
+                        <div className="container blocimgnews">
                             <img className="img-fluid" src={image8} alt="" />
                         </div>
-                        <div className="container blocgris">
+                        <div className="container blocgrisnews">
                             <div className="row">
                             </div>
                             <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
@@ -56,10 +54,10 @@ function News() {
                 </div>
 
                 <div className="container col-lg-12">
-                    <div className="container blocimg">
+                    <div className="container blocimgnews">
                         <img className="img-fluid" src={image25} alt="" />
                     </div>
-                    <div className="container blocgris">
+                    <div className="container blocgrisnews">
                         <div className="row">
                         </div>
                         <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
@@ -94,6 +92,11 @@ function News() {
                     </a>
                 </div>
             </div>
+            
+            <div className="carousel">
+                <FadeCarousel/>
+            </div>
+
         </div>
     )
 }
