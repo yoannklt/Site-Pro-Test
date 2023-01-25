@@ -10,6 +10,10 @@ body {
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
+.navbar-nav {
+  flex-direction: row !important;
+}
+
 .navbrand img {
   width: 66px;
   margin-left: 40px;

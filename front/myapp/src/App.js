@@ -2,7 +2,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import About from "./pages/About";
-import Btob from "./pages/Btob";
+import BtoB from "./pages/BtoB";
 import Lightroom from "./pages/Lightroom";
 import Darkroom from "./pages/Darkroom";
 import Equipements from "./pages/Equipements";
@@ -27,8 +27,8 @@ function App(props){
         <Route exact path="/About"> {/*ici on met l'URL dans le navigateur*/}
           <About /> {/*ici on donne la page à afficher en fonction de cette URL*/}
         </Route>
-        <Route exact path="/Btob"> {/*ici on met l'URL dans le navigateur*/}
-          <Btob /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/BtoB"> {/*ici on met l'URL dans le navigateur*/}
+          <BtoB /> {/*ici on donne la page à afficher en fonction de cette URL*/}
         </Route>
         <Route exact path="/Lightroom"> {/*ici on met l'URL dans le navigateur*/}
           <Lightroom /> {/*ici on donne la page à afficher en fonction de cette URL*/}
