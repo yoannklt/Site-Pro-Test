@@ -2,7 +2,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import About from "./pages/About";
-import Btob from "./pages/Btob";
+import Btob from "./pages/BtoB";
 import Lightroom from "./pages/Lightroom";
 import Darkroom from "./pages/Darkroom";
 import Equipements from "./pages/Equipements";
