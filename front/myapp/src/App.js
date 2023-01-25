@@ -18,32 +18,32 @@ import {
 function App(props){
   return <Router>
       <Switch>
-        <Route exact path="/"> {/*ici on met l'URL dans le navigateur*/}
-          <Home /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/"> 
+          <Home /> 
         </Route>
-        <Route exact path="/News"> {/*ici on met l'URL dans le navigateur*/}
-          <News /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/News"> 
+          <News /> 
         </Route>
-        <Route exact path="/About"> {/*ici on met l'URL dans le navigateur*/}
-          <About /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/About"> 
+          <About /> 
         </Route>
-        <Route exact path="/Btob"> {/*ici on met l'URL dans le navigateur*/}
-          <Btob /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/Btob"> 
+          <Btob /> 
         </Route>
-        <Route exact path="/Lightroom"> {/*ici on met l'URL dans le navigateur*/}
-          <Lightroom /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/Lightroom"> 
+          <Lightroom /> 
         </Route>
-        <Route exact path="/Darkroom"> {/*ici on met l'URL dans le navigateur*/}
-          <Darkroom /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/Darkroom"> 
+          <Darkroom /> 
         </Route>
-        <Route exact path="/Equipements"> {/*ici on met l'URL dans le navigateur*/}
-          <Equipements /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/Equipements"> 
+          <Equipements /> 
         </Route>
-        <Route exact path="/Creativeroom"> {/*ici on met l'URL dans le navigateur*/}
-          <Creativeroom /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/Creativeroom"> 
+          <Creativeroom /> 
         </Route>
-        <Route exact path="/Battleroom"> {/*ici on met l'URL dans le navigateur*/}
-          <Battleroom /> {/*ici on donne la page à afficher en fonction de cette URL*/}
+        <Route exact path="/Battleroom"> 
+          <Battleroom /> 
         </Route>
       </Switch>
   </Router>
