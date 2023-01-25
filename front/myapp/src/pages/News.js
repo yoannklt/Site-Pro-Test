@@ -8,11 +8,14 @@ import image8 from '../img/image8.png';
 function News() {
     return (
         <div>
-            <Navbarbar />
-            <div className="">
-                <div className="row">
-                    <img className="img-fluid" src={image24} alt="" />
+            <div className="background">
+                <Navbarbar />
+                <div className="news">
+                    <h1>LES NEWS</h1>
                 </div>
+            </div>
+            <div className="">
+                
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
                         <img className="img-fluid" src={image26} alt="" />

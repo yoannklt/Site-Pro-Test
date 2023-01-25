@@ -68,7 +68,7 @@ a:hover {
   height: 80vh;
 }
 
-.home{
+.row{
   --bs-gutter-x: 0;
 }
 
@@ -152,7 +152,7 @@ h1 {
 }
 
 .blocimg{
-  margin-top: 250px;
+  margin-top: 100px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -186,4 +186,25 @@ h1 {
   background-image: url(../src/img/image9.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.background{
+  height: 540px;
+  background-image: url(../src/img/image24.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.5%;
+}
+
+.news h1{
+  font-family: 'Amiko', sans-serif; 
+  font-weight: bold;
+  font-size: 120px;
+  color: white;
 }
