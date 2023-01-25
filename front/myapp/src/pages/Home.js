@@ -2,8 +2,11 @@ import Navbarbar from "../components/Navbar"
 
 function Home() {
     return(
-        <div className="">
+        <div>
             <Navbarbar/>
+            <div className="">
+                
+            </div>
         </div>
     )
 }
