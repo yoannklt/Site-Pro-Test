@@ -54,12 +54,28 @@ a:hover{
   font-family: 'Abel', sans-serif;
 }
 
-.text{
+.bloc1{
+  display: flex;
+}
+
+.bloc1 p{
+  margin-left: 50px;
+}
+
+.bloc2{
+  display: flex;
+}
+
+.bloc2 p{
+  font-size: 20px;
+}
+
+.bloc3{
   display: flex;
   justify-content: center;
 }
 
-.appli{
+.bloc4{
   display: flex;
   justify-content: center;
 }
