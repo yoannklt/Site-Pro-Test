@@ -12,7 +12,7 @@ export const getAllRoom = async () => {
     return room
 }
 
-export const signUpRoom = async (data) => {
+export const createRoom = async (data) => {
     const response = await fetch(
         'http://localhost:4444/room/insert', {
             method: 'POST', 
@@ -28,6 +28,26 @@ export const signUpRoom = async (data) => {
             })
         }
     )
-    const roomadd = await response.json()
-    return roomadd;
+    const room = await response.json()
+    return room;
+}
+
+export const DeleteRoom = async (data) => {
+    const response = await fetch(
+        'http://localhost:4444/room/delete',{
+            method:'DELETE',
+            headers: {  
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body : JSON.stringify({
+                'name':data.name,
+                'type':data.type,
+                'desc':data.desc,
+                'rules':data.rules
+            })
+        }
+    )
+    const room = await response.json()
+    return room
 }
