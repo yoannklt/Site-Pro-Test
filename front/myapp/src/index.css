@@ -1,4 +1,6 @@
 body {
+  padding: 0;
+  margin: 0;
   background-image: url(img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,6 +47,7 @@ a:hover {
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
+  font-size: 20px;
   margin-left: 5px !important;
   margin-right: 5px !important;
 }
@@ -52,6 +55,38 @@ a:hover {
 .popUpLog{
   width: 100%;
 }
+a:hover {
+  transform: scale(1.06);
+  transition: 100ms;
+}
+
+.hero {
+  height: 80vh;
+}
+
+.home{
+  --bs-gutter-x: 0;
+}
+
+.discoverButton {
+  height: 61px;
+  width: 263px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.discoverButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.test {
+  border: none;
+}
+
 .footer {
   background-color: #3B4040;
   display: flex;
@@ -108,4 +143,14 @@ h1 {
   color: black;
 
 
+}
+
+.description .row .col{
+  border-radius: 50%;
+}
+
+.image9 {
+  background-image: url(../src/img/image9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
