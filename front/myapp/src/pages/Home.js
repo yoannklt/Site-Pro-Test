@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Navbarbar from "../components/Navbar"
 import Footerter from "../components/Footer"
 import { getAll, signUp } from '../api/Users';
+import { getAllRoom, signUpRoom } from '../api/Room';
 import { useForm } from "react-hook-form";
 
 
@@ -18,12 +19,24 @@ function Home() {
             .catch(error => console.error("Erreur avec notre API :", error.message));
     }, []);
 
+    const [room, setRoom] = useState([]);
+
+    //va s'executer seulement au lancement du composant (dep: [])
+    useEffect(() => {
+        // récupérer la liste des users seulement au chargement du composant ! 
+        const roomFetched = getAllRoom();
+        roomFetched
+            .then(result => setRoom(result))
+            .catch(error => console.error("Erreur avec notre API :", error.message));
+    }, []);
+
 
     const { register, handleSubmit } = useForm();
     const onSubmit = (data) => {
         console.log(data)
         //JSON.stringify(data);
-        signUp(data);  
+        signUp(data);
+        signUpRoom(data);
     }
     return <div>
         <Navbarbar />
@@ -44,6 +57,27 @@ function Home() {
             <input {...register("last_name")} placeholder="Last name" />
             <input {...register("email")} type="email" placeholder="@" />
             <input {...register("password")} type="password" placeholder="mdp" />
+            <input className="userButton" type="submit"/>
+        </form>
+
+        <div className='container'>
+            <div className="flex">
+                {
+                    room.map((room, key) => {
+                        return <div key={key} className="bloc-room">
+                            <h2>{room.nom} </h2>
+                            <h2>{room.type}</h2>
+                        </div>
+                    })
+                }
+            </div>
+        </div>
+
+        <form onSubmit={handleSubmit(onSubmit)}>
+            <input {...register("nom")} placeholder="Nom de la room" />
+            <input {...register("type")} placeholder="Types de la room" />
+            <input {...register("description")} placeholder="Description de la room" />
+            <input {...register("rules")}placeholder="Regle de la room" />
             <input className="userButton" type="submit"/>
         </form>
 

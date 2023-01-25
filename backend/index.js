@@ -91,4 +91,80 @@ app.post('/user/updateUser', jsonParser, (req, res) => {
 });
 
 
+//LISTE DES ROOM
+app.get("/room/list", function (req, res) {
+  const dbConnect = dbo.getDb();
+  dbConnect
+    .collection("room")
+    .find({})
+    .toArray(function (err, result) {
+      if (err) {
+        res.status(400).send("Error fetching users!");
+      } else {
+        res.json(result);
+      }
+    });
+});
+
+// INSERER DES ROOM
+app.post('/room/insert', jsonParser, (req, res) => {
+  const body = req.body;
+  const dbConnect = dbo.getDb();
+  console.log('Got body insert room:', body);
+  dbConnect
+    .collection("room")
+    .insertOne(body)
+    .then(result, err);
+  if (err) {
+    res.status(400).send(err.message);
+  } else {
+    res.json(result);
+  }
+});
+
+// SUPPRIMER LES ROOM
+app.post('/room/delete', jsonParser, (req, res) => {
+  const body = req.body;
+  const dbConnect = dbo.getDb();
+  const doc = {
+    name: body.name
+  };
+  dbConnect
+    .collection("room")
+    .deleteOne(doc)
+    .then(function (result, err) {
+      if (err) {
+        res.status(400).send("ok");
+      } else {
+        res.json(result)
+      }
+    })
+
+  res.json("Room supprimé");
+});
+
+// MODIFIER LES ROOM
+app.post('/room/updateRoom', jsonParser, (req, res) => {
+  const body = req.body;
+  const dbConnect = dbo.getDb();
+  dbConnect
+    .collection("room")
+    .updateOne({
+      name: body.prevname
+    }, {
+      $set: {
+        name: body.newname
+      }
+    })
+    .toArray(function (err, result) {
+      if (err) {
+        res.status(400).send("Error fetching room!");
+      } else {
+        res.json(result);
+      }
+    });
+
+  res.json("Room modifié");
+});
+
 
