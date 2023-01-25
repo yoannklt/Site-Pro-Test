@@ -16,7 +16,7 @@ function TestDeStyle() {
       <Tab eventKey="Singup" title="Inscription">
         <Singup />
       </Tab>
-      <Tab eventKey="Singin" title="Connection">
+      <Tab eventKey="Singin" title="Connexion">
         <Singin />
       </Tab>
     </Tabs>
