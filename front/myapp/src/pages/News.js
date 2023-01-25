@@ -67,6 +67,7 @@ function News() {
                     </div>
                 </div>
             </div>
+            
             <div className="carousel">
                 <FadeCarousel/>
             </div>
