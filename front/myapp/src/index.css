@@ -145,26 +145,27 @@ h1 {
   justify-content: space-around;
   font-size: 20px;
   color: black;
-  
-  
 }
 
 .head img{
   width: 100%;
 }
 
-.container{
+.blocimg{
   margin-top: 250px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blocgris{
+  width: 80%;
   background-color: #F2F2F2;
   color: #646363;
   font-family: 'Abel', sans-serif;
-
-}
-
-.container img{
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
 }
 
 .description .row .col{
