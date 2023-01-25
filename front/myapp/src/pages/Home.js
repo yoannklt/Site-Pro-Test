@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Navbarbar from "../components/Navbar"
 import Footerter from "../components/Footer"
 import { DeleteButton } from '../components/DeleteUser'
-import { getAll, signUp } from '../api/Users';
+import { deleteUser, getAll, signUp } from '../api/Users';
 import { getAllRoom, signUpRoom } from '../api/Room';
 import { useForm } from "react-hook-form";
 
