@@ -6,6 +6,8 @@ import { DeleteUser, getAll, signUp } from '../api/Users';
 import { createRoom, DeleteRoom, getAllRoom } from '../api/Room';
 import { useForm } from "react-hook-form";
 import Button from "react-bootstrap/Button"
+import { getAllPage, signUpPage } from '../api/Page';
+
 
 function Home() {
     const [users, setUsers] = useState([]);
@@ -40,6 +42,14 @@ function Home() {
         console.log(data)
         createRoom(data);
     }
+
+    const { Register, handleSubmits } = useForm();
+    const onSubmitPage = (data) => {
+        console.log(data)
+        //JSON.stringify(data);
+        signUpPage(data);
+    }
+    
     return <div>
         <Navbarbar />
         <div className='container'>
@@ -84,6 +94,28 @@ function Home() {
             <input {...register("type")} placeholder="Types de la room" />
             <input {...register("desc")} placeholder="Description de la room" />
             <input {...register("rules")}placeholder="Regle de la room" />
+            <input className="userButton" type="submit"/>
+        </form>
+
+        <div className='container'>
+            <div className="flex">
+                {
+                    page.map((page, key) => {
+                        return <div key={key} className="bloc-page">
+                            <h2>{page.title} </h2>
+                            <h2>{page.desc}</h2>
+                        </div>
+                    })
+                }
+            </div>
+        </div>
+
+        <form onSubmit={handleSubmit(onSubmitPage)}>
+            <input {...register("name")} placeholder="Nom de la page" />
+            <input {...register("title")} placeholder="titre de la page" />
+            <input {...register("desc")} placeholder="Description de la page" />
+            <input {...register("rules")}placeholder="Regle de la page" />
+            <input {...register("img")}placeholder="placer le lien de l'image" />
             <input className="userButton" type="submit"/>
         </form>
 
