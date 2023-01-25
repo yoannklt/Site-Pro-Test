@@ -32,6 +32,17 @@ function Home() {
             .catch(error => console.error("Erreur avec notre API :", error.message));
     }, []);
 
+    const [page, setPage] = useState([]);
+
+    //va s'executer seulement au lancement du composant (dep: [])
+    useEffect(() => {
+        // récupérer la liste des users seulement au chargement du composant ! 
+        const roomFetched = getAllPage();
+        roomFetched
+            .then(result => setPage(result))
+            .catch(error => console.error("Erreur avec notre API :", error.message));
+    }, []);
+
     const { register, handleSubmit } = useForm();
     const onSubmit = (data) => {
         console.log(data)
