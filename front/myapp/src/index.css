@@ -63,12 +63,16 @@ body{
 
 /*Form se connecter et s'inscrire*/
 .popUpLog{
-  width: 100%;
+  --bs-popover-max-width: 427px !important;
 }
 
 .btnform a:hover{
   transform: scale(1.06);
   transition: 100ms;
+}
+
+.skib{
+  margin-bottom: 50px;
 }
 
 /*Footer*/
