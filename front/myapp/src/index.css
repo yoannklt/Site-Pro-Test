@@ -124,7 +124,7 @@ p{
   align-items: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 250px;
+  height: 300px;
 
 }
 
@@ -164,6 +164,12 @@ p{
   margin-left: 20px;
 }
 
+.parag h4{
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-size: 20px;
+}
+
 .parag p{
   font-size: 20px;
 }
@@ -177,6 +183,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .reserve .clc a{
