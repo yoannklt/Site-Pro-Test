@@ -190,9 +190,12 @@ h3{
 }
 
 .image9{
-  background-image: url(../src/img/image9.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.imageHome{
+  border-radius: 100%;
 }
 
 .background{
