@@ -2,7 +2,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import About from "./pages/About";
-import Btob from "./pages/BtoB";
+import Btob from "./pages/Btob";
 import Room from "./pages/Room";
 import Equipements from "./pages/Equipements";
 import {
@@ -24,7 +24,7 @@ function App(props){
         <Route exact path="/About"> 
           <About /> 
         </Route>
-        <Route exact path="/BtoB"> 
+        <Route exact path="/Btob"> 
           <Btob /> 
         </Route>
         <Route exact path="/Room"> 
