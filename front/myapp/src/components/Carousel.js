@@ -31,7 +31,6 @@ function FadeCarousel() {
                         src={image22}
                         alt="Second slide"
                     />
-
                     <Carousel.Caption>
                         <h3>LES ÉQUIPEMENTS THE SENSE</h3>
                         <p>Tous nos équipements sont prévus pour toutes les tailles et tous les âges, ils conviennent aussi bien aux adultes qu'aux jeunes de 12 ans. Ils vous garantissent également un confort à toutes épreuves lors de vos voyages chez nous.</p>
