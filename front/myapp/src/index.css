@@ -136,19 +136,17 @@ body {
 }
 
 .carouselavis p{
+  color: #646363;
+  font-family: 'Abel', sans-serif;
   font-size: 30px;
-  font-family: 'Amiko', sans-serif;
 }
 
-.carouselavis .blue{
-  background-color: #EAFFFB;
+.carouselavis .journal img{
+  height: 95px;
+  margin-bottom: 80px;
 }
 
-.carouselavis img{
-  height: 600px;
-}
-
-.carousel-control-prev-icon{
+.carousel-control-prev span{
   color: #3B4040;
 }
 
