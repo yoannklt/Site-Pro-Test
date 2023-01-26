@@ -20,10 +20,12 @@ function FadeCarousel() {
                         src={image23}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <p>“C'est dingue, j'ai vraiment eu l'impression d'être transporté dans un autre monde. Avant je ne faisais pas d'expérience VR car je ne croyais pas en la qualité mais grâce à The Sense, j'ai pu traverser la frontière du réel.”</p>
-                        <p>- Denise, 23 Octobre 2020 -</p>
-                    </Carousel.Caption>
+                    <div className='black'>
+                        <Carousel.Caption>
+                            <p>“C'est dingue, j'ai vraiment eu l'impression d'être transportée dans un autre monde. Avant je ne faisais pas d'expérience VR car je ne croyais pas en la qualité mais grâce à The Sense, j'ai pu traverser la frontière du réel.”</p>
+                            <p>- Denise, 23 Octobre 2020 -</p>
+                        </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -32,8 +34,8 @@ function FadeCarousel() {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>LES ÉQUIPEMENTS THE SENSE</h3>
-                        <p>Tous nos équipements sont prévus pour toutes les tailles et tous les âges, ils conviennent aussi bien aux adultes qu'aux jeunes de 12 ans. Ils vous garantissent également un confort à toutes épreuves lors de vos voyages chez nous.</p>
+                        <h3>les équipements the sense</h3>
+                        <p>Tous nos équipements sont prévus pour toutes les tailles et tous les âges, ils conviennent aussi bien aux adultes qu'aux jeunes enfants de 12ans. Ils vous garantissent un confort à toutes épreuves lors de vos voyages chez nous.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -42,12 +44,9 @@ function FadeCarousel() {
                         src={image21}
                         alt="Third slide"
                     />
-
                     <Carousel.Caption>
-                        <h3>NOUVELLE ROOM EN VUE !</h3>
-                        <p>
-                            En 2021, préparez à manger du slime en pleine face, les fantômes de Ghost Buster arrivent chez THE SENSE. Ça promet de belles parties de chasse aux fantômes dans tout le complexe. Les réservations sont d'ores et déjà possible sur place et en Février sur internet.
-                        </p>
+                        <h3>Nouvelle room en vue !</h3>
+                        <p>En 2021, préparez-vous à manger du slime en pleine face, les fantômes de Ghost Buster arrivent chez THE SENSE. Cela promet de belles parties de chasse aux fantômes dans tout le complexe. Les réservations sont d'ores et déjà possibles sur place et en Février sur internet.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <CarouselItem>
@@ -57,7 +56,7 @@ function FadeCarousel() {
                         alt="Fourth slide"
                     />
                     <Carousel.Caption>
-                        <h3>“Avec mes fils nous avons tenté l'expérience “NAMELESS”, moi qui pensais avoir tout vu dans le domaine de l'horreur, je ne me suis jamais autant trompé. Si vous êtes à la recherche de sensation forte et de frissons, la DARK ROOM est faite pour vous”</h3>
+                        <p>“Avec mes fils nous avons tenté l'expérience “NAMELESS”, moi qui pensais avoir tout vu dans le domaine de l'horreur, je ne me suis jamais autant trompée. Si vous êtes à la recherche de sensations fortes et de frissons, la DARK ROOM est faite pour vous.”</p>
                         <p>- Nicolas, 3 Septembre 2020 -</p>
                     </Carousel.Caption>
                 </CarouselItem>
@@ -68,7 +67,7 @@ function FadeCarousel() {
                         alt="Fifth slide"
                     />
                     <Carousel.Caption>
-                        <h3>“C'est dingue, j'ai vraiment eu l'impression d'être transporté dans un autre monde. Avant je ne faisais pas d'expérience VR car je ne croyais pas en la qualité mais grâce à The Sense, j'ai pu traverser la frontière du réel.”</h3>
+                        <p>“C'est dingue, j'ai vraiment eu l'impression d'être transporté dans un autre monde. Avant je ne faisais pas d'expérience VR car je ne croyais pas en la qualité mais grâce à The Sense, j'ai pu traverser la frontière du réel.”</p>
                         <p>- Denise, 23 Octobre 2020 -</p>
                     </Carousel.Caption>
                 </CarouselItem>

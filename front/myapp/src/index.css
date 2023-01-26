@@ -90,7 +90,7 @@ body {
   color: white;
   background-color: black;
   border-radius: 5px;
-  font-family: Amiko, sans-serif;
+  font-family: 'Amiko', sans-serif;
   font-weight: bold;
 }
 
@@ -107,6 +107,7 @@ body {
 .oppai{
   font-size: 20px;
 }
+
 /*Footer*/
 .footer {
   background-color: #3B4040;
@@ -121,11 +122,13 @@ body {
 /*Carousel*/
 .carousel h3{
   color: #eafffb;
+  margin-bottom: 50px;
 }
 
 .carousel p{
   color: white;
   font-size: 30px;
+  font-family: 'Amiko', sans-serif;
 }
 
 .carouselavis p{
