@@ -1,14 +1,15 @@
-import Navbarbar from "../components/Navbar"
-import image9 from "../img/image9.png"
-import image10 from "../img/image10.jpg"
-import boutonréserver from "../img/boutonréserver.png"
-import image1 from "../img/image1.png"
-import image2 from "../img/image2.png"
-import image3 from "../img/image3.png"
-import image4 from "../img/image4.png"
-import image5 from "../img/image5.png"
+import Navbarbar from "../components/Navbar";
+import image9 from "../img/image9.png";
+import image10 from "../img/image10.jpg";
+import boutonréserver from "../img/boutonréserver.png";
+import image1 from "../img/image1.png";
+import image2 from "../img/image2.png";
+import image3 from "../img/image3.png";
+import image4 from "../img/image4.png";
+import image5 from "../img/image5.png";
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
+import logoHome from '../img/thesense.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
 
@@ -26,16 +27,23 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="description row">
-                    <div className="col col-lg-6">
-                        <div className="image9">
-                            <img className="img-fluid imageHome" src={image9} alt="" />
+                <div className="row bob align-items-start">
+                   <div className ="col-lg-5 img text-center ">
+                        <img className="img-fluid image9 align-self-center" src={image9} alt="img9"></img>
+                   </div>
+                   <div className="col-lg-7 txt row align-items-baseline">
+                        <div className="col col-lg-4 text-end h1Home">
+                            <h1 className="">Qu'est-ce que</h1>
                         </div>
-                    </div>
-                    <div className="col col-lg-6">
-                        <h1>Qu'est-ce que</h1>
-                    </div>
+                        <div className="col col-lg-2">
+                            <img className="img-fluid logoHome text-start" src={logoHome}  alt="logo the sense"></img>
+                        </div>
+                        <div className="col col-lg-2">
+                            <p>&nbsp;?</p>
+                        </div>
+                   </div>
                 </div>
+
 
                 <div className="container">
                     <h2><strong>La réalité a portée de main</strong></h2>
