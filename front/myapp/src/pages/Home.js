@@ -40,6 +40,7 @@ function Home() {
 
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
+                        <h3><strong>Nos expériences les plus appréciées</strong></h3>
                         <img className="img-fluid" src={image10} alt="" />
                     </div>
                     <div className="container blocgris">
