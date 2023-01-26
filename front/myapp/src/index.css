@@ -118,6 +118,15 @@ body {
   align-items: center;
 }
 
+/*Carousel*/
+.carousel h3{
+  color: #eafffb;
+}
+
+.carousel p{
+  color: #eafffb;
+}
+
 /*in general*/
 h1 {
   display: flex;
@@ -126,10 +135,22 @@ h1 {
   color: black;
 }
 
+h2{
+  text-transform: uppercase;
+  font-family: 'Amiko', sans-serif;
+  color: #3B4040;
+}
+
 h3 {
   text-transform: uppercase;
   font-family: 'Amiko', sans-serif;
   color: #3B4040;
+}
+
+p{
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
 }
 
 .blocimg {
@@ -141,12 +162,10 @@ h3 {
 .blocgris {
   width: 95%;
   background-color: #F2F2F2;
-  color: #646363;
-  font-family: 'Abel', sans-serif;
   align-items: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 250px;
+  height: fit-content;
 
 }
 
@@ -161,6 +180,10 @@ h3 {
 
 .row {
   --bs-gutter-x: 0;
+}
+
+.labelConnection{
+  height: 200px;
 }
 
 .discoverButton {
@@ -181,6 +204,12 @@ h3 {
   margin-left: 20px;
 }
 
+.parag h4{
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-size: 20px;
+}
+
 .parag p {
   font-size: 20px;
 }
@@ -194,6 +223,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .reserve .clc a {
@@ -221,8 +251,8 @@ h3 {
   background-size: cover;
 }
 
-.imageHome {
-  border-radius: 100%;
+.imageHome{
+    border-radius: 50%;
 }
 
 .background {
@@ -272,7 +302,7 @@ h3 {
 
 .backgroundBtoB {
   height: 540px;
-  background-image: url(../src/img/bob.png);
+  background-image: url(../src/img/fondbob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -281,13 +311,27 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 86.5%;
+
 }
 
 .btob h1 {
-  font-family: 'Amiko', sans-serif;
-  font-weight: bold;
+  font-family: 'Audiowide', cursive;
+  
   font-size: 80px;
   color: white;
-  height: 1%;
+  position: absolute;
+  bottom: 420px;
 }
+
+.img146{
+  border-radius: 250px;
+  border: 20px solid #bbccc9;
+}
+
+.txt{
+  text-align: left;
+}
+.bob{
+  background-color: #eafffb;
+}
+
