@@ -13,22 +13,19 @@ function TestDeStyleDe() {
 
     return (
         <div className="row">
-            <div className="col-lg-4 row">
-                <label className="labelLog col-lg-12">
-                    Email : 
-                </label>
-                <label className="labelLog col-lg-12">
-                    Mot de passe : 
-                </label>
-                <div className="labelLog col-lg-12">
-                
+            <div className="col-lg-6 labelConnection">
+                <div className="col-lg-12">
+                    <label>Identifiant</label>
+                </div>
+                <div className="col-lg-12">
+                    <label>Mot de passe</label>
                 </div>
             </div>
-            <div className="col-lg-8">
-                <form className="row" onSubmit={handleSubmit(onSubmit)}>
-                    <input className="col-lg-12 skib" {...register("email")} type="email" placeholder="Email" />
-                    <input className="col-lg-12 skib" {...register("password")} type="password" placeholder="Mot de passe" />
-                    <input className="col-lg-2 userButton skib" type="submit" />
+            <div className="col-lg-6 labelConnection">
+                <form className="" onSubmit={handleSubmit(onSubmit)}>
+                    <input className="skib" {...register("email")} type="email" placeholder="Email" />
+                    <input className="skib" {...register("password")} type="password" placeholder="Mot de passe" />
+                    <input className="userButton" type="submit" />
                 </form>
             </div>
         </div>

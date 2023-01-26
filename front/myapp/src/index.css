@@ -131,6 +131,10 @@ h3{
   --bs-gutter-x: 0;
 }
 
+.labelConnection{
+  height: 200px;
+}
+
 .discoverButton{
   height: 61px;
   width: 263px;
@@ -195,7 +199,7 @@ h3{
 }
 
 .imageHome{
-  border-radius: 100%;
+    border-radius: 50%;
 }
 
 .background{
