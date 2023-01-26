@@ -227,7 +227,7 @@ h3{
 
 .backgroundBtoB{
   height: 540px;
-  background-image: url(../src/img/bob.png);
+  background-image: url(../src/img/fondbob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -236,13 +236,27 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 86.5%;
+
 }
 
 .btob h1{
-  font-family: 'Amiko', sans-serif; 
-  font-weight: bold;
+  font-family: 'Audiowide', cursive; 
+  
   font-size: 80px;
   color: white;
-  height: 1%;
+  position: absolute;
+  bottom: 420px;
 }
+
+.img146{
+  border-radius: 250px;
+  border: 20px solid #bbccc9;
+}
+
+.txt{
+  text-align: left;
+}
+.bob{
+  background-color: #eafffb;
+}
+
