@@ -268,12 +268,33 @@ p{
 }
 
 .image9{
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: 50%;
+  border: 20px solid #bbccc9;
+  height: 451px;
 }
 
 .imageHome{
     border-radius: 50%;
+}
+
+.bob .col-lg-7 .col h1{
+  font-size: 40px;
+}
+
+.bob .col-lg-7 .col p, h1{
+  font-size: 40px;
+  margin: 0;
+  align-items: center;
+  font-family:'Abel', sans-serif;
+  font-weight: regular;
+}
+
+.bob .col-lg-7 .col {
+  font-size: 40px;
+}
+
+.h1Home h1{
+  margin: 0;
 }
 
 .background{
