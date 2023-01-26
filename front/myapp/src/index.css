@@ -132,8 +132,12 @@ body {
 }
 
 .carouselavis p{
-  color: #646363;
   font-size: 30px;
+  font-family: 'Amiko', sans-serif;
+}
+
+.carouselavis .blue{
+  background-color: #EAFFFB;
 }
 
 /*in general*/
