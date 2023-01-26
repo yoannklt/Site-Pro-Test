@@ -3,11 +3,8 @@ import Home from "./pages/Home";
 import News from "./pages/News";
 import About from "./pages/About";
 import Btob from "./pages/Btob";
-import Lightroom from "./pages/Lightroom";
-import Darkroom from "./pages/Darkroom";
+import Room from "./pages/Room";
 import Equipements from "./pages/Equipements";
-import Creativeroom from "./pages/Creativeroom";
-import Battleroom from "./pages/Battleroom";
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,20 +27,11 @@ function App(props){
         <Route exact path="/Btob"> 
           <Btob /> 
         </Route>
-        <Route exact path="/Lightroom"> 
-          <Lightroom /> 
-        </Route>
-        <Route exact path="/Darkroom"> 
-          <Darkroom /> 
+        <Route exact path="/Room"> 
+          <Room /> 
         </Route>
         <Route exact path="/Equipements"> 
           <Equipements /> 
-        </Route>
-        <Route exact path="/Creativeroom"> 
-          <Creativeroom /> 
-        </Route>
-        <Route exact path="/Battleroom"> 
-          <Battleroom /> 
         </Route>
       </Switch>
   </Router>
