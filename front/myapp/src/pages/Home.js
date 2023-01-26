@@ -7,12 +7,15 @@ import image2 from "../img/image2.png"
 import image3 from "../img/image3.png"
 import image4 from "../img/image4.png"
 import image5 from "../img/image5.png"
+import logo from "../img/thesense.png"
+import image7 from '../img/image7.png';
+import image8 from '../img/image8.png';
 
 function Home() {
     return (
         <div>
             <Navbarbar />
-            <div className="container">
+            <div className="">
 
                 <div className="row text-center">
                     <div className="col col-lg-12 hero">
@@ -29,11 +32,11 @@ function Home() {
                         </div>
                     </div>
                     <div className="col col-lg-6">
-                        <h1>Qu'est-ce que </h1>
+                        <h1>Qu'est-ce que</h1>
                     </div>
                 </div>
 
-                <div>
+                <div className="container">
                     <h2><strong>La réalité a portée de main</strong></h2>
                     <p>Vous rêvez de voyager, de frisonner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis ou en famille et franchissez la frontière de la réalité. Plusieurs dimensions s'offrent à vous, vous donnant accès à de nombreuses expériences.</p>
                 </div>
@@ -120,13 +123,12 @@ function Home() {
 
                 <div className="container col col-lg-12">
                     <div className="row container blocimg">
+                        <h3><strong>Vous en voulez toujours plus ?</strong></h3>
                         <img className="img-fluid col-lg-4" src={image3} alt="" />
                         <img className="img-fluid col-lg-4" src={image4} alt="" />
                         <img className="img-fluid col-lg-4" src={image5} alt="" />
                     </div>
                     <div className="container blocgris">
-                        <div className="row">
-                        </div>
                         <div className="blochome">
                             <h3><strong>Créez votre propre expérience</strong></h3>
                             <h3>|</h3>
@@ -144,6 +146,35 @@ function Home() {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="row text-center">
+                    <div className="container col-lg-5">
+                        <div className="container blocimgnews">
+                            <img className="img-fluid" src={image7} alt="" />
+                        </div>
+                        <div className="container blocgrisnews">
+                            <div className="row">
+                            </div>
+                            <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
+                        </div>
+                    </div>
+                    <div className="container col-lg-5">
+                        <div className="container blocimgnews">
+                            <img className="img-fluid" src={image8} alt="" />
+                        </div>
+                        <div className="container blocgrisnews">
+                            <div className="row">
+                            </div>
+                            <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container">
+                    <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
                 </div>
 
             </div>

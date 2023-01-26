@@ -1,4 +1,4 @@
-body{
+body {
   padding: 0;
   margin: 0;
   background-image: url(img/background.png);
@@ -7,30 +7,30 @@ body{
 }
 
 /*NavBar*/
-.navbar{
+.navbar {
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.navbar-nav{
+.navbar-nav {
   flex-direction: row !important;
 }
 
-.navbrand img{
+.navbrand img {
   width: 66px;
   margin-left: 40px;
 }
 
-.list{
+.list {
   justify-content: right;
   padding-right: 40px !important;
   text-align: center;
 }
 
-.list span{
+.list span {
   margin-bottom: 6px;
 }
 
-.navbarrr a{
+.navbarrr a {
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
@@ -39,16 +39,16 @@ body{
   text-decoration: none;
 }
 
-.navbarrr a:hover{
+.navbarrr a:hover {
   transform: scale(1.06);
   transition: 100ms;
 }
 
-.test{
+.test {
   border: none;
 }
 
-.NavLink{
+.NavLink {
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
@@ -57,26 +57,58 @@ body{
   margin-right: 5px !important;
 }
 
-.test{
+.test {
   border: none;
 }
 
 /*Form se connecter et s'inscrire*/
-.popUpLog{
-  --bs-popover-max-width: 427px !important;
+.popUpLog {
+  --bs-popover-max-width: 525px !important;
 }
 
-.btnform a:hover{
+.btnform a:hover {
   transform: scale(1.06);
   transition: 100ms;
 }
 
-.skib{
-  margin-bottom: 50px;
+.labelLog {
+  text-align: right;
 }
 
+.fromCoo{
+  height: 262px;
+}
+
+.fromCoo .pout {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #1BDCC5;
+  padding: 5px;
+}
+
+.fromCoo .fout {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-family: Amiko, sans-serif;
+  font-weight: bold;
+}
+
+.labelLog a {
+  text-decoration: none;
+  color: black;
+}
+
+.fromCoo label {
+  font-family: Amiko, sans-serif;
+  font-weight: bold;
+}
+
+.oppai{
+  font-size: 20px;
+}
 /*Footer*/
-.footer{
+.footer {
   background-color: #3B4040;
   display: flex;
   height: 150px;
@@ -86,8 +118,23 @@ body{
   align-items: center;
 }
 
+/*Carousel*/
+.carousel h3{
+  color: #eafffb;
+}
+
+.carousel p{
+  color: white;
+  font-size: 30px;
+}
+
+.carouselavis p{
+  color: #646363;
+  font-size: 30px;
+}
+
 /*in general*/
-h1{
+h1 {
   display: flex;
   justify-content: space-around;
   font-size: 20px;
@@ -100,7 +147,7 @@ h2{
   color: #3B4040;
 }
 
-h3{
+h3 {
   text-transform: uppercase;
   font-family: 'Amiko', sans-serif;
   color: #3B4040;
@@ -124,7 +171,7 @@ p{
   align-items: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 300px;
+  height: fit-content;
 
 }
 
@@ -153,11 +200,6 @@ p{
   color: white;
   text-transform: uppercase;
   font-size: 28px;
-}
-
-.discoverButton:hover{
-  background-color: black;
-  color: white;
 }
 
 .blochome{
@@ -234,7 +276,7 @@ p{
 }
 
 .news h1{
-  font-family: 'Amiko', sans-serif; 
+  font-family: 'Amiko', sans-serif;
   font-weight: bold;
   font-size: 120px;
   color: white;
@@ -262,7 +304,7 @@ p{
   margin-top: 20px;
 }
 
-/* BtoB */
+/*BtoB*/
 
 .backgroundBtoB{
   height: 540px;
@@ -271,7 +313,7 @@ p{
   background-size: cover;
 }
 
-.btob {
+.btob{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -279,7 +321,7 @@ p{
 }
 
 .btob h1{
-  font-family: 'Audiowide', cursive; 
+  font-family: 'Audiowide', cursive;
   
   font-size: 80px;
   color: white;
@@ -314,4 +356,3 @@ p{
   padding: 35px 0px;
   align-items: center;
 }
-
