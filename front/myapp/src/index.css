@@ -290,12 +290,28 @@ p{
 .img146{
   border-radius: 250px;
   border: 20px solid #bbccc9;
+  margin-left: 150px;
+  margin-right: 150px;
+  
 }
 
-.txt{
-  text-align: left;
+.txt h3{
+  font-family: 'Amiko', sans-serif;
+  font-weight: inherit;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.txt p{
+  font-family: 'Abel', sans-serif;
+  font-weight: 550;
+  font-size: 25px;
+  color: #3B4040;
 }
 .bob{
   background-color: #eafffb;
+  margin-top: 100px;
+  padding: 35px 0px;
+  align-items: center;
 }
 

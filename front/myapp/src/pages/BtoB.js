@@ -15,17 +15,17 @@ function BtoB() {
             </div>
             <div className="class">
                 
-                <div className="container col col-lg-12">
+                <div className="container col col-lg-12 text-center">
                     <div className="container blocimg discover">
                         <a href="/News"><img className="img-fluid" src={decouvrir} alt="bouton decouvrir" /></a>
                     </div>
                 </div>
 
                 <div className="row bob">
-                   <div className ="col-lg-6 img">
+                   <div className ="col-lg-5 img">
                         <img className="img-fluid img146" src={image146} alt="img146"></img>
                    </div>
-                   <div className="col-lg-6 txt">
+                   <div className="col-lg-7 text-left txt">
                         <h3><strong>THE SENSE POUR LES PROFESSIONNELS</strong></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                    </div>
