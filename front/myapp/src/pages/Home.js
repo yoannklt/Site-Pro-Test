@@ -20,7 +20,7 @@ function Home() {
                 <div className="description row">
                     <div className="col col-lg-6">
                         <div className="image9">
-                            <img src={image9} alt="" />
+                            <img className="img-fluid" src={image9} alt="" />
                         </div>
                     </div>
                     <div className="col col-lg-6">
