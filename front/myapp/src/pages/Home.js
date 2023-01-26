@@ -172,6 +172,10 @@ function Home() {
                     </div>
                 </div>
 
+                <div className="container">
+                    <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
+                </div>
+
             </div>
         </div>
     )
