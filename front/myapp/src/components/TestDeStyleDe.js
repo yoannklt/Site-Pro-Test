@@ -12,22 +12,26 @@ function TestDeStyleDe() {
     }
 
     return (
-        <div className="row">
-            <div className="col-lg-6 labelConnection">
-                <div className="col-lg-12">
-                    <label>Identifiant</label>
+        <div>
+            <form className="row fromCoo align-items-center align-self-center" onSubmit={handleSubmit(onSubmit)}>
+                <label className="labelLog col-lg-12 oppai">
+                    <strong>CONNEXION</strong>
+                </label>
+                <label className="col-lg-4 text-end">
+                    Identifiant
+                </label>
+                <input className="col-lg-8 pout" {...register("email")} type="email" placeholder="Email" />
+                <label className="col-lg-4 text-end">
+                    Mot de passe
+                </label>
+                <input className="col-lg-8 pout" {...register("password")} type="password" placeholder="Mot de passe" />
+                <div className="col-lg-12 userButton labelLog">
+                    <label>
+                        <a href="#" >Créer un compte</a>&nbsp;&nbsp;
+                    </label>
+                    <input className="fout" type="submit" value="Connexion" />
                 </div>
-                <div className="col-lg-12">
-                    <label>Mot de passe</label>
-                </div>
-            </div>
-            <div className="col-lg-6 labelConnection">
-                <form className="" onSubmit={handleSubmit(onSubmit)}>
-                    <input className="skib" {...register("email")} type="email" placeholder="Email" />
-                    <input className="skib" {...register("password")} type="password" placeholder="Mot de passe" />
-                    <input className="userButton" type="submit" />
-                </form>
-            </div>
+            </form>
         </div>
     );
 }

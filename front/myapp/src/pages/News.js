@@ -17,7 +17,7 @@ function News() {
             <div className="class">
                 
                 <div className="container col col-lg-12">
-                    <div className="container blocimg">
+                    <div className="container blocimgnews">
                         <img className="img-fluid" src={image26} alt="img26" />
                     </div>
                     <div className="container blocgrisnews">
@@ -30,8 +30,8 @@ function News() {
 
                 <div className="row text-center">
                     <div className="container col-lg-5">
-                        <div className="container blocimg">
-                            <img className="img-fluid" src={image7} alt="rg" />
+                        <div className="container blocimgnews">
+                            <img className="img-fluid" src={image7} alt="" />
                         </div>
                         <div className="container blocgrisnews">
                             <div className="row">

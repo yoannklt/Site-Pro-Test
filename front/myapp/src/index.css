@@ -1,4 +1,4 @@
-body{
+body {
   padding: 0;
   margin: 0;
   background-image: url(img/background.png);
@@ -7,30 +7,30 @@ body{
 }
 
 /*NavBar*/
-.navbar{
+.navbar {
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.navbar-nav{
+.navbar-nav {
   flex-direction: row !important;
 }
 
-.navbrand img{
+.navbrand img {
   width: 66px;
   margin-left: 40px;
 }
 
-.list{
+.list {
   justify-content: right;
   padding-right: 40px !important;
   text-align: center;
 }
 
-.list span{
+.list span {
   margin-bottom: 6px;
 }
 
-.navbarrr a{
+.navbarrr a {
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
@@ -39,16 +39,16 @@ body{
   text-decoration: none;
 }
 
-.navbarrr a:hover{
+.navbarrr a:hover {
   transform: scale(1.06);
   transition: 100ms;
 }
 
-.test{
+.test {
   border: none;
 }
 
-.NavLink{
+.NavLink {
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
@@ -57,26 +57,58 @@ body{
   margin-right: 5px !important;
 }
 
-.test{
+.test {
   border: none;
 }
 
 /*Form se connecter et s'inscrire*/
-.popUpLog{
-  --bs-popover-max-width: 427px !important;
+.popUpLog {
+  --bs-popover-max-width: 525px !important;
 }
 
-.btnform a:hover{
+.btnform a:hover {
   transform: scale(1.06);
   transition: 100ms;
 }
 
-.skib{
-  margin-bottom: 50px;
+.labelLog {
+  text-align: right;
 }
 
+.fromCoo{
+  height: 262px;
+}
+
+.fromCoo .pout {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #1BDCC5;
+  padding: 5px;
+}
+
+.fromCoo .fout {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-family: Amiko, sans-serif;
+  font-weight: bold;
+}
+
+.labelLog a {
+  text-decoration: none;
+  color: black;
+}
+
+.fromCoo label {
+  font-family: Amiko, sans-serif;
+  font-weight: bold;
+}
+
+.oppai{
+  font-size: 20px;
+}
 /*Footer*/
-.footer{
+.footer {
   background-color: #3B4040;
   display: flex;
   height: 150px;
@@ -86,8 +118,23 @@ body{
   align-items: center;
 }
 
+/*Carousel*/
+.carousel h3{
+  color: #eafffb;
+}
+
+.carousel p{
+  color: white;
+  font-size: 30px;
+}
+
+.carouselavis p{
+  color: #646363;
+  font-size: 30px;
+}
+
 /*in general*/
-h1{
+h1 {
   display: flex;
   justify-content: space-around;
   font-size: 20px;
@@ -100,7 +147,7 @@ h2{
   color: #3B4040;
 }
 
-h3{
+h3 {
   text-transform: uppercase;
   font-family: 'Amiko', sans-serif;
   color: #3B4040;
@@ -112,32 +159,32 @@ p{
   font-size: 20px;
 }
 
-.blocimg{
+.blocimg {
   margin-top: 100px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.blocgris{
+.blocgris {
   width: 95%;
   background-color: #F2F2F2;
   align-items: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 300px;
+  height: fit-content;
 
 }
 
-.blocgris h3{
+.blocgris h3 {
   margin-top: 20px;
 }
 
 /*Home*/
-.hero{
+.hero {
   height: 80vh;
 }
 
-.row{
+.row {
   --bs-gutter-x: 0;
 }
 
@@ -145,7 +192,7 @@ p{
   height: 200px;
 }
 
-.discoverButton{
+.discoverButton {
   height: 61px;
   width: 263px;
   border-radius: 15px;
@@ -155,16 +202,11 @@ p{
   font-size: 28px;
 }
 
-.discoverButton:hover{
-  background-color: black;
-  color: white;
-}
-
-.blochome{
+.blochome {
   display: flex;
 }
 
-.blochome h3{
+.blochome h3 {
   margin-left: 20px;
 }
 
@@ -174,27 +216,27 @@ p{
   font-size: 20px;
 }
 
-.parag p{
+.parag p {
   font-size: 20px;
 }
 
-.blochome .title{
+.blochome .title {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 
-.reserve{
+.reserve {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
 
-.reserve .clc a{
+.reserve .clc a {
   width: min-content;
 }
 
-.redirection a{
+.redirection a {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -202,15 +244,15 @@ p{
 }
 
 /*News*/
-.head img{
+.head img {
   width: 100%;
 }
 
-.description .row .col{
+.description .row .col {
   border-radius: 50%;
 }
 
-.image9{
+.image9 {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -219,34 +261,34 @@ p{
     border-radius: 50%;
 }
 
-.background{
+.background {
   height: 540px;
   background-image: url(../src/img/image24.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news{
+.news {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 86.5%;
 }
 
-.news h1{
-  font-family: 'Amiko', sans-serif; 
+.news h1 {
+  font-family: 'Amiko', sans-serif;
   font-weight: bold;
   font-size: 120px;
   color: white;
 }
 
-.blocimgnews{
+.blocimgnews {
   margin-top: 100px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.blocgrisnews{
+.blocgrisnews {
   width: 80%;
   background-color: #F2F2F2;
   color: #646363;
@@ -258,15 +300,15 @@ p{
   height: fit-content;
 }
 
-.blocgrisnews h3{
+.blocgrisnews h3 {
   margin-top: 20px;
 }
 
 /* BtoB */
 
-.backgroundBtoB{
+.backgroundBtoB {
   height: 540px;
-  background-image: url(../src/img/bob.png);
+  background-image: url(../src/img/fondbob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -275,13 +317,26 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 86.5%;
+
 }
 
-.btob h1{
-  font-family: 'Amiko', sans-serif; 
-  font-weight: bold;
+.btob h1 {
+  font-family: 'Audiowide', cursive;
+  
   font-size: 80px;
   color: white;
-  height: 1%;
+  position: absolute;
+  bottom: 420px;
+}
+
+.img146{
+  border-radius: 250px;
+  border: 20px solid #bbccc9;
+}
+
+.txt{
+  text-align: left;
+}
+.bob{
+  background-color: #eafffb;
 }
