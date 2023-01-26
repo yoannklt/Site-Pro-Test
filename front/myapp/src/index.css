@@ -111,12 +111,34 @@ body {
 /*Footer*/
 .footer {
   background-color: #3B4040;
+  color: #82FFE1;
   display: flex;
   height: 150px;
   width: 100%;
-  position: absolute;
   bottom: 0;
   align-items: center;
+}
+
+.footer .bloc1 a{
+  margin-left: 20px;
+  color: #82FFE1;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer .bloc2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer .bloc3{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer .logo{
+  height: 38px;
 }
 
 /*Carousel*/

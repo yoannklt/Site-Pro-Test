@@ -7,25 +7,39 @@ import facebooklogo from '../img/facebooklogo.png';
 function Footerter() {
   return (
     <footer className="footer row">
-      <div className="bloc1 col-lg-4 s-12">
-        <p>Nous contacter</p>
-        <p>Réservation</p>
-        <p>FAQ</p>
+      <div className="bloc1 col-lg-4">
+        <a href='#'>Nous contacter</a>
+        <a href='#'>Réservation</a>
+        <a href='#'>FAQ</a>
       </div>
-      <div className="bloc2 col-lg-3 offset-1 s-12">
-        <p>© THE SENSE, SAS. Tous froits réservés</p>
+      <div className="bloc2 text-center col-lg-4">
+        <span>© THE SENSE, SAS. Tous froits réservés</span>
       </div>
-      <div className="bloc3 col-lg-2 s-12">
-        <p>Modalités | Police de confidentialité</p>
+      <div className="bloc3 text-center col-lg-2">
+        <span>Modalités &nbsp;|&nbsp; Police de confidentialité</span>
       </div>
-      <div className="bloc4 col-lg-2 s-12">
-        <img className="logo" src={ytblogo} alt="" />
-        <img className="logo" src={instalogo} alt="" />
-        <img className="logo" src={twitterlogo} alt="" />
-        <img className="logo" src={facebooklogo} alt="" />
+      <div className="bloc4 col-lg-2 text-center row">
+        <div className="col-lg-3">
+          <a href='#'>
+            <img className="logo" src={ytblogo} alt="" />
+          </a>
+        </div>
+        <div className="col-lg-3">
+          <a href='#'>
+            <img className="logo" src={instalogo} alt="" />
+          </a>
+        </div>
+        <div className="col-lg-3">
+          <a href='#'>
+            <img className="logo" src={twitterlogo} alt="" />
+          </a>
+        </div>
+        <div className="col-lg-3">
+          <a href='#'>
+            <img className="logo" src={facebooklogo} alt="" />
+          </a>
+        </div>
       </div>
-    
-
     </footer>
   );
 }

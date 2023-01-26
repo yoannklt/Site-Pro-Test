@@ -10,6 +10,7 @@ import image5 from "../img/image5.png"
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
 import FadeCarouselavis from "../components/Carouselavis";
+import Footerter from "../components/Footer"
 
 function Home() {
     return (
@@ -182,6 +183,7 @@ function Home() {
                 </div>
 
             </div>
+            <Footerter />
         </div>
     )
 }

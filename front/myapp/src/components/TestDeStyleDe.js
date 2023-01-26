@@ -18,11 +18,11 @@ function TestDeStyleDe() {
                     <strong>CONNEXION</strong>
                 </label>
                 <label className="col-lg-4 text-end">
-                    Identifiant
+                    Identifiant&nbsp;&nbsp;
                 </label>
                 <input className="col-lg-8 pout" {...register("email")} type="email" placeholder="Email" />
                 <label className="col-lg-4 text-end">
-                    Mot de passe
+                    Mot de passe&nbsp;&nbsp;
                 </label>
                 <input className="col-lg-8 pout" {...register("password")} type="password" placeholder="Mot de passe" />
                 <div className="col-lg-12 userButton labelLog">
