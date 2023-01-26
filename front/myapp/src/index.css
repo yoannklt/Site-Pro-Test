@@ -140,6 +140,14 @@ body {
   background-color: #EAFFFB;
 }
 
+.carouselavis img{
+  height: 600px;
+}
+
+.carousel-control-prev-icon{
+  color: #3B4040;
+}
+
 /*in general*/
 h1 {
   display: flex;
