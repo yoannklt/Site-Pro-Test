@@ -17,7 +17,7 @@ function SigninLogin() {
         }
       >
         <div className='btnform'>
-          <a role="button" tabindex="0" href="#" className="navbtn"><strong>Se connecter</strong></a>
+          <a role="button" tabindex="0" href="#" className="navbtn navbarrr"><strong>Se connecter</strong></a>
         </div>
       </OverlayTrigger>
     </>
