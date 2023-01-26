@@ -94,10 +94,22 @@ h1{
   color: black;
 }
 
+h2{
+  text-transform: uppercase;
+  font-family: 'Amiko', sans-serif;
+  color: #3B4040;
+}
+
 h3{
   text-transform: uppercase;
   font-family: 'Amiko', sans-serif;
   color: #3B4040;
+}
+
+p{
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
 }
 
 .blocimg{
@@ -109,12 +121,10 @@ h3{
 .blocgris{
   width: 95%;
   background-color: #F2F2F2;
-  color: #646363;
-  font-family: 'Abel', sans-serif;
   align-items: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 250px;
+  height: 300px;
 
 }
 
@@ -158,6 +168,12 @@ h3{
   margin-left: 20px;
 }
 
+.parag h4{
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-size: 20px;
+}
+
 .parag p{
   font-size: 20px;
 }
@@ -171,6 +187,7 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .reserve .clc a{
