@@ -7,6 +7,7 @@ import image2 from "../img/image2.png"
 import image3 from "../img/image3.png"
 import image4 from "../img/image4.png"
 import image5 from "../img/image5.png"
+import logo from "../img/thesense.png"
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
 
@@ -31,7 +32,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="col col-lg-6">
-                        <h1>Qu'est-ce que </h1>
+                        <h1>Qu'est-ce que</h1>
                     </div>
                 </div>
 
