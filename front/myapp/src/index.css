@@ -92,7 +92,13 @@ body{
 }
 
 .carousel p{
-  color: #eafffb;
+  color: white;
+  font-size: 30px;
+}
+
+.carouselavis p{
+  color: #646363;
+  font-size: 30px;
 }
 
 /*in general*/
@@ -307,4 +313,3 @@ p{
 .bob{
   background-color: #eafffb;
 }
-

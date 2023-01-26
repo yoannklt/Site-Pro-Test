@@ -9,7 +9,7 @@ import CarouselItem from 'react-bootstrap/esm/CarouselItem';
 function FadeCarousel() {
     return (
 
-        <div className='carousel'>
+        <div className='carouselavis'>
             <Carousel
                 fade
                 pause hover
