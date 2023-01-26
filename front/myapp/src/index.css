@@ -63,12 +63,16 @@ body{
 
 /*Form se connecter et s'inscrire*/
 .popUpLog{
-  width: 100%;
+  --bs-popover-max-width: 427px !important;
 }
 
 .btnform a:hover{
   transform: scale(1.06);
   transition: 100ms;
+}
+
+.skib{
+  margin-bottom: 50px;
 }
 
 /*Footer*/
@@ -90,10 +94,22 @@ h1{
   color: black;
 }
 
+h2{
+  text-transform: uppercase;
+  font-family: 'Amiko', sans-serif;
+  color: #3B4040;
+}
+
 h3{
   text-transform: uppercase;
   font-family: 'Amiko', sans-serif;
   color: #3B4040;
+}
+
+p{
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
 }
 
 .blocimg{
@@ -105,12 +121,11 @@ h3{
 .blocgris{
   width: 95%;
   background-color: #F2F2F2;
-  color: #646363;
-  font-family: 'Abel', sans-serif;
   align-items: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: fit-content;
+  height: 300px;
+
 }
 
 .blocgris h3{
@@ -124,6 +139,10 @@ h3{
 
 .row{
   --bs-gutter-x: 0;
+}
+
+.labelConnection{
+  height: 200px;
 }
 
 .discoverButton{
@@ -149,6 +168,12 @@ h3{
   margin-left: 20px;
 }
 
+.parag h4{
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-size: 20px;
+}
+
 .parag p{
   font-size: 20px;
 }
@@ -158,7 +183,18 @@ h3{
   text-transform: uppercase;
 }
 
-.reserve a{
+.reserve{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.reserve .clc a{
+  width: min-content;
+}
+
+.redirection a{
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -175,9 +211,12 @@ h3{
 }
 
 .image9{
-  background-image: url(../src/img/image9.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.imageHome{
+    border-radius: 50%;
 }
 
 .background{

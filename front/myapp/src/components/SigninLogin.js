@@ -1,6 +1,6 @@
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
-import TestDeStyle from './TestDeStyle';
+import TestDeStyleDe from './TestDeStyleDe';
 
 function SigninLogin() {
   return (
@@ -9,15 +9,15 @@ function SigninLogin() {
         trigger="click"
         placement='left'
         overlay={
-          <Popover id={`popover-positioned-left`} className='popUpLog'>
+          <Popover id={`popover-positioned-left`} className='popUpLog'> 
             <Popover.Body>
-              <TestDeStyle />
+              <TestDeStyleDe />
             </Popover.Body>
           </Popover>
         }
       >
         <div className='btnform'>
-          <a role="button" tabindex="0" href="#" className="navbtn"><strong>Se connecter</strong></a>
+          <a role="button" tabindex="0" href="#" className="navbtn navbarrr"><strong>Se connecter</strong></a>
         </div>
       </OverlayTrigger>
     </>
