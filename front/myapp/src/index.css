@@ -159,13 +159,13 @@ p{
   font-size: 20px;
 }
 
-.blocimg {
+.blocimg{
   margin-top: 100px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.blocgris {
+.blocgris{
   width: 95%;
   background-color: #F2F2F2;
   align-items: center;
@@ -175,16 +175,16 @@ p{
 
 }
 
-.blocgris h3 {
+.blocgris h3{
   margin-top: 20px;
 }
 
 /*Home*/
-.hero {
+.hero{
   height: 80vh;
 }
 
-.row {
+.row{
   --bs-gutter-x: 0;
 }
 
@@ -192,7 +192,7 @@ p{
   height: 200px;
 }
 
-.discoverButton {
+.discoverButton{
   height: 61px;
   width: 263px;
   border-radius: 15px;
@@ -202,11 +202,11 @@ p{
   font-size: 28px;
 }
 
-.blochome {
+.blochome{
   display: flex;
 }
 
-.blochome h3 {
+.blochome h3{
   margin-left: 20px;
 }
 
@@ -216,27 +216,27 @@ p{
   font-size: 20px;
 }
 
-.parag p {
+.parag p{
   font-size: 20px;
 }
 
-.blochome .title {
+.blochome .title{
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 
-.reserve {
+.reserve{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
 
-.reserve .clc a {
+.reserve .clc a{
   width: min-content;
 }
 
-.redirection a {
+.redirection a{
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -244,15 +244,15 @@ p{
 }
 
 /*News*/
-.head img {
+.head img{
   width: 100%;
 }
 
-.description .row .col {
+.description .row .col{
   border-radius: 50%;
 }
 
-.image9 {
+.image9{
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -261,34 +261,34 @@ p{
     border-radius: 50%;
 }
 
-.background {
+.background{
   height: 540px;
   background-image: url(../src/img/image24.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news {
+.news{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 86.5%;
 }
 
-.news h1 {
+.news h1{
   font-family: 'Amiko', sans-serif;
   font-weight: bold;
   font-size: 120px;
   color: white;
 }
 
-.blocimgnews {
+.blocimgnews{
   margin-top: 100px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.blocgrisnews {
+.blocgrisnews{
   width: 80%;
   background-color: #F2F2F2;
   color: #646363;
@@ -300,27 +300,27 @@ p{
   height: fit-content;
 }
 
-.blocgrisnews h3 {
+.blocgrisnews h3{
   margin-top: 20px;
 }
 
-/* BtoB */
+/*BtoB*/
 
-.backgroundBtoB {
+.backgroundBtoB{
   height: 540px;
   background-image: url(../src/img/fondbob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.btob {
+.btob{
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
 
-.btob h1 {
+.btob h1{
   font-family: 'Audiowide', cursive;
   
   font-size: 80px;
