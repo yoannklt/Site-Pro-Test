@@ -120,13 +120,12 @@ function Home() {
 
                 <div className="container col col-lg-12">
                     <div className="row container blocimg">
+                        <h3><strong>Nos expériences les plus appréciées</strong></h3>
                         <img className="img-fluid col-lg-4" src={image3} alt="" />
                         <img className="img-fluid col-lg-4" src={image4} alt="" />
                         <img className="img-fluid col-lg-4" src={image5} alt="" />
                     </div>
                     <div className="container blocgris">
-                        <div className="row">
-                        </div>
                         <div className="blochome">
                             <h3><strong>Créez votre propre expérience</strong></h3>
                             <h3>|</h3>
