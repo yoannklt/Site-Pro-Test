@@ -1,6 +1,6 @@
 import Navbarbar from "../components/Navbar"
 import image9 from "../img/image9.png"
-import image10 from "../img/image10.png"
+import image10 from "../img/image10.jpg"
 import boutonréserver from "../img/boutonréserver.png"
 import image1 from "../img/image1.png"
 import image2 from "../img/image2.png"
