@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -322,7 +326,7 @@ p{
 /*BtoB*/
 
 .backgroundBtoB{
-  height: 540px;
+  height: 750px;
   background-image: url(../src/img/fondbob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,7 +341,6 @@ p{
 
 .btob h1{
   font-family: 'Audiowide', cursive;
-  
   font-size: 80px;
   color: white;
   position: absolute;
@@ -347,8 +350,6 @@ p{
 .img146{
   border-radius: 250px;
   border: 20px solid #bbccc9;
-  margin-left: 150px;
-  margin-right: 150px;
   
 }
 
@@ -370,4 +371,27 @@ p{
   margin-top: 100px;
   padding: 35px 0px;
   align-items: center;
+}
+
+.btob1{
+  height: 500px;
+  width: 900px;
+  border-radius: 25px;
+}
+
+.btob2{
+  height: 500px;
+  width: 900px;
+  border-radius: 25px;
+}
+
+.btob3{
+  height: 500px;
+  width: 900px;
+  border-radius: 25px;
+}
+
+
+.discover{
+  margin-top: 200px;
 }
