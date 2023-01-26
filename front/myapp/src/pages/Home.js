@@ -33,6 +33,11 @@ function Home() {
                     </div>
                 </div>
 
+                <div>
+                    <h2><strong>La réalité a portée de main</strong></h2>
+                    <p>Vous rêvez de voyager, de frisonner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis ou en famille et franchissez la frontière de la réalité. Plusieurs dimensions s'offrent à vous, vous donnant accès à de nombreuses expériences.</p>
+                </div>
+
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
                         <img className="img-fluid" src={image10} alt="" />
