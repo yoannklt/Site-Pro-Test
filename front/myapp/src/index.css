@@ -541,3 +541,15 @@ p{
   margin-left: 100px;
   margin-right: 100px;
 }
+
+.scrollButton{
+  position: fixed;
+  width: fit-content;
+  bottom: 10px;
+  right: 10px;
+  align-items: center;
+}
+
+.scrollButton h2{
+  color: white;
+}
