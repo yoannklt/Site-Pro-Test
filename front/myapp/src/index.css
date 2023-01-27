@@ -34,7 +34,6 @@ body {
   background-image: url(img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
 }
 
 /*NavBar*/
@@ -200,8 +199,8 @@ body {
   margin-bottom: 80px;
 }
 
-.carousel-control-prev span{
-  color: #3B4040;
+.carousel-control-prev-icon span{
+  color: #3B4040 !important;
 }
 
 /*in general*/
@@ -446,7 +445,7 @@ p{
 
 .backgroundBtoB{
   height: 750px;
-  background-image: url(../src/img/fondbob.jpg);
+  background-image: url(../src/img/fondbob.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -463,13 +462,21 @@ p{
   font-size: 80px;
   color: white;
   position: absolute;
-  bottom: 420px;
+  bottom: 250px;
 }
-
+.Bob{
+  background-color: #eafffb;
+}
 .img146{
   border-radius: 250px;
   border: 20px solid #bbccc9;
   
+}
+
+.txt{
+  background-color: #eafffb;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .txt h3{
@@ -485,12 +492,26 @@ p{
   font-size: 25px;
   color: #3B4040;
 }
-.bob{
-  background-color: #eafffb;
-  margin-top: 100px;
-  padding: 35px 0px;
+.bob1{
+  border-radius: 25px;
+  margin-top: 40px;
   align-items: center;
 }
+
+.bob2{
+
+  border-radius: 25px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.bob3{
+
+  border-radius: 25px;
+  margin-top: 40px;
+  align-items: center;
+}
+
 
 .btob1{
   height: 500px;
@@ -513,4 +534,10 @@ p{
 
 .discover{
   margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.troiscase{
+  margin-left: 100px;
+  margin-right: 100px;
 }
