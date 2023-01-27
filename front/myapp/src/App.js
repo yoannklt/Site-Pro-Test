@@ -11,6 +11,7 @@ import {
   Route
 } from "react-router-dom";
 import HomeTest from "./pages/HomeTest";
+import AccountCreation from "./pages/AccountCreation";
 
 //App.js
 function App(props){
@@ -36,6 +37,9 @@ function App(props){
         </Route>
         <Route exact path="/HomeTest"> 
           <HomeTest /> 
+        </Route>
+        <Route exact path="/AccountCreation"> 
+          <AccountCreation /> 
         </Route>
       </Switch>
   </Router>

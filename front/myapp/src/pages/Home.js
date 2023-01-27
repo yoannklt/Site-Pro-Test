@@ -15,7 +15,6 @@ import Footerter from "../components/Footer"
 import BasicExample from "../components/Dropdown";
 import ScrollButton from "../components/ScrollButton";
 import Reservation from "../components/Reservation";
-import { Link } from "react-router-dom";
 
 function Home() {
     return (

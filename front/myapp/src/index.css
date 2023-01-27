@@ -34,6 +34,7 @@ body {
   background-image: url(img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
 }
 
 /*NavBar*/
@@ -116,7 +117,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-color: #1BDCC5;
-  padding: 5px;
+  width: 70%;
 }
 
 .fromCoo .fout {
@@ -125,6 +126,12 @@ body {
   border-radius: 5px;
   font-family: 'Amiko', sans-serif;
   font-weight: bold;
+  width: fit-content;
+  text-align: center;
+}
+
+.form-label {
+  margin-bottom: 0rem; 
 }
 
 .labelLog a {
@@ -617,4 +624,35 @@ p{
 
 h2{
   font-weight: bolder;
+}
+
+.myAccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.backgroundAccount{
+  background-image: url(../src/img/fondbob.png);
+  height: 539px;
+}
+
+.myAccount h1{
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+  color: white;
+}
+
+.formBackground{
+  background-image: url(../src/img/LogoBackground.png);
+}
+
+.formBackground .text-center h2{
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 40px;
 }
