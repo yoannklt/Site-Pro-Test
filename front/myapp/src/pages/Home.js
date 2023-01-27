@@ -12,23 +12,24 @@ import image8 from '../img/image8.png';
 import logoHome from '../img/thesense.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
-import rondgris from '../img/rondgris.png';
+import BasicExample from "../components/Dropdown";
+import ScrollButton from "../components/ScrollButton";
 
 function Home() {
     return (
         <div>
             <Navbarbar />
             <div className="">
-
+                <ScrollButton/>
                 <div className="row text-center">
-                    <div className="col col-lg-12 hero">
+                    <div className="col col-lg-12 hero" id="hero">
                     </div>
                     <div className="col col-lg-12">
-                        <button className="discoverButton">Découvrir</button>
+                        <a href="#home"><button className="discoverButton">Découvrir</button></a>
                     </div>
                 </div>
 
-                <div className="row Bob align-items-start">
+                <div id="home" className="row Bob align-items-start">
                     <div className="col-lg-5 img text-center ">
                         <img className="img-fluid image9 align-self-center" src={image9} alt="img9"></img>
                     </div>
@@ -91,7 +92,7 @@ function Home() {
                             <h3 className="title">dark room</h3>
                         </div>
                         <div className="row parag">
-                            <h4>Expérience interdite aux -18</h4>
+                            <h4><strong>Expérience interdite aux -18</strong></h4>
                             <p>Revivez l'histoire d'un chef d'oeuvre cinématographique au travers d'une exprérience aussi bien réaliste qu'immersive. Rassemblez ce qu'il vous reste de courage, les inspecteurs Ed et Loren Warren ont besoin de vous. Un malheur hante la maison de ces derniers et vous ne pouvez pas vous en échapper sans sacrifices. serez-vous à la hauteur de ce qui vous attend ? Bonne chance, vous en aurez besoin !</p>
                         </div>
                         <div className="row reserve text-center">
@@ -197,24 +198,7 @@ function Home() {
                 <div className="container faq">
                     <h2><strong>Foire aux questions</strong></h2>
                     <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Qu'est-ce que THE SENSE ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Il y a-t-il un âge et une taille minimum pour participer à une expérience THE SENSE ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Quel est le nombre maximum de participants pour jouer ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Avez-vous une politique d'annulation et de remboursement ? Si oui, comment se déroule-t-elle ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span> Est-il possible de déposer mes affaires "encombrants" avant de faire une expérience ? Puis-je garder mes lunettes ?</span>
+                        <BasicExample />
                     </div>
                 </div>
 
