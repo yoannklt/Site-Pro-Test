@@ -254,6 +254,10 @@ p{
   height: 80vh;
 }
 
+#home{
+  scroll-margin-top: 71.6px;
+}
+
 .row{
   --bs-gutter-x: 0;
 }

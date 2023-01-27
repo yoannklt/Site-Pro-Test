@@ -29,6 +29,16 @@ app.get("/user/list", function (req, res) {
     });
 });
 
+//LOGIN
+app.get("/user/login", function (req, res) {
+  const dbConnect = dbo.getDb();
+  dbConnect
+    .collection("user")
+    .findOne({email : {$eq: req.query.email}, password: {eq: req.query.password}})
+    .then(result => res.status().json(result))
+    .catch(err => res.status(200).send('Failed to login'))
+});
+
 // INSERER DES UTILISATEURS
 app.post('/user/insert', jsonParser, (req, res) => {
   const body = req.body;
