@@ -13,7 +13,7 @@ function Footerter() {
         <a href='#'>FAQ</a>
       </div>
       <div className="bloc2 text-center col-lg-4">
-        <span>© THE SENSE, SAS. Tous froits réservés</span>
+        <span>© THE SENSE, SAS. Tous droits réservés</span>
       </div>
       <div className="bloc3 text-center col-lg-2">
         <span>Modalités &nbsp;|&nbsp; Police de confidentialité</span>
