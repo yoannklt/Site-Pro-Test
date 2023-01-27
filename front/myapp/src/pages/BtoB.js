@@ -3,7 +3,6 @@ import decouvrir from '../img/découvrir.png';
 import btob1 from '../img/btob1.png';
 import btob2 from '../img/btob2.png';
 import btob3 from '../img/btob3.png';
-import Container from 'react-bootstrap/Container';
 import image146 from '../img/image146.png';
 
 function BtoB() {
@@ -33,7 +32,7 @@ function BtoB() {
                    </div>
                 </div>
 
-                <div className="col-lg-12 align-text-center">
+                <div className="col-lg-12 align-text-center txtes">
                     <h3><strong>AU SERVICE DES PROFESSIONNELS</strong></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
                 </div>
@@ -68,7 +67,10 @@ function BtoB() {
                         </div>
                     </div>
                 </div>   
-                
+                <div className="col-lg-12 align-text-center txte">
+                    <h3><strong>NOS SERVICES DÉDIÉS AUX PROFESSIONNELS VOUS INTÉRESSE ?</strong></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
+                </div>
             </div>
         </div>
     )

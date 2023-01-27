@@ -469,8 +469,12 @@ p{
 }
 .img146{
   border-radius: 250px;
-  border: 20px solid #bbccc9;
-  
+  border: 20px solid #bbccc9; 
+}
+
+.img{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .txt{
@@ -540,4 +544,46 @@ p{
 .troiscase{
   margin-left: 100px;
   margin-right: 100px;
+  text-align: start;
+}
+
+.txtes{
+  margin-top: 100px;
+}
+
+.txtes h3{
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.txtes p{
+  font-family: 'Abel', sans-serif;
+  font-weight: 550;
+  font-size: 25px;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.txte{
+  margin-top: 100px;
+}
+
+.txte h3{
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding-right: 275px;
+  padding-left: 250px;
+  
+}
+
+.txte p{
+  font-family: 'Abel', sans-serif;
+  font-weight: 550;
+  font-size: 25px;
+  padding-right: 250px;
+  padding-left: 250px;
 }
