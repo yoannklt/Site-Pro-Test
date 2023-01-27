@@ -8,9 +8,9 @@ function Footerter() {
   return (
     <footer className="footer row">
       <div className="bloc1 col-lg-4">
-        <a href='#'>Nous contacter</a>
-        <a href='#'>Réservation</a>
-        <a href='#'>FAQ</a>
+        <a href='/About'>Nous contacter</a>
+        <a href='/'>Réservation</a>
+        <a href='/'>FAQ</a>
       </div>
       <div className="bloc2 text-center col-lg-4">
         <span>© THE SENSE, SAS. Tous droits réservés</span>
@@ -20,22 +20,22 @@ function Footerter() {
       </div>
       <div className="bloc4 col-lg-2 text-center row">
         <div className="col-lg-3">
-          <a href='#'>
+          <a href='https://www.youtube.com/' target="_blank">
             <img className="logo" src={ytblogo} alt="" />
           </a>
         </div>
         <div className="col-lg-3">
-          <a href='#'>
+          <a href='https://www.instagram.com/' target="_blank">
             <img className="logo" src={instalogo} alt="" />
           </a>
         </div>
         <div className="col-lg-3">
-          <a href='#'>
+          <a href='https://twitter.com/' target="_blank">
             <img className="logo" src={twitterlogo} alt="" />
           </a>
         </div>
         <div className="col-lg-3">
-          <a href='#'>
+          <a href='https://facebook.com/' target="_blank">
             <img className="logo" src={facebooklogo} alt="" />
           </a>
         </div>

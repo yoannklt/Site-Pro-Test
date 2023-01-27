@@ -317,6 +317,24 @@ p{
   color: #3B4040;
 }
 
+.reser{
+  background-color: black;
+  margin-top: 50px;
+  height: 1945px;
+}
+
+.photo{
+  background-image: url(img/image6.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 973px;
+  width: 100%;
+}
+
+.horraires{
+  height: 972px;
+}
+
 .avis{
   margin-top: 50px;
 }
@@ -449,7 +467,7 @@ p{
 /*BtoB*/
 
 .backgroundBtoB{
-  height: 750px;
+  height: 845px;
   background-image: url(../src/img/fondbob.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -467,7 +485,7 @@ p{
   font-size: 80px;
   color: white;
   position: absolute;
-  bottom: 390px;
+  bottom: 450px;
 }
 .Bob{
   background-color: #eafffb;
@@ -505,12 +523,12 @@ p{
 }
 
 .txtes {
-  padding-left: 200px;
+  padding-left: 250px;
   padding-top: 100px;
 }
 
 .txtes h3{
-  font-size: 50px;
+  font-size: 59px;
   font-family: 'Amiko', sans-serif;
   font-weight: bolder;
   padding-bottom: 5px;
@@ -584,4 +602,19 @@ p{
 
 .scrollButton h2{
   color: white;
+}
+
+/* Contact forms */
+
+.prenom{
+  flex-wrap: nowrap;
+}
+
+.formes{
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  font-weight: bolder;
 }

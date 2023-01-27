@@ -1,4 +1,5 @@
 import Navbarbar from "../components/Navbar";
+import Contactee from "../components/Contact";
 import decouvrir from '../img/découvrir.png';
 import btob1 from '../img/btob1.png';
 import btob2 from '../img/btob2.png';
@@ -70,6 +71,9 @@ function BtoB() {
                 <div className="col-lg-12 align-text-center txtes">
                     <h3><strong>NOS SERVICES DÉDIÉS AUX PROFESSIONNELS VOUS INTÉRESSE ?</strong></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
+                </div>
+                <div className="contact form">
+                    <Contactee/>
                 </div>
             </div>
         </div>
