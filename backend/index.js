@@ -32,6 +32,7 @@ app.get("/user/list", function (req, res) {
 //LOGIN
 app.get("/user/login", function (req, res) {
   const dbConnect = dbo.getDb();
+  console.log({$eq: req.query.email,eq: req.query.password})
   dbConnect
     .collection("user")
     .findOne({email : {$eq: req.query.email}, password: {eq: req.query.password}})
