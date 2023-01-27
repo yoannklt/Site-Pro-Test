@@ -23,7 +23,7 @@ function BtoB() {
                     </div>
                 </div>
 
-                <div className="row bob" id="BtoB">
+                <div className="row bob" id="Btob">
                    <div className ="col-lg-5 img text-center">
                         <img className="img-fluid img146 align-self-center" src={image146} alt="img146"></img>
                    </div>

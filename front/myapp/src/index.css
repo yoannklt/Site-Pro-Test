@@ -40,6 +40,9 @@ body {
 /*NavBar*/
 .navbar {
   background-color: rgba(255, 255, 255, 0.85) !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .navbar-nav {
