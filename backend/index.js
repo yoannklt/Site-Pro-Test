@@ -36,7 +36,7 @@ app.get("/user/login", function (req, res) {
     .collection("user")
     .findOne({email : {$eq: req.query.email}, password: {eq: req.query.password}})
     .then(result => res.status().json(result))
-    .catch(err => res.status(200).send('Failed to login'))
+    .catch(err => res.status(200).send(err.message))
 });
 
 // INSERER DES UTILISATEURS
