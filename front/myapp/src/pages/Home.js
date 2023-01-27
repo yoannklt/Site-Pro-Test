@@ -13,6 +13,7 @@ import logoHome from '../img/thesense.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
 import rondgris from '../img/rondgris.png';
+import BasicExample from "../components/Dropdown";
 
 function Home() {
     return (
@@ -197,24 +198,7 @@ function Home() {
                 <div className="container faq">
                     <h2><strong>Foire aux questions</strong></h2>
                     <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Qu'est-ce que THE SENSE ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Il y a-t-il un âge et une taille minimum pour participer à une expérience THE SENSE ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Quel est le nombre maximum de participants pour jouer ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span>Avez-vous une politique d'annulation et de remboursement ? Si oui, comment se déroule-t-elle ?</span>
-                    </div>
-                    <div className="question align-items-center">
-                        <img src={rondgris} alt="" />
-                        <span> Est-il possible de déposer mes affaires "encombrants" avant de faire une expérience ? Puis-je garder mes lunettes ?</span>
+                        <BasicExample />
                     </div>
                 </div>
 
