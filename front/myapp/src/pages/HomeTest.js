@@ -1,137 +1,199 @@
-import '../index.css';
-import React, { useEffect, useState } from "react";
-import Navbarbar from "../components/Navbar"
+import Navbarbar from "../components/Navbar";
+import image9 from "../img/image9.png";
+import image10 from "../img/image10.jpg";
+import boutonréserver from "../img/boutonréserver.png";
+import image1 from "../img/image1.png";
+import image2 from "../img/image2.png";
+import image3 from "../img/image3.png";
+import image4 from "../img/image4.png";
+import image5 from "../img/image5.png";
+import image7 from '../img/image7.png';
+import image8 from '../img/image8.png';
+import logoHome from '../img/thesense.png';
+import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
-import { DeleteUser, getAll, signUp } from '../api/Users';
-import { createRoom, DeleteRoom, getAllRoom } from '../api/Room';
-import { useForm } from "react-hook-form";
-import Button from "react-bootstrap/Button"
-import { getAllPage, signUpPage } from '../api/Page';
-
 
 function Home() {
-    const [users, setUsers] = useState([]);
+    return (
+        <div>
+            <Navbarbar />
+            <div className="">
 
-    //va s'executer seulement au lancement du composant (dep: [])
-    useEffect(() => {
-        // récupérer la liste des users seulement au chargement du composant ! 
-        const usersFetched = getAll();
-        usersFetched
-            .then(result => setUsers(result))
-            .catch(error => console.error("Erreur avec notre API :", error.message));
-    }, []);
+                <div className="row text-center">
+                    <div className="col col-lg-12 hero">
+                    </div>
+                    <div className="col col-lg-12">
+                        <button className="discoverButton">Découvrir</button>
+                    </div>
+                </div>
 
-    const [room, setRoom] = useState([]);
-
-    //va s'executer seulement au lancement du composant (dep: [])
-    useEffect(() => {
-        // récupérer la liste des users seulement au chargement du composant ! 
-        const roomFetched = getAllRoom();
-        roomFetched
-            .then(result => setRoom(result))
-            .catch(error => console.error("Erreur avec notre API :", error.message));
-    }, []);
-
-    const [page, setPage] = useState([]);
-
-    //va s'executer seulement au lancement du composant (dep: [])
-    useEffect(() => {
-        // récupérer la liste des users seulement au chargement du composant ! 
-        const roomFetched = getAllPage();
-        roomFetched
-            .then(result => setPage(result))
-            .catch(error => console.error("Erreur avec notre API :", error.message));
-    }, []);
-
-    const { register, handleSubmit } = useForm();
-    const onSubmit = (data) => {
-        console.log(data)
-        //JSON.stringify(data);
-        signUp(data);
-    }
-    const onSubmitRoom = (data) => {
-        console.log(data)
-        createRoom(data);
-    }
-
-    const { Register, handleSubmits } = useForm();
-    const onSubmitPage = (data) => {
-        console.log(data)
-        //JSON.stringify(data);
-        signUpPage(data);
-    }
-    
-    return <div>
-        <Navbarbar />
-        <div className='container'>
-            <div className="flex">
-                {
-                    users.map((users, key) => {
-                        return <div key={key} className="bloc-users">
-                            <h2>{users.first_name} {users.last_name}</h2>
-                            
-                            <Button onClick={() => DeleteUser(users)}>Supprimer l'utilisateur</Button>
-                            
+                <div className="row bob align-items-start">
+                   <div className ="col-lg-5 img text-center ">
+                        <img className="img-fluid image9 align-self-center" src={image9} alt="img9"></img>
+                   </div>
+                   <div className="col-lg-7 txt row align-items-baseline">
+                        <div className="col col-lg-4 text-end h1Home">
+                            <h1 className="">Qu'est-ce que</h1>
                         </div>
-                    })
-                }
-            </div>
-        </div>
-
-        <form onSubmit={handleSubmit(onSubmit)}>
-            <input {...register("first_name")} placeholder="First name" />
-            <input {...register("last_name")} placeholder="Last name" />
-            <input {...register("email")} type="email" placeholder="@" />
-            <input {...register("password")} type="password" placeholder="mdp" />
-            <input className="userButton" type="submit" />
-        </form>
-
-        <div className='container'>
-            <div className="flex">
-                {
-                    room.map((room, key) => {
-                        return <div key={key} className="bloc-room">
-                            <h2>{room.name} </h2>
-                            <h2>{room.type}</h2>
-                            <Button onClick={() => DeleteRoom(room)}>Supprimer la room</Button>
+                        <div className="col col-lg-2">
+                            <img className="img-fluid logoHome text-start" src={logoHome}  alt="logo the sense"></img>
                         </div>
-                    })
-                }
-            </div>
-        </div>
-
-        <form onSubmit={handleSubmit(onSubmitRoom)}>
-            <input {...register("name")} placeholder="Nom de la room" />
-            <input {...register("type")} placeholder="Types de la room" />
-            <input {...register("desc")} placeholder="Description de la room" />
-            <input {...register("rules")}placeholder="Regle de la room" />
-            <input className="userButton" type="submit"/>
-        </form>
-
-        <div className='container'>
-            <div className="flex">
-                {
-                    page.map((page, key) => {
-                        return <div key={key} className="bloc-page">
-                            <h2>{page.title} </h2>
-                            <h2>{page.desc}</h2>
+                        <div className="col col-lg-2">
+                            <p>&nbsp;?</p>
                         </div>
-                    })
-                }
+                   </div>
+                </div>
+
+
+                <div className="container">
+                    <h2><strong>La réalité a portée de main</strong></h2>
+                    <p>Vous rêvez de voyager, de frisonner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis ou en famille et franchissez la frontière de la réalité. Plusieurs dimensions s'offrent à vous, vous donnant accès à de nombreuses expériences.</p>
+                </div>
+
+                <div className="container col col-lg-12">
+                    <div className="container blocimg">
+                        <h3><strong>Nos expériences les plus appréciées</strong></h3>
+                        <img className="img-fluid" src={image10} alt="" />
+                    </div>
+                    <div className="container blocgris">
+                        <div className="row">
+                        </div>
+                        <div className="blochome">
+                            <h3><strong>Shangri-la : la cité perdue de z</strong></h3>
+                            <h3>|</h3>
+                            <h3 className="title">light room</h3>
+                        </div>
+                        <div className="row parag">
+                            <p>Shangri-La la cité mythique, symbole de la paix, de prospérité et de magnficence. Personne n'a apparemment pu se rendre en ce lieu depuis des décennies ou prouver son existance, du moins depuis votre découverte ! Aventurez-vous au plus profond des légendes, entrez dans la cité de Z avec votre équipe et explorez les lieux à la recherche de Percy Fawcett.</p>
+                        </div>
+                        <div className="row reserve text-center">
+                            <div className="clc col-lg-6 align-self-center">
+                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                            </div>
+                            <div className="redirection col-lg-2 align-items-end">
+                                <a href="/Room">découvrez la Light room -</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container col col-lg-12">
+                    <div className="container blocimg">
+                        <img className="img-fluid" src={image1} alt="" />
+                    </div>
+                    <div className="container blocgris">
+                        <div className="row">
+                        </div>
+                        <div className="blochome">
+                            <h3><strong>The conjuring exprerience</strong></h3>
+                            <h3>|</h3>
+                            <h3 className="title">dark room</h3>
+                        </div>
+                        <div className="row parag">
+                            <h4>Expérience interdite aux -18</h4>
+                            <p>Revivez l'histoire d'un chef d'oeuvre cinématographique au travers d'une exprérience aussi bien réaliste qu'immersive. Rassemblez ce qu'il vous reste de courage, les inspecteurs Ed et Loren Warren ont besoin de vous. Un malheur hante la maison de ces derniers et vous ne pouvez pas vous en échapper sans sacrifices. serez-vous à la hauteur de ce qui vous attend ? Bonne chance, vous en aurez besoin !</p>
+                        </div>
+                        <div className="row reserve text-center">
+                            <div className="clc col-lg-6 align-self-center">
+                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                            </div>
+                            <div className="redirection col-lg-2 align-items-end">
+                                <a href="/Room">découvrez la Dark room -</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container col col-lg-12">
+                    <div className="container blocimg">
+                        <img className="img-fluid" src={image2} alt="" />
+                    </div>
+                    <div className="container blocgris">
+                        <div className="row">
+                        </div>
+                        <div className="blochome">
+                            <h3><strong>ultimate fight</strong></h3>
+                            <h3>|</h3>
+                            <h3 className="title">battle room</h3>
+                        </div>
+                        <div className="row parag">
+                            <p>Sentez votre coeur battre, votre souffle se couper, votre concentration monter... Enrôlez des joueurs, formez votre équipe et préparez vous au combat § Arrachez la victoire à vos adversaires à travers une bataille dans des décors et des "maps" des plus immersives. En équipe de 4 ou 5 voyez lesquels d'entre vous sont dignes de remporter le trophée.</p>
+                        </div>
+                        <div className="row reserve text-center">
+                            <div className="clc col-lg-6 align-self-center">
+                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                            </div>
+                            <div className="redirection col-lg-2 align-items-end">
+                                <a href="/Room">découvrez la battle room -</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container col col-lg-12">
+                    <div className="row container blocimg">
+                        <h3><strong>Vous en voulez toujours plus ?</strong></h3>
+                        <img className="img-fluid col-lg-4" src={image3} alt="" />
+                        <img className="img-fluid col-lg-4" src={image4} alt="" />
+                        <img className="img-fluid col-lg-4" src={image5} alt="" />
+                    </div>
+                    <div className="container blocgris">
+                        <div className="blochome">
+                            <h3><strong>Créez votre propre expérience</strong></h3>
+                            <h3>|</h3>
+                            <h3 className="title">creative room</h3>
+                        </div>
+                        <div className="row parag">
+                            <p>Vous en avez marre des expériences répétitives ? Vous êtes à la recherche d'une toute nouvelle expérience virtuelle ? Alors venez créer votre propre expérience avec notre tout nouveau système de création virtuelle ! Vous nous exposez votre idée et votre univers et nous le mettons en oeuvre rien que pour vous ! N'attendez plus, c'est désormais votre création, votre univers, votre expérience, votre SENSE.</p>
+                        </div>
+                        <div className="row reserve text-center">
+                            <div className="clc col-lg-6 align-self-center">
+                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                            </div>
+                            <div className="redirection col-lg-2 align-items-end">
+                                <a href="/Room">découvrez la creative room -</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row text-center">
+                    <div className="container col-lg-5">
+                        <div className="container blocimgnews">
+                            <img className="img-fluid" src={image7} alt="" />
+                        </div>
+                        <div className="container blocgrisnews">
+                            <div className="row">
+                            </div>
+                            <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
+                        </div>
+                    </div>
+                    <div className="container col-lg-5">
+                        <div className="container blocimgnews">
+                            <img className="img-fluid" src={image8} alt="" />
+                        </div>
+                        <div className="container blocgrisnews">
+                            <div className="row">
+                            </div>
+                            <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container">
+                    <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
+                </div>
+
+                <div className="carouselavis">
+                    <FadeCarouselavis/>
+                </div>
+
             </div>
+            <Footerter />
         </div>
-
-        <form onSubmit={handleSubmit(onSubmitPage)}>
-            <input {...register("name")} placeholder="Nom de la page" />
-            <input {...register("title")} placeholder="titre de la page" />
-            <input {...register("desc")} placeholder="Description de la page" />
-            <input {...register("rules")}placeholder="Regle de la page" />
-            <input {...register("img")}placeholder="placer le lien de l'image" />
-            <input className="userButton" type="submit"/>
-        </form>
-
-        <Footerter />
-    </div>
+    )
 }
 
 export default Home;
