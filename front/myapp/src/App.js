@@ -10,6 +10,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import HomeTest from "./pages/HomeTest";
 
 //App.js
 function App(props){
@@ -32,6 +33,9 @@ function App(props){
         </Route>
         <Route exact path="/Equipements"> 
           <Equipements /> 
+        </Route>
+        <Route exact path="/HomeTest"> 
+          <HomeTest /> 
         </Route>
       </Switch>
   </Router>
