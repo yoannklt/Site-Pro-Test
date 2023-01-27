@@ -12,6 +12,20 @@ export const getAll = async () => {
     return user
 }
 
+export const logIn = async (email, password) => {
+    const response = await fetch(
+        'http://localhost:4444/user/login?email=' + email + '&password=' + password, {
+            method: 'GET', 
+            headers: {
+                'Accept': 'application/json', 
+                'Content-Type':'application/json'
+            }
+        }
+    )
+    const user = await response.json()
+    return user
+}
+
 export const signUp = async (data) => {
     const response = await fetch(
         'http://localhost:4444/user/insert', {

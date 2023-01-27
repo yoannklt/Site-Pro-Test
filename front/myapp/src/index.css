@@ -254,6 +254,10 @@ p{
   height: 80vh;
 }
 
+#home{
+  scroll-margin-top: 71.6px;
+}
+
 .row{
   --bs-gutter-x: 0;
 }
@@ -311,6 +315,24 @@ p{
   text-transform: uppercase;
   text-decoration: none;
   color: #3B4040;
+}
+
+.reser{
+  background-color: black;
+  margin-top: 50px;
+  height: 1945px;
+}
+
+.photo{
+  background-image: url(img/image6.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 973px;
+  width: 100%;
+}
+
+.horraires{
+  height: 972px;
 }
 
 .avis{
