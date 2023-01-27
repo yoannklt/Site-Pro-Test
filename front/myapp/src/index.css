@@ -313,6 +313,24 @@ p{
   color: #3B4040;
 }
 
+.reser{
+  background-color: black;
+  margin-top: 50px;
+  height: 1945px;
+}
+
+.photo{
+  background-image: url(img/image6.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 973px;
+  width: 100%;
+}
+
+.horraires{
+  height: 972px;
+}
+
 .avis{
   margin-top: 50px;
 }

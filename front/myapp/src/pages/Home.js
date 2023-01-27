@@ -14,6 +14,7 @@ import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
 import BasicExample from "../components/Dropdown";
 import ScrollButton from "../components/ScrollButton";
+import Reservation from "../components/Reservation";
 
 function Home() {
     return (
@@ -157,6 +158,10 @@ function Home() {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div>
+                    <Reservation />
                 </div>
 
                 <div className="container avis">
