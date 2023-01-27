@@ -3,14 +3,14 @@ import Form from 'react-bootstrap/Form';
 import { useForm } from 'react-hook-form';
 import { signUp } from '../api/Users';
 
-function Singup() {
+export function Singup() {
 
   const { register, handleSubmit } = useForm();
-    const onSubmit = (data) => {
-        console.log(data)
-        //JSON.stringify(data);
-        signUp(data);
-    }
+  const onSubmit = (data) => {
+    console.log(data)
+    //JSON.stringify(data);
+    signUp(data);
+  }
 
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
@@ -48,4 +48,4 @@ function Singup() {
 <input className="userButton" type="submit" />
 </form> */}
 
-export default Singup;
+

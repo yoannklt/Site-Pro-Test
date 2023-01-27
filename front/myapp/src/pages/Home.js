@@ -14,6 +14,7 @@ import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
 import BasicExample from "../components/Dropdown";
 import ScrollButton from "../components/ScrollButton";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -25,7 +26,7 @@ function Home() {
                     <div className="col col-lg-12 hero" id="hero">
                     </div>
                     <div className="col col-lg-12">
-                        <a href="#home"><button className="discoverButton">Découvrir</button></a>
+                        <Link to="#home"><button className="discoverButton">Découvrir</button></Link>
                     </div>
                 </div>
 
