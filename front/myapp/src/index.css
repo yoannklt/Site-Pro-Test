@@ -282,6 +282,31 @@ p{
   color: #3B4040;
 }
 
+.avis{
+  margin-top: 50px;
+}
+
+.blocimgavis{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blocgrisavis{
+  width: 80%;
+  background-color: #F2F2F2;
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  height: fit-content;
+}
+
+.blocgrisavis h3{
+  margin-top: 20px;
+}
+
 /*News*/
 .head img{
   width: 100%;
