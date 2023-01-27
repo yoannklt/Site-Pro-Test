@@ -463,7 +463,7 @@ p{
   font-size: 80px;
   color: white;
   position: absolute;
-  bottom: 250px;
+  bottom: 390px;
 }
 .Bob{
   background-color: #eafffb;
@@ -482,6 +482,8 @@ p{
   background-color: #eafffb;
   padding-top: 50px;
   padding-bottom: 50px;
+  height: 500px;
+  border-radius: 25px;
 }
 
 .txt h3{
@@ -496,6 +498,27 @@ p{
   font-weight: 550;
   font-size: 25px;
   color: #3B4040;
+}
+
+.txtes {
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.txtes h3{
+  font-size: 50px;
+  font-family: 'Amiko', sans-serif;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.txtes p{
+  font-size: 25px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 550;
+  padding-bottom: 5px;
+  width: 75%;
+  color: black;
 }
 .bob1{
   border-radius: 25px;
