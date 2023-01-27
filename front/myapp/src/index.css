@@ -104,7 +104,7 @@ body {
 }
 
 .fromCoo label {
-  font-family: Amiko, sans-serif;
+  font-family: 'Amiko', sans-serif;
   font-weight: bold;
 }
 
@@ -116,11 +116,13 @@ body {
 .footer {
   background-color: #3B4040;
   color: #82FFE1;
+  font-family: 'Abel', sans-serif;
   display: flex;
   height: 150px;
   width: 100%;
   bottom: 0;
   align-items: center;
+  margin-top: 50px;
 }
 
 .footer .bloc1 a{
@@ -307,6 +309,27 @@ p{
   margin-top: 20px;
 }
 
+.faq{
+  margin-top: 50px;
+  align-items: center;
+}
+
+.faq img{
+  height: 15px;
+  width: 15px;
+  margin-right: 15px;
+
+}
+
+.faq span{
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+}
+
+.question{
+  margin-bottom: 10px;
+}
 /*News*/
 .head img{
   width: 100%;
