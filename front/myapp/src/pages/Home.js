@@ -12,7 +12,6 @@ import image8 from '../img/image8.png';
 import logoHome from '../img/thesense.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
-import rondgris from '../img/rondgris.png';
 import BasicExample from "../components/Dropdown";
 
 function Home() {

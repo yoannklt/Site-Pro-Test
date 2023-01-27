@@ -3,7 +3,6 @@ import decouvrir from '../img/découvrir.png';
 import btob1 from '../img/btob1.png';
 import btob2 from '../img/btob2.png';
 import btob3 from '../img/btob3.png';
-import Container from 'react-bootstrap/Container';
 import image146 from '../img/image146.png';
 
 function BtoB() {
