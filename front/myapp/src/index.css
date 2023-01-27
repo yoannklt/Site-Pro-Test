@@ -2,13 +2,38 @@ html{
   scroll-behavior: smooth;
 }
 
+.panel-dark{
+  background-color: black;
+  color: white;
+}
+
+.panel-light{
+  background-color: white;
+  color: black;
+}
+
+.panel-light p{
+  color: black;
+}
+
+.panel-dark p{
+  color: white;
+}
+
+.panel-dark h1{
+  color: white;
+}
+
+.panel-light h1{
+  color: black;
+}
+
 body {
   padding: 0;
   margin: 0;
   background-image: url(img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 /*NavBar*/
@@ -105,7 +130,7 @@ body {
 }
 
 .fromCoo label {
-  font-family: Amiko, sans-serif;
+  font-family: 'Amiko', sans-serif;
   font-weight: bold;
 }
 
@@ -117,11 +142,13 @@ body {
 .footer {
   background-color: #3B4040;
   color: #82FFE1;
+  font-family: 'Abel', sans-serif;
   display: flex;
   height: 150px;
   width: 100%;
   bottom: 0;
   align-items: center;
+  margin-top: 50px;
 }
 
 .footer .bloc1 a{
@@ -169,8 +196,8 @@ body {
   margin-bottom: 80px;
 }
 
-.carousel-control-prev span{
-  color: #3B4040;
+.carousel-control-prev-icon span{
+  color: #3B4040 !important;
 }
 
 /*in general*/
@@ -283,6 +310,52 @@ p{
   color: #3B4040;
 }
 
+.avis{
+  margin-top: 50px;
+}
+
+.blocimgavis{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blocgrisavis{
+  width: 80%;
+  background-color: #F2F2F2;
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  height: fit-content;
+}
+
+.blocgrisavis h3{
+  margin-top: 20px;
+}
+
+.faq{
+  margin-top: 50px;
+  align-items: center;
+}
+
+.faq img{
+  height: 15px;
+  width: 15px;
+  margin-right: 15px;
+
+}
+
+.faq span{
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+}
+
+.question{
+  margin-bottom: 10px;
+}
 /*News*/
 .head img{
   width: 100%;

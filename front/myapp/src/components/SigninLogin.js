@@ -8,6 +8,7 @@ function SigninLogin() {
       <OverlayTrigger
         trigger="click"
         placement='left'
+        rootClose='true'
         overlay={
           <Popover id={`popover-positioned-left`} className='popUpLog'> 
             <Popover.Body>

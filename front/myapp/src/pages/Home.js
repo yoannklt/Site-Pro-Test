@@ -12,6 +12,7 @@ import image8 from '../img/image8.png';
 import logoHome from '../img/thesense.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer"
+import rondgris from '../img/rondgris.png';
 
 function Home() {
     return (
@@ -28,20 +29,20 @@ function Home() {
                 </div>
 
                 <div className="row bob align-items-start">
-                   <div className ="col-lg-5 img text-center ">
+                    <div className="col-lg-5 img text-center ">
                         <img className="img-fluid image9 align-self-center" src={image9} alt="img9"></img>
-                   </div>
-                   <div className="col-lg-7 txt row align-items-baseline">
+                    </div>
+                    <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
                             <h1 className="">Qu'est-ce que</h1>
                         </div>
                         <div className="col col-lg-2">
-                            <img className="img-fluid logoHome text-start" src={logoHome}  alt="logo the sense"></img>
+                            <img className="img-fluid logoHome text-start" src={logoHome} alt="logo the sense"></img>
                         </div>
                         <div className="col col-lg-2">
                             <p>&nbsp;?</p>
                         </div>
-                   </div>
+                    </div>
                 </div>
 
 
@@ -157,12 +158,15 @@ function Home() {
                     </div>
                 </div>
 
+                <div className="container avis">
+                    <h3><strong>Les news du mois</strong></h3>
+                </div>
                 <div className="row text-center">
                     <div className="container col-lg-5">
-                        <div className="container blocimgnews">
+                        <div className="container blocimgavis">
                             <img className="img-fluid" src={image7} alt="" />
                         </div>
-                        <div className="container blocgrisnews">
+                        <div className="container blocgrisavis">
                             <div className="row">
                             </div>
                             <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
@@ -170,10 +174,10 @@ function Home() {
                         </div>
                     </div>
                     <div className="container col-lg-5">
-                        <div className="container blocimgnews">
+                        <div className="container blocimgavis">
                             <img className="img-fluid" src={image8} alt="" />
                         </div>
-                        <div className="container blocgrisnews">
+                        <div className="container blocgrisavis">
                             <div className="row">
                             </div>
                             <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
@@ -182,12 +186,36 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container">
+                <div className="container avis">
                     <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
                 </div>
 
                 <div className="carouselavis">
-                    <FadeCarouselavis/>
+                    <FadeCarouselavis />
+                </div>
+
+                <div className="container faq">
+                    <h2><strong>Foire aux questions</strong></h2>
+                    <div className="question align-items-center">
+                        <img src={rondgris} alt="" />
+                        <span>Qu'est-ce que THE SENSE ?</span>
+                    </div>
+                    <div className="question align-items-center">
+                        <img src={rondgris} alt="" />
+                        <span>Il y a-t-il un âge et une taille minimum pour participer à une expérience THE SENSE ?</span>
+                    </div>
+                    <div className="question align-items-center">
+                        <img src={rondgris} alt="" />
+                        <span>Quel est le nombre maximum de participants pour jouer ?</span>
+                    </div>
+                    <div className="question align-items-center">
+                        <img src={rondgris} alt="" />
+                        <span>Avez-vous une politique d'annulation et de remboursement ? Si oui, comment se déroule-t-elle ?</span>
+                    </div>
+                    <div className="question align-items-center">
+                        <img src={rondgris} alt="" />
+                        <span> Est-il possible de déposer mes affaires "encombrants" avant de faire une expérience ? Puis-je garder mes lunettes ?</span>
+                    </div>
                 </div>
 
             </div>
