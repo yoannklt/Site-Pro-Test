@@ -28,7 +28,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="row bob align-items-start">
+                <div className="row Bob align-items-start">
                     <div className="col-lg-5 img text-center ">
                         <img className="img-fluid image9 align-self-center" src={image9} alt="img9"></img>
                     </div>
