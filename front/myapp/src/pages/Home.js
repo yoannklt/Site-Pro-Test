@@ -24,11 +24,11 @@ function Home() {
                     <div className="col col-lg-12 hero">
                     </div>
                     <div className="col col-lg-12">
-                        <button className="discoverButton">Découvrir</button>
+                        <a href="#home"><button className="discoverButton">Découvrir</button></a>
                     </div>
                 </div>
 
-                <div className="row Bob align-items-start">
+                <div id="home" className="row Bob align-items-start">
                     <div className="col-lg-5 img text-center ">
                         <img className="img-fluid image9 align-self-center" src={image9} alt="img9"></img>
                     </div>
