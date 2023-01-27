@@ -4,7 +4,7 @@ import btob1 from '../img/btob1.png';
 import btob2 from '../img/btob2.png';
 import btob3 from '../img/btob3.png';
 import Container from 'react-bootstrap/Container';
-import image146 from '../img/image146.jpg';
+import image146 from '../img/image146.png';
 
 function BtoB() {
     return (
@@ -23,7 +23,7 @@ function BtoB() {
                     </div>
                 </div>
 
-                <div className="row bob" id="BtoB">
+                <div className="row Bob" id="BtoB">
                    <div className ="col-lg-5 img text-center">
                         <img className="img-fluid img146 align-self-center" src={image146} alt="img146"></img>
                    </div>
@@ -38,9 +38,10 @@ function BtoB() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
                 </div>
                 
-                <Container fluid="xxl">
-                    <div className="row bob">
-                        <div className="container col-lg-5 img text-center">
+                
+                <div className="troiscase">
+                    <div className="row bob1">
+                        <div className="container col-lg-5 img text-center ">
                             <img className="img-fluid btob2 align-self-center" src={btob2} alt="img8" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center txt">
@@ -48,7 +49,7 @@ function BtoB() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
                     </div>
-                    <div className="row bob">
+                    <div className="row bob2">
                         <div className="col-lg-7 text-left align-self-center txt">
                             <h3><strong>POUR LE SECTEUR COMMERCIAL</strong></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
@@ -57,7 +58,7 @@ function BtoB() {
                             <img className="img-fluid btob1 align-self-center" src={btob1} alt="image25" />
                         </div>
                     </div>
-                    <div className="row bob">
+                    <div className="row bob3">
                         <div className="container col-lg-5 img text-center">
                             <img className="img-fluid btob3 align-self-center" src={btob3} alt="img8" />
                         </div>
@@ -66,8 +67,8 @@ function BtoB() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
                     </div>
+                </div>   
                 
-                </Container>
             </div>
         </div>
     )
