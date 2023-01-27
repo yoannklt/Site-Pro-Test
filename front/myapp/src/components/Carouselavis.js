@@ -8,7 +8,7 @@ function FadeCarouselavis() {
     return (
 
         <div className='carouselavis'>
-            <Carousel fade pause hover>
+            <Carousel fade pause='hover' variant="dark">
                 <Carousel.Item>
                     <img className="d-block w-100" src={color} alt="" />
                     <Carousel.Caption>

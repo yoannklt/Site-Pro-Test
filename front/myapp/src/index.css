@@ -171,8 +171,8 @@ body {
   margin-bottom: 80px;
 }
 
-.carousel-control-prev span{
-  color: #3B4040;
+.carousel-control-prev-icon span{
+  color: #3B4040 !important;
 }
 
 /*in general*/
