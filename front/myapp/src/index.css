@@ -158,7 +158,6 @@ body {
   width: 100%;
   bottom: 0;
   align-items: center;
-  margin-top: 50px;
 }
 
 .footer .bloc1 a{
@@ -648,6 +647,8 @@ h2{
 
 .formBackground{
   background-image: url(../src/img/LogoBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .formBackground .text-center h2{
@@ -655,4 +656,25 @@ h2{
   font-weight: bold;
   text-transform: none;
   font-size: 40px;
+}
+
+.formCreateAccount{
+  width: 20%;
+  height: 48px;
+}
+
+.topFormAccount{
+  margin-top: 10px;
+}
+
+.createAccount{
+  height: 100px;
+}
+
+.accountButton{
+  width: fit-content;
+}
+
+.myAccount{
+  align-items: center;
 }
