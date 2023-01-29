@@ -491,7 +491,7 @@ p{
   font-size: 80px;
   color: white;
   position: absolute;
-  bottom: 450px;
+  bottom: 0px;
 }
 .Bob{
   background-color: #eafffb;
@@ -508,7 +508,7 @@ p{
 
 .txt{
   background-color: #eafffb;
-  padding-top: 50px;
+  padding-top: 15px;
   padding-bottom: 50px;
   height: 500px;
   border-radius: 25px;
@@ -611,20 +611,86 @@ p{
 }
 
 /* Contact forms */
+.contact-form{
+  opacity: 55%;
 
+}
 .prenom{
   flex-wrap: nowrap;
+  width: 100%;
 }
 
 .formes{
   display: flex;
   justify-content: center;
 }
+.mb-1{
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
+.contour{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.emailtop{
+  margin-bottom: 10px;
+}
 h2{
   font-weight: bolder;
 }
 
+.btn-primary{
+  background-color: #1BDCC5;
+  border: 1px solid #1BDCC5;
+}
+
+/* EQUIPEMENT*/ 
+
+.ekip h1{
+  font-family: 'Audiowide', cursive;
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  bottom: 200px;
+}
+
+.backgroundEkip{
+  height: 560px;
+  background-image: url(../src/img/backgroundEkip.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ekip{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtesE {
+  padding-left: 135px;
+  padding-top: 100px;
+}
+
+.txtesE h3{
+  font-size: 35px;
+  font-family: 'Amiko', sans-serif;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.txtesE p{
+  font-size: 25px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 550;
+  padding-bottom: 5px;
+  width: 86%;
+  color: black;
+}
+
+/* Account */
 .myAccount{
     display: flex;
     justify-content: center;

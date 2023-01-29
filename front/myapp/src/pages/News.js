@@ -4,6 +4,7 @@ import image25 from '../img/image25.png';
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
 import FadeCarousel from "../components/Carousel";
+import Footerter from "../components/Footer";
 
 function News() {
     return (
@@ -70,6 +71,7 @@ function News() {
                 </div>
 
             </div>
+            <Footerter/>
         </div>
     )
 }

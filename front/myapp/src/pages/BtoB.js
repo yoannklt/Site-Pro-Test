@@ -5,6 +5,7 @@ import btob1 from '../img/btob1.png';
 import btob2 from '../img/btob2.png';
 import btob3 from '../img/btob3.png';
 import image146 from '../img/image146.png';
+import Footerter from "../components/Footer";
 
 function BtoB() {
     return (
@@ -76,6 +77,7 @@ function BtoB() {
                     <Contactee/>
                 </div>
             </div>
+            <Footerter/>
         </div>
     )
 }
