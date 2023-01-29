@@ -470,6 +470,15 @@ p{
   margin-top: 20px;
 }
 
+/* BtoB */
+
+.backgroundBtoB{
+  height: 540px;
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*BtoB*/
 
 .backgroundBtoB{
