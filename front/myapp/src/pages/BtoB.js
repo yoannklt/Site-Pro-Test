@@ -41,7 +41,6 @@ function BtoB() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
                 </div>
                 
-                
                 <div className="troiscase">
                     <div className="row bob1">
                         <div className="container col-lg-5 img text-center ">
