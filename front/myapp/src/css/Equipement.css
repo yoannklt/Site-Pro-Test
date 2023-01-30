@@ -1,18 +1,36 @@
 /* EQUIPEMENT*/ 
 
+
 .ekip h1{
     font-family: 'Audiowide', cursive;
     font-size: 80px;
     color: white;
     position: absolute;
-    bottom: 200px;
+    bottom: 300px;
   }
-  
+
+.Bob{
+    background-color: lightblue;
+}
+
+.Bob img{
+    border-radius: 75%;
+    border: 15px solid grey;
+}
+
+
+.txt {
+    background-color: lightblue;
+    border-radius: 10px;
+    height: 350px;
+    padding-top: 45px;
+}
+
   .backgroundEkip{
-    height: 560px;
+    height: 650px;
     background-image: url(../img/backgroundEkip.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
   
   .ekip{

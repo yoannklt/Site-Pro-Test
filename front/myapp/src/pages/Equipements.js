@@ -7,6 +7,7 @@ import image121 from '../img/image121.png';
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
 
+
 function Equipement() {
     return (
         <div className="fond">
