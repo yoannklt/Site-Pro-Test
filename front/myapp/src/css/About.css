@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .panel-dark{
+    background-color: black;
+    color: white;
+  }
+  
+  .panel-light{
+    background-color: white;
+    color: black;
+  }
+  
+  .panel-light p{
+    color: black;
+  }
+  
+  .panel-dark p{
+    color: white;
+  }
+  
+  .panel-dark h1{
+    color: white;
+  }
+  
+  .panel-light h1{
+    color: black;
+  }
+  
+  body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  

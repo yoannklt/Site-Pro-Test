@@ -59,8 +59,6 @@ function Home() {
                         <img className="img-fluid" src={image10} alt="" />
                     </div>
                     <div className="container blocgris">
-                        <div className="row">
-                        </div>
                         <div className="blochome">
                             <h3><strong>Shangri-la : la cité perdue de z</strong></h3>
                             <h3>|</h3>

@@ -1,4 +1,4 @@
-import "./index.css";
+import "./css/index.css";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import About from "./pages/About";
