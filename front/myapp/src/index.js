@@ -8,6 +8,7 @@ import '../src/css/Home.css';
 import '../src/css/News.css';
 import '../src/css/About.css';
 import '../src/css/BtoB.css';
+import '../src/css/Equipements.css';
 
 import App from './App';
 

@@ -84,7 +84,7 @@ p {
   font-family: 'Amiko', sans-serif;
   font-weight: bold;
   font-size: 120px;
-  color: white
+  color: white;
 }
 
 /*Bandeau bleu*/
@@ -113,15 +113,24 @@ p {
 }
 
 /*troiscase*/
-.troiscase{
+.troiscase {
   margin-top: 100px;
 }
 
-.blocbleu{
+.blocbtob {
+  margin-top: 100px;
+}
+
+.blocbleu {
   background-color: #eafffb;
 }
 
+.blocbleu img {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 /*contact*/
-.contact{
+.contact {
   margin-top: 100px;
 }
