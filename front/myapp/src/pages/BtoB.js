@@ -40,10 +40,10 @@ function BtoB() {
                     <h3><strong>AU SERVICE DES PROFESSIONNELS</strong></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
                 </div>
-                
+
                 <div className="troiscase">
-                    <div className="row">
-                        <div className="container col-lg-5 img text-center">
+                    <div className="row blocbtob">
+                        <div className="container col-lg-5 img text-center blocbleu">
                             <img className="img-fluid align-self-center" src={btob2} alt="img8" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
@@ -51,17 +51,17 @@ function BtoB() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row blocbtob">
                         <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>POUR LE SECTEUR COMMERCIAL</strong></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
-                        <div className="container col-lg-5 img text-center">    
+                        <div className="container col-lg-5 img text-center blocbleu">    
                             <img className="img-fluid align-self-center" src={btob1} alt="image25" />
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="container col-lg-5 img text-center">
+                    <div className="row blocbtob">
+                        <div className="container col-lg-5 img text-center blocbleu">
                             <img className="img-fluid align-self-center" src={btob3} alt="img8" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
