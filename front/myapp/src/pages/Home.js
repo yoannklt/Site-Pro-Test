@@ -1,6 +1,5 @@
 import "../css/Home.css";
 import Navbarbar from "../components/Navbar";
-import Footerter from "../components/Footer"
 import ScrollButton from "../components/ScrollButton";
 import image9 from "../img/image9.png";
 import thesense from '../img/thesense.png';
@@ -16,6 +15,7 @@ import image8 from '../img/image8.png';
 import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
+import Footerter from "../components/Footer";
 
 
 function Home() {
@@ -24,10 +24,10 @@ function Home() {
             <div>
                 <Navbarbar />
             </div>
-            <ScrollButton />
-            <div id="Hero">
-                < ScrollButton/>
-                <div className="container col col-lg-12 text-center hero">
+            <div>
+                <ScrollButton/>
+
+                <div id="Hero" className="container col col-lg-12 text-center">
                     <div className="container discoverhome">
                         <a href="#Hero"><button className="discoverButton">Découvrir</button></a>
                     </div>
