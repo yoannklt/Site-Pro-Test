@@ -10,7 +10,7 @@ import image146 from '../img/image146.png';
 
 function BtoB() {
     return (
-        <div className="fond">
+        <div>
             <div className="backgroundBtoB">
                 <Navbarbar />
                 <div className="btob">
@@ -18,7 +18,7 @@ function BtoB() {
                 </div>
             </div>
 
-            <div className="class">
+            <div>
                 
                 <div className="container col col-lg-12 text-center">
                     <div className="container discover">
@@ -36,7 +36,7 @@ function BtoB() {
                    </div>
                 </div>
 
-                <div className="col-lg-12 align-text-center txtes"> 
+                <div className="container description col-lg-12 align-text-center"> 
                     <h3><strong>AU SERVICE DES PROFESSIONNELS</strong></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
                 </div>
