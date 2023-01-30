@@ -11,6 +11,22 @@ body {
     background-position: top;
 }
 
+.hero {
+    height: 80vh;
+}
+
+#Home {
+    scroll-margin-top: 71.6px;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.labelConnection {
+    height: 200px;
+}
+
 /*Pour tous les textes en général*/
 h1 {
     display: flex;
@@ -48,29 +64,9 @@ p {
     font-size: 28px;
 }
 
-.discover {
-    margin-top: 200px;
+.discoverhome {
+    margin-top: 800px;
     margin-bottom: 100px;
-}
-
-/*bloc gris*/
-.blocimg {
-    margin-top: 100px;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.blocgris {
-    width: 95%;
-    background-color: #F2F2F2;
-    align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: fit-content;
-}
-
-.blocgris h3 {
-    margin-top: 20px;
 }
 
 /*Bandeau bleu*/
@@ -93,6 +89,112 @@ p {
     margin-bottom: 25px;
 }
 
+/*description*/
 .description {
     margin-top: 100px;
+}
+
+/*bloc gris*/
+.blocimg {
+    margin-top: 100px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.blocgris {
+    width: 95%;
+    background-color: #F2F2F2;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: fit-content;
+}
+
+.blocgris h3 {
+    margin-top: 20px;
+}
+
+.blochome {
+    display: flex;
+}
+
+.blochome h3 {
+    margin-left: 20px;
+}
+
+.parag h4 {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+/*bloc gris news*/
+.news {
+    margin-top: 100px;
+}
+
+.blocimgnews {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.blocgrisnews {
+    width: 80%;
+    background-color: #F2F2F2;
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.blocgrisnews h3 {
+    margin-top: 20px;
+}
+
+.blocgrisnews p {
+    font-size: 20px;
+}
+
+/*avis*/
+.avis {
+    margin-top: 100px;
+}
+
+/*carouselavis*/
+.carouselavis p {
+    color: #3B4040;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+
+.carouselavis .journal img {
+    height: 95px;
+    margin-bottom: 80px;
+}
+
+/*faq*/
+.faq {
+    margin-top: 50px;
+    align-items: center;
+    border: none;
+}
+
+.faq img {
+    height: 15px;
+    width: 15px;
+    margin-right: 15px;
+
+}
+
+.faq span {
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+.question {
+    margin-bottom: 10px;
 }

@@ -11,17 +11,17 @@ function News() {
         <div>
             <div className="background">
                 <Navbarbar />
-                <div className="news">
+                <div className="news2">
                     <h1>LES NEWS</h1>
                 </div>
             </div>
             <div className="class">
                 
                 <div className="container col col-lg-12">
-                    <div className="container blocimgnews">
+                    <div className="container blocimg2news">
                         <img className="img-fluid" src={image26} alt="img26" />
                     </div>
-                    <div className="container blocgrisnews">
+                    <div className="container blocgris2news">
                         <div className="row">
                         </div>
                         <h3><strong>évènement : la légende du père noël</strong></h3>
@@ -31,10 +31,10 @@ function News() {
 
                 <div className="row text-center">
                     <div className="container col-lg-5">
-                        <div className="container blocimgnews">
+                        <div className="container blocimg2news">
                             <img className="img-fluid" src={image7} alt="" />
                         </div>
-                        <div className="container blocgrisnews">
+                        <div className="container blocgris2news">
                             <div className="row">
                             </div>
                             <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>
@@ -42,7 +42,7 @@ function News() {
                         </div>
                     </div>
                     <div className="container col-lg-5">
-                        <div className="container blocimgnews">
+                        <div className="container blocimg2news">
                             <img className="img-fluid" src={image8} alt="" />
                         </div>
                         <div className="container blocgrisnews">
@@ -55,10 +55,10 @@ function News() {
                 </div>
 
                 <div className="container col-lg-12">
-                    <div className="container blocimgnews">
+                    <div className="container blocimg2news">
                         <img className="img-fluid" src={image25} alt="" />
                     </div>
-                    <div className="container blocgrisnews">
+                    <div className="container blocgris2news">
                         <div className="row">
                         </div>
                         <h3><strong>évènement : le mystère du loup pharaon.</strong></h3>

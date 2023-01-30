@@ -460,7 +460,7 @@ p{
   background-size: cover;
 }
 
-.news{
+.newss{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,13 +474,13 @@ p{
   color: white;
 }
 
-.blocimgnews{
+.blocimg2news{
   margin-top: 100px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.blocgrisnews{
+.blocgris2news{
   width: 80%;
   background-color: #F2F2F2;
   color: #646363;
@@ -492,7 +492,7 @@ p{
   height: fit-content;
 }
 
-.blocgrisnews h3{
+.blocgris2news h3{
   margin-top: 20px;
 }
 
