@@ -26,7 +26,6 @@ function Home() {
             </div>
 
             <div>
-                <ScrollButton />
 
                 <div id="Hero" className="container col col-lg-12 text-center">
                     <div className="container discoverhome">

@@ -5,29 +5,10 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-}
-
-.background {
-    height: 540px;
-    background-image: url(../img/image24.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#Home {
-    scroll-margin-top: 71.6px;
-}
-
-.row {
-    --bs-gutter-x: 0;
-}
-
-.labelConnection {
-    height: 200px;
 }
 
 /*Pour tous les textes en général*/
@@ -54,4 +35,56 @@ p {
     color: #646363;
     font-family: 'Abel', sans-serif;
     font-size: 25px;
+}
+
+/*News*/
+.background {
+    height: 540px;
+    background-image: url(../img/image24.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86.5%;
+}
+
+.news h1 {
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    color: white;
+}
+
+/*bloc gris*/
+.blocnews {
+    margin-top: 100px;
+}
+
+.blocimgnews {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.blocgrisnews {
+    width: 80%;
+    background-color: #F2F2F2;
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.blocgrisnews h3 {
+    margin-top: 20px;
+}
+
+.blocgrisnews p {
+    font-size: 20px;
 }
