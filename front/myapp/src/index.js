@@ -6,6 +6,7 @@ import '../src/css/Footer.css';
 import '../src/css/Carousel.css';
 import '../src/css/Home.css';
 import '../src/css/News.css';
+import '../src/css/About.css';
 
 import App from './App';
 
