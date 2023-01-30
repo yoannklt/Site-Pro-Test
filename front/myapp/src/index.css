@@ -515,6 +515,31 @@ p{
   margin-top: 100px;
 }
 
+.team{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.team p{
+  font-size: 20px;
+}
+
+.team h3{
+  font-family: 'Abel', sans-serif;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.team h4{
+  font-family: 'Abel', sans-serif;
+}
+
+.turquoise{
+  color: #82FFE1;
+  text-transform: none;
+}
+
 .map{
   display: flex;
   margin-top: 100px;
@@ -551,8 +576,6 @@ p{
   display: flex;
   justify-content: center;
 }
-
-
 
 .txtes p{
   font-size: 25px;
@@ -668,14 +691,14 @@ h2{
   font-size: 80px;
   color: white;
   position: absolute;
-  bottom: 300px;
+  bottom: 200px;
 }
 
 .backgroundEkip{
-  height: 650px;
+  height: 560px;
   background-image: url(../src/img/backgroundEkip.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .ekip{
