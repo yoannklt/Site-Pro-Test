@@ -1,4 +1,4 @@
-import '../css/index.css';
+import '../css/Footer.css';
 import ytblogo from '../img/ytblogo.png';
 import instalogo from '../img/instalogo.png';
 import twitterlogo from '../img/twitterlogo.png';

@@ -118,15 +118,6 @@ function About() {
 
             </div>
 
-
-
-
-
-
-
-
-
-
             <Footerter />
         </div>
     )
