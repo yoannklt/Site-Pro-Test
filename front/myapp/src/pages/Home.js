@@ -22,7 +22,7 @@ function Home() {
         <div>
             <Navbarbar />
             <div className="">
-
+                < ScrollButton/>
                 <div className="container col col-lg-12 text-center">
                     <div className="container discover">
                     <a href="#About"><button className="discoverButton">Découvrir</button></a>
