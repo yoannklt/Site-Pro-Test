@@ -1,7 +1,7 @@
 /*BtoB*/
 
 .backgroundBtoB{
-  height: 540px;
+  height: 675px;
   background-image: url(../img/fondbob.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,14 @@
   justify-content: center;
 }
 
+.btob h1{
+    font-size: xx-large;
+    font-family: 'Audiowide' , sans-serif;
+    font-weight: bolder;
+    bottom: 200px;
+    color: white;
+    position: absolute;
+}
 .txtes p{
   font-size: 25px;
   font-family: 'Abel', sans-serif;
