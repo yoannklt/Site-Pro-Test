@@ -1,11 +1,12 @@
 import Navbarbar from "../components/Navbar";
+import Footerter from "../components/Footer";
 import Contactee from "../components/Contact";
 import decouvrir from '../img/découvrir.png';
 import btob1 from '../img/btob1.png';
 import btob2 from '../img/btob2.png';
 import btob3 from '../img/btob3.png';
 import image146 from '../img/image146.png';
-import Footerter from "../components/Footer";
+
 
 function BtoB() {
     return (
@@ -16,25 +17,26 @@ function BtoB() {
                     <h1>NOS SERVICES B TO B</h1>
                 </div>
             </div>
+
             <div className="class">
                 
                 <div className="container col col-lg-12 text-center">
-                    <div className="container blocimg discover">
+                    <div className="container discover">
                         <a href="#Btob"><img className="img-fluid" src={decouvrir} alt="bouton decouvrir" /></a>
                     </div>
                 </div>
 
-                <div className="row Bob" id="Btob">
-                   <div className ="col-lg-5 img text-center">
-                        <img className="img-fluid img146 align-self-center" src={image146} alt="img146"></img>
+                <div id="Btob" className="row bandeaubleu" >
+                   <div className ="col-lg-4 img text-center">
+                        <img className="img-fluid imgronde align-self-center" src={image146} alt="img146"></img>
                    </div>
-                   <div className="col-lg-7 text-left align-self-center txt">
+                   <div className="col-lg-7 text-left align-self-center">
                         <h3><strong>THE SENSE POUR LES PROFESSIONNELS</strong></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                    </div>
                 </div>
 
-                <div className="col-lg-12 align-text-center txtes">
+                <div className="col-lg-12 align-text-center txtes"> 
                     <h3><strong>AU SERVICE DES PROFESSIONNELS</strong></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
                 </div>

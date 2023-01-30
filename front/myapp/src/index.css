@@ -28,7 +28,7 @@ html{
   color: black;
 }
 
-body {
+body{
   padding: 0;
   margin: 0;
   background-image: url(img/background.png);
@@ -38,33 +38,33 @@ body {
 }
 
 /*NavBar*/
-.navbar {
+.navbar{
   background-color: rgba(255, 255, 255, 0.85) !important;
   position: fixed;
   width: 100%;
   top: 0;
 }
 
-.navbar-nav {
+.navbar-nav{
   flex-direction: row !important;
 }
 
-.navbrand img {
+.navbrand img{
   width: 66px;
   margin-left: 40px;
 }
 
-.list {
+.list{
   justify-content: right;
   padding-right: 40px !important;
   text-align: center;
 }
 
-.list span {
+.list span{
   margin-bottom: 6px;
 }
 
-.navbarrr a {
+.navbarrr a{
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
@@ -73,16 +73,16 @@ body {
   text-decoration: none;
 }
 
-.navbarrr a:hover {
+.navbarrr a:hover{
   transform: scale(1.06);
   transition: 100ms;
 }
 
-.test {
+.test{
   border: none;
 }
 
-.NavLink {
+.NavLink{
   color: black !important;
   font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
@@ -91,65 +91,12 @@ body {
   margin-right: 5px !important;
 }
 
-.test {
+.test{
   border: none;
-}
-
-/*Form se connecter et s'inscrire*/
-.popUpLog {
-  --bs-popover-max-width: 525px !important;
-}
-
-.btnform a:hover {
-  transform: scale(1.06);
-  transition: 100ms;
-}
-
-.labelLog {
-  text-align: right;
-}
-
-.fromCoo{
-  height: 262px;
-}
-
-.fromCoo .pout {
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #1BDCC5;
-  width: 70%;
-}
-
-.fromCoo .fout {
-  color: white;
-  background-color: black;
-  border-radius: 5px;
-  font-family: 'Amiko', sans-serif;
-  font-weight: bold;
-  width: fit-content;
-  text-align: center;
-}
-
-.form-label {
-  margin-bottom: 0rem; 
-}
-
-.labelLog a {
-  text-decoration: none;
-  color: black;
-}
-
-.fromCoo label {
-  font-family: 'Amiko', sans-serif;
-  font-weight: bold;
-}
-
-.oppai{
-  font-size: 20px;
 }
 
 /*Footer*/
-.footer {
+.footer{
   background-color: #3B4040;
   color: #82FFE1;
   font-family: 'Abel', sans-serif;
@@ -182,7 +129,60 @@ body {
   height: 38px;
 }
 
-/*Carousel*/
+/*Form se connecter et s'inscrire*/
+.popUpLog {
+  --bs-popover-max-width: 525px !important;
+}
+
+.btnform a:hover{
+  transform: scale(1.06);
+  transition: 100ms;
+}
+
+.labelLog{
+  text-align: right;
+}
+
+.fromCoo{
+  height: 262px;
+}
+
+.fromCoo .pout{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #1BDCC5;
+  width: 70%;
+}
+
+.fromCoo .fout{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+  width: fit-content;
+  text-align: center;
+}
+
+.form-label{
+  margin-bottom: 0rem; 
+}
+
+.labelLog a{
+  text-decoration: none;
+  color: black;
+}
+
+.fromCoo label{
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+}
+
+.oppai{
+  font-size: 20px;
+}
+
+/*Carousel et Carouselavis*/
 .carousel h3{
   color: #eafffb;
   margin-bottom: 50px;
@@ -205,11 +205,7 @@ body {
   margin-bottom: 80px;
 }
 
-.carousel-control-prev-icon span{
-  color: #3B4040 !important;
-}
-
-/*in general*/
+/*Pour tous les textes en général*/
 h1 {
   display: flex;
   justify-content: space-around;
@@ -223,7 +219,7 @@ h2{
   color: #3B4040;
 }
 
-h3 {
+h3{
   text-transform: uppercase;
   font-family: 'Amiko', sans-serif;
   color: #3B4040;
@@ -232,9 +228,21 @@ h3 {
 p{
   color: #646363;
   font-family: 'Abel', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
+/*Boutton découvrir*/
+.discoverButton{
+  height: 61px;
+  width: 263px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+/*bloc gris*/
 .blocimg{
   margin-top: 100px;
   padding-left: 0 !important;
@@ -248,12 +256,42 @@ p{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   height: fit-content;
-
 }
 
 .blocgris h3{
   margin-top: 20px;
 }
+
+/*Bandeau bleu*/
+.bandeaubleu{
+  background-color: #eafffb;
+}
+
+.bandeaubleu p{
+  font-size: 25px;
+}
+
+.imgronde{
+  border-radius: 250px;
+  border: 15px solid #bbccc9; 
+}
+
+.img img{
+  height: 350px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.description{
+  margin-top: 100px;
+}
+
+.map img{
+  height: 400px;
+}
+
+
+
 
 /*Home*/
 .hero{
@@ -270,16 +308,6 @@ p{
 
 .labelConnection{
   height: 200px;
-}
-
-.discoverButton{
-  height: 61px;
-  width: 263px;
-  border-radius: 15px;
-  background-color: black;
-  color: white;
-  text-transform: uppercase;
-  font-size: 28px;
 }
 
 .blochome{
@@ -470,19 +498,38 @@ p{
   margin-top: 20px;
 }
 
-/* BtoB */
+/*About*/
 
-.backgroundBtoB{
+.backgroundabout{
   height: 540px;
-  background-image: url();
+  background-image: url(img/image53.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.thesense{
+  display: flex;
+  justify-content: center;
+}
+
+.thesense img{
+  height: 400px;
+  margin-top: 100px;
+}
+
+.map{
+margin-top: 100px;
+}
+
+.horaires2{
+  display: flex;
+  justify-content: center;
 }
 
 /*BtoB*/
 
 .backgroundBtoB{
-  height: 845px;
+  height: 540px;
   background-image: url(../src/img/fondbob.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -491,63 +538,12 @@ p{
 .btob{
   display: flex;
   justify-content: center;
-  align-items: center;
-
 }
 
 .btob h1{
-  font-family: 'Audiowide', cursive;
-  font-size: 80px;
-  color: white;
-  position: absolute;
-  bottom: 0px;
-}
-.Bob{
-  background-color: #eafffb;
-}
-.img146{
-  border-radius: 250px;
-  border: 20px solid #bbccc9; 
+
 }
 
-.img{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.txt{
-  background-color: #eafffb;
-  padding-top: 15px;
-  padding-bottom: 50px;
-  height: 500px;
-  border-radius: 25px;
-}
-
-.txt h3{
-  font-family: 'Amiko', sans-serif;
-  font-weight: inherit;
-  font-size: 35px;
-  margin-bottom: 40px;
-}
-
-.txt p{
-  font-family: 'Abel', sans-serif;
-  font-weight: 550;
-  font-size: 25px;
-  color: #3B4040;
-}
-
-.txtes {
-  padding-left: 250px;
-  padding-top: 100px;
-}
-
-.txtes h3{
-  font-size: 59px;
-  font-family: 'Amiko', sans-serif;
-  font-weight: bolder;
-  padding-bottom: 5px;
-}
 
 .txtes p{
   font-size: 25px;
@@ -557,6 +553,7 @@ p{
   width: 75%;
   color: black;
 }
+
 .bob1{
   border-radius: 25px;
   margin-top: 40px;
