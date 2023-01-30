@@ -540,9 +540,6 @@ margin-top: 100px;
   justify-content: center;
 }
 
-.btob h1{
-
-}
 
 
 .txtes p{
@@ -659,14 +656,14 @@ h2{
   font-size: 80px;
   color: white;
   position: absolute;
-  bottom: 200px;
+  bottom: 300px;
 }
 
 .backgroundEkip{
-  height: 560px;
+  height: 650px;
   background-image: url(../src/img/backgroundEkip.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .ekip{
