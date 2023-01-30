@@ -48,6 +48,11 @@ p {
     font-size: 28px;
 }
 
+.discover {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
 /*bloc gris*/
 .blocimg {
     margin-top: 100px;

@@ -22,7 +22,7 @@ function About() {
 
             <div>
 
-                <div className="container col col-lg-12 text-center">
+            <div className="container col col-lg-12 text-center">
                     <div className="container discover">
                         <a href="#About"><img className="img-fluid" src={decouvrir} alt="bouton decouvrir" /></a>
                     </div>
@@ -44,7 +44,7 @@ function About() {
                 </div>
 
                 <div className="team container">
-                <div className="characters text-center">
+                    <div className="characters text-center">
                         <img src={image116} alt="image116" />
                         <h3>CORDIER</h3>
                         <h3 className="turquoise">Colin</h3>

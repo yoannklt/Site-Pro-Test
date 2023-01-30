@@ -22,16 +22,14 @@ function Home() {
         <div>
             <Navbarbar />
             <div className="">
-                <ScrollButton/>
-                <div className="row text-center">
-                    <div className="col col-lg-12 hero" id="hero">
-                    </div>
-                    <div className="col col-lg-12">
-                        <a href="#home"><button className="discoverButton">Découvrir</button></a>
+
+                <div className="container col col-lg-12 text-center">
+                    <div className="container discover">
+                    <a href="#About"><button className="discoverButton">Découvrir</button></a>
                     </div>
                 </div>
 
-                <div id="home" className="row Bob align-items-start">
+                <div id="Home" className="row Bob align-items-start">
                     <div className="col-lg-5 img text-center ">
                         <img className="img-fluid image9 align-self-center" src={image9} alt="img9"></img>
                     </div>
