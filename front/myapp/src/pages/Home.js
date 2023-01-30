@@ -26,7 +26,7 @@ function Home() {
             </div>
             <ScrollButton />
             <div id="Hero">
-
+                < ScrollButton/>
                 <div className="container col col-lg-12 text-center hero">
                     <div className="container discoverhome">
                         <a href="#Hero"><button className="discoverButton">Découvrir</button></a>
