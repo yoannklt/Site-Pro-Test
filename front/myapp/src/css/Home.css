@@ -125,7 +125,7 @@ p {
 }
 
 /*bloc gris news*/
-.news {
+.blocnews {
     margin-top: 100px;
 }
 
@@ -197,7 +197,7 @@ p {
 
 /*faq*/
 .faq {
-    margin-top: 50px;
+    margin-top: 100px;
     align-items: center;
     border: none;
 }

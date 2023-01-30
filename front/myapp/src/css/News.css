@@ -11,6 +11,13 @@ body {
     background-position: top;
 }
 
+.background {
+    height: 540px;
+    background-image: url(../img/image24.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #Home {
     scroll-margin-top: 71.6px;
 }

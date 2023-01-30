@@ -1,4 +1,5 @@
 import Navbarbar from "../components/Navbar";
+import ScrollButton from "../components/ScrollButton";
 import Footerter from "../components/Footer";
 import Contactee from "../components/Contact";
 import logo from '../img/Logo.png';
@@ -13,7 +14,7 @@ import image119 from '../img/image119.png';
 function About() {
     return (
         <div>
-            <div className="backgroundabout">
+            <div className="background">
                 <Navbarbar />
                 <div className="thesense">
                     <img src={logo} alt="logo the sense" />
@@ -21,8 +22,9 @@ function About() {
             </div>
 
             <div>
+                <ScrollButton />
 
-            <div className="container col col-lg-12 text-center">
+                <div className="container col col-lg-12 text-center">
                     <div className="container discover">
                         <a href="#About"><img className="img-fluid" src={decouvrir} alt="bouton decouvrir" /></a>
                     </div>

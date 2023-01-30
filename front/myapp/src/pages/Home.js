@@ -24,8 +24,9 @@ function Home() {
             <div>
                 <Navbarbar />
             </div>
+
             <div>
-                <ScrollButton/>
+                <ScrollButton />
 
                 <div id="Hero" className="container col col-lg-12 text-center">
                     <div className="container discoverhome">
@@ -164,7 +165,7 @@ function Home() {
                     <Reservation />
                 </div>
 
-                <div className="container news">
+                <div className="container blocnews">
                     <h3><strong>Les news du mois</strong></h3>
                 </div>
                 <div className="row text-center">
