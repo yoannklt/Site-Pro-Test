@@ -47,6 +47,20 @@ export const signUp = async (first_name, last_name, email, password) => {
     return user;
 }
 
+export const existingUser = async(email) => {
+    const response = await fetch(
+        'http://localhost:4444/user/checking?email' + email, {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json', 
+                'Content-Type':'application/json'
+            }
+        }
+    )
+    const result = await response.json()
+    return result;
+}
+
 export const DeleteUser = async (data) => {
     const response = await fetch(
         'http://localhost:4444/user/delete',{

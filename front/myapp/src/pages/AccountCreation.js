@@ -1,10 +1,10 @@
 import Navbarbar from "../components/Navbar";
-import Footerter from '../components/Footer'
+import Footerter from '../components/Footer';
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
-import { signUp } from "../api/Users";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import { existingUser, signUp } from "../api/Users";
 
 export default function AccountCreation() {
 
@@ -12,15 +12,9 @@ export default function AccountCreation() {
 
     const { user, setUser } = useContext(UserContext);
     const onSubmit = (data) => {
-        const userFetched = signUp(data.first_name, data.last_name, data.email, data.password);
-        userFetched
-            .then(user => {
-                console.log(user);
-                setUser(user);
-            })
-            .catch(err => {
-                console.log("Failed to sign up");
-            })
+        if (existingUser(data.email)==false) {
+            signUp(data.first_name, data.last_name, data.email, data.password)
+        }
     }
 
     return (
@@ -31,7 +25,6 @@ export default function AccountCreation() {
                     <h1>mon compte</h1>
                 </div>
             </div>
-            { !user? (
                 <div className="formBackground">
                     <div className="text-center row createAccount align-items-center">
                         <h2 className="col-lg-12">Créer un compte</h2>
@@ -87,11 +80,6 @@ export default function AccountCreation() {
                         </Form>
                     </div>
                 </div>
-                ):(
-                    <h2>efeazaf</h2>
-                )
-            }
-            
             <Footerter />
         </div >
     )

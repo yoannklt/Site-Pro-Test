@@ -32,7 +32,6 @@ app.get("/user/list", function (req, res) {
 //LOGIN
 app.get('/user/login', (req, res) => {
   const dbConnect = dbo.getDb();
-
   dbConnect
       .collection('user')
       .findOne({
@@ -52,20 +51,12 @@ app.get('/user/checking', (req, res) =>{
     .collection('user')
     .findOne({
       $and: [
-        {email: { $eq: req.query.email }},
-        {password: { $eq: req.query.password }}
+        {email: { $eq: req.query.email }}
       ]
     })
-    .then(result => res.status(200).json(result))
-    if (err) {
-      res.status(404).send("No users with these informations");
-      existing = false;
-    } else {
-      res.json(result);
-      existing = true
-    }
+    .then(result => res.status(200).json(result!=null))
+    .catch(err => console.error(err));
 })
-
 
 // INSERER DES UTILISATEURS
 app.post('/user/insert', jsonParser, (req, res) => {
@@ -73,14 +64,11 @@ app.post('/user/insert', jsonParser, (req, res) => {
   const body = req.body;
   const dbConnect = dbo.getDb();
   console.log('Got body insert user:', body);
-  if (existing == false) {
-    dbConnect
-    .collection("user")
-    .insertOne(body)
-    .then(result, err);
-  } else {
-    res.status(401)
-  }
+  dbConnect
+  .collection("user")
+  .insertOne(body)
+  .then(result => res.status(200).json(result))
+  .catch(err => console.error(err));
 });
 
 // SUPPRIMER LES UTILISATEURS
