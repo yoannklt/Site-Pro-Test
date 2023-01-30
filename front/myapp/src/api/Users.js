@@ -39,7 +39,7 @@ export const signUp = async (data) => {
                 'last_name':data.last_name,
                 'email':data.email,
                 'password':data.password,
-                'admin': false,
+                'admin': false
             })
         }
     )
