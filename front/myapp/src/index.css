@@ -286,9 +286,7 @@ p{
   margin-top: 100px;
 }
 
-.map img{
-  height: 400px;
-}
+
 
 
 
@@ -518,12 +516,26 @@ p{
 }
 
 .map{
-margin-top: 100px;
+  display: flex;
+  margin-top: 100px;
 }
 
-.horaires2{
+.map img{
+  height: 400px;
+}
+
+.horaires{
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
+}
+
+.days{
+  text-align-last: start;
+}
+
+.red{
+  color: #9C0000;
 }
 
 /*BtoB*/

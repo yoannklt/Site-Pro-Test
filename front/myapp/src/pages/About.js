@@ -4,7 +4,7 @@ import Contactee from "../components/Contact";
 import logo from '../img/Logo.png';
 import decouvrir from '../img/découvrir.png';
 import image9 from '../img/image9.png';
-import image74 from '../img/image74.png';
+import image74 from '../img/image74.png'; 
 
 function About() {
     return (
@@ -44,15 +44,15 @@ function About() {
                     <p>THE SENSE se trouve, pour le moment, exclusivement à Lyon (France) dans le 3ème arrondissement. Pour nous rejoindre, il suffit de prendre le Tram ligne T2 arrêt Rue de l'Université ou bien le Métro B station Guillotière (100m à pied).</p>
                 </div>
 
-                <div className="container row map text-center">
+                <div className="container map text-center">
                     <div className="col col-lg-6">
                         <img src={image74} alt="map" />
                     </div>
-                    <div className="horaires1 col col-lg-6 align-self-center">
+                    <div className="col col-lg-6 align-self-center">
                         <h3><strong>Nos horaires</strong></h3>
-                        <div className="horaires2">
+                        <div className="horaires">
                             <div className="days">
-                                <p>Lundi</p>
+                                <p className="red">Lundi</p>
                                 <p>Mardi</p>
                                 <p>Mercredi</p>
                                 <p>jeudi</p>
@@ -61,7 +61,7 @@ function About() {
                                 <p>Dimanche</p>
                             </div>
                             <div className="hours">
-                                <p><strong>fermé</strong></p>
+                                <p className="red">FERMÉ</p>
                                 <p>10:00-22:00</p>
                                 <p>10:00-22:00</p>
                                 <p>10:00-22:00</p>
