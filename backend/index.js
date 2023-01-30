@@ -1,9 +1,5 @@
 const express = require("express");
-<<<<<<< Updated upstream
 const bodyParser = require('body-parser');
-=======
-const bodyParser= require('body-parser');
->>>>>>> Stashed changes
 const jsonParser = bodyParser.json();
 var cors = require('cors');
 const dbo = require("./db/db");
@@ -26,11 +22,7 @@ app.get("/user/list", function (req, res) {
     .find({})
     .toArray(function (err, result) {
       if (err) {
-<<<<<<< Updated upstream
         res.status(400).send("Error fetching users!");
-=======
-      res.status(400).send("Error fetching user!");
->>>>>>> Stashed changes
       } else {
         res.json(result);
       }
@@ -122,11 +114,7 @@ app.get("/room/list", function (req, res) {
     .find({})
     .toArray(function (err, result) {
       if (err) {
-<<<<<<< Updated upstream
         res.status(400).send("Error fetching users!");
-=======
-      res.status(400).send("Error fetching user!");
->>>>>>> Stashed changes
       } else {
         res.json(result);
       }
