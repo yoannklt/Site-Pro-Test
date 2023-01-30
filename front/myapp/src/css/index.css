@@ -28,14 +28,6 @@ html{
   color: black;
 }
 
-body{
-  padding: 0;
-  margin: 0;
-  background-image: url(../img/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
 
 /*NavBar*/
 .navbar{

@@ -1,4 +1,5 @@
-import Navbarbar from "../components/Navbar"
+import "../css/News.css";
+import Navbarbar from "../components/Navbar";
 import image26 from '../img/image26.png';
 import image25 from '../img/image25.png';
 import image7 from '../img/image7.png';
@@ -9,7 +10,7 @@ import Footerter from "../components/Footer";
 function News() {
     return (
         <div>
-            <div className="background">
+            <div className="backgroundnews">
                 <Navbarbar />
                 <div className="news2">
                     <h1>LES NEWS</h1>
