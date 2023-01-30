@@ -1,9 +1,5 @@
 const express = require("express");
-<<<<<<< Updated upstream
 const bodyParser = require('body-parser');
-=======
-const bodyParser= require('body-parser');
->>>>>>> Stashed changes
 const jsonParser = bodyParser.json();
 var cors = require('cors');
 const dbo = require("./db/db");
@@ -26,11 +22,7 @@ app.get("/user/list", function (req, res) {
     .find({})
     .toArray(function (err, result) {
       if (err) {
-<<<<<<< Updated upstream
         res.status(400).send("Error fetching users!");
-=======
-      res.status(400).send("Error fetching user!");
->>>>>>> Stashed changes
       } else {
         res.json(result);
       }
@@ -53,19 +45,41 @@ app.get('/user/login', (req, res) => {
       .catch(err => res.sendStatus(400, "Failed to fetch the user"));
 })
 
+//CHECK IF ACCOUNT ALREADY EXISTS
+app.get('/user/checking', (req, res) =>{
+  const dbConnect = dbo.getDb();
+  dbConnect
+    .collection('user')
+    .findOne({
+      $and: [
+        {email: { $eq: req.query.email }},
+        {password: { $eq: req.query.password }}
+      ]
+    })
+    .then(result => res.status(200).json(result))
+    if (err) {
+      res.status(404).send("No users with these informations");
+      existing = false;
+    } else {
+      res.json(result);
+      existing = true
+    }
+})
+
+
 // INSERER DES UTILISATEURS
 app.post('/user/insert', jsonParser, (req, res) => {
+  global(existing);
   const body = req.body;
   const dbConnect = dbo.getDb();
   console.log('Got body insert user:', body);
-  dbConnect
+  if (existing == false) {
+    dbConnect
     .collection("user")
     .insertOne(body)
     .then(result, err);
-  if (err) {
-    res.status(400).send(err.message);
   } else {
-    res.json(result);
+    res.status(401)
   }
 });
 
@@ -100,11 +114,7 @@ app.get("/room/list", function (req, res) {
     .find({})
     .toArray(function (err, result) {
       if (err) {
-<<<<<<< Updated upstream
         res.status(400).send("Error fetching users!");
-=======
-      res.status(400).send("Error fetching user!");
->>>>>>> Stashed changes
       } else {
         res.json(result);
       }
@@ -116,15 +126,14 @@ app.post('/room/insert', jsonParser, (req, res) => {
   const body = req.body;
   const dbConnect = dbo.getDb();
   console.log('Got body insert room:', body);
+  if (body.email) {
+
+  }
   dbConnect
     .collection("room")
     .insertOne(body)
     .then(result, err);
-  if (err) {
-    res.status(400).send(err.message);
-  } else {
-    res.json(result);
-  }
+  
 });
 
 // SUPPRIMER LES ROOM
