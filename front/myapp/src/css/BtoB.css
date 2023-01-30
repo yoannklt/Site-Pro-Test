@@ -1,0 +1,120 @@
+/*BtoB*/
+
+.backgroundBtoB{
+  height: 540px;
+  background-image: url(../img/fondbob.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btob{
+  display: flex;
+  justify-content: center;
+}
+
+.txtes p{
+  font-size: 25px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 550;
+  padding-bottom: 5px;
+  width: 75%;
+  color: black;
+}
+
+.bob1{
+  border-radius: 25px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.bob2{
+
+  border-radius: 25px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.bob3{
+
+  border-radius: 25px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+
+.btob1{
+  height: 500px;
+  width: 900px;
+  border-radius: 25px;
+}
+
+.btob2{
+  height: 500px;
+  width: 900px;
+  border-radius: 25px;
+}
+
+.btob3{
+  height: 500px;
+  width: 900px;
+  border-radius: 25px;
+}
+
+
+.discover{
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.troiscase{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.scrollButton{
+  position: fixed;
+  width: fit-content;
+  bottom: 10px;
+  right: 10px;
+  align-items: center;
+}
+
+.scrollButton h2{
+  color: white;
+}
+
+/* Contact forms */
+.contact-form{
+  opacity: 55%;
+
+}
+.prenom{
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.formes{
+  display: flex;
+  justify-content: center;
+}
+.mb-1{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.contour{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.emailtop{
+  margin-bottom: 10px;
+}
+h2{
+  font-weight: bolder;
+}
+
+.btn-primary{
+  background-color: #1BDCC5;
+  border: 1px solid #1BDCC5;
+}
