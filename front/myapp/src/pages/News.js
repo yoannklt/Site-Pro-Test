@@ -10,7 +10,7 @@ import Footerter from "../components/Footer";
 function News() {
     return (
         <div>
-            <div className="background">
+            <div className="backgroundnews">
                 <Navbarbar />
                 <div className="news">
                     <h1>LES NEWS</h1>

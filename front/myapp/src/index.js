@@ -7,6 +7,7 @@ import '../src/css/Carousel.css';
 import '../src/css/Home.css';
 import '../src/css/News.css';
 import '../src/css/About.css';
+import '../src/css/BtoB.css';
 
 import App from './App';
 

@@ -84,26 +84,27 @@ p {
 }
 
 /*Bandeau bleu*/
-.bandeaubleu{
+.bandeaubleu {
   background-color: #eafffb;
 }
 
-.bandeaubleu p{
+.bandeaubleu p {
   font-size: 25px;
 }
 
-.imgronde{
+.imgronde {
   border-radius: 250px;
-  border: 15px solid #bbccc9; 
+  border: 15px solid #bbccc9;
 }
 
-.img img{
+.img img {
   height: 350px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-.description{
+/*description*/
+.description {
   margin-top: 100px;
 }
 
