@@ -35,7 +35,7 @@ function FadeCarousel() {
                 <CarouselItem>
                     <img className="d-block w-100" src={image20} alt=""/>
                     <Carousel.Caption>
-                        <p>“Avec mes fils nous avons tenté l'expérience “NAMELESS”, moi qui pensais avoir tout vu dans le domaine de l'horreur, je ne me suis jamais autant trompée. Si vous êtes à la recherche de sensations fortes et de frissons, la DARK ROOM est faite pour vous.”</p>
+                        <p>“Avec mes fils nous avons tenté l'expérience “NAMELESS”, moi qui pensais avoir tout vu dans le domaine de l'horreur, je ne me suis jamais autant trompé. Si vous êtes à la recherche de sensations fortes et de frissons, la DARK ROOM est faite pour vous.”</p>
                         <p>- Nicolas, 3 Septembre 2020 -</p>
                     </Carousel.Caption>
                 </CarouselItem>
