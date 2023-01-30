@@ -1,4 +1,11 @@
 import "./css/index.css";
+import "./css/About.css";
+import "./css/Account.css";
+import "./css/BtoB.css";
+import "./css/Equipement.css";
+import "./css/Navbar.css";
+import "./css/News.css";
+import "./css/Room.css";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import About from "./pages/About";

@@ -1,3 +1,4 @@
+import "../css/Home.css";
 import Navbarbar from "../components/Navbar";
 import image9 from "../img/image9.png";
 import image10 from "../img/image10.jpg";
