@@ -10,7 +10,7 @@ function BasicExample() {
                     <span>Qu'est-ce que THE SENSE ?</span>
                 </Accordion.Header>
                 <Accordion.Body>
-                    <span>Non là t'abuses frère.</span>
+                    <span>THE SENSE est une immersion poussée grâce à la réalité virtuelle. THE SENSE propose de nombreuses expériences à faire entre amis ou avec la famille. Vous pouvez tout à fait favoriser une expérience avec de l'action comme notre Dark Room basé sur l'horreur. Ou encore, si vous le souhaiter par exemple, vous pouvez favoriser l'aspect compétitif en participant aux expériences de notre Battle Room. de plus, THE SENSE propose un système de création d'expérience où les clients peuvent à leurs tours imaginer et créer la meilleure expériences possibles.</span>
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">

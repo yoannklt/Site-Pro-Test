@@ -1,17 +1,17 @@
+import "../css/BtoB.css";
 import Navbarbar from "../components/Navbar";
-import Footerter from "../components/Footer";
-import Contactee from "../components/Contact";
-import decouvrir from '../img/découvrir.png';
 import btob1 from '../img/btob1.png';
 import btob2 from '../img/btob2.png';
 import btob3 from '../img/btob3.png';
 import image146 from '../img/image146.png';
+import Footerter from "../components/Footer";
+import Contactee from "../components/Contact";
 
 
 function BtoB() {
     return (
         <div>
-            <div className="backgroundBtoB">
+            <div className="backgroundbtob">
                 <Navbarbar />
                 <div className="btob">
                     <h1>NOS SERVICES B TO B</h1>
@@ -20,9 +20,9 @@ function BtoB() {
 
             <div>
                 
-                <div className="container col col-lg-12 text-center">
-                    <div className="container discover">
-                        <a href="#Btob"><img className="img-fluid" src={decouvrir} alt="bouton decouvrir" /></a>
+            <div id="Hero" className="container col col-lg-12 text-center">
+                    <div className="container discoverhome">
+                        <a href="#Hero"><button className="discoverButton">Découvrir</button></a>
                     </div>
                 </div>
 
@@ -42,41 +42,44 @@ function BtoB() {
                 </div>
                 
                 <div className="troiscase">
-                    <div className="row bob1">
-                        <div className="container col-lg-5 img text-center ">
-                            <img className="img-fluid btob2 align-self-center" src={btob2} alt="img8" />
+                    <div className="row">
+                        <div className="container col-lg-5 img text-center">
+                            <img className="img-fluid align-self-center" src={btob2} alt="img8" />
                         </div>
-                        <div className="col-lg-7 text-left align-self-center txt">
+                        <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>POUR LE SECTEUR DU BÂTIMENT</strong></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
                     </div>
-                    <div className="row bob2">
-                        <div className="col-lg-7 text-left align-self-center txt">
+                    <div className="row">
+                        <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>POUR LE SECTEUR COMMERCIAL</strong></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
                         <div className="container col-lg-5 img text-center">    
-                            <img className="img-fluid btob1 align-self-center" src={btob1} alt="image25" />
+                            <img className="img-fluid align-self-center" src={btob1} alt="image25" />
                         </div>
                     </div>
-                    <div className="row bob3">
+                    <div className="row">
                         <div className="container col-lg-5 img text-center">
-                            <img className="img-fluid btob3 align-self-center" src={btob3} alt="img8" />
+                            <img className="img-fluid align-self-center" src={btob3} alt="img8" />
                         </div>
-                        <div className="col-lg-7 text-left align-self-center txt">
+                        <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>POUR LES INGÉNIEURS</strong></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
                     </div>
-                </div>   
-                <div className="col-lg-12 align-text-center txtes">
-                    <h3><strong>NOS SERVICES DÉDIÉS AUX PROFESSIONNELS VOUS INTÉRESSE ?</strong></h3>
+                </div> 
+
+                <div className="container description col-lg-12 align-text-center"> 
+                    <h3><strong>Nos Services dédiés aux professionnels vous intéresse ?</strong></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. </p>
                 </div>
-                <div className="contact form">
+
+                <div className="contact">
                     <Contactee/>
                 </div>
+
             </div>
             <Footerter/>
         </div>

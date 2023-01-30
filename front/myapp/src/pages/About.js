@@ -1,30 +1,30 @@
+import "../css/About.css";
 import Navbarbar from "../components/Navbar";
 import Footerter from "../components/Footer";
-import Contactee from "../components/Contact";
 import logo from '../img/Logo.png';
-import decouvrir from '../img/découvrir.png';
 import image9 from '../img/image9.png';
 import image74 from '../img/image74.png';
 import image116 from '../img/image116.png';
 import image117 from '../img/image117.png';
 import image118 from '../img/image118.png';
 import image119 from '../img/image119.png';
+import Contactee from "../components/Contact";
 
 function About() {
     return (
         <div>
-            <div className="backgroundabout">
+            <div className="background">
                 <Navbarbar />
                 <div className="thesense">
-                    <img src={logo} alt="logo the sense" />
+                    <img src={logo} alt="" />
                 </div>
             </div>
 
             <div>
 
-                <div className="container col col-lg-12 text-center">
-                    <div className="container discover">
-                        <a href="#About"><img className="img-fluid" src={decouvrir} alt="bouton decouvrir" /></a>
+            <div id="Hero" className="container col col-lg-12 text-center">
+                    <div className="container discoverhome">
+                        <a href="#Hero"><button className="discoverButton">Découvrir</button></a>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ function About() {
                 </div>
 
                 <div className="team container">
-                <div className="characters text-center">
+                    <div className="characters text-center">
                         <img src={image116} alt="image116" />
                         <h3>CORDIER</h3>
                         <h3 className="turquoise">Colin</h3>

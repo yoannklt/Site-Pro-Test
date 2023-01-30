@@ -1,0 +1,14 @@
+.carousel {
+    margin-top: 100px;
+}
+
+.carousel h3 {
+    color: #eafffb;
+    margin-bottom: 50px;
+}
+
+.carousel p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Amiko', sans-serif;
+}

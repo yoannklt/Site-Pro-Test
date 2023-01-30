@@ -1,120 +1,127 @@
-/*BtoB*/
+html {
+  scroll-behavior: smooth;
+}
 
-.backgroundBtoB{
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#Home {
+  scroll-margin-top: 71.6px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.labelConnection {
+  height: 200px;
+}
+
+/*Pour tous les textes en général*/
+h1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: black;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Amiko', sans-serif;
+  color: #3B4040;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: 'Amiko', sans-serif;
+  color: #3B4040;
+}
+
+p {
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+}
+
+/*Boutton découvrir*/
+.discoverButton {
+  height: 61px;
+  width: 263px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.discoverhome {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*btob*/
+.backgroundbtob {
   height: 540px;
   background-image: url(../img/fondbob.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.btob{
+.btob {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 86.5%;
 }
 
-.txtes p{
+.btob h1 {
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+  color: white
+}
+
+/*Bandeau bleu*/
+.bandeaubleu {
+  background-color: #eafffb;
+}
+
+.bandeaubleu p {
   font-size: 25px;
-  font-family: 'Abel', sans-serif;
-  font-weight: 550;
-  padding-bottom: 5px;
-  width: 75%;
-  color: black;
 }
 
-.bob1{
-  border-radius: 25px;
-  margin-top: 40px;
-  align-items: center;
+.imgronde {
+  border-radius: 250px;
+  border: 15px solid #bbccc9;
 }
 
-.bob2{
-
-  border-radius: 25px;
-  margin-top: 40px;
-  align-items: center;
+.img img {
+  height: 350px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.bob3{
-
-  border-radius: 25px;
-  margin-top: 40px;
-  align-items: center;
+/*description*/
+.description {
+  margin-top: 100px;
 }
 
-
-.btob1{
-  height: 500px;
-  width: 900px;
-  border-radius: 25px;
-}
-
-.btob2{
-  height: 500px;
-  width: 900px;
-  border-radius: 25px;
-}
-
-.btob3{
-  height: 500px;
-  width: 900px;
-  border-radius: 25px;
-}
-
-
-.discover{
-  margin-top: 200px;
-  margin-bottom: 100px;
-}
-
+/*troiscase*/
 .troiscase{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 100px;
 }
 
-.scrollButton{
-  position: fixed;
-  width: fit-content;
-  bottom: 10px;
-  right: 10px;
-  align-items: center;
+.blocbleu{
+  background-color: #eafffb;
 }
 
-.scrollButton h2{
-  color: white;
-}
-
-/* Contact forms */
-.contact-form{
-  opacity: 55%;
-
-}
-.prenom{
-  flex-wrap: nowrap;
-  width: 100%;
-}
-
-.formes{
-  display: flex;
-  justify-content: center;
-}
-.mb-1{
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.contour{
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.emailtop{
-  margin-bottom: 10px;
-}
-h2{
-  font-weight: bolder;
-}
-
-.btn-primary{
-  background-color: #1BDCC5;
-  border: 1px solid #1BDCC5;
+/*contact*/
+.contact{
+  margin-top: 100px;
 }

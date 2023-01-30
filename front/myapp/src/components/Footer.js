@@ -20,22 +20,22 @@ function Footerter() {
       </div>
       <div className="bloc4 col-lg-2 text-center row">
         <div className="col-lg-3">
-          <a href='https://www.youtube.com/' target="_blank">
+          <a href='https://www.youtube.com/' target="_blank" rel='noreferrer'>
             <img className="logo" src={ytblogo} alt="" />
           </a>
         </div>
         <div className="col-lg-3">
-          <a href='https://www.instagram.com/' target="_blank">
+          <a href='https://www.instagram.com/' target="_blank" rel='noreferrer'>
             <img className="logo" src={instalogo} alt="" />
           </a>
         </div>
         <div className="col-lg-3">
-          <a href='https://twitter.com/' target="_blank">
+          <a href='https://twitter.com/' target="_blank" rel='noreferrer'>
             <img className="logo" src={twitterlogo} alt="" />
           </a>
         </div>
         <div className="col-lg-3">
-          <a href='https://facebook.com/' target="_blank">
+          <a href='https://facebook.com/' target="_blank" rel='noreferrer'>
             <img className="logo" src={facebooklogo} alt="" />
           </a>
         </div>

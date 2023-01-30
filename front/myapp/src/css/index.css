@@ -28,14 +28,6 @@ html{
   color: black;
 }
 
-body{
-  padding: 0;
-  margin: 0;
-  background-image: url(../img/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
 
 /*NavBar*/
 .navbar{
@@ -231,16 +223,7 @@ p{
   font-size: 25px;
 }
 
-/*Boutton découvrir*/
-.discoverButton{
-  height: 61px;
-  width: 263px;
-  border-radius: 15px;
-  background-color: black;
-  color: white;
-  text-transform: uppercase;
-  font-size: 28px;
-}
+
 
 /*bloc gris*/
 .blocimg{
@@ -292,11 +275,9 @@ p{
 
 
 /*Home*/
-.hero{
-  height: 80vh;
-}
 
-#home{
+
+#Home{
   scroll-margin-top: 71.6px;
 }
 
@@ -392,28 +373,7 @@ p{
   margin-top: 20px;
 }
 
-.faq{
-  margin-top: 50px;
-  align-items: center;
-  border: none;
-}
 
-.faq img{
-  height: 15px;
-  width: 15px;
-  margin-right: 15px;
-
-}
-
-.faq span{
-  color: #646363;
-  font-family: 'Abel', sans-serif;
-  font-size: 25px;
-}
-
-.question{
-  margin-bottom: 10px;
-}
 /*News*/
 .head img{
   width: 100%;
@@ -474,13 +434,13 @@ p{
   color: white;
 }
 
-.blocimgnews{
+.blocimg2news{
   margin-top: 100px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.blocgrisnews{
+.blocgris2news{
   width: 80%;
   background-color: #F2F2F2;
   color: #646363;
@@ -492,7 +452,7 @@ p{
   height: fit-content;
 }
 
-.blocgrisnews h3{
+.blocgris2news h3{
   margin-top: 20px;
 }
 
