@@ -69,7 +69,7 @@ function Home() {
                         <div className="row parag">
                             <p>Shangri-La la cité mythique, symbole de la paix, de prospérité et de magnficence. Personne n'a apparemment pu se rendre en ce lieu depuis des décennies ou prouver son existance, du moins depuis votre découverte ! Aventurez-vous au plus profond des légendes, entrez dans la cité de Z avec votre équipe et explorez les lieux à la recherche de Percy Fawcett.</p>
                         </div>
-                        <div className="row reserve text-center">
+                        <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
                                 <a href="/Room"><img src={boutonréserver} alt="" /></a>
                             </div>
@@ -96,7 +96,7 @@ function Home() {
                             <h4><strong>Expérience interdite aux -18</strong></h4>
                             <p>Revivez l'histoire d'un chef d'oeuvre cinématographique au travers d'une exprérience aussi bien réaliste qu'immersive. Rassemblez ce qu'il vous reste de courage, les inspecteurs Ed et Loren Warren ont besoin de vous. Un malheur hante la maison de ces derniers et vous ne pouvez pas vous en échapper sans sacrifices. serez-vous à la hauteur de ce qui vous attend ? Bonne chance, vous en aurez besoin !</p>
                         </div>
-                        <div className="row reserve text-center">
+                        <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
                                 <a href="/Room"><img src={boutonréserver} alt="" /></a>
                             </div>
@@ -120,9 +120,9 @@ function Home() {
                             <h3 className="title">battle room</h3>
                         </div>
                         <div className="row parag">
-                            <p>Sentez votre coeur battre, votre souffle se couper, votre concentration monter... Enrôlez des joueurs, formez votre équipe et préparez vous au combat § Arrachez la victoire à vos adversaires à travers une bataille dans des décors et des "maps" des plus immersives. En équipe de 4 ou 5 voyez lesquels d'entre vous sont dignes de remporter le trophée.</p>
+                            <p>Sentez votre coeur battre, votre souffle se couper, votre concentration monter... Enrôlez des joueurs, formez votre équipe et préparez vous au combat. Arrachez la victoire à vos adversaires à travers une bataille dans des décors et des "maps" des plus immersives. En équipe de 4 ou 5 voyez lesquels d'entre vous sont dignes de remporter le trophée.</p>
                         </div>
-                        <div className="row reserve text-center">
+                        <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
                                 <a href="/Room"><img src={boutonréserver} alt="" /></a>
                             </div>
@@ -149,7 +149,7 @@ function Home() {
                         <div className="row parag">
                             <p>Vous en avez marre des expériences répétitives ? Vous êtes à la recherche d'une toute nouvelle expérience virtuelle ? Alors venez créer votre propre expérience avec notre tout nouveau système de création virtuelle ! Vous nous exposez votre idée et votre univers et nous le mettons en oeuvre rien que pour vous ! N'attendez plus, c'est désormais votre création, votre univers, votre expérience, votre SENSE.</p>
                         </div>
-                        <div className="row reserve text-center">
+                        <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
                                 <a href="/Room"><img src={boutonréserver} alt="" /></a>
                             </div>
