@@ -1,6 +1,5 @@
 import "../css/Home.css";
 import Navbarbar from "../components/Navbar";
-import ScrollButton from "../components/ScrollButton";
 import image9 from "../img/image9.png";
 import thesense from '../img/thesense.png';
 import image10 from "../img/image10.jpg";

@@ -1,9 +1,10 @@
+import '../css/Carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
-import image23 from '../img/image23.png'
-import image22 from '../img/image22.png'
-import image21 from '../img/image21.png'
-import image20 from '../img/image20.png'
-import image27 from '../img/image27.png'
+import image23 from '../img/image23.png';
+import image22 from '../img/image22.png';
+import image21 from '../img/image21.png';
+import image20 from '../img/image20.png';
+import image27 from '../img/image27.png';
 import CarouselItem from 'react-bootstrap/esm/CarouselItem';
 
 function FadeCarousel() {

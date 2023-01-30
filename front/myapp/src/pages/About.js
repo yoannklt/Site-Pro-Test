@@ -17,7 +17,7 @@ function About() {
             <div className="background">
                 <Navbarbar />
                 <div className="thesense">
-                    <img src={logo} alt="logo the sense" />
+                    <img src={logo} alt="" />
                 </div>
             </div>
 
