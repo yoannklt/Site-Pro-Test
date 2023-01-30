@@ -31,7 +31,7 @@ html{
 body{
   padding: 0;
   margin: 0;
-  background-image: url(img/background.png);
+  background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -356,7 +356,7 @@ p{
 }
 
 .photo{
-  background-image: url(img/image6.png) !important;
+  background-image: url(../img/image6.png) !important;
   background-repeat: no-repeat;
   background-size: cover;
   height: 973px;
@@ -455,7 +455,7 @@ p{
 
 .background{
   height: 540px;
-  background-image: url(../src/img/image24.png);
+  background-image: url(../img/image24.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -500,7 +500,7 @@ p{
 
 .backgroundabout{
   height: 540px;
-  background-image: url(img/image53.png);
+  background-image: url(../img/image53.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -567,7 +567,7 @@ p{
 
 .backgroundBtoB{
   height: 540px;
-  background-image: url(../src/img/fondbob.png);
+  background-image: url(../img/fondbob.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -696,7 +696,7 @@ h2{
 
 .backgroundEkip{
   height: 560px;
-  background-image: url(../src/img/backgroundEkip.png);
+  background-image: url(../img/backgroundEkip.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -738,7 +738,7 @@ h2{
 }
 
 .backgroundAccount{
-  background-image: url(../src/img/fondbob.png);
+  background-image: url(../img/fondbob.png);
   height: 539px;
 }
 
@@ -750,7 +750,7 @@ h2{
 }
 
 .formBackground{
-  background-image: url(../src/img/LogoBackground.png);
+  background-image: url(../img/LogoBackground.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

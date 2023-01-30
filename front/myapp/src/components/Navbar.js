@@ -1,4 +1,4 @@
-import '../index.css';
+import '../css/index.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../img/Logo.png';
