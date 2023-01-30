@@ -6,7 +6,7 @@ import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 
 
-function TestDeStyleDe(props) {
+function FormConnexion(props) {
     const { register, handleSubmit } = useForm();
     
     const { user, setUser } = useContext(UserContext);
@@ -15,11 +15,14 @@ function TestDeStyleDe(props) {
           userFetched
             .then(user => {
               setUser(user);
+              sessionStorage.setItem('token', JSON.stringify(user));
             })
             .catch(err => {
               console.log("Failed to login");
             })
+            
         }
+    
 
     return (
         <div>
@@ -71,4 +74,6 @@ function TestDeStyleDe(props) {
     );
 }
 
-export default TestDeStyleDe;
+
+
+export default FormConnexion;

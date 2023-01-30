@@ -26,7 +26,7 @@ export const logIn = async (email, password) => {
     return user
 }
 
-export const signUp = async (data) => {
+export const signUp = async (first_name, last_name, email, password) => {
     const response = await fetch(
         'http://localhost:4444/user/insert', {
             method: 'POST', 
@@ -35,10 +35,10 @@ export const signUp = async (data) => {
                 'Content-Type':'application/json'
             },
             body: JSON.stringify({
-                'first_name':data.first_name,
-                'last_name':data.last_name,
-                'email':data.email,
-                'password':data.password,
+                'first_name':first_name,
+                'last_name':last_name,
+                'email':email,
+                'password':password,
                 'admin': false
             })
         }
