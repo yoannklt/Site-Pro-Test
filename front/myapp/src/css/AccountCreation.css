@@ -24,6 +24,27 @@ p {
     font-size: 25px;
 }
 
+.backgroundaccount {
+    height: 540px;
+    background-image: url(../img/image53.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86.5%;
+}
+
+.account h1 {
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    color: white;
+}
+
 /*Form se connecter et s'inscrire*/
 .popUpLog {
     --bs-popover-max-width: 525px !important;
