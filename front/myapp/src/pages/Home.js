@@ -15,12 +15,13 @@ import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";   
-import { UserContext , UseContext } from "../context/UserContext";
+import { UserContext } from "../context/UserContext";
+import { useContext } from "react";
 
 
 
 function Home() {
-    const { user, setUser } = UserContext(UserContext);
+    const { user, setUser } = useContext(UserContext);
 
     const userToken = JSON.parse(sessionStorage.getItem('token'))
     if (userToken && !user) {
