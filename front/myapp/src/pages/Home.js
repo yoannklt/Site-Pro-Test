@@ -91,7 +91,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a onClick={setRoom('lightRoom')} href="/Room">découvrez la Light room →</a>
+                                <a /* onClick={setRoom('lightRoom')} */ href="/Room">découvrez la Light room →</a>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a  onClick={setRoom('darkRoom')} href="/Room">découvrez la Dark room →</a>
+                                <a /* onClick={setRoom('darkRoom')} */ href="/Room">découvrez la Dark room →</a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a  onClick={setRoom('battleRoom')} href="/Room">découvrez la battle room →</a>
+                                <a /* onClick={setRoom('battleRoom')} */ href="/Room">découvrez la battle room →</a>
                             </div>
                         </div>
                     </div>
