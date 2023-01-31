@@ -23,7 +23,7 @@ function About() {
             <div>
 
             <div id="Hero" className="container col col-lg-12 text-center">
-                    <div className="container discoverhome">
+                    <div className="container discover">
                         <a href="#Hero"><button className="discoverButton">Découvrir</button></a>
                     </div>
                 </div>
