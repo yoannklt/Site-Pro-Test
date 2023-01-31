@@ -20,9 +20,9 @@ export default function Booking() {
     }
 
     return(
-        <div id="booking">
+        <div>
             <Navbarbar/>
-            <div className="booking-form align-items-center row offset-4">
+            <div className="booking-form text-center align-items-center row offset-4">
                 <Form onSubmit={handleSubmit(onSubmit)} className="col-lg-4">
                     <Form.Group>
                         <Form.Control {...register('date')} required placeholder="Jour"></Form.Control>
