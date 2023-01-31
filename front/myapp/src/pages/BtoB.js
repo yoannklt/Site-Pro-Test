@@ -43,7 +43,7 @@ function BtoB() {
 
                 <div className="troiscase">
                     <div className="row blocbtob">
-                        <div className="container col-lg-5 img text-center blocbleu">
+                        <div className="container col-lg-5 img text-center">
                             <img className="img-fluid align-self-center" src={btob2} alt="img8" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
@@ -56,12 +56,12 @@ function BtoB() {
                             <h3><strong>POUR LE SECTEUR COMMERCIAL</strong></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, deserunt saepe? Qui libero similique odit reprehenderit iste nisi eius, consequatur, animi voluptatum laudantium nobis laboriosam possimus sapiente, voluptates aperiam distinctio.</p>
                         </div>
-                        <div className="container col-lg-5 img text-center blocbleu">    
+                        <div className="container col-lg-5 img text-center">    
                             <img className="img-fluid align-self-center" src={btob1} alt="image25" />
                         </div>
                     </div>
                     <div className="row blocbtob">
-                        <div className="container col-lg-5 img text-center blocbleu">
+                        <div className="container col-lg-5 img text-center">
                             <img className="img-fluid align-self-center" src={btob3} alt="img8" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
