@@ -86,18 +86,7 @@ p {
 }
 
 /*Bandeau noir*/
-.bandeaunoir {
-    background-color: black;
-}
 
-.bandeaunoir p {
-    font-size: 25px;
-}
-
-.imgrondenoir {
-    border-radius: 250px;
-    border: 15px solid #9C0000;
-}
 
 /*description*/
 .description {
