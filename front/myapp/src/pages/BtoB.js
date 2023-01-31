@@ -6,8 +6,6 @@ import btob3 from '../img/btob3.png';
 import image146 from '../img/image146.png';
 import Footerter from "../components/Footer";
 import Contactee from "../components/Contact";
-import { useContext } from "react";
-import { UserContext } from "../context/UserContext";
 
 
 function BtoB() {

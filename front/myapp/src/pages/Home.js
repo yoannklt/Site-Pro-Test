@@ -14,7 +14,7 @@ import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
-import Footerter from "../components/Footer";   
+import Footerter from "../components/Footer";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 
@@ -65,7 +65,6 @@ function Home() {
                     <div className="container blocimg">
                         <h3><strong>Nos expériences les plus appréciées</strong></h3>
                         <div>
-                            
                             <img className="img-fluid" src={image10} alt="" />
                         </div>
                     </div>
@@ -80,10 +79,10 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Light room -</a>
+                                <a href="/Room">découvrez la Light room -></a>
                             </div>
                         </div>
                     </div>
@@ -107,10 +106,10 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Dark room -</a>
+                                <a href="/Room">découvrez la Dark room -></a>
                             </div>
                         </div>
                     </div>
@@ -133,10 +132,10 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la battle room -</a>
+                                <a href="/Room">découvrez la battle room -></a>
                             </div>
                         </div>
                     </div>
@@ -160,13 +159,17 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la creative room -</a>
+                                <a href="/Room">découvrez la creative room -></a>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div id="reservation">
+                    
                 </div>
 
 

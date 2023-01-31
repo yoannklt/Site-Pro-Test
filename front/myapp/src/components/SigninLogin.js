@@ -6,7 +6,13 @@ import { UserContext } from '../context/UserContext';
 import TestDeStyleDe from './FormConnexion';
 
 function SigninLogin() {
-  const {user, setUser} = useContext(UserContext);
+  const { user, setUser } = useContext(UserContext);
+
+  const logout = () => {
+    console.log("skibidibap")
+    sessionStorage.removeItem('token');
+    setUser(null)
+  }
 
   return (
     <>
@@ -15,22 +21,30 @@ function SigninLogin() {
         placement='left'
         rootClose='true'
         overlay={
-          <Popover id={`popover-positioned-left`} className='popUpLog'> 
+          <Popover id={`popover-positioned-left`} className='popUpLog'>
             <Popover.Body>
-              <TestDeStyleDe/>
+              <TestDeStyleDe />
             </Popover.Body>
           </Popover>
         }
       >
         <div className='btnform'>
           {!user ? (
-            <a role="button" tabIndex="0" href="#" className="navbtn navbarrr"><strong>Se connecter</strong></a>
-          ):(
-            <Link to='../pages/MyAccount' className="navbtn navbarrr"><strong>Mon Compte</strong></Link>
-          )}
-          
+            <>
+              <a href="#" className="navbtn navbarrr"><strong>Se connecter</strong></a>
+            </>
+          ) : null}
+
         </div>
       </OverlayTrigger>
+      {user ? (
+        <>
+          <a href='#' onClick={logout} className="navbtn navbarrr"><strong>Se déconnecter</strong></a>
+          <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+          <Link to='../pages/MyAccount' className="navbtn navbarrr"><strong>Mon Compte</strong></Link>
+        </>
+      ) : null
+      }
     </>
   );
 }
