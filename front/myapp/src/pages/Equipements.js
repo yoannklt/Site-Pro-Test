@@ -10,7 +10,7 @@ import Footerter from "../components/Footer";
 
 function Equipement() {
     return (
-        <div>
+        <div className="bodyaquipe">
             <div className="backgroundequipe">
                 <Navbarbar />
                 <div className="btob">
@@ -43,7 +43,7 @@ function Equipement() {
 
                 <div className="troiscase">
                     <div className="row blocbtob">
-                        <div className="container col-lg-5 img text-center blocbleu">
+                        <div className="container col-lg-5 img text-center">
                             <img className="img-fluid align-self-center" src={ekip1} alt="img8" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
@@ -56,12 +56,12 @@ function Equipement() {
                             <h3><strong>BAGPACK HAPTIQUE RAPTURE</strong></h3>
                             <p>Haptique Rapture est une combinaison spécialisée pour l’utilisation VR, cette “armure” vous permettra de vous mouvoir sans problème et avec fluidité dans le jeu comme dans la réalité. Votre confort est également assuré grâce à son mantient et sa légéreté impressionnante (à peine 5kg), qualitées vous assurera une expérience réussie.</p>
                         </div>
-                        <div className="container col-lg-5 img text-center blocbleu">    
+                        <div className="container col-lg-5 img text-center">    
                             <img className="img-fluid align-self-center" src={ekip2} alt="image25" />
                         </div>
                     </div>
                     <div className="row blocbtob">
-                        <div className="container col-lg-5 img text-center blocbleu">
+                        <div className="container col-lg-5 img text-center">
                             <img className="img-fluid align-self-center" src={ekip3} alt="img8" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
