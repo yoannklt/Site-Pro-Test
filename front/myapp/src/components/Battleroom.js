@@ -11,7 +11,7 @@ import Footerter from "../components/Footer";
 
 function Battleroom() {
     return (
-        <div>
+        <div className="bodybattle">
             <div>
                 <Navbarbar />
             </div>
@@ -24,9 +24,9 @@ function Battleroom() {
                     </div>
                 </div>
 
-                <div className="row bandeaubleu" >
+                <div className="row bandeaubattle" >
                     <div className="col-lg-4 img text-center">
-                        <img className="img-fluid imgronde align-self-center" src={image73} alt="img9"></img>
+                        <img className="img-fluid imgrondebattle align-self-center" src={image73} alt="img9"></img>
                     </div>
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
@@ -51,7 +51,7 @@ function Battleroom() {
                             <img className="img-fluid" src={image2} alt="" />
                         </div>
                     </div>
-                    <div className="container blocgris">
+                    <div className="container blocbattle">
                         <div className="blochome">
                             <h3><strong>ultimate fight</strong></h3>
                             <h3>|</h3>
@@ -74,7 +74,7 @@ function Battleroom() {
                             <img className="img-fluid" src={image13} alt="" />
                         </div>
                     </div>
-                    <div className="container blocgris">
+                    <div className="container blocbattle">
                         <div className="blochome">
                             <h3><strong>GARDEN WAR</strong></h3>
                             <h3>|</h3>

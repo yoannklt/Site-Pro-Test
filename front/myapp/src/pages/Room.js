@@ -5,7 +5,7 @@ import Battleroom from "../components/Battleroom";
 
 function Room() {
     return (
-        <Darkroom />
+        <Battleroom />
     )
 }
 
