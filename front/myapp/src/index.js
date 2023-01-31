@@ -10,6 +10,7 @@ import '../src/css/About.css';
 import '../src/css/BtoB.css';
 import '../src/css/Equipements.css';
 import '../src/css/Account.css';
+import '../src/css/Paiement.css';
 
 import App from './App';
 
