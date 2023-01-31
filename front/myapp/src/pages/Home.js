@@ -1,4 +1,5 @@
 import "../css/Home.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarbar from "../components/Navbar";
 import image9 from "../img/image9.png";
 import thesense from '../img/thesense.png';
@@ -15,9 +16,18 @@ import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";
+import { useContext } from "react";
+import { UserContext } from "../context/UserContext";
+
 
 
 function Home() {
+    const { user, setUser } = UserContext(UserContext);
+
+    const userToken = JSON.parse(sessionStorage.getItem('token'))
+    if (userToken && !user) {
+        setUser(userToken);
+    }
     return (
         <div>
             <div>
@@ -38,10 +48,8 @@ function Home() {
                     </div>
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
-                            <h1 className="">Qu'est-ce que</h1>
-                        </div>
-                        <div className="col col-lg-2">
-                            <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense"></img>
+                                <h1 className="">Qu'est-ce que <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense"></img></h1>
+                                <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l’avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité.</p>
                         </div>
                         <div className="col col-lg-2">
                             <p>&nbsp;?</p>
@@ -57,7 +65,9 @@ function Home() {
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
                         <h3><strong>Nos expériences les plus appréciées</strong></h3>
-                        <img className="img-fluid" src={image10} alt="" />
+                        <div>
+                            <img className="img-fluid" src={image10} alt="" />
+                        </div>
                     </div>
                     <div className="container blocgris">
                         <div className="blochome">
@@ -70,10 +80,10 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Light room -</a>
+                                <a href="/Room">découvrez la Light room -></a>
                             </div>
                         </div>
                     </div>
@@ -97,10 +107,10 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Dark room -</a>
+                                <a href="/Room">découvrez la Dark room -></a>
                             </div>
                         </div>
                     </div>
@@ -123,10 +133,10 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la battle room -</a>
+                                <a href="/Room">découvrez la battle room -></a>
                             </div>
                         </div>
                     </div>
@@ -150,18 +160,19 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la creative room -</a>
+                                <a href="/Room">découvrez la creative room -></a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <Reservation />
+                <div id="reservation">
+                    
                 </div>
+
 
                 <div className="container blocnews">
                     <h3><strong>Les news du mois</strong></h3>
@@ -191,20 +202,23 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container avis">
-                    <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
+                <div className="avis">
+                    <div className="container">
+                        <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
+                    </div>
+
+                    <div className="carouselavis">
+                        <FadeCarouselavis />
+                    </div>
                 </div>
 
-                <div className="carouselavis">
-                    <FadeCarouselavis />
-                </div>
-
-                <div className="container faq">
+                <div className="container faq" id="faq">
                     <h2><strong>Foire aux questions</strong></h2>
                     <div className="question align-items-center">
                         <BasicExample />
                     </div>
                 </div>
+
 
             </div>
             <Footerter />

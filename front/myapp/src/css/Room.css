@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.bodylight {
+    background-color: white;
+}
+
+.bodydark {
+    background-color: #131313;
+}
+
+.bodybattle {
+    background-color: white;
+}
+
+#Home {
+    scroll-margin-top: 71.6px;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.labelConnection {
+    height: 200px;
+}
+
+/*Pour tous les textes en général*/
+h1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Amiko', sans-serif;
+    color: #3B4040;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Amiko', sans-serif;
+    color: #3B4040;
+}
+
+p {
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+/*Boutton découvrir*/
+.discoverButton {
+    height: 61px;
+    width: 263px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.discoverhome {
+    margin-top: 800px;
+    margin-bottom: 100px;
+}
+
+/*description*/
+.description {
+    margin-top: 100px;
+}
+
+/*carousel*/
+.carousel {
+    margin-top: 100px;
+}
+
+/*Lightroom*/
+.bandeaubleu {
+    background-color: #eafffb;
+}
+
+.bandeaubleu p {
+    font-size: 25px;
+}
+
+.imgrondelight {
+    border-radius: 250px;
+    border: 15px solid #72cece;
+}
+
+.img img {
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.blocimg {
+    margin-top: 100px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.bloclight {
+    width: 95%;
+    background-color: #eafffb;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: fit-content;
+}
+
+.bloclight h3 {
+    margin-top: 20px;
+}
+
+.blochome {
+    display: flex;
+}
+
+.blochome h3 {
+    margin-left: 20px;
+}
+
+.parag h4 {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+/*Darkroom*/
+.bandeaudark {
+    background-color: black;
+}
+
+.bandeaudark h1{
+    color: white;
+}
+
+.bandeaudark p {
+    color: white;
+    font-size: 25px;
+}
+
+.imgrondedark {
+    border-radius: 250px;
+    border: 15px solid #9C0000;
+}
+
+.descriptiondark h2{
+    color: white;
+}
+
+.blocdark {
+    width: 95%;
+    background-color: #646363;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: fit-content;
+}
+
+.blocdark h3 {
+    margin-top: 20px;
+    color: white;
+}
+
+.blocdark p {
+    color: white;
+}
+
+.paragdark h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #9C0000;
+    font-size: 20px;
+}
+
+/*Battleroom*/
+.bandeaubattle {
+    background-color: #82FFE1;
+}
+
+.bandeaubattle p {
+    font-size: 25px;
+}
+
+.imgrondebattle {
+    border-radius: 250px;
+    border: 15px solid #77807e;
+}
+
+.img img {
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.blocbattle {
+    width: 95%;
+    background-color: #82FFE1;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: fit-content;
+}

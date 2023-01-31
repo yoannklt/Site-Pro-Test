@@ -15,9 +15,9 @@ function Navbarbar() {
         <Navbar.Collapse id="responsive-navbar-nav" className='list col-lg-10'>
           <Nav.Link className="navbtn" href="/News">News</Nav.Link>
           <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-          <Nav.Link className="navbtn" href="/Lightroom">Nos expériences</Nav.Link>
+          <Nav.Link className="navbtn" href="/Room">Nos expériences</Nav.Link>
           <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-          <Nav.Link className="navbtn" href="About">à propos de nous</Nav.Link>
+          <Nav.Link className="navbtn" href="/About">à propos de nous</Nav.Link>
           <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
           <Nav.Link className="navbtn" href="/Equipements">Nos équipements</Nav.Link>
           <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>

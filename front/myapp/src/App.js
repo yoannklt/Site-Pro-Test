@@ -16,6 +16,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Booking from "./components/Booking";
 //App.js
 function App(props){
 

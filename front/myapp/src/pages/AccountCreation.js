@@ -14,6 +14,7 @@ export default function AccountCreation() {
         const existFetched = existingUser(data.email);
         existFetched
             .then(result =>{
+                console.log(result)
                 if(result) {
                     console.log("There is already an account using this email: " + data.email)
                     return;
@@ -26,7 +27,7 @@ export default function AccountCreation() {
     return (
         <div>
             <div className="backgroundAccount">
-                <Navbarbar />
+                <Navbarbar/>
                 <div className="myAccount text-center align-items-center align-self-center">
                     <h1><strong>mon compte</strong></h1>
                 </div>
@@ -86,7 +87,7 @@ export default function AccountCreation() {
                         </Form>
                     </div>
                 </div>
-            <Footerter />
+            <Footerter/>
         </div >
     )
 }
