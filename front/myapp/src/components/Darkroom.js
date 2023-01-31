@@ -1,12 +1,11 @@
 import "../css/Room.css";
 import Navbarbar from "../components/Navbar";
-import image9 from "../img/image9.png";
+import image73 from "../img/image73.png";
 import thesense from '../img/thesense.png';
-import image10 from "../img/image10.jpg";
-import boutonréserver from "../img/boutonréserver.png";
 import image1 from "../img/image1.png";
-import Reservation from "./Booking";
-import FadeCarouselavis from "../components/Carouselavis";
+import image12 from "../img/image12.png";
+import boutonréserver from "../img/boutonréserver.png";
+import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
 
 
@@ -25,9 +24,9 @@ function Darkroom() {
                     </div>
                 </div>
 
-                <div className="row bandeaunoir">
+                <div className="row bandeaubleu" >
                     <div className="col-lg-4 img text-center">
-                        <img className="img-fluid imgronde align-self-center" src={image9} alt="img9"></img>
+                        <img className="img-fluid imgronde align-self-center" src={image73} alt="img9"></img>
                     </div>
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
@@ -72,7 +71,7 @@ function Darkroom() {
 
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
-                        <img className="img-fluid" src={image1} alt="" />
+                        <img className="img-fluid" src={image12} alt="" />
                     </div>
                     <div className="container blocgris">
                         <div className="row">
@@ -94,10 +93,13 @@ function Darkroom() {
                     </div>
                 </div>
 
+                <div className="carousel">
+                    <FadeCarousel />
+                </div>
+
             </div>
-
+            <Footerter />
         </div>
-
     )
 }
 
