@@ -12,7 +12,6 @@ import image4 from "../img/image4.png";
 import image5 from "../img/image5.png";
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
-import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";
@@ -22,7 +21,7 @@ import { UserContext } from "../context/UserContext";
 
 
 function Home() {
-    const { user, setUser } = UserContext(UserContext);
+    const { user, setUser } = useContext(UserContext);
 
     const userToken = JSON.parse(sessionStorage.getItem('token'))
     if (userToken && !user) {
@@ -49,7 +48,7 @@ function Home() {
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
                                 <h1 className="">Qu'est-ce que <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense"></img></h1>
-                                <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l’avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité.</p>
+                                <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité.</p>
                         </div>
                         <div className="col col-lg-2">
                             <p>&nbsp;?</p>
@@ -83,7 +82,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Light room -></a>
+                                <a href="/Room">découvrez la Light room →</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +109,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Dark room -></a>
+                                <a href="/Room">découvrez la Dark room →</a>
                             </div>
                         </div>
                     </div>
@@ -136,7 +135,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la battle room -></a>
+                                <a href="/Room">découvrez la battle room →</a>
                             </div>
                         </div>
                     </div>
@@ -163,7 +162,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la creative room -></a>
+                                <a href="/Room">découvrez la creative room →</a>
                             </div>
                         </div>
                     </div>

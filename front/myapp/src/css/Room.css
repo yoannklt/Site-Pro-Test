@@ -215,3 +215,7 @@ p {
     border-bottom-right-radius: 10px;
     height: fit-content;
 }
+
+.booking-form {
+    width: 100%;
+}

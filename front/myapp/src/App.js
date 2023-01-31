@@ -37,6 +37,7 @@ function App(props){
           <Route exact path="/Equipements"> <Equipements /></Route>
           <Route exact path="/HomeTest"> <HomeTest /></Route>
           <Route exact path="/AccountCreation"> <AccountCreation /></Route>
+          <Route exact path="/Booking"> <Booking/> </Route>
         </UserContext.Provider>
         <RoomContext.Provider value={roomValue}>
           <Route exact path="/RoomTest"><RoomTest/></Route>
