@@ -2,16 +2,16 @@ import "../css/Room.css";
 import Navbarbar from "../components/Navbar";
 import image73 from "../img/image73.png";
 import thesense from '../img/thesense.png';
-import image10 from "../img/image10.jpg";
-import image14 from "../img/image14.png";
+import image2 from "../img/image2.png";
+import image13 from "../img/image13.png";
 import boutonréserver from "../img/boutonréserver.png";
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
 
 
-function Lightroom() {
+function Battleroom() {
     return (
-        <div className="bodylight">
+        <div className="bodybattle">
             <div>
                 <Navbarbar />
             </div>
@@ -24,9 +24,9 @@ function Lightroom() {
                     </div>
                 </div>
 
-                <div className="row bandeaubleu" >
+                <div className="row bandeaubattle" >
                     <div className="col-lg-4 img text-center">
-                        <img className="img-fluid imgrondelight align-self-center" src={image73} alt="img9"></img>
+                        <img className="img-fluid imgrondebattle align-self-center" src={image73} alt="img9"></img>
                     </div>
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
@@ -42,23 +42,23 @@ function Lightroom() {
                 </div>
 
                 <div className="container description col-lg-12 align-text-center">
-                    <h2><strong>Prenez part au voyage</strong></h2>
+                    <h2><strong>Défiez vos adversaires</strong></h2>
                 </div>
 
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
                         <div>
-                            <img className="img-fluid" src={image10} alt="" />
+                            <img className="img-fluid" src={image2} alt="" />
                         </div>
                     </div>
-                    <div className="container bloclight">
+                    <div className="container blocbattle">
                         <div className="blochome">
-                            <h3><strong>Shangri-la : la cité perdue de z</strong></h3>
+                            <h3><strong>ultimate fight</strong></h3>
                             <h3>|</h3>
-                            <h3 className="title">light room</h3>
+                            <h3 className="title">battle room</h3>
                         </div>
                         <div className="row parag">
-                            <p>Shangri-La la cité mythique, symbole de la paix, de prospérité et de magnficence. Personne n'a apparemment pu se rendre en ce lieu depuis des décennies ou prouver son existance, du moins depuis votre découverte ! Aventurez-vous au plus profond des légendes, entrez dans la cité de Z avec votre équipe et explorez les lieux à la recherche de Percy Fawcett.</p>
+                            <p>Sentez votre coeur battre, votre souffle se couper, votre concentration monter... Enrôlez des joueurs, formez votre équipe et préparez vous au combat. Arrachez la victoire à vos adversaires à travers une bataille dans des décors et des "maps" des plus immersives. En équipe de 4 ou 5 voyez lesquels d'entre vous sont dignes de remporter le trophée.</p>
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-12 align-self-center">
@@ -71,17 +71,17 @@ function Lightroom() {
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
                         <div>
-                            <img className="img-fluid" src={image14} alt="" />
+                            <img className="img-fluid" src={image13} alt="" />
                         </div>
                     </div>
-                    <div className="container bloclight">
+                    <div className="container blocbattle">
                         <div className="blochome">
-                            <h3><strong>Nordrënn : la légende de glace</strong></h3>
+                            <h3><strong>GARDEN WAR</strong></h3>
                             <h3>|</h3>
                             <h3 className="title">light room</h3>
                         </div>
                         <div className="row parag">
-                            <p>Dans le froid du royaume de Nordrënn, il est une légende qui raconte coimment un guerrier abtint la force de l'ours et la claivoyance du corbeau. il est dit que pour conquérir la femme qu'il aimait, cet homme parti à la recherce du trône d'Odin, artefact perdu depuis des années, qui offrait, disait-on, le pouvoir du Père de Toute Chose. Le guerrier parti et ne revint jamais : on raconte qu'il aurait trouvé le trône mais, qu'avide de son pouvoir il ne le quittera plus. Partez à la découverte du royaume glacé de Nordrënn et retrouvez le guerrier de la légende.</p>
+                            <p>Partez au front, avec vos amis ou votre famille, découvrez un univers certes plus cartoonesque mais ne vous y méprenez pas, vos ennemies vous attendent. Vous avez pour objectifs de remporter les batailles ! Munissez vous de vos plus fidèles soldats et partez en guerre. Cette expérience en équipe de 4-5 joueurs vous propose de découvrir l'univers cartoonesque mais compétitif de notre nouvelle room. Qu'attendez-vous soldat ?.</p>
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-12 align-self-center">
@@ -95,11 +95,10 @@ function Lightroom() {
                     <FadeCarousel />
                 </div>
 
-
             </div>
             <Footerter />
         </div>
     )
 }
 
-export default Lightroom;
+export default Battleroom;

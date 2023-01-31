@@ -1,4 +1,4 @@
-export const addBooking = async (date, begin, end, first_name, last_name,  price, phoneNumber, players, discover, code) => {
+export const addBooking = async (date, begin, first_name, last_name, phoneNumber, players, discover, code) => {
     const response = await fetch(
         'http://localhost:4444/booking/insert', {
             method: 'POST', 
@@ -11,8 +11,6 @@ export const addBooking = async (date, begin, end, first_name, last_name,  price
                 'last_name':last_name,
                 'date': date,
                 'begin': begin,
-                'end': end,
-                'price': price,
                 'phoneNumber': phoneNumber,
                 'players':players,
                 'discover':discover,

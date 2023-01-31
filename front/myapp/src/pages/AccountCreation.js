@@ -4,8 +4,6 @@ import Footerter from '../components/Footer';
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { existingUser, signUp } from "../api/Users";
-import { useContext } from 'react';
-import { UserContext } from '../context/UserContext';
 
 export default function AccountCreation() {
 
@@ -29,7 +27,7 @@ export default function AccountCreation() {
     return (
         <div>
             <div className="backgroundAccount">
-                <Navbarbar />
+                <Navbarbar/>
                 <div className="myAccount text-center align-items-center align-self-center">
                     <h1><strong>mon compte</strong></h1>
                 </div>
@@ -89,7 +87,7 @@ export default function AccountCreation() {
                         </Form>
                     </div>
                 </div>
-            <Footerter />
+            <Footerter/>
         </div >
     )
 }
