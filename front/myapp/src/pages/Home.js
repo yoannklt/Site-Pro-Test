@@ -28,14 +28,7 @@ function Home() {
     if (userToken && !user) {
         setUser(userToken);
     }
-
-    // const { roomContext, setRoomContext } = useContext(RoomContext);
-
-    // const setRoom = room => {
-    //     console.log("roomContext set to " + room);
-    //     setRoomContext(room);
-    //   }
-
+    
     return (
         <div>
             <div>

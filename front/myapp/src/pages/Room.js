@@ -8,16 +8,25 @@ import { RoomContext } from "../context/RoomContext";
 
 function Room() {
 
-    const { roomContext, setRoomContext } = useContext(RoomContext);
-
+    const {room, setRoom} = useContext(RoomContext)
+    
     return (
         <>
-            {/* { (!roomContext) ? <Lightroom />
-            : (roomContext === 'lightRoom') ? <Lightroom /> 
-            : (roomContext === 'darkRoom') ? <Darkroom /> 
-            : <Battleroom /> } */}
+        {room ? (
+            <div className="col-lg-12 text-center align-items-center">
+                <button>Battle Room</button>
+                <button>Battle Room</button>
+                <button>Battle Room</button>  
+            </div>
+        ):(
+            <div>
+                <button>Battle Room</button>
+                <button>Battle Room</button>
+                <button>Battle Room</button>  
+            </div>
+        )}
+        
         </>
-
     )
 }
 

@@ -29,19 +29,19 @@ function App(props){
   return <Router>
       <Switch>
         <UserContext.Provider value={value}>
-          <Route exact path="/"> <Home /></Route>
-          <Route exact path="/News"> <News /></Route>
-          <Route exact path="/About"> <About /></Route>
-          <Route exact path="/BtoB"> <BtoB /></Route>
-          <Route exact path="/Room"><Room /></Route>
-          <Route exact path="/Equipements"> <Equipements /></Route>
-          <Route exact path="/HomeTest"> <HomeTest /></Route>
-          <Route exact path="/AccountCreation"> <AccountCreation /></Route>
-          <Route exact path="/Booking"> <Booking/> </Route>
+          <RoomContext.Provider value={roomValue}>
+            <Route exact path="/"> <Home /></Route>
+            <Route exact path="/News"> <News /></Route>
+            <Route exact path="/About"> <About /></Route>
+            <Route exact path="/BtoB"> <BtoB /></Route>
+            <Route exact path="/Equipements"> <Equipements /></Route>
+            <Route exact path="/HomeTest"> <HomeTest /></Route>
+            <Route exact path="/AccountCreation"> <AccountCreation /></Route>
+            <Route exact path="/Booking"> <Booking/> </Route>
+            <Route exact path="/RoomTest"><RoomTest/></Route>
+            <Route exact path="/Room"><Room /></Route>
+          </RoomContext.Provider>
         </UserContext.Provider>
-        <RoomContext.Provider value={roomValue}>
-          <Route exact path="/RoomTest"><RoomTest/></Route>
-        </RoomContext.Provider>
       </Switch>
   </Router>
 }
