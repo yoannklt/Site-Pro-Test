@@ -10,7 +10,7 @@ import Contactee from "../components/Contact";
 
 function BtoB() {
     return (
-        <div>
+        <div className="bodybtob">
             <div className="backgroundbtob">
                 <Navbarbar />
                 <div className="btob">

@@ -10,7 +10,7 @@ import Footerter from "../components/Footer";
 
 function Equipement() {
     return (
-        <div>
+        <div className="bodyaquipe">
             <div className="backgroundequipe">
                 <Navbarbar />
                 <div className="btob">

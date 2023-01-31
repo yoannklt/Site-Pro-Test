@@ -11,6 +11,10 @@ body {
     background-position: top;
 }
 
+.bodynews{
+    background-color: white;
+}
+
 /*Pour tous les textes en général*/
 h1 {
     display: flex;

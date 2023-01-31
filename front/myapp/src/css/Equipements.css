@@ -11,6 +11,10 @@ body {
   background-position: top;
 }
 
+.bodyaquipe {
+  background-color: white;
+}
+
 #Home {
   scroll-margin-top: 71.6px;
 }
