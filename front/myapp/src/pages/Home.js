@@ -1,5 +1,4 @@
 import "../css/Home.css";
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarbar from "../components/Navbar";
 import image9 from "../img/image9.png";
