@@ -2,19 +2,24 @@ import Navbarbar from "../components/Navbar";
 import Footerter from '../components/Footer';
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
-import { useContext } from "react";
-import { UserContext } from "../context/UserContext";
 import { existingUser, signUp } from "../api/Users";
 
 export default function AccountCreation() {
 
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit } = useForm();   
+   
 
-    const { user, setUser } = useContext(UserContext);
     const onSubmit = (data) => {
-        if (existingUser(data.email)==false) {
-            signUp(data.first_name, data.last_name, data.email, data.password)
-        }
+        const existFetched = existingUser(data.email);
+        existFetched
+            .then(result =>{
+                if(result) {
+                    console.log("There is already an account using this email: " + data.email)
+                    return;
+                }
+                console.log("New account created: " + data.email)
+                signUp(data.first_name, data.last_name, data.email, data.password)
+            })
     }
 
     return (
@@ -50,7 +55,7 @@ export default function AccountCreation() {
                                 <Form.Label>Email &nbsp;&nbsp;</Form.Label>
                             </Form.Group>
                             <Form.Group className="mb-3 col-lg-7 formCreateAccount" controlId="formBasicMail">
-                                <Form.Control required {...register("email")} type="mail" placeholder="Password" />
+                                <Form.Control required {...register("email")} type="mail" placeholder="Votre adresse mail" />
                             </Form.Group>
 
                             <Form.Group className="col-lg-5 col-md-5 col-sm-5 text-end">

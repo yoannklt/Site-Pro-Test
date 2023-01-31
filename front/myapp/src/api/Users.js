@@ -57,8 +57,8 @@ export const existingUser = async(email) => {
             }
         }
     )
-    const result = await response.json()
-    return result;
+    const exist = await response.json();
+    return exist;
 }
 
 export const DeleteUser = async (data) => {

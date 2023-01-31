@@ -50,17 +50,17 @@ app.get('/user/checking', (req, res) =>{
   dbConnect
     .collection('user')
     .findOne({
-      $and: [
-        {email: { $eq: req.query.email }}
-      ]
+      email: { $eq: req.query.email }
     })
-    .then(result => res.status(200).json(result!=null))
+    .then(result => {
+      console.log(result)
+      res.status(200).json(result!=null)
+    })
     .catch(err => console.error(err));
 })
 
 // INSERER DES UTILISATEURS
 app.post('/user/insert', jsonParser, (req, res) => {
-  global(existing);
   const body = req.body;
   const dbConnect = dbo.getDb();
   console.log('Got body insert user:', body);
