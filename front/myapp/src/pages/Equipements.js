@@ -11,12 +11,6 @@ import { UserContext } from "../context/UserContext";
 
 
 function Equipement() {
-    const { user, setUser } = useContext(UserContext);
-
-    const userToken = JSON.parse(sessionStorage.getItem('token'))
-    if (userToken && !user) {
-        setUser(userToken);
-    }
     return (
         <div className="bodyaquipe">
             <div className="backgroundequipe">

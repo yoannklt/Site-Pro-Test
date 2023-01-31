@@ -8,19 +8,7 @@ import Darkroom from "../components/Darkroom";
 
 function Room() {
     return (
-        <div>
-            <Navbarbar/>
-            <div className="">
-                <ScrollButton/>
-                <Darkroom />
-
-
-                <div className="carouselavis">
-                    <FadeCarousel/>
-                </div>
-            </div>
-            <Footerter />
-        </div>
+        <Lightroom />
     )
 }
 
