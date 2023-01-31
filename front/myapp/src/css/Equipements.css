@@ -1,136 +1,139 @@
 html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    padding: 0;
-    margin: 0;
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-  }
-  
-  #Home {
-    scroll-margin-top: 71.6px;
-  }
-  
-  .row {
-    --bs-gutter-x: 0;
-  }
-  
-  .labelConnection {
-    height: 200px;
-  }
-  
-  /*Pour tous les textes en général*/
-  h1 {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    color: black;
-  }
-  
-  h2 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-  }
-  
-  h3 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-  }
-  
-  p {
-    color: #646363;
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-  }
-  
-  /*Boutton découvrir*/
-  .discoverButton {
-    height: 61px;
-    width: 263px;
-    border-radius: 15px;
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
-    font-size: 28px;
-  }
-  
-  .discover {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  
-  /*btob*/
-  .backgroundequipe {
-    height: 540px;
-    background-image: url(../img/image16.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .btob {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 86.5%;
-  }
-  
-  .btob h1 {
-    font-family: 'Amiko', sans-serif;
-    font-weight: bold;
-    font-size: 120px;
-    color: white;
-  }
-  
-  /*Bandeau bleu*/
-  .bandeaubleu {
-    background-color: #eafffb;
-  }
-  
-  .bandeaubleu p {
-    font-size: 25px;
-  }
-  
-  .imgronde {
-    border-radius: 250px;
-    border: 15px solid #bbccc9;
-  }
-  
-  .img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  
-  /*description*/
-  .description {
-    margin-top: 100px;
-  }
-  
-  /*troiscase*/
-  .troiscase {
-    margin-top: 100px;
-  }
-  
-  .blocbtob {
-    margin-top: 100px;
-  }
-  
-  .blocbleu {
-    background-color: #eafffb;
-  }
-  
-  .blocbleu img {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  
-  /*contact*/
-  .contact {
-    margin-top: 100px;
-  }
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.bodyaquipe {
+  background-color: white;
+}
+
+#Home {
+  scroll-margin-top: 71.6px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.labelConnection {
+  height: 200px;
+}
+
+/*Pour tous les textes en général*/
+h1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: black;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Amiko', sans-serif;
+  color: #3B4040;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: 'Amiko', sans-serif;
+  color: #3B4040;
+}
+
+p {
+  color: #646363;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+}
+
+/*Boutton découvrir*/
+.discoverButton {
+  height: 61px;
+  width: 263px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.discover {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*btob*/
+.backgroundequipe {
+  height: 540px;
+  background-image: url(../img/image16.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.5%;
+}
+
+.btob h1 {
+  font-family: 'Amiko', sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+  color: white;
+}
+
+/*Bandeau bleu*/
+.bandeaubleu {
+  background-color: #eafffb;
+}
+
+.bandeaubleu p {
+  font-size: 25px;
+}
+
+.imgronde {
+  border-radius: 250px;
+  border: 15px solid #bbccc9;
+}
+
+.img img {
+  height: 350px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/*description*/
+.description {
+  margin-top: 100px;
+}
+
+/*troiscase*/
+.troiscase {
+  margin-top: 100px;
+}
+
+.blocbtob {
+  margin-top: 100px;
+}
+
+.blocbleu {
+  background-color: #eafffb;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+/*carousel*/
+.carousel {
+  margin-top: 100px;
+}

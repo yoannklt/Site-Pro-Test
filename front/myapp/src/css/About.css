@@ -11,6 +11,12 @@ body {
   background-position: top;
 }
 
+.bodyabout {
+  background-color: white;
+  background-image: url(../img/bryceforme4.png);
+  background-repeat: no-repeat;
+}
+
 #Home {
   scroll-margin-top: 71.6px;
 }
@@ -66,19 +72,19 @@ p {
 }
 
 /*About*/
-.background{
+.backgroundabout {
   height: 540px;
   background-image: url(../img/image53.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.thesense{
+.thesense {
   display: flex;
   justify-content: center;
 }
 
-.thesense img{
+.thesense img {
   height: 400px;
   margin-top: 100px;
 }
@@ -109,55 +115,62 @@ p {
 }
 
 /*Team*/
-.team{
+.backgroundthesense {
+  background-image: url(../img/Logogris.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.team {
   display: flex;
   justify-content: center;
   margin-top: 100px;
 }
 
-.team p{
+.team p {
   font-size: 20px;
 }
 
-.team h3{
+.team h3 {
   font-family: 'Abel', sans-serif;
   margin-bottom: 0;
   font-size: 40px;
 }
 
-.team h4{
+.team h4 {
   font-family: 'Abel', sans-serif;
 }
 
-.turquoise{
+.turquoise {
   color: #82FFE1;
   text-transform: none;
 }
 
-.map{
+.map {
   display: flex;
   margin-top: 100px;
 }
 
-.map img{
+.map img {
   height: 400px;
 }
 
-.horaires{
+.horaires {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
 }
 
-.days{
+.days {
   text-align-last: start;
 }
 
-.red{
+.red {
   color: #9C0000;
 }
 
 /*Contact*/
-.contact{
+.contact {
   margin-top: 100px;
 }

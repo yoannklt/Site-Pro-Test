@@ -9,7 +9,7 @@ import Footerter from "../components/Footer";
 
 function News() {
     return (
-        <div>
+        <div className="bodynews">
             <div className="backgroundnews">
                 <Navbarbar />
                 <div className="news">

@@ -15,10 +15,17 @@ import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";   
+import { UserContext , UseContext } from "../context/UserContext";
 
 
 
 function Home() {
+    const { user, setUser } = UserContext(UserContext);
+
+    const userToken = JSON.parse(sessionStorage.getItem('token'))
+    if (userToken && !user) {
+        setUser(userToken);
+    }
     return (
         <div>
             <div>
@@ -39,7 +46,11 @@ function Home() {
                     </div>
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
-                            <h1 className="">Qu'est-ce que</h1>
+                            {!user ? (
+                                <h1 className="">Qu'est-ce que</h1>
+                            ) : (
+                                <h1 className="">Qu'est-ce que {user.first_name}</h1>
+                            )}
                         </div>
                         <div className="col col-lg-2">
                             <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense"></img>
@@ -192,12 +203,14 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container avis">
-                    <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
-                </div>
+                <div className="avis">
+                    <div className="container">
+                        <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
+                    </div>
 
-                <div className="carouselavis">
-                    <FadeCarouselavis />
+                    <div className="carouselavis">
+                        <FadeCarouselavis />
+                    </div>
                 </div>
 
                 <div className="container faq">

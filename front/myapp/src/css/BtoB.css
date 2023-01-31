@@ -11,6 +11,10 @@ body {
   background-position: top;
 }
 
+.bodybtob {
+  background-color: white;
+}
+
 #Home {
   scroll-margin-top: 71.6px;
 }
@@ -123,11 +127,10 @@ p {
 
 .blocbleu {
   background-color: #eafffb;
-}
-
-.blocbleu img {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
 }
 
 /*contact*/
