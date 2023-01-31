@@ -11,12 +11,6 @@ import { UserContext } from "../context/UserContext";
 
 
 function BtoB() {
-    const { user, setUser } = useContext(UserContext);
-
-    const userToken = JSON.parse(sessionStorage.getItem('token'))
-    if (userToken && !user) {
-        setUser(userToken);
-    }
     return (
         <div className="bodybtob">
             <div className="backgroundbtob">
