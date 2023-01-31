@@ -1,4 +1,4 @@
-import '../css/Account.css';
+import '../css/AccountCreation.css';
 import Navbarbar from "../components/Navbar";
 import Footerter from '../components/Footer';
 import { Button, Form } from "react-bootstrap";
