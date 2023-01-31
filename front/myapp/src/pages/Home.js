@@ -1,4 +1,3 @@
-import "../css/Home.css";
 import Navbarbar from "../components/Navbar";
 import image9 from "../img/image9.png";
 import thesense from '../img/thesense.png';
@@ -175,9 +174,6 @@ function Home() {
                     </div>
                 </div>
 
-                <div>
-                    <Reservation />
-                </div>
 
                 <div className="container blocnews">
                     <h3><strong>Les news du mois</strong></h3>
