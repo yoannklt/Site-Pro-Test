@@ -1,3 +1,4 @@
+import "../css/Room.css";
 import image73 from "../img/image73.png";
 import logoHome from "../img/lightroom.png";
 import boutonréserver from "../img/boutonréserver.png";
