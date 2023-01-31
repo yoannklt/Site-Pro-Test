@@ -47,10 +47,8 @@ function Home() {
                     </div>
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
-                                <h1 className="">Qu'est-ce que</h1>
-                        </div>
-                        <div className="col col-lg-2">
-                            <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense"></img>
+                                <h1 className="">Qu'est-ce que <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense"></img></h1>
+                                <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l’avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité.</p>
                         </div>
                         <div className="col col-lg-2">
                             <p>&nbsp;?</p>
