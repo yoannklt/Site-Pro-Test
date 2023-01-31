@@ -5,7 +5,7 @@ import thesense from '../img/thesense.png';
 import image10 from "../img/image10.jpg";
 import boutonréserver from "../img/boutonréserver.png";
 import image1 from "../img/image1.png";
-import Reservation from "../components/Reservation";
+import Reservation from "./Booking";
 import FadeCarouselavis from "../components/Carouselavis";
 import Footerter from "../components/Footer";
 
