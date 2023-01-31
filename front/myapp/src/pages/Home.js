@@ -1,5 +1,4 @@
 import "../css/Home.css";
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarbar from "../components/Navbar";
 import image9 from "../img/image9.png";
@@ -48,11 +47,7 @@ function Home() {
                     </div>
                     <div className="col-lg-7 txt row align-items-baseline">
                         <div className="col col-lg-4 text-end h1Home">
-                            {!user ? (
                                 <h1 className="">Qu'est-ce que</h1>
-                            ) : (
-                                <h1 className="">Qu'est-ce que {user.first_name}</h1>
-                            )}
                         </div>
                         <div className="col col-lg-2">
                             <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense"></img>
