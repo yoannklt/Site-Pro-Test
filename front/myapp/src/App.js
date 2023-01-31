@@ -4,22 +4,26 @@ import About from "./pages/About";
 import BtoB from "./pages/BtoB";
 import Room from "./pages/Room";
 import Equipements from "./pages/Equipements";
+import HomeTest from "./pages/HomeTest";
+import AccountCreation from "./pages/AccountCreation";
+import RoomTest from "./pages/RoomTest";
+import { useMemo, useState } from "react";
+import { UserContext } from "./context/UserContext";
+import { RoomContext } from "./context/RoomContext";
+
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-import HomeTest from "./pages/HomeTest";
-import AccountCreation from "./pages/AccountCreation";
-import { useMemo, useState } from "react";
-import { UserContext } from "./context/UserContext";
-
 //App.js
 function App(props){
 
   const [user, setUser] = useState(null);
+  const [room, setRoom] = useState(null);
 
   const value = useMemo(() => ({ user, setUser }), [user, setUser]);
+  const roomValue = useMemo(() => ({room, setRoom}), [room, setRoom]);
 
   return <Router>
       <Switch>
@@ -41,6 +45,9 @@ function App(props){
             <AccountCreation /> 
           </Route>
         </UserContext.Provider>
+        <RoomContext.Provider value={roomValue}>
+          <Route exact path="/RoomTest"> <RoomTest/> </Route>
+        </RoomContext.Provider>
       </Switch>
   </Router>
 }
