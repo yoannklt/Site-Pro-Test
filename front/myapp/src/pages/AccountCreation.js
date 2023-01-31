@@ -22,6 +22,7 @@ export default function AccountCreation() {
         const existFetched = existingUser(data.email);
         existFetched
             .then(result =>{
+                console.log(result)
                 if(result) {
                     console.log("There is already an account using this email: " + data.email)
                     return;
