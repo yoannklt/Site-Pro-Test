@@ -12,9 +12,10 @@ function Room() {
 
     return (
         <>
-            {(roomContext == 'lightRoom') ? <Lightroom /> 
-            : (roomContext == 'darkRoom') ? <Darkroom /> 
-            : <Battleroom />}
+            {/* { (!roomContext) ? <Lightroom />
+            : (roomContext === 'lightRoom') ? <Lightroom /> 
+            : (roomContext === 'darkRoom') ? <Darkroom /> 
+            : <Battleroom /> } */}
         </>
 
     )

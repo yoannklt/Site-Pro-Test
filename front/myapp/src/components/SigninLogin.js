@@ -9,7 +9,6 @@ function SigninLogin() {
   const { user, setUser } = useContext(UserContext);
 
   const logout = () => {
-    console.log("skibidibap")
     sessionStorage.removeItem('token');
     setUser(null)
   }

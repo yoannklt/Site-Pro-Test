@@ -17,6 +17,7 @@ import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import { RoomContext } from "../context/RoomContext";
 
 
 
@@ -27,6 +28,14 @@ function Home() {
     if (userToken && !user) {
         setUser(userToken);
     }
+
+    // const { roomContext, setRoomContext } = useContext(RoomContext);
+
+    // const setRoom = room => {
+    //     console.log("roomContext set to " + room);
+    //     setRoomContext(room);
+    //   }
+
     return (
         <div>
             <div>
@@ -82,7 +91,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Light room →</a>
+                                <a onClick={setRoom('lightRoom')} href="/Room">découvrez la Light room →</a>
                             </div>
                         </div>
                     </div>
@@ -109,7 +118,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la Dark room →</a>
+                                <a  onClick={setRoom('darkRoom')} href="/Room">découvrez la Dark room →</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +144,7 @@ function Home() {
                                 <a href="#reservation"><img src={boutonréserver} alt="" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a href="/Room">découvrez la battle room →</a>
+                                <a  onClick={setRoom('battleRoom')} href="/Room">découvrez la battle room →</a>
                             </div>
                         </div>
                     </div>
