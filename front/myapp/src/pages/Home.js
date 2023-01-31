@@ -14,13 +14,13 @@ import image8 from '../img/image8.png';
 import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
-import Footerter from "../components/Footer";
-import { useContext } from "react";
-import { UserContext } from "../context/UserContext";
+import Footerter from "../components/Footer";   
+import { UserContext , UseContext } from "../context/UserContext";
+
 
 
 function Home() {
-    const { user, setUser } = useContext(UserContext);
+    const { user, setUser } = UserContext(UserContext);
 
     const userToken = JSON.parse(sessionStorage.getItem('token'))
     if (userToken && !user) {
@@ -219,6 +219,7 @@ function Home() {
                         <BasicExample />
                     </div>
                 </div>
+
 
             </div>
             <Footerter />
