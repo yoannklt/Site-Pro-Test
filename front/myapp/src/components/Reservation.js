@@ -1,37 +1,10 @@
-import réservation from "../img/réservation.png";
+import { useContext } from "react";
+import { UserContext } from "../context/UserContext";
 
-function Reservation() {
-    return (
-        <div className="reser">
-
-            <div className=" photo">
-                <div className="container text-center">
-
-
-
-                    <div className="reserimg">
-                        <img src={réservation} alt="" />
-                    </div>
-
-                    <div className="horraires">
-                        <h4>Du 15 au 20 décembre</h4>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-
-
-
-
-
-
-    );
+export function reservation() {
+    const {user, setUser} = useContext(UserContext);
+    userToken = JSON.parse(sessionStorage.getItem('token'));
+    if (userToken && !user) {
+        setUser(userToken)
+    }
 }
-
-export default Reservation;

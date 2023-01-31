@@ -49,7 +49,7 @@ export const signUp = async (first_name, last_name, email, password) => {
 
 export const existingUser = async(email) => {
     const response = await fetch(
-        'http://localhost:4444/user/checking?email' + email, {
+        'http://localhost:4444/user/checking?email=' + email, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json', 
