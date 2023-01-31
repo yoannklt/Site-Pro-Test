@@ -146,4 +146,14 @@ app.post('/room/update', jsonParser, (req, res) => {
   res.json(body);
 })
 
-
+//CREER UNE RESERVATION
+app.post('/reservation/insert', jsonParser, (req, res) => {
+  const body = req.body;
+  const dbConnect = dbo.getDb();
+  console.log('Got body insert booking:', body);
+  dbConnect
+  .collection("reservation")
+  .insertOne(body)
+  .then(result => res.status(200).json(result))
+  .catch(err => console.error(err));
+});

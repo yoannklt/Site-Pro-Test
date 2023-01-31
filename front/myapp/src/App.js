@@ -16,6 +16,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Booking from "./components/Booking";
 //App.js
 function App(props){
 
@@ -44,6 +45,7 @@ function App(props){
           <Route exact path="/AccountCreation"> 
             <AccountCreation /> 
           </Route>
+          <Route exact path="/Booking"> <Booking /> </Route>
         </UserContext.Provider>
         <RoomContext.Provider value={roomValue}>
           <Route exact path="/RoomTest"> <RoomTest/> </Route>
