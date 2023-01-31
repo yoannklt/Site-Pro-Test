@@ -8,12 +8,6 @@ import { useContext } from 'react';
 import { UserContext } from '../context/UserContext';
 
 export default function AccountCreation() {
-    const { user, setUser } = useContext(UserContext);
-
-    const userToken = JSON.parse(sessionStorage.getItem('token'))
-    if (userToken && !user) {
-        setUser(userToken);
-    }
 
     const { register, handleSubmit } = useForm();   
    

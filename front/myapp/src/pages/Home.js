@@ -15,12 +15,13 @@ import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";   
-import { UserContext , UseContext } from "../context/UserContext";
+import { useContext } from "react";
+import { UserContext } from "../context/UserContext";
 
 
 
 function Home() {
-    const { user, setUser } = UserContext(UserContext);
+    const { user, setUser } = useContext(UserContext);
 
     const userToken = JSON.parse(sessionStorage.getItem('token'))
     if (userToken && !user) {
@@ -69,7 +70,10 @@ function Home() {
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
                         <h3><strong>Nos expériences les plus appréciées</strong></h3>
-                        <img className="img-fluid" src={image10} alt="" />
+                        <div>
+                            
+                            <img className="img-fluid" src={image10} alt="" />
+                        </div>
                     </div>
                     <div className="container blocgris">
                         <div className="blochome">
