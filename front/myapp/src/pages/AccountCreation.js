@@ -26,10 +26,10 @@ export default function AccountCreation() {
 
     return (
         <div>
-            <div className="backgroundAccount">
-                <Navbarbar/>
-                <div className="myAccount text-center align-items-center align-self-center">
-                    <h1><strong>mon compte</strong></h1>
+            <div className="backgroundaccount">
+                <Navbarbar />
+                <div className="account">
+                    <h1>Mon compte</h1>
                 </div>
             </div>
                 <div className="formBackground">
