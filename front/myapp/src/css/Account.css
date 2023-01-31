@@ -1,0 +1,78 @@
+/*Pour tous les textes en général*/
+h1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Amiko', sans-serif;
+    color: #3B4040;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Amiko', sans-serif;
+    color: #3B4040;
+}
+
+p {
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+/*Form se connecter et s'inscrire*/
+.popUpLog {
+    --bs-popover-max-width: 525px !important;
+}
+
+.btnform a:hover {
+    transform: scale(1.06);
+    transition: 100ms;
+}
+
+.labelLog {
+    text-align: right;
+}
+
+.fromCoo {
+    height: 262px;
+}
+
+.fromCoo .pout {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1BDCC5;
+    width: 70%;
+}
+
+.fromCoo .fout {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+}
+
+.form-label {
+    margin-bottom: 0rem;
+}
+
+.labelLog a {
+    text-decoration: none;
+    color: black;
+}
+
+.fromCoo label {
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+}
+
+.oppai {
+    font-size: 20px;
+}

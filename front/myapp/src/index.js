@@ -9,6 +9,7 @@ import '../src/css/News.css';
 import '../src/css/About.css';
 import '../src/css/BtoB.css';
 import '../src/css/Equipements.css';
+import '../src/css/Account.css';
 
 import App from './App';
 

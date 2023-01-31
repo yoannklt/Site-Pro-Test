@@ -1,3 +1,4 @@
+import '../css/Account.css';
 import Navbarbar from "../components/Navbar";
 import Footerter from '../components/Footer';
 import { Button, Form } from "react-bootstrap";
@@ -27,7 +28,7 @@ export default function AccountCreation() {
             <div className="backgroundAccount">
                 <Navbarbar />
                 <div className="myAccount text-center align-items-center align-self-center">
-                    <h1>mon compte</h1>
+                    <h1><strong>mon compte</strong></h1>
                 </div>
             </div>
                 <div className="formBackground">
