@@ -191,12 +191,14 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container avis">
-                    <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
-                </div>
+                <div className="avis">
+                    <div className="container">
+                        <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
+                    </div>
 
-                <div className="carouselavis">
-                    <FadeCarouselavis />
+                    <div className="carouselavis">
+                        <FadeCarouselavis />
+                    </div>
                 </div>
 
                 <div className="container faq">

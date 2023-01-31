@@ -92,3 +92,8 @@ p {
 .blocgrisnews p {
     font-size: 20px;
 }
+
+/*carousel*/
+.carousel {
+    margin-top: 100px;
+  }
