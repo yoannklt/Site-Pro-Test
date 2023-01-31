@@ -1,3 +1,13 @@
+.bodyaccount {
+    background-color: white;
+}
+
+.backgroundsense {
+    background-image: url(../img/LogoBackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /*Pour tous les textes en général*/
 h1 {
     display: flex;
@@ -43,6 +53,7 @@ p {
     font-weight: bold;
     font-size: 120px;
     color: white;
+    text-transform: uppercase;
 }
 
 /*Form se connecter et s'inscrire*/
@@ -96,4 +107,8 @@ p {
 
 .oppai {
     font-size: 20px;
+}
+
+.backgroundsense h2 {
+    font-family: 'Amiko', sans-serif;
 }
