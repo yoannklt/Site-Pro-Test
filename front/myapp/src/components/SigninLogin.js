@@ -24,9 +24,9 @@ function SigninLogin() {
       >
         <div className='btnform'>
           {!user ? (
-            <a role="button" tabIndex="0" href="#" className="navbtn navbarrr"><strong>Se connecter</strong></a>
+            <Link to='/' className="navbtn navbarrr"><strong>Se connecter</strong></Link>
           ):(
-            <Link to='../pages/MyAccount' className="navbtn navbarrr"><strong>Mon Compte</strong></Link>
+            <Link to='/MyAccount' className="navbtn navbarrr"><strong>Mon Compte</strong></Link>
           )}
           
         </div>

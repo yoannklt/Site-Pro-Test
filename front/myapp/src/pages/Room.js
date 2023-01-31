@@ -1,4 +1,4 @@
-import Lightroom from "../components/Lightroom";
+
 import Darkroom from "../components/Darkroom";
 
 

@@ -34,7 +34,7 @@ function FormConnexion(props) {
                 <Form.Label className="col-lg-3 text-end">
                     Identifiant&nbsp;&nbsp;
                 </Form.Label>
-                <Form.Control className="col-lg-9 pout" {...register("email")} type="email" placeholder="Email" />
+                <Form.Control required className="col-lg-9 pout" {...register("email")} type="email" placeholder="Email" />
                 <Form.Label className="col-lg-3 text-end">
                     Mot de passe&nbsp;&nbsp;
                 </Form.Label>
@@ -43,7 +43,7 @@ function FormConnexion(props) {
                     <Form.Label className="col-lg-9">
                         <Link to="/AccountCreation" className="" >Créer un compte</Link>&nbsp;&nbsp;
                     </Form.Label>
-                    <Form.Control className="fout text-end" type="submit" value="Connexion" />
+                    <Form.Control required className="fout text-end" type="submit" value="Connexion" />
                 </div>
             </Form>
             ):( 

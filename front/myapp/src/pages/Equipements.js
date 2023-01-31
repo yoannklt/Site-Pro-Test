@@ -6,8 +6,6 @@ import ekip3 from '../img/image19.png';
 import image121 from '../img/image121.png';
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
-import { useContext } from "react";
-import { UserContext } from "../context/UserContext";
 
 
 function Equipement() {

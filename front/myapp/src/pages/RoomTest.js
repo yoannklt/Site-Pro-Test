@@ -1,11 +1,9 @@
 import { RoomContext } from "../context/RoomContext";
 import { useContext } from "react";
-import { UserContext } from "../context/UserContext";
 import Navbarbar from "../components/Navbar";
 
 export default function RoomTest() {
 
-    const {user, setUser} = useContext(UserContext);
     const {room, setRoom} = useContext(RoomContext);
 
     return(
