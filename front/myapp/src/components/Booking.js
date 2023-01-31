@@ -22,32 +22,36 @@ export default function Booking() {
     return (
         <div>            
             <Navbarbar />
-                <div className="booking-form text-center align-items-center row offset-4">
-                    <Form onSubmit={handleSubmit(onSubmit)} className="col-lg-4">
-                        <Form.Group>
-                            <Form.Control {...register('date')} required placeholder="Jour"></Form.Control>
-                            <Form.Control {...register('begin')} required placeholder="Créneau"></Form.Control>
+                <div className="booking-form align-items-center row">
+                    <div className="col-lg-4"></div>
+                    <Form onSubmit={handleSubmit(onSubmit)} className="col-lg-4 text-center">
+                        <Form.Group className="mb-2">
+                            <Form.Control className="mb-2" {...register('date')} required placeholder="Jour"></Form.Control>
+                            <Form.Control className="mb-2" {...register('begin')} required placeholder="Créneau"></Form.Control>
                             {!user ? (
                                 <>
-                                    <Form.Control {...register('first_name')} required type="text" placeholder="Prénom"></Form.Control>
-                                    <Form.Control {...register('last_name')} required type="text" placeholder="Nom"></Form.Control>
-                                    <Form.Control {...register('phoneNumber')} required type="tel" pattern="[0-9]{10}" placeholder="Numéro de téléphone"></Form.Control>
-                                    <Form.Control {...register('email')} required type="text" placeholder="Email"></Form.Control>
+                                    <Form.Control className="mb-2" {...register('first_name')} required type="text" placeholder="Prénom"></Form.Control>
+                                    <Form.Control className="mb-2" {...register('last_name')} required type="text" placeholder="Nom"></Form.Control>
+                                    <Form.Control className="mb-2"{...register('phoneNumber')} required type="tel" pattern="[0-9]{10}" placeholder="Numéro de téléphone"></Form.Control>
+                                    <Form.Control className="mb-2" {...register('email')} required type="text" placeholder="Email"></Form.Control>
                                 </>
                             ) : (
                                 <>
-                                    <Form.Control {...register('first_name')} required type="text" placeholder="Prénom" defaultValue={user.first_name}></Form.Control>
-                                    <Form.Control {...register('last_name')} required type="text" placeholder="Nom" defaultValue={user.last_name}></Form.Control>
-                                    <Form.Control {...register('phoneNumber')} required type="tel" pattern="[0-9]{10}" placeholder="Numéro de téléphone" defaultValue={user.phoneNumber}></Form.Control>
-                                    <Form.Control {...register('email')} required type="text" placeholder="Email" defaultValue={user.email}></Form.Control>
+                                    <Form.Control className="mb-2" {...register('first_name')} required type="text" placeholder="Prénom" defaultValue={user.first_name}></Form.Control>
+                                    <Form.Control className="mb-2" {...register('last_name')} required type="text" placeholder="Nom" defaultValue={user.last_name}></Form.Control>
+                                    <Form.Control className="mb-2" {...register('phoneNumber')} required type="tel" pattern="[0-9]{10}" placeholder="Numéro de téléphone" defaultValue={user.phoneNumber}></Form.Control>
+                                    <Form.Control className="mb-2" {...register('email')} required type="text" placeholder="Email" defaultValue={user.email}></Form.Control>
                                 </>
                             )}
-                            <Form.Control {...register('players')} required type="number" min={1} max={4} placeholder="Nbre de joueurs"></Form.Control>
-                            <Form.Control {...register('discover')} type='text' placeholder="Comment avez vous découvert The Sense ?"></Form.Control>
-                            <Form.Control {...register('code')} placeholder="Code promo"></Form.Control>
+                            <Form.Control className="mb-2" {...register('players')} required type="number" min={1} max={4} placeholder="Nbre de joueurs"></Form.Control>
+                            <Form.Control className="mb-2" {...register('discover')} type='text' placeholder="Comment avez vous découvert The Sense ?"></Form.Control>
+                            <Form.Control className="mb-2" {...register('code')} placeholder="Code promo"></Form.Control>
                         </Form.Group>
                         <Button type='submit'>Envoyer</Button>
                     </Form>
+                    <div className="col-lg-4">
+
+                    </div>
                 </div>        
             <Footerter />
         </div>
