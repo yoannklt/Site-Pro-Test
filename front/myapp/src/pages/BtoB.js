@@ -6,9 +6,17 @@ import btob3 from '../img/btob3.png';
 import image146 from '../img/image146.png';
 import Footerter from "../components/Footer";
 import Contactee from "../components/Contact";
+import { useContext } from "react";
+import { UserContext } from "../context/UserContext";
 
 
 function BtoB() {
+    const { user, setUser } = useContext(UserContext);
+
+    const userToken = JSON.parse(sessionStorage.getItem('token'))
+    if (userToken && !user) {
+        setUser(userToken);
+    }
     return (
         <div className="bodybtob">
             <div className="backgroundbtob">
