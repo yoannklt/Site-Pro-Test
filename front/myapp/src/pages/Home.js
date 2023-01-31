@@ -12,6 +12,7 @@ import image4 from "../img/image4.png";
 import image5 from "../img/image5.png";
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
+import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";
@@ -21,7 +22,7 @@ import { UserContext } from "../context/UserContext";
 
 
 function Home() {
-    const { user, setUser } = useContext(UserContext);
+    const { user, setUser } = UserContext(UserContext);
 
     const userToken = JSON.parse(sessionStorage.getItem('token'))
     if (userToken && !user) {
@@ -211,7 +212,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container faq">
+                <div className="container faq" id="faq">
                     <h2><strong>Foire aux questions</strong></h2>
                     <div className="question align-items-center">
                         <BasicExample />
