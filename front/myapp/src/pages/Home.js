@@ -14,7 +14,8 @@ import image8 from '../img/image8.png';
 import Reservation from "../components/Reservation";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
-import Footerter from "../components/Footer";
+import Footerter from "../components/Footer";   
+
 
 
 function Home() {
@@ -205,6 +206,7 @@ function Home() {
                         <BasicExample />
                     </div>
                 </div>
+
 
             </div>
             <Footerter />
