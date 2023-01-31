@@ -7,15 +7,15 @@ import { existingUser, signUp } from "../api/Users";
 
 export default function AccountCreation() {
 
-    const { register, handleSubmit } = useForm();   
-   
+    const { register, handleSubmit } = useForm();
+
 
     const onSubmit = (data) => {
         const existFetched = existingUser(data.email);
         existFetched
-            .then(result =>{
+            .then(result => {
                 console.log(result)
-                if(result) {
+                if (result) {
                     console.log("There is already an account using this email: " + data.email)
                     return;
                 }
@@ -25,13 +25,15 @@ export default function AccountCreation() {
     }
 
     return (
-        <div>
+        <div className='bodyaccount'>
             <div className="backgroundaccount">
                 <Navbarbar />
                 <div className="account">
                     <h1>Mon compte</h1>
                 </div>
             </div>
+
+            <div className='backgroundsense'>
                 <div className="formBackground">
                     <div className="text-center row createAccount align-items-center">
                         <h2 className="col-lg-12">Créer un compte</h2>
@@ -52,7 +54,7 @@ export default function AccountCreation() {
                             <Form.Group className="mb-3 col-lg-7 formCreateAccount" controlId="formBasicLastName">
                                 <Form.Control required {...register("last_name")} type="text" placeholder="Votre nom" />
                             </Form.Group>
-                            
+
                             <Form.Group className="col-lg-5 col-md-5 col-sm-5 text-end">
                                 <Form.Label>Email &nbsp;&nbsp;</Form.Label>
                             </Form.Group>
@@ -66,7 +68,7 @@ export default function AccountCreation() {
                             <Form.Group className="mb-3 col-lg-7 formCreateAccount" controlId="formBasicPassword">
                                 <Form.Control required {...register("password")} type="password" placeholder="Votre mot de passe" />
                             </Form.Group>
-                            
+
                             <Form.Group className="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-end">
                                 <Form.Label>Confirmer le mot de passe &nbsp;&nbsp;</Form.Label>
                             </Form.Group>
@@ -78,8 +80,8 @@ export default function AccountCreation() {
                                 <Button className="accountButton" variant="primary" type="submit">
                                     Submit
                                 </Button>
-                            </Form.Group>    
-                            
+                            </Form.Group>
+
                             <Form.Group className="col-lg-12 text-center mb-3 align-items-center align-self-center" controlId="formBasicCheckbox">
                                 <Form.Check type="checkbox" label="Se désabonner de la newsletter" />
                             </Form.Group>
@@ -87,7 +89,10 @@ export default function AccountCreation() {
                         </Form>
                     </div>
                 </div>
-            <Footerter/>
+            </div>
+
+
+            <Footerter />
         </div >
     )
 }

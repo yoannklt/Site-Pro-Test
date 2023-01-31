@@ -216,4 +216,6 @@ p {
     height: fit-content;
 }
 
-
+.booking-form {
+    height: 650px;
+}
