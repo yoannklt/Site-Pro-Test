@@ -23,6 +23,27 @@ function BlocRoom(props) {
                     </div>
                 </div>
             </div>
+
+            <div className="container blocimg">
+                <div>
+                    <img className="img-fluid" src={props.img2} alt="the sense" />
+                </div>
+            </div>
+            <div className="container bloclight">
+                <div className="blochome">
+                    <h3><strong>{props.name2}</strong></h3>
+                    <h3>|</h3>
+                    <h3 className="title">{props.room2}</h3>
+                </div>
+                <div className="row parag">
+                    <p>{props.description2}</p>
+                </div>
+                <div className="row reservebtn text-center">
+                    <div className="clc col-lg-12 align-self-center">
+                        <a href="/Room"><img src={props.button2} alt="the sense" /></a>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

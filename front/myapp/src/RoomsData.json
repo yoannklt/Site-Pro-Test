@@ -10,11 +10,17 @@
         },
         "h1": "Prenez part à l'aventure...",
         "bloc":{
+            "theme": "light",
             "img": "../img/image10.jpg",
             "name": "SHANGRI-LA : LA CITÉ PERDUE DE Z",
             "room": "LIGHT ROOM",
             "description": "Shangri-La la cité mythique, symbole de paix, de prospérité et de magnificence. Personne n'a apparemment pu se rendre en ce lieu depuis des décennies ou prouver son existence, du moins depuis votre découverte ! Aventurez-vous au plus profond des légendes, entrez dans la cité de Z avec votre équipe et explorez les lieux à la recherche de Percy Fawcett.",
-            "button": "../img/boutonréserverXL.png"
+            "button": "../img/boutonréserverXL.png",
+            "img2": "../img/image14.png",
+            "name2": "NORDRËNN : LA LÉGENDE DE GLACE",
+            "room2": "LIGHT ROOM",
+            "description2": "Dans le froid du royaume de Nordrënn, il est une légende qui raconte comment un guerrier obtint la force de l'ours et la clairvoyance du corbeau. Il est dit que pour conquérir la femme qu'il aimait, cet homme parti à la recherche du trône d'Odin, artefact perdu depuis des années, qui offrait, disait-on, le pouvoir du Père de Toute Chose. Le guerrier parti et ne revint jamais ; on raconte qu'il aurait trouvé le trône mais, qu'avide de son pouvoir il ne le quitta plus. Partez à la découverte du royaume glacé de Nordrënn et retrouvez le guerrier de la légende.",
+            "button2": "../img/boutonréserverXL.png"
         }
     },
     "dark":{
