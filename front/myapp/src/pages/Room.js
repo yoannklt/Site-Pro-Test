@@ -33,9 +33,9 @@ function Room() {
         <>
 
             <div className="col-lg-12 text-center align-items-center mt-5">
-                <img src={lightroom} onClick={setLightroom}></img>
-                <img src={darkroom} onClick={setDarkroom}></img>
-                <img src={battleroom} onClick={setBattleroom}></img>
+                <img src={lightroom} onClick={setLightroom} alt="lightroom"></img>
+                <img src={darkroom} onClick={setDarkroom} alt="darktroom"></img>
+                <img src={battleroom} onClick={setBattleroom} alt="battleroom"></img>
             </div>
             {(!room) ? (
                 <Lightroom />
