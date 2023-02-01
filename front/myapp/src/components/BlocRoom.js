@@ -15,7 +15,7 @@ function BlocRoom(props) {
                     <h3 className="title">{props.room}</h3>
                 </div>
                 <div className="row parag">
-                    <p>{props.description}</p>
+                    <p>{props.desc}</p>
                 </div>
                 <div className="row reservebtn text-center">
                     <div className="clc col-lg-12 align-self-center">
@@ -26,21 +26,21 @@ function BlocRoom(props) {
 
             <div className="container blocimg">
                 <div>
-                    <img className="img-fluid" src={props.img2} alt="the sense" />
+                    <img className="img-fluid" src={props.secondImg} alt="the sense" />
                 </div>
             </div>
             <div className="container bloclight">
                 <div className="blochome">
-                    <h3><strong>{props.name2}</strong></h3>
+                    <h3><strong>{props.secondName}</strong></h3>
                     <h3>|</h3>
-                    <h3 className="title">{props.room2}</h3>
+                    <h3 className="title">{props.secondRoom}</h3>
                 </div>
                 <div className="row parag">
-                    <p>{props.description2}</p>
+                    <p>{props.secondDesc}</p>
                 </div>
                 <div className="row reservebtn text-center">
                     <div className="clc col-lg-12 align-self-center">
-                        <a href="/Room"><img src={props.button2} alt="the sense" /></a>
+                        <a href="/Room"><img src={props.secondButton} alt="the sense" /></a>
                     </div>
                 </div>
             </div>

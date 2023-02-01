@@ -3,10 +3,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SinginLogin from './SigninLogin';
 
-function Navbarbar() {
+function Navbarbar(props) {
   return (
-    <div className='navbarrr'>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
+    <div className='navbarrr '>
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className={"navbar " + props.theme}>
         <div className='col-lg-1 row'>
           <Nav.Link className="navbrand col-lg-1" href="/"><img src="../img/Logo.png" alt="the sense logo" /></Nav.Link>
         </div>

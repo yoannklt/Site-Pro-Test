@@ -6,8 +6,7 @@ import Room from "./pages/Room";
 import Equipements from "./pages/Equipements";
 import HomeTest from "./pages/HomeTest";
 import AccountCreation from "./pages/AccountCreation";
-import RoomTest from "./pages/RoomTest";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { UserContext } from "./context/UserContext";
 import { RoomContext } from "./context/RoomContext";
 
@@ -40,7 +39,6 @@ function App(props){
             <Route exact path="/HomeTest"> <HomeTest /></Route>
             <Route exact path="/AccountCreation"> <AccountCreation /></Route>
             <Route exact path="/Booking"> <Booking/> </Route>
-            <Route exact path="/RoomTest"><RoomTest/></Route>
             <Route exact path="/Room"><Room /></Route>
           </RoomContext.Provider>
         </UserContext.Provider>

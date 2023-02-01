@@ -35,6 +35,15 @@
     text-decoration: none;
 }
 
+navbar.dark a{
+    color: white !important;
+    font-family: 'Amiko', sans-serif;
+    text-transform: uppercase;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    text-decoration: none;
+}
+
 .navbarrr a:hover {
     transform: scale(1.06);
     transition: 100ms;

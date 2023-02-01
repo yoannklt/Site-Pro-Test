@@ -53,7 +53,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--bg-color);
-    height: 100vh;
+    height: fit-content;
     transition: background-image var(--transition-duration), background-color var(--transition-duration);
 }
 
@@ -61,6 +61,46 @@ body {
     height: fit-content;
     width: 263.98px;
     cursor: pointer;
+    transition: 5s;
+}
+
+.room-header{
+    justify-content: center;
+    transition: var(--transition-duration);
+}
+
+.actual-room img{
+    height: var(--img-height);
+    width: fit-content;
+    content: var(--img-url);
+    transition: var(--transition-duration);
+}
+
+.actual-room.default img {
+    height: 169px;
+    width: fit-content;
+    content: url(/public/img/lightroom.png);
+    transition: var(--transition-duration);
+}
+
+.actual-room.dark img{
+    --img-height: 300px;
+    width: fit-content;
+    --img-url: url(/public/img/darkroomBlack.png);
+    transition: var(--transition-duration);
+}
+
+.actual-room.battle{
+    --img-height: 160px;
+    width: fit-content;
+    --img-url: url(/public/img/battleroom.png);
+    transition: var(--transition-duration);
+}
+
+.actual-room.creative{
+    --img-height: 130px;
+    width: fit-content;
+    --img-url: url(/public/img/creativeroom.png);
     transition: var(--transition-duration);
 }
 

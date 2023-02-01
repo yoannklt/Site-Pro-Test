@@ -1,146 +1,81 @@
-// import Lightroom from "../components/Lightroom";
-// import Darkroom from "../components/Darkroom";
-// import Battleroom from "../components/Battleroom";
-// import Creativeroom from "../components/Creativeroom";
-// import { useContext } from "react";
-// import { RoomContext } from "../context/RoomContext";
-// import lightroom from "../img/lightroom.png"
-// import darkroom from "../img/darkroomBlack.png"
-// import battleroom from "../img/battleroom.png"
-// import creativeroom from "../img/creativeroom.png"
-// // import lightroomWhite from "../img/lightroomWhite.png"
-// import darkroomWhite from "../img/darkroom.png"
-// // import battleroomWhite from "../img/battleroomWhite.png"
-// // import creativeroomWhite from "../img/creativeroomWhite.png"
+import '../css/Room.css';
+import { RoomContext } from "../context/RoomContext";
+import { useContext } from "react";
+import Navbarbar from "../components/Navbar";
+import { Container } from "react-bootstrap";
+import RoomsData from "../RoomsData.json";
+import Footerter from "../components/Footer";
+import Bandeau from '../components/Bandeau';
+import BlocRoom from '../components/BlocRoom';
 
+export default function Room() {
 
-// function Room() {
+    const { room, setRoom } = useContext(RoomContext);
+    console.log(room);
+    return <div className={"sensei-room " + room.theme}>
+        <Navbarbar
+            theme = {room.theme}
+        />
+        <div className="room-header row align-items-center align-self-center text-center">
+                <div className='col-4 img-fluid text-end'>
+                    <img
+                     onClick={room.theme === 'default' ? (() => setRoom(RoomsData.dark)) : room.theme === 'dark' ? (() => setRoom(RoomsData.battle)) : (() => setRoom(RoomsData.light))} 
+                     className='img-fluid' 
+                     alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
+                     src={room.theme === 'default' ? ('../img/darkroomBlack.png') : room.theme === 'dark' ? ('../img/battleroom.png'):('../img/lightroom.png')}
+                     >
+                     </img>
+                </div>
+                <div className='col-4 img-fluid text-center'>
+                    <img 
+                     onClick={room.theme === 'default' ? (() => setRoom(RoomsData.battle)) : room.theme === 'dark' ? (() => setRoom(RoomsData.creative)) : (() => setRoom(RoomsData.dark))} 
+                     className='img-fluid' 
+                     alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
+                     src={room.theme === 'default' ? ('../img/battleroom.png'): room.theme === 'dark' ? ('../img/creativeroom.png'): ('../img/darkroomBlack.png')}
+                     ></img>
+                </div>
+                <div className='col-4 img-fluid text-start'>
+                    <img  
+                     onClick={room.theme === 'default' ? (() => setRoom(RoomsData.creative)) : room.theme === 'dark' ? (() => setRoom(RoomsData.light)) :room.theme === 'battle' ?(() => setRoom(RoomsData.creative)): (() => setRoom(RoomsData.battle))}
+                     src={room.theme === 'default' ? ('../img/creativeroom.png'): room.theme === 'dark' ? ('../img/lightroom.png'):room.theme === 'battle' ? ('../img/creativeroom.png'):('../img/battleroom.png')}
+                     className='img-fluid' 
+                     alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'></img>
+                </div>
+                <div className={'col-12 actual-room align-items-center align-self-center text-center ' + room.theme}>
+                    <img className='img-fluid text-center' src='' alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'></img>
+                </div>
+        </div>
+        <Bandeau
+            theme={room.banner.theme}
+            title="Qu'est-ce que la"
+            image={room.banner.img}
+            logo={room.banner.logo}
+            content={room.banner.content}
+        />
+        {room.theme !== 'creative' ?(
+            <div className="room-content">
+            <Container> 
+                <BlocRoom
+                    theme = {room.bloc.theme}
+                    img = {room.bloc.img}
+                    name = {room.bloc.name}
+                    room = {room.bloc.room}
+                    desc = {room.bloc.desc}
+                    button = {room.bloc.button}
+                    secondImg = {room.secondbloc.img}
+                    secondName = {room.secondbloc.name}
+                    secondRoom = {room.secondbloc.room}
+                    secondDesc = {room.secondbloc.desc}
+                    secondButton = {room.secondbloc.button}
+                />      {/* {room.theme == "creative" && <h2>{room.h2}</h2>} */}
+            </Container>
+        </div>
+        ):(
+            <div></div>
+        )}
+        
+        
+        <Footerter />
+    </div>
 
-//     const { room, setRoom } = useContext(RoomContext)
-
-
-//     const setLightroom = () => {
-//         setRoom('Lightroom');
-//     }
-
-//     const setDarkroom = () => {
-//         setRoom('Darkroom');
-//     }
-
-//     const setBattleroom = () => {
-//         setRoom('Battleroom');
-//     }
-
-//     const setcreativeroom = () => {
-//         setRoom('Creativeroom');
-//     }
-
-//     return (
-//         <>
-//             {(!room) ? (
-//                 <>
-//                     <div className="col-lg-12 text-center align-items-center div-imgs-room row">
-//                         <div className="col-lg-2 offset-lg-2 text-center">
-//                             <img src={darkroom} className="img-fluid img-room" onClick={setDarkroom}></img>
-//                         </div>
-//                         <div className="col-lg-2 offset-lg-1 text-center">
-//                             <img src={battleroom} className="img-fluid img-room" onClick={setBattleroom}></img>
-//                         </div>
-//                         <div className="col-lg-2 offset-lg-1 text-center">
-//                             <img src={creativeroom} className="img-fluid img-room" onClick={setcreativeroom}></img>
-//                         </div>
-//                         <div className="col-lg-12 text-center div-img-room">
-//                             <img src={lightroom} className="img-fluid img-room" onClick={setLightroom}></img>
-//                         </div>
-//                     </div>
-//                     <Lightroom />
-//                 </>
-//             ) : (
-//                 (room === 'Lightroom') ? (
-//                     <>
-//                         <div className="col-lg-12 text-center align-items-center div-imgs-room row">
-//                             <div className="col-lg-2 offset-lg-2 text-center">
-//                                 <img src={darkroom} className="img-fluid img-room" onClick={setDarkroom}></img>
-//                             </div>
-//                             <div className="col-lg-2 offset-lg-1 text-center">
-//                                 <img src={battleroom} className="img-fluid img-room" onClick={setBattleroom}></img>
-//                             </div>
-//                             <div className="col-lg-2 offset-lg-1 text-center">
-//                                 <img src={creativeroom} className="img-fluid img-room" onClick={setcreativeroom}></img>
-//                             </div>
-//                             <div className="col-lg-12 text-center div-img-room">
-//                                 <img src={lightroom} className="img-fluid img-room" onClick={setLightroom}></img>
-//                             </div>
-//                         </div>
-//                         <Lightroom />
-//                     </>
-//                 ) : (
-//                     (room === 'Darkroom') ? (
-//                         <>
-//                             <div className="col-lg-12 text-center align-items-center div-imgs-room row">
-//                                 <div className="col-lg-2 offset-lg-2 text-center">
-//                                     <img src={battleroom} className="img-fluid img-room" onClick={setBattleroom}></img>
-//                                 </div>
-//                                 <div className="col-lg-2 offset-lg-1 text-center">
-//                                     <img src={creativeroom} className="img-fluid img-room" onClick={setcreativeroom}></img>
-//                                 </div>
-//                                 <div className="col-lg-2 offset-lg-1 text-center">
-//                                     <img src={lightroom} className="img-fluid img-room" onClick={setLightroom}></img>
-//                                 </div>
-//                                 <div className="col-lg-12 text-center div-img-room">
-//                                     <img src={darkroom} className="img-fluid img-room-principal" onClick={setDarkroom}></img>
-//                                 </div>
-//                             </div>
-//                             <Darkroom />
-//                         </>
-//                     ) : (
-//                         (room === 'Battleroom') ? (
-//                             <>
-//                                 <div className="col-lg-12 text-center align-items-center div-imgs-room row">
-//                                     <div className="col-lg-2 offset-lg-2 text-center">
-//                                         <img src={lightroom} className="img-fluid img-room" onClick={setLightroom}></img>
-//                                     </div>
-//                                     <div className="col-lg-2 offset-lg-1 text-center">
-//                                         <img src={darkroom} className="img-fluid img-room" onClick={setDarkroom}></img>
-//                                     </div>
-//                                     <div className="col-lg-2 offset-lg-1 text-center">
-//                                         <img src={creativeroom} className="img-fluid img-room" onClick={setcreativeroom}></img>
-//                                     </div>
-//                                     <div className="col-lg-12 text-center div-img-room">
-//                                         <img src={battleroom} className="img-fluid img-room-principal" onClick={setBattleroom}></img>
-//                                     </div>
-//                                 </div>
-//                                 <Battleroom />
-//                             </>
-//                         ) : (
-//                             (room === 'Creativeroom') ? (
-//                                 <>
-//                                     <div className="col-lg-12 text-center align-items-center div-imgs-room row">
-//                                         <div className="col-lg-2 offset-lg-2 text-center">
-//                                             <img src={lightroom} className="img-fluid img-room" onClick={setLightroom}></img>
-//                                         </div>
-//                                         <div className="col-lg-2 offset-lg-1 text-center">
-//                                             <img src={darkroom} className="img-fluid img-room" onClick={setDarkroom}></img>
-//                                         </div>
-//                                         <div className="col-lg-2 offset-lg-1 text-center">
-//                                             <img src={battleroom} className="img-fluid img-room" onClick={setBattleroom}></img>
-//                                         </div>
-//                                         <div className="col-lg-12 text-center div-img-room">
-//                                             <img src={creativeroom} className="img-fluid img-room-principal" onClick={setcreativeroom}></img>
-//                                         </div>
-//                                     </div>
-//                                     <Creativeroom />
-//                                 </>
-//                             ) : (
-//                                 <h1>ERREUR 404<br />PAGE NON TROUVÉE</h1>
-//                             )
-//                         )
-//                     )
-//                 )
-//             )
-//             }
-//         </>
-//     )
-// }
-
-// export default Room;
+}
