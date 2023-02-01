@@ -1,14 +1,9 @@
 import "../css/Room.css";
 import Navbarbar from "../components/Navbar";
-import image67 from "../img/image67.png";
-import darkroom from '../img/darkroom.png';
-import image1 from "../img/image1.png";
-import image12 from "../img/image12.png";
-import boutonréserverXL from "../img/boutonréserverXL.png";
 import FadeCarousel from "../components/Carousel";
-import Footerter from "../components/Footer";
 import Bandeau from "../components/Bandeau";
 import BlocRoom from "../components/BlocRoom";
+import Footerter from "../components/Footer";
 
 
 function Darkroom() {
