@@ -8,7 +8,14 @@
             "logo": "../img/lightroom.png",
             "content": "Voyagez, explorez, découvrez LIGHT ROOM ! Découvrez des paysages somptueux et des histoires palpipante dans cette salle accessible pour toute la famille. Ici tout n'est qu'affaire d'émotions et de beauté, explorer les décors de nos expériences et partez à l'aventure en famille ou entre amis à partir de 12 ans. Il ne vous reste plus qu'à franchir le seuil de la LIGHT ROOM et à vous laissez transporter dans un voyage époustouflant. Vos émotions n'attendent que vous !"
         },
-        "h1": "Prenez part à l'aventure..."
+        "h1": "Prenez part à l'aventure...",
+        "bloc":{
+            "img": "../img/image10.jpg",
+            "name": "SHANGRI-LA : LA CITÉ PERDUE DE Z",
+            "room": "LIGHT ROOM",
+            "description": "Shangri-La la cité mythique, symbole de paix, de prospérité et de magnificence. Personne n'a apparemment pu se rendre en ce lieu depuis des décennies ou prouver son existence, du moins depuis votre découverte ! Aventurez-vous au plus profond des légendes, entrez dans la cité de Z avec votre équipe et explorez les lieux à la recherche de Percy Fawcett.",
+            "button": "../img/boutonréserverXL.png"
+        }
     },
     "dark":{
         "theme": "dark",
