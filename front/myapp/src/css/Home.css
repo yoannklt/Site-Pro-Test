@@ -72,17 +72,16 @@ p {
 
 .bandeaubleu p {
     font-size: 25px;
+    align-self: baseline;
 }
 
-.h1Home{
-    display: flex;
-    justify-content: start;
-    font-size: 20px;
-    font-family: 'Abel' , sans-serif;
-    color: black;
-    font-weight: bolder;
-    padding-top: 50px;
+.textebottom img{
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
 }
+ 
 
 .imgronde {
     border-radius: 250px;

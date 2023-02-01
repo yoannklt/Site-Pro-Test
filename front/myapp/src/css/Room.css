@@ -77,6 +77,128 @@ p {
     margin-bottom: 100px;
 }
 
+
+/*Bandeau Lightroom*/
+.bandeaulightroom {
+    background-color: #EAFEFF;
+}
+
+.bandeaulightroom p {
+    font-size: 25px;
+    align-self: baseline;
+}
+
+.textebottom img{
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+ 
+
+.imgrondelightroom {
+    border-radius: 250px;
+    border: 15px solid #90CDC7;
+}
+
+.img img {
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Bandeau darkroom*/
+.bandeaudark {
+    background-color: #000000;
+}
+
+.bandeaudark h3{
+    color: white;
+}
+.bandeaudark p {
+    font-size: 25px;
+    align-self: baseline;
+    color: white;
+}
+
+.textebottom img{
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+ 
+
+.imgrondedark {
+    border-radius: 250px;
+    border: 15px solid #430000;
+}
+
+.img img {
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Bandeau Battleroom*/
+.bandeaubattle {
+    background-color: #CDFFF3;
+}
+
+.bandeaubattle p {
+    font-size: 25px;
+    align-self: baseline;
+}
+
+.textebottom img{
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+ 
+
+.imgrondebattle {
+    border-radius: 250px;
+    border: 15px solid #798F8B;
+}
+
+.img img {
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Bandeau CreativeRoom*/
+.bandeaucrea {
+    background-color: #F2F2F2;
+}
+
+.bandeaucrea p {
+    font-size: 25px;
+    align-self: baseline;
+}
+
+.textebottom img{
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+ 
+
+.imgrondecrea {
+    border-radius: 250px;
+    border: 15px solid #771261;
+}
+
+.img img {
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
 /*description*/
 .description {
     margin-top: 100px;
