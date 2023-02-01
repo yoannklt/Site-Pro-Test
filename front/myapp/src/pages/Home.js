@@ -1,17 +1,6 @@
 import "../css/Home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarbar from "../components/Navbar";
-import image10 from "../img/image10.jpg";
-import boutonréserver from "../img/boutonréserver.png";
-import image1 from "../img/image1.png";
-import image2 from "../img/image2.png";
-import image3 from "../img/image3.png";
-import image4 from "../img/image4.png";
-import image5 from "../img/image5.png";
-import image7 from '../img/image7.png';
-import image8 from '../img/image8.png';
-import image9 from "../img/image9.png";
-import thesense from '../img/thesense.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";
@@ -47,8 +36,8 @@ function Home() {
                 <Bandeau
                     theme = "default"
                     title = "Qu'est-ce que "
-                    image = {image9}
-                    logo = {thesense}
+                    image = "../img/image9.png"
+                    logo = "../img/thesense.png"
                     content ="Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité."
                 />
 
@@ -61,7 +50,7 @@ function Home() {
                     <div className="blocimg">
                         <h3><strong>Nos expériences les plus appréciées</strong></h3>
                         <div>
-                            <img className="img-fluid" src={image10} alt="" />
+                            <img className="img-fluid" src="../img/image10.png" alt="the sense" />
                         </div>
                     </div>
                     <div className="container blocgris">
@@ -75,7 +64,7 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
                                 <a /* onClick={setRoom('lightRoom')} */ href="/Room">découvrez la Light room →</a>
@@ -86,7 +75,7 @@ function Home() {
 
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
-                        <img className="img-fluid" src={image1} alt="" />
+                        <img className="img-fluid" src="../img/image1.png" alt="the sense" />
                     </div>
                     <div className="container blocgris">
                         <div className="row">
@@ -102,7 +91,7 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
                                 <a /* onClick={setRoom('darkRoom')} */ href="/Room">découvrez la Dark room →</a>
@@ -113,7 +102,7 @@ function Home() {
 
                 <div className="container col col-lg-12">
                     <div className="container blocimg">
-                        <img className="img-fluid" src={image2} alt="" />
+                        <img className="img-fluid" src="../img/image2.png" alt="the sense" />
                     </div>
                     <div className="container blocgris">
                         <div className="row">
@@ -128,7 +117,7 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
                                 <a /* onClick={setRoom('battleRoom')} */ href="/Room">découvrez la battle room →</a>
@@ -140,9 +129,9 @@ function Home() {
                 <div className="container col col-lg-12">
                     <div className="row container blocimg">
                         <h3><strong>Vous en voulez toujours plus ?</strong></h3>
-                        <img className="img-fluid col-lg-4" src={image3} alt="" />
-                        <img className="img-fluid col-lg-4" src={image4} alt="" />
-                        <img className="img-fluid col-lg-4" src={image5} alt="" />
+                        <img className="img-fluid col-lg-4" src="../img/image3.png" alt="the sense" />
+                        <img className="img-fluid col-lg-4" src="../img/image4.png" alt="the sense" />
+                        <img className="img-fluid col-lg-4" src="../img/image5.png" alt="the sense" />
                     </div>
                     <div className="container blocgris">
                         <div className="blochome">
@@ -155,7 +144,7 @@ function Home() {
                         </div>
                         <div className="row reservebtn text-center">
                             <div className="clc col-lg-6 align-self-center">
-                                <a href="#reservation"><img src={boutonréserver} alt="" /></a>
+                                <a href="#reservation"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
                                 <a href="/Room">découvrez la creative room →</a>
@@ -175,7 +164,7 @@ function Home() {
                 <div className="row text-center">
                     <div className="container col-lg-5">
                         <div className="container blocimgnews">
-                            <img className="img-fluid" src={image7} alt="" />
+                            <img className="img-fluid" src="../img/image7.png" alt="the sense" />
                         </div>
                         <div className="container blocgrisnews">
                             <div className="row">
@@ -186,7 +175,7 @@ function Home() {
                     </div>
                     <div className="container col-lg-5">
                         <div className="container blocimgnews">
-                            <img className="img-fluid" src={image8} alt="" />
+                            <img className="img-fluid" src="../img/image8.png" alt="the sense" />
                         </div>
                         <div className="container blocgrisnews">
                             <div className="row">

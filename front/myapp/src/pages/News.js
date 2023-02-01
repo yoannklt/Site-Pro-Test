@@ -1,9 +1,5 @@
 import "../css/News.css";
 import Navbarbar from "../components/Navbar";
-import image26 from '../img/image26.png';
-import image25 from '../img/image25.png';
-import image7 from '../img/image7.png';
-import image8 from '../img/image8.png';
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
 
@@ -21,7 +17,7 @@ function News() {
 
                 <div className="container col col-lg-12 blocnews">
                     <div className="container blocimgnews">
-                        <img className="img-fluid" src={image26} alt="img26" />
+                        <img className="img-fluid" src="../img/image26.png" alt="the sense" />
                     </div>
                     <div className="container blocgrisnews">
                         <div className="row">
@@ -34,7 +30,7 @@ function News() {
                 <div className="row text-center blocnews">
                     <div className="container col-lg-5">
                         <div className="container blocimgnews">
-                            <img className="img-fluid" src={image7} alt="" />
+                            <img className="img-fluid" src="../img/image7.png" alt="the sense" />
                         </div>
                         <div className="container blocgrisnews">
                             <div className="row">
@@ -45,7 +41,7 @@ function News() {
                     </div>
                     <div className="container col-lg-5">
                         <div className="container blocimgnews">
-                            <img className="img-fluid" src={image8} alt="" />
+                            <img className="img-fluid" src="../img/image8.png" alt="the sense" />
                         </div>
                         <div className="container blocgrisnews">
                             <div className="row">
@@ -58,7 +54,7 @@ function News() {
 
                 <div className="container col-lg-12 blocnews">
                     <div className="container blocimgnews">
-                        <img className="img-fluid" src={image25} alt="" />
+                        <img className="img-fluid" src="../img/image25.png" alt="the sense" />
                     </div>
                     <div className="container blocgrisnews">
                         <div className="row">

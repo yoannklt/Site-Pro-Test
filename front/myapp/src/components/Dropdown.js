@@ -1,4 +1,3 @@
-import rondgris from '../img/rondgris.png';
 import Accordion from 'react-bootstrap/Accordion';
 
 function BasicExample() {
@@ -6,7 +5,7 @@ function BasicExample() {
         <Accordion defaultActiveKey="0" flush>
             <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                    <img src={rondgris} alt="" />
+                    <img src="../img/rondgris.png" alt="the sense" />
                     <span>Qu'est-ce que THE SENSE ?</span>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -15,7 +14,7 @@ function BasicExample() {
             </Accordion.Item>
             <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                    <img src={rondgris} alt="" />
+                    <img src="../img/rondgris.png" alt="the sense" />
                     <span>Il y a-t-il un âge et une taille minimum pour participer à une expérience THE SENSE ?</span>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -24,7 +23,7 @@ function BasicExample() {
             </Accordion.Item>
             <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                    <img src={rondgris} alt="" />
+                    <img src="../img/rondgris.png" alt="the sense" />
                     <span>Quel est le nombre maximum de participants pour jouer ?</span>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -33,7 +32,7 @@ function BasicExample() {
             </Accordion.Item>
             <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                    <img src={rondgris} alt="" />
+                    <img src="../img/rondgris.png" alt="the sense" />
                     <span>Avez-vous une politique d'annulation et de remboursement ? Si oui, comment se déroule-t-elle ?</span>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -42,7 +41,7 @@ function BasicExample() {
             </Accordion.Item>
             <Accordion.Item eventKey="4">
                 <Accordion.Header>
-                    <img src={rondgris} alt="" />
+                    <img src="../img/rondgris.png" alt="the sense" />
                     <span>Est-il possible de déposer mes affaires "encombrants" avant de faire une expérience ? Puis-je garder mes lunettes ?</span>
                 </Accordion.Header>
                 <Accordion.Body>

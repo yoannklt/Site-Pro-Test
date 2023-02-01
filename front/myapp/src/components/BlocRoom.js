@@ -1,13 +1,11 @@
 import "../css/Room.css";
-import image10 from "../img/image10.jpg";
-import boutonréserver from "../img/boutonréserver.png";
 
 function BlocRoom() {
     return (
         <div className="container col col-lg-12">
             <div className="container blocimg">
                 <div>
-                    <img className="img-fluid" src={image10} alt="" />
+                    <img className="img-fluid" src="../img/image10.png" alt="the sense" />
                 </div>
             </div>
             <div className="container bloclight">
@@ -21,7 +19,7 @@ function BlocRoom() {
                 </div>
                 <div className="row reservebtn text-center">
                     <div className="clc col-lg-12 align-self-center">
-                        <a href="/Room"><img src={boutonréserver} alt="" /></a>
+                        <a href="/Room"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                     </div>
                 </div>
             </div>

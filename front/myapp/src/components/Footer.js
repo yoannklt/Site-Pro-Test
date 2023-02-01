@@ -1,8 +1,4 @@
 import '../css/Footer.css';
-import ytblogo from '../img/ytblogo.png';
-import instalogo from '../img/instalogo.png';
-import twitterlogo from '../img/twitterlogo.png';
-import facebooklogo from '../img/facebooklogo.png';
 
 function Footerter() {
   return (
@@ -21,22 +17,22 @@ function Footerter() {
       <div className="bloc4 col-lg-2 text-center row">
         <div className="col-lg-3">
           <a href='https://www.youtube.com/' target="_blank" rel='noreferrer'>
-            <img className="logo" src={ytblogo} alt="" />
+            <img className="logo" src="../img/ytblogo.png" alt="the sense logo youtube" />
           </a>
         </div>
         <div className="col-lg-3">
           <a href='https://www.instagram.com/' target="_blank" rel='noreferrer'>
-            <img className="logo" src={instalogo} alt="" />
+            <img className="logo" src="../img/instalogo.png" alt="the sense logo instagram" />
           </a>
         </div>
         <div className="col-lg-3">
           <a href='https://twitter.com/' target="_blank" rel='noreferrer'>
-            <img className="logo" src={twitterlogo} alt="" />
+            <img className="logo" src="../img/twitterlogo.png" alt="the sense logo twiter" />
           </a>
         </div>
         <div className="col-lg-3">
           <a href='https://facebook.com/' target="_blank" rel='noreferrer'>
-            <img className="logo" src={facebooklogo} alt="" />
+            <img className="logo" src="../img/facebooklogo.png" alt="the sense logo facebook" />
           </a>
         </div>
       </div>

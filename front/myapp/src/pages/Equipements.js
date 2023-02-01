@@ -1,9 +1,5 @@
 import "../css/Equipements.css";
 import Navbarbar from "../components/Navbar";
-import ekip1 from '../img/image17.png';
-import ekip2 from '../img/image18.png';
-import ekip3 from '../img/image19.png';
-import image121 from '../img/image121.png';
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
 
@@ -26,9 +22,9 @@ function Equipement() {
                     </div>
                 </div>
 
-                <div id="Btob" className="row bandeaubleu" >
+                <div id="Btob" className="row bandeau" >
                    <div className ="col-lg-4 img text-center">
-                        <img className="img-fluid imgronde align-self-center" src={image121} alt="img121"></img>
+                        <img className="img-fluid imground align-self-center" src="../img/image121.png" alt="the sense"></img>
                    </div>
                    <div className="col-lg-7 text-left align-self-center">
                         <h3><strong>la vr, une affaire d'excellence</strong></h3>
@@ -44,7 +40,7 @@ function Equipement() {
                 <div className="troiscase">
                     <div className="row blocbtob">
                         <div className="container col-lg-5 img text-center">
-                            <img className="img-fluid align-self-center" src={ekip1} alt="img8" />
+                            <img className="img-fluid align-self-center" src="../img/ekip1.png" alt="the sense" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>CASQUE HTC VIVE COSMOS</strong></h3>
@@ -57,12 +53,12 @@ function Equipement() {
                             <p>Haptique Rapture est une combinaison spécialisée pour l’utilisation VR, cette “armure” vous permettra de vous mouvoir sans problème et avec fluidité dans le jeu comme dans la réalité. Votre confort est également assuré grâce à son mantient et sa légéreté impressionnante (à peine 5kg), qualitées vous assurera une expérience réussie.</p>
                         </div>
                         <div className="container col-lg-5 img text-center">    
-                            <img className="img-fluid align-self-center" src={ekip2} alt="image25" />
+                            <img className="img-fluid align-self-center" src="../img/ekip2.png" alt="the sense" />
                         </div>
                     </div>
                     <div className="row blocbtob">
                         <div className="container col-lg-5 img text-center">
-                            <img className="img-fluid align-self-center" src={ekip3} alt="img8" />
+                            <img className="img-fluid align-self-center" src="../img/ekip3.png" alt="the sense" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>COMPLEXE THE SENSE</strong></h3>
