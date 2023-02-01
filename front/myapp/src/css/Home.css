@@ -228,3 +228,32 @@ p {
 .question {
     margin-bottom: 10px;
 }
+
+/*booking*/
+.nwar {
+    background-color: #131313;
+}
+
+.nwar h2 {
+    color: white;
+    font-family: 'Amiko', sans-serif;
+}
+
+.nwar h3 {
+    color: #9C0000;
+    font-family: 'Abel', sans-serif;
+}
+
+.blocbooking {
+    display: flex;
+}
+
+.blocbooking h4 {
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.redday {
+    color: #9C0000;
+    font-family: 'Amiko', sans-serif;
+}
