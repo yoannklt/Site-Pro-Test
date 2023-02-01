@@ -7,6 +7,7 @@ import image13 from "../img/image13.png";
 import boutonréserver from "../img/boutonréserver.png";
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
+import Bandeau from "../components/Bandeau";
 
 
 function Battleroom() {
@@ -25,16 +26,7 @@ function Battleroom() {
                 </div>
 
                 <div className="row bandeaubattle" >
-                    <div className="col-lg-4 img text-center">
-                        <img className="img-fluid imgrondebattle align-self-center" src={image68} alt="img9"></img>
-                    </div>
-                    <div className="col-lg-7 txt row align-items-center textebottom">
-                            <h3 className="">Qu'est-ce que la
-                                <img className="img-fluid logoHome text-start" src={battleroom} alt="logo the sense" />
-                                &nbsp;?
-                            </h3> 
-                            <p>Vous cherchez à connaitre qui est le meilleur dans la famille ou qui fera le S.A.M ce soir ? Venez régler vos comptes dans la BATTLE ROOM par équipe de 1 à 4 joueurs soit 8 joueurs au maximum. Au travers de nos différents modes de jeux, prouvez votre courage et montrez qu’au reste du monde que vous êtes le meilleur. Battez tous les records, faites ressortirvotre côté compétitif et pas de quartier ! N'attendez plus et rejoignez l’arène, pour prouver que vous serez le prochain champion de THE SENSE.</p>
-                    </div>
+                    <Bandeau />
                 </div>
 
                 <div className="container description col-lg-12 align-text-center">

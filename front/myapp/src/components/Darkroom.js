@@ -7,6 +7,7 @@ import image12 from "../img/image12.png";
 import boutonréserverXL from "../img/boutonréserverXL.png";
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
+import Bandeau from "../components/Bandeau";
 
 
 function Darkroom() {
@@ -25,16 +26,7 @@ function Darkroom() {
                 </div>
 
                 <div className="row bandeaudark" >
-                    <div className="col-lg-4 img text-center">
-                        <img className="img-fluid imgrondedark align-self-center" src={image67} alt="img9"></img>
-                    </div>
-                    <div className="col-lg-7 txt row align-items-center textebottom">
-                            <h3 className="">Qu'est-ce que la
-                                <img className="img-fluid logoHome text-start" src={darkroom} alt="logo the sense" />
-                                &nbsp;?
-                            </h3> 
-                            <p>Vous pensez ne pas avoir peur du noir ? Que rien ne pourra vous effrayer ? Vous avez tord. Avec la DARK ROOM, toutes vos peurs deviendront réelles et en rien de temps, il ne vous restera plus que vos jambes pour vous enfuir. Vous vous penser suffisamment fort pour affronter vos peurs ? Franchissez donc le seuil de la DARK ROOM. Vous avez hâte d’y entrer mais dans le noir... Personne ne vous verra mourir. *Les expériences proposées dans cette salle ne conviennent pas à un public mineur ou sensible.</p>
-                    </div>
+                    <Bandeau />
                 </div>
 
                 <div className="container descriptiondark col-lg-12 align-text-center">

@@ -8,6 +8,7 @@ import battleroom from "../img/battleroomback.png";
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
 import aleatoire from "../img/aleatoire.png"
+import Bandeau from "../components/Bandeau";
 
 
 function Creativeroom() {
@@ -26,16 +27,7 @@ function Creativeroom() {
                 </div>
 
                 <div className="row bandeaucrea" >
-                    <div className="col-lg-4 img text-center">
-                        <img className="img-fluid imgrondecrea align-self-center" src={image72} alt="img9"></img>
-                    </div>
-                    <div className="col-lg-7 txt row align-items-center textebottom">
-                            <h3 className="">Qu'est-ce que la
-                                <img className="img-fluid logoHome text-start" src={creativeroom} alt="the sense" />
-                                &nbsp;?
-                            </h3> 
-                            <p>Notre catalogue ne vous suffit pas ? Vous aimeriez laisser parler votre imagination ? Grâce à la CREATIVE ROOM, concept inédit en France, la créativité est votre seule limite, créez de toute pièce l'univers dans lequel vous voyagerez par la suite. Que ce soit dans la jungle ou en haut de montagnes enneigées, pour affronter des démons ou enquêter sur la disparition de bébés licornes roses fluos, le choix vous appartient. Alors tester votre imagination dans la CREATIVE ROOM et entraîner vos amis ou votre famille dans votre univers.</p>
-                    </div>
+                    <Bandeau />
                 </div>
 
                 <div className="container description col-lg-12 align-text-center">
@@ -102,3 +94,5 @@ function Creativeroom() {
         </div>
     )
 }
+
+export default Creativeroom;

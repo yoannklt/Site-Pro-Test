@@ -7,6 +7,7 @@ import image14 from "../img/image14.png";
 import boutonréserver from "../img/boutonréserver.png";
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
+import Bandeau from "../components/Bandeau";
 
 
 function Lightroom() {
@@ -25,16 +26,7 @@ function Lightroom() {
                 </div>
 
                 <div className="row bandeaulightroom" >
-                    <div className="col-lg-4 img text-center">
-                        <img className="img-fluid imgrondelightroom align-self-center" src={image73} alt="img9"></img>
-                    </div>
-                    <div className="col-lg-7 txt row align-items-center textebottom">
-                            <h3 className="">Qu'est-ce que la
-                                <img className="img-fluid logoHome text-start" src={lightroom} alt="logo the sense" />
-                                &nbsp;?
-                            </h3> 
-                            <p>Voyagez, explorez, découvrez LIGHT ROOM ! Découvrez des paysages somptueux et des histoires palpipante dans cette salle accessible pour toute la famille. Ici tout n’est qu’affaire d’émotions et de beauté, explorer les décors de nos expériences et partez à l’aventure en famille ou entre amis à partir de 12 ans. Il ne vous reste plus qu’à franchir le seuil de la LIGHT ROOM et à vous laissez transporter dans un voyage époustouflant. Vos émotions n’attendent que vous !</p>
-                    </div>
+                    <Bandeau />
                 </div>
 
                 <div className="container description col-lg-12 align-text-center">
