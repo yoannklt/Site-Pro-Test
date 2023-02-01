@@ -3,7 +3,7 @@
 }
 
 .backgroundsense {
-    background-image: url("../public/img/LogoBackground.png");
+    background-image: url(/public/img/LogoBackground.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -36,7 +36,7 @@ p {
 
 .backgroundaccount {
     height: 540px;
-    background-image: url("../public/img/image53.png");
+    background-image: url(/public/img/image53.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

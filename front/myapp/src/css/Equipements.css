@@ -5,7 +5,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-image: url("../public/img/background.png");
+  background-image: url(/public/img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -72,7 +72,7 @@ p {
 /*btob*/
 .backgroundequipe {
   height: 540px;
-  background-image: url(../img/image16.png);
+  background-image: url(../public/img/image16.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
