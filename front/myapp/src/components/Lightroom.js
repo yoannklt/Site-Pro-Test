@@ -1,14 +1,9 @@
 import "../css/Room.css";
 import Navbarbar from "../components/Navbar";
-import image73 from "../img/image73.png";
-import lightroom from '../img/lightroom.png';
-import image10 from "../img/image10.jpg";
-import image14 from "../img/image14.png";
-import boutonréserver from "../img/boutonréserver.png";
 import FadeCarousel from "../components/Carousel";
-import Footerter from "../components/Footer";
 import Bandeau from "../components/Bandeau";
 import BlocRoom from "../components/BlocRoom";
+import Footerter from "../components/Footer";
 
 
 function Lightroom() {
