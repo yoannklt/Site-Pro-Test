@@ -47,7 +47,6 @@ export default function RoomTest() {
             logo={room.banner.logo}
             content={room.banner.content}
         />
-        
         <div className="room-content">
             <Container> 
                 <BlocRoom
