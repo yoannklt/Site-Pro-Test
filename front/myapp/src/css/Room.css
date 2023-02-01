@@ -27,8 +27,8 @@ body {
 
 .sensei-room.battle{
     --bg-color: black;
-    --bg-header: url(/public/img/Header_CreativeRoom.png);
-    --bg-content: url(/public/img/Content_BattleRoom.png);
+    --bg-header: url(/public/img/Header_BattleRoom.png);
+    --bg-content: url(/public/img/Content_CreativeRoom.png);
     --transition-duration: 300ms;
 }
 
