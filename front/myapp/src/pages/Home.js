@@ -45,6 +45,7 @@ function Home() {
                 </div>
 
                 <Bandeau
+                    theme = "default"
                     title = "Qu'est-ce que "
                     image = {image9}
                     logo = {thesense}

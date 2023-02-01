@@ -1,0 +1,51 @@
+/*Bandeau*/
+.bandeau{
+    --bg-color: #eafffb;
+    --border-color: #90CDC7;
+    background-color: var(--bg-color);
+    transition: background-color 300ms;
+}
+
+.bandeau.light {
+    --bg-color: #eafeff;
+    --border-color: #90CDC7;
+}
+
+.bandeau.dark{
+    --bg-color: #000;
+    --border-color: #430000;
+}
+
+.bandeau.battle{
+    --bg-color: #CDFFF3;
+    --border-color: #798F8B;
+}
+
+.bandeau.creative{
+    --bg-color: #F2F2F2;
+    --border-color: #771261;
+}
+
+.bandeau p {
+    font-size: 25px;
+    align-self: baseline;
+}
+
+.textbottom img{
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+ 
+.imground {
+    border-radius: 250px;
+    border: 15px solid var(--border-color);
+    transition: border-color 300ms;
+}
+
+.img img {
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

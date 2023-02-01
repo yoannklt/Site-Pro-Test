@@ -2,18 +2,22 @@
     "light":{
         "theme": "default",
         "banner":{
-            "theme": "lightTheme",
+            "theme": "light",
             "title": "Qu'est-ce que la",
-            "img" : ""
+            "img" : "../img/image73.png",
+            "logo": "../img/lightroom.png",
+            "content": "Ta grosse daronne"
         },
         "h1": "Prenez part à l'aventure..."
     },
     "dark":{
         "theme": "dark",
         "banner":{
-            "theme": "darkTheme",
+            "theme": "dark",
             "title": "Qu'est-ce que la",
-            "img" : ""
+            "img" : "../img/image67.png",
+            "logo": "../img/darkroom.png",
+            "content": "Ta petite mère"
         },
         "h1": "Réveillez la peur qui sommeille en vous"
     }

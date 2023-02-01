@@ -65,35 +65,6 @@ p {
     margin-bottom: 100px;
 }
 
-/*Bandeau*/
-.bandeau {
-    background-color: #eafffb;
-}
-
-.bandeau p {
-    font-size: 25px;
-    align-self: baseline;
-}
-
-.textbottom img{
-    height: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 25px;
-}
- 
-
-.imground {
-    border-radius: 250px;
-    border: 15px solid #bbccc9;
-}
-
-.img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
 /*description*/
 .description {
     margin-top: 100px;

@@ -4,7 +4,7 @@ import '../css/Bandeau.css';
 
 function Bandeau(props) {
     return (
-        <div className="row bandeau">
+        <div className={"row bandeau " + props.theme}>
             <div className="col-lg-4 img text-center">
                 <img className="img-fluid imground align-self-center" src={props.image} alt="The Sense VR AR THESENSE TheSense"></img>
             </div>
