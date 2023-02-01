@@ -21,5 +21,28 @@
             "twt": "*Les expériences proposées dans cette salle ne conviennent pas à un public mineur ou sensible."
         },
         "h1": "Réveillez la peur qui sommeille en vous"
+    },
+    "battle":{
+        "theme": "battle",
+        "banner":{
+            "theme": "battle",
+            "title": "Qu'est-ce que la",
+            "img" : "../img/image68.png",
+            "logo": "../img/battleroom.png",
+            "content": "Vous cherchez à connaitre qui est le meilleur dans la famille ou qui fera le S.A.M ce soir ? Venez régler vos comptes dans la BATTLE ROOM par équipe de 1 à 4 joueurs soit 8 joueurs au maximum. Au travers de nos différents modes de jeux, prouvez votre courage et montrez qu'au reste du monde que vous êtes le meilleur. Battez tous les records, faites ressortirvotre côté compétitif et pas de quartier ! N'attendez plus et rejoignez l'arène, pour prouver que vous serez le prochain champion de THE SENSE."
+        },
+        "h1": "Défiez vos adversaires"
+    },
+    "creative":{
+        "theme": "creative",
+        "banner":{
+            "theme": "creative",
+            "title": "Qu'est-ce que la",
+            "img" : "../img/image72.png",
+            "logo": "../img/creativeroom.png",
+            "content": "Notre catalogue ne vous suffit pas ? Vous aimeriez laisser parler votre imagination ? Grâce à la CREATIVE ROOM, concept inédit en France, la créativité est votre seule limite, créez de toute pièce l'univers dans lequel vous voyagerez par la suite. Que ce soit dans la jungle ou en haut de montagnes enneigées, pour affronter des démons ou enquêter sur la disparition de bébés licornes roses fluos, le choix vous appartient. Alors tester votre imagination dans la CREATIVE ROOM et entraîner vos amis ou votre famille dans votre univers."
+        },
+        "h1": "Votre expérience entre vos mains",
+        "explication": "Suivez les étapes pour créer votre propre aventure. Nous mettons à votre disposition la possibilité de choisir tous les éléments de votre room dans le but de vous offrir l'expérience ultime qui VOUS correspond. Basculez entre chaque étape, modifier vos choix à tout moment pour que ceux-ci correspondent à vos besoins."
     }
 }
