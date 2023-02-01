@@ -72,11 +72,16 @@ p {
 
 .bandeaubleu p {
     font-size: 25px;
+    align-self: baseline;
 }
 
 .textebottom img{
-    height: 50px;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
 }
+ 
 
 .imgronde {
     border-radius: 250px;
