@@ -3,10 +3,8 @@ import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { addBooking } from "../api/Booking";
 import { UserContext } from "../context/UserContext";
-import Navbarbar from "../components/Navbar";
-import Footerter from "../components/Footer";
 
-export default function Booking() {
+function BookingReady() {
     const { user, setUser } = useContext(UserContext);
     const userToken = JSON.parse(sessionStorage.getItem('token'))
     if (userToken && !user) {
@@ -21,9 +19,6 @@ export default function Booking() {
 
     return (
         <div>
-            <div>
-                <Navbarbar />
-            </div>
 
             <div className="container nwar">
 
@@ -96,6 +91,7 @@ export default function Booking() {
                             </div>
                         </div>
                     </div>
+
                     <div className="booking-form col col-lg-6 align-items-center row">
                         <Form onSubmit={handleSubmit(onSubmit)} className="col-lg-4 text-center">
                             <Form.Group className="mb-2">
@@ -126,7 +122,9 @@ export default function Booking() {
                 </div>
 
             </div>
-            <Footerter />
+        
         </div>
     )
 }
+
+export default BookingReady;
