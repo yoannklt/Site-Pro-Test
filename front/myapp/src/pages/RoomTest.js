@@ -1,6 +1,7 @@
 import { RoomContext } from "../context/RoomContext";
 import { useContext } from "react";
 import Navbarbar from "../components/Navbar";
+import Creativeroom from "../components/Creativeroom";
 
 export default function RoomTest() {
 
@@ -32,6 +33,8 @@ export default function RoomTest() {
                     </div>
                 )}
             </div>
+
+            <Creativeroom/>
         </div>
     )
 }

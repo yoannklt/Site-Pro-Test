@@ -72,11 +72,16 @@ p {
 
 .bandeaubleu p {
     font-size: 25px;
+    align-self: baseline;
 }
 
 .textebottom img{
-    height: 50px;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
 }
+ 
 
 .imgronde {
     border-radius: 250px;
@@ -221,4 +226,33 @@ p {
 
 .question {
     margin-bottom: 10px;
+}
+
+/*booking*/
+.nwar {
+    background-color: #131313;
+}
+
+.nwar h2 {
+    color: white;
+    font-family: 'Amiko', sans-serif;
+}
+
+.nwar h3 {
+    color: #9C0000;
+    font-family: 'Abel', sans-serif;
+}
+
+.blocbooking {
+    display: flex;
+}
+
+.blocbooking h4 {
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.redday {
+    color: #9C0000;
+    font-family: 'Amiko', sans-serif;
 }
