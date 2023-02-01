@@ -1,4 +1,6 @@
 import "../css/Room.css";
+import image10 from "../img/image10.jpg";
+import boutonréserver from "../img/boutonréserver.png";
 
 function BlocRoom() {
     return (

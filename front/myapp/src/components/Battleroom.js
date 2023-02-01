@@ -1,14 +1,9 @@
 import "../css/Room.css";
 import Navbarbar from "../components/Navbar";
-import image68 from "../img/image68.png";
-import battleroom from '../img/battleroom.png';
-import image2 from "../img/image2.png";
-import image13 from "../img/image13.png";
-import boutonréserver from "../img/boutonréserver.png";
 import FadeCarousel from "../components/Carousel";
-import Footerter from "../components/Footer";
 import Bandeau from "../components/Bandeau";
 import BlocRoom from "../components/BlocRoom";
+import Footerter from "../components/Footer";
 
 
 function Battleroom() {
