@@ -6,7 +6,7 @@
             "title": "Qu'est-ce que la",
             "img" : "../img/image73.png",
             "logo": "../img/lightroom.png",
-            "content": "Ta grosse daronne"
+            "content": "Voyagez, explorez, découvrez LIGHT ROOM ! Découvrez des paysages somptueux et des histoires palpipante dans cette salle accessible pour toute la famille. Ici tout n'est qu'affaire d'émotions et de beauté, explorer les décors de nos expériences et partez à l'aventure en famille ou entre amis à partir de 12 ans. Il ne vous reste plus qu'à franchir le seuil de la LIGHT ROOM et à vous laissez transporter dans un voyage époustouflant. Vos émotions n'attendent que vous !"
         },
         "h1": "Prenez part à l'aventure..."
     },
@@ -17,7 +17,8 @@
             "title": "Qu'est-ce que la",
             "img" : "../img/image67.png",
             "logo": "../img/darkroom.png",
-            "content": "Ta petite mère"
+            "content": "Vous pensez ne pas avoir peur du noir ? Que rien ne pourra vous effrayer ? Vous avez tort. Avec la DARK ROOM, toutes vos peurs deviendront réelles et en rien de temps, il ne vous restera plus que vos jambes pour vous enfuir. Vous vous penser suffisamment fort pour affronter vos peurs ? Franchissez donc le seuil de la DARK ROOM. Vous avez hâte d'y entrer mais dans le noir... Personne ne vous verra mourir.",
+            "twt": "*Les expériences proposées dans cette salle ne conviennent pas à un public mineur ou sensible."
         },
         "h1": "Réveillez la peur qui sommeille en vous"
     }

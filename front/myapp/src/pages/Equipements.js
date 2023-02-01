@@ -28,7 +28,7 @@ function Equipement() {
                    </div>
                    <div className="col-lg-7 text-left align-self-center">
                         <h3><strong>la vr, une affaire d'excellence</strong></h3>
-                        <p>Pour une expérience aussi bien virtuelle que réelle nous avons besoin d’équipements de hautes qualités prêt à vous suivre là où vous irez ! Pour nous, la garantie d’une expérience réussie passe forcément par la qualité de notre matériel. C’est pourquoi nous cherchons constamment les dernières technologies sur le marché pour pouvoir vous proposer le meilleur de la Réalité Virtuelle. Nous travaillons également directement avec les marques leaders du marchés pour vous proposer du matériels adaptés à vos besoins (Lunettes, coiffures, fauteuil roulant, petits et grands, ...). Chez The Sense, l’excellence de nos outils vous garantissent la qualité de votre voyage dans une autre dimension.</p>
+                        <p>Pour une expérience aussi bien virtuelle que réelle nous avons besoin d'équipements de hautes qualités prêt à vous suivre là où vous irez ! Pour nous, la garantie d'une expérience réussie passe forcément par la qualité de notre matériel. C'est pourquoi nous cherchons constamment les dernières technologies sur le marché pour pouvoir vous proposer le meilleur de la Réalité Virtuelle. Nous travaillons également directement avec les marques leaders du marchés pour vous proposer du matériels adaptés à vos besoins (Lunettes, coiffures, fauteuil roulant, petits et grands, ...). Chez The Sense, l'excellence de nos outils vous garantissent la qualité de votre voyage dans une autre dimension.</p>
                    </div>
                 </div>
 
