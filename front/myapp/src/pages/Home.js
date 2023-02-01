@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarbar from "../components/Navbar";
 import image9 from "../img/image9.png";
 import thesense from '../img/thesense.png';
-import Bandeau from '../components/Bandeau'
 import image10 from "../img/image10.jpg";
 import boutonréserver from "../img/boutonréserver.png";
 import image1 from "../img/image1.png";
@@ -65,7 +64,7 @@ function Home() {
                 </div>
 
                 <div className="container col col-lg-12">
-                    <div className="container blocimg">
+                    <div className="blocimg">
                         <h3><strong>Nos expériences les plus appréciées</strong></h3>
                         <div>
                             <img className="img-fluid" src={image10} alt="" />
@@ -206,7 +205,7 @@ function Home() {
 
                 <div className="avis">
                     <div className="container">
-                        <h2><strong>Qu'est-ce qui vous retiens ?</strong></h2>
+                        <h2><strong>Qu'est-ce qui vous retient ?</strong></h2>
                     </div>
 
                     <div className="carouselavis">

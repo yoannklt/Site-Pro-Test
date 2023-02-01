@@ -8,6 +8,7 @@ import boutonréserverXL from "../img/boutonréserverXL.png";
 import FadeCarousel from "../components/Carousel";
 import Footerter from "../components/Footer";
 import Bandeau from "../components/Bandeau";
+import BlocRoom from "../components/BlocRoom";
 
 
 function Darkroom() {
@@ -34,51 +35,11 @@ function Darkroom() {
                 </div>
 
                 <div className="container col col-lg-12">
-                    <div className="container blocimg">
-                        <img className="img-fluid" src={image1} alt="" />
-                    </div>
-                    <div className="container blocdark">
-                        <div className="row">
-                        </div>
-                        <div className="blochome">
-                            <h3><strong>The conjuring exprerience</strong></h3>
-                            <h3>|</h3>
-                            <h3 className="title">dark room</h3>
-                        </div>
-                        <div className="row paragdark">
-                            <h4><strong>Expérience interdite aux -18</strong></h4>
-                            <p>Revivez l'histoire d'un chef d'oeuvre cinématographique au travers d'une exprérience aussi bien réaliste qu'immersive. Rassemblez ce qu'il vous reste de courage, les inspecteurs Ed et Loren Warren ont besoin de vous. Un malheur hante la maison de ces derniers et vous ne pouvez pas vous en échapper sans sacrifices. serez-vous à la hauteur de ce qui vous attend ? Bonne chance, vous en aurez besoin !</p>
-                        </div>
-                        <div className="row reservebtn text-center">
-                            <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserverXL} alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
+                    <BlocRoom />
                 </div>
 
                 <div className="container col col-lg-12">
-                    <div className="container blocimg">
-                        <img className="img-fluid" src={image12} alt="" />
-                    </div>
-                    <div className="container blocdark">
-                        <div className="row">
-                        </div>
-                        <div className="blochome">
-                            <h3><strong>Nameless</strong></h3>
-                            <h3>|</h3>
-                            <h3 className="title">dark room</h3>
-                        </div>
-                        <div className="row paragdark">
-                            <h4><strong>Expérience interdite aux -18</strong></h4>
-                            <p>De retour de soirée avec vos amis, votre voiture tombe soudainement en panne au beau milieu des bois. Coïncidence, c’est dans cette forêt que l’on a signalé de mystérieuses disparitions. Après un long moment à tenter d’appeller une dépanneuse, vous vous rendez compte que vous ne pouvez compter que sur vous-même pour vous en sortir. Mais dans le froid de la nuit et les recoins de la forêt, quelque chose rôde. Travaillez en équipe car sans vos amis, vous n’aurez aucune chance, survivrez-vous assez longtemps ?</p>
-                        </div>
-                        <div className="row reservebtn text-center">
-                            <div className="clc col-lg-6 align-self-center">
-                                <a href="/Room"><img src={boutonréserverXL} alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
+                    <BlocRoom />
                 </div>
 
                 <div className="carousel">
