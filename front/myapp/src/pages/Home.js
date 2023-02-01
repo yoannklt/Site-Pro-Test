@@ -46,7 +46,7 @@ function Home() {
                     <p>Vous rêvez de voyager, de frissoner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis ou en famille et franchissez la frontière de la réalité. Plusieurs dimensions d'offrent à vous, vous donnant accès à de nombreuses expériences.</p>
                 </div>
 
-                <div className="container col col-lg-12">
+                <div className="container bloc col col-lg-12">
                     <div className="blocimg">
                         <h3><strong>Nos expériences les plus appréciées</strong></h3>
                         <div>
