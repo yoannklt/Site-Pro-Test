@@ -26,14 +26,14 @@ body {
 }
 
 .sensei-room.battle{
-    --bg-color: black;
+    --bg-color: white;
     --bg-header: url(/public/img/Header_BattleRoom.png);
     --bg-content: url(/public/img/Content_CreativeRoom.png);
     --transition-duration: 300ms;
 }
 
 .sensei-room.creative{
-    --bg-color: black;
+    --bg-color: white;
     --bg-header: url(/public/img/Header_CreativeRoom.png);
     --bg-content: url(/public/img/Content_CreativeRoom.png);
     --transition-duration: 300ms;
@@ -44,7 +44,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--bg-color);
-    height: 500px;
+    height: 100vh;
     transition: background-image var(--transition-duration), background-color var(--transition-duration);
 }
 
@@ -53,8 +53,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--bg-color);
-    height: 500px;
+    height: 100vh;
     transition: background-image var(--transition-duration), background-color var(--transition-duration);
+}
+
+.room-header img{
+    height: fit-content;
+    width: 263.98px;
+    cursor: pointer;
+    transition: var(--transition-duration);
 }
 
 .div-imgs-room {

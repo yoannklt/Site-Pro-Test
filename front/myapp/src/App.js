@@ -24,7 +24,6 @@ function App(props){
   
   const [user, setUser] = useState(null);
   const [room, setRoom] = useState(RoomsData.light);
-  useEffect(() => {console.log(room)}, [room])
 
   const value = useMemo(() => ({ user, setUser }), [user, setUser]);
   const roomValue = useMemo(() => ({room, setRoom}), [room, setRoom]);
