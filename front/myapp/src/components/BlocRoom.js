@@ -2,7 +2,7 @@ import "../css/Room.css";
 
 function BlocRoom(props) {
     return (
-        <div className={"container col col-lg-12" + props.theme}>
+        <div className={"container col col-lg-12 " + props.theme}>
             <div className="container blocimg">
                 <div>
                     <img className="img-fluid" src={props.img} alt="the sense" />

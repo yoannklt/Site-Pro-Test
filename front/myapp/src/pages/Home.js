@@ -50,7 +50,7 @@ function Home() {
                     <div className="blocimg">
                         <h3><strong>Nos expériences les plus appréciées</strong></h3>
                         <div>
-                            <img className="img-fluid" src="../img/image10.png" alt="the sense" />
+                            <img className="img-fluid" src="../img/image10.jpg" alt="the sense" />
                         </div>
                     </div>
                     <div className="container blocgris">
