@@ -5,7 +5,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-image: url(../img/background.png);
+  background-image: url("../img/public/img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -13,7 +13,7 @@ body {
 
 .bodyabout {
   background-color: white;
-  background-image: url(../img/bryceforme4.png);
+  background-image: url("../public/img/bryceforme4.png");
   background-repeat: no-repeat;
 }
 
@@ -74,7 +74,7 @@ p {
 /*About*/
 .backgroundabout {
   height: 540px;
-  background-image: url(../img/image53.png);
+  background-image: url("../public/img/image53.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -116,7 +116,7 @@ p {
 
 /*Team*/
 .backgroundthesense {
-  background-image: url(../img/Logogris.png);
+  background-image: url("../public/img/Logogris.png");
   background-repeat: no-repeat;
   background-position: center;
 }
