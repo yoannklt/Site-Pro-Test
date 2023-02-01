@@ -10,7 +10,7 @@ import BlocRoom from '../components/BlocRoom';
 
 export default function RoomTest() {
 
-    const {room, setRoom} = useContext(RoomContext);
+    const { room, setRoom } = useContext(RoomContext);
 
     return <div className={"sensei-room " + room.theme}>
         <Navbarbar/>
@@ -41,11 +41,11 @@ export default function RoomTest() {
                 </div>
         </div>
         <Bandeau
-            theme = {room.banner.theme}
-            title = "Qu'est-ce que la"
-            image = {room.banner.img}
-            logo = {room.banner.logo}
-            content = {room.banner.content}
+            theme={room.banner.theme}
+            title="Qu'est-ce que la"
+            image={room.banner.img}
+            logo={room.banner.logo}
+            content={room.banner.content}
         />
         
         <div className="room-content">
@@ -61,7 +61,7 @@ export default function RoomTest() {
             {/* {room.theme == "creative" && <h2>{room.h2}</h2>} */}
             </Container>
         </div>
-        <Footerter/>
+        <Footerter />
     </div>
-    
+
 }
