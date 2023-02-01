@@ -69,18 +69,6 @@ body {
     height: 100%;
 }
 
-.bodylight {
-    background-color: white;
-}
-
-.bodydark {
-    background-color: #131313;
-}
-
-.bodybattle {
-    background-color: white;
-}
-
 #Home {
     scroll-margin-top: 71.6px;
 }
@@ -135,36 +123,6 @@ p {
     margin-bottom: 100px;
 }
 
-
-/*Bandeau Lightroom*/
-.bandeaulightroom {
-    background-color: #EAFEFF;
-}
-
-.bandeaulightroom p {
-    font-size: 25px;
-    align-self: baseline;
-}
-
-.textebottom img{
-    height: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 25px;
-}
- 
-
-.imgrondelightroom {
-    border-radius: 250px;
-    border: 15px solid #90CDC7;
-}
-
-.img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
 /*description*/
 .description {
     margin-top: 100px;
@@ -175,192 +133,11 @@ p {
     margin-top: 100px;
 }
 
-/*Lightroom*/
-.bandeaubleu {
-    background-color: #eafffb;
-}
-
-.bandeaubleu p {
-    font-size: 25px;
-}
-
-.imgrondelight {
-    border-radius: 250px;
-    border: 15px solid #72cece;
-}
-
-.img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.blocimg {
-    margin-top: 100px;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.bloclight {
-    width: 95%;
-    background-color: #eafffb;
-    align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: fit-content;
-}
-
-.bloclight h3 {
-    margin-top: 20px;
-}
-
-.blochome {
-    display: flex;
-}
-
-.blochome h3 {
-    margin-left: 20px;
-}
-
-.parag h4 {
-    font-family: 'Poppins', sans-serif;
-    color: red;
-    font-size: 20px;
-}
-
-/*Bandeau darkroom*/
-.bandeaudark {
-    background-color: #000000;
-}
-
-.bandeaudark h3{
-    color: white;
-}
-.bandeaudark p {
-    font-size: 25px;
-    align-self: baseline;
-    color: white;
-}
-
-.textebottom img{
-    height: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 25px;
-}
- 
-
-.imgrondedark {
-    border-radius: 250px;
-    border: 15px solid #430000;
-}
-
-.img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-/*Battleroom*/
-.bandeaubattle {
-    background-color: #82FFE1;
-}
-
-.bandeaubattle p {
-    font-size: 25px;
-}
-
-.imgrondebattle {
-    border-radius: 250px;
-    border: 15px solid #77807e;
-}
-
-.img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.blocbattle {
-    width: 95%;
-    background-color: #82FFE1;
-    align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: fit-content;
-}
-
+/*Reservation*/
 .booking-form {
     height: 650px;
 }
 
-
-/*Bandeau Battleroom*/
-.bandeaubattle {
-    background-color: #CDFFF3;
-}
-
-.bandeaubattle p {
-    font-size: 25px;
-    align-self: baseline;
-}
-
-.textebottom img{
-    height: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 25px;
-}
- 
-
-.imgrondebattle {
-    border-radius: 250px;
-    border: 15px solid #798F8B;
-}
-
-.img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-
-/* Creative Room */
-/*Bandeau CreativeRoom*/
-.bandeaucrea {
-    background-color: #F2F2F2;
-}
-
-.bandeaucrea p {
-    font-size: 25px;
-    align-self: baseline;
-}
-
-.textebottom img{
-    height: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 25px;
-}
- 
-
-.imgrondecrea {
-    border-radius: 250px;
-    border: 15px solid #771261;
-}
-
-.img img {
-    height: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.backgroundcrea {
-    height: 540px;
-    background-image: url(../img/creaback.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
 .card-header img{
     width: 1915px;
