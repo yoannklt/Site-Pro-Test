@@ -7,7 +7,7 @@ import Equipements from "./pages/Equipements";
 import HomeTest from "./pages/HomeTest";
 import AccountCreation from "./pages/AccountCreation";
 import RoomTest from "./pages/RoomTest";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { UserContext } from "./context/UserContext";
 import { RoomContext } from "./context/RoomContext";
 
@@ -17,11 +17,14 @@ import {
   Route
 } from "react-router-dom";
 import Booking from "./components/Booking";
+import RoomsData from "./RoomsData.json";
+
 //App.js
 function App(props){
-
+  
   const [user, setUser] = useState(null);
-  const [room, setRoom] = useState(null);
+  const [room, setRoom] = useState(RoomsData.light);
+  useEffect(() => {console.log(room)}, [room])
 
   const value = useMemo(() => ({ user, setUser }), [user, setUser]);
   const roomValue = useMemo(() => ({room, setRoom}), [room, setRoom]);
