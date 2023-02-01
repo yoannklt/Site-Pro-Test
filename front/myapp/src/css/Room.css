@@ -11,6 +11,23 @@ body {
     background-position: top;
 }
 
+.div-imgs-room {
+    margin-top: 100px;
+}
+
+.div-img-room {
+    height: 170px;
+}
+
+.img-room {
+    height: 100%;
+
+}
+
+.img-room-principal {
+    height: 100%;
+}
+
 .bodylight {
     background-color: white;
 }

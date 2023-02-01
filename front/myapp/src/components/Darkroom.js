@@ -11,7 +11,7 @@ import Footerter from "../components/Footer";
 
 function Darkroom() {
     return (
-        <div className="bodydark">
+        <div>
             <div>
                 <Navbarbar />
             </div>
