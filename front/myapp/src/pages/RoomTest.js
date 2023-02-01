@@ -2,7 +2,6 @@ import '../css/Room.css';
 import { RoomContext } from "../context/RoomContext";
 import { useContext } from "react";
 import Navbarbar from "../components/Navbar";
-import Creativeroom from "../components/Creativeroom";
 import { Button, Container } from "react-bootstrap";
 import RoomsData from "../RoomsData.json";
 import Footerter from "../components/Footer";
