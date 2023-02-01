@@ -44,7 +44,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="row bandeaubleu" >
+                <div className="row bandeau" >
                     <div className="row bandeau">
                         <div className="col-lg-4 img text-center">
                             <img className="img-fluid imground align-self-center" src={image9} alt="img9"></img>
