@@ -6,6 +6,7 @@ import { Button, Container } from "react-bootstrap";
 import RoomsData from "../RoomsData.json";
 import Footerter from "../components/Footer";
 import Bandeau from '../components/Bandeau';
+import BlocRoom from '../components/BlocRoom';
 
 export default function RoomTest() {
 
@@ -47,6 +48,14 @@ export default function RoomTest() {
             content = {room.banner.content}
         />
         <Button onClick={() => setRoom(room.theme === 'default' ? RoomsData.dark : RoomsData.light)}>Change Context</Button>
+        <BlocRoom
+            theme = {room.bloc.theme}
+            img = {room.bloc.img}
+            name = {room.bloc.name}
+            room = {room.bloc.room}
+            description = {room.bloc.description}
+            button = {room.bloc.button}
+        />
         <div className="room-content">
             <Container> 
             {/* {room.theme == "creative" && <h2>{room.h2}</h2>} */}
