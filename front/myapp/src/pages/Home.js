@@ -1,8 +1,6 @@
 import "../css/Home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarbar from "../components/Navbar";
-import image9 from "../img/image9.png";
-import thesense from '../img/thesense.png';
 import image10 from "../img/image10.jpg";
 import boutonréserver from "../img/boutonréserver.png";
 import image1 from "../img/image1.png";
@@ -12,11 +10,14 @@ import image4 from "../img/image4.png";
 import image5 from "../img/image5.png";
 import image7 from '../img/image7.png';
 import image8 from '../img/image8.png';
+import image9 from "../img/image9.png";
+import thesense from '../img/thesense.png';
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import Bandeau from "../components/Bandeau";
 
 
 
@@ -43,20 +44,12 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="row bandeau" >
-                    <div className="row bandeau">
-                        <div className="col-lg-4 img text-center">
-                            <img className="img-fluid imground align-self-center" src={image9} alt="img9"></img>
-                        </div>
-                        <div className="col-lg-7 row align-items-center textbottom">
-                            <h3 className="">Qu'est-ce que
-                                <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense" />
-                                &nbsp;?
-                            </h3>
-                            <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité.</p>
-                        </div>
-                    </div>
-                </div>
+                <Bandeau
+                    title = "Qu'est-ce que "
+                    image = {image9}
+                    logo = {thesense}
+                    content ="Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité."
+                />
 
                 <div className="container description col-lg-12 align-text-center">
                     <h2><strong>La réalité à portée de main</strong></h2>
