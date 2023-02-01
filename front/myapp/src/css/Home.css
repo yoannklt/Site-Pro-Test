@@ -65,17 +65,17 @@ p {
     margin-bottom: 100px;
 }
 
-/*Bandeau bleu*/
-.bandeaubleu {
+/*Bandeau*/
+.bandeau {
     background-color: #eafffb;
 }
 
-.bandeaubleu p {
+.bandeau p {
     font-size: 25px;
     align-self: baseline;
 }
 
-.textebottom img{
+.textbottom img{
     height: 70px;
     padding-left: 10px;
     padding-right: 10px;
@@ -83,7 +83,7 @@ p {
 }
  
 
-.imgronde {
+.imground {
     border-radius: 250px;
     border: 15px solid #bbccc9;
 }

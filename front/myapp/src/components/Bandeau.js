@@ -6,11 +6,11 @@ import thesense from '../img/thesense.png';
 
 function Bandeau() {
     return (
-        <div className="row bandeaubleu">
+        <div className="row bandeau">
             <div className="col-lg-4 img text-center">
-                <img className="img-fluid imgronde align-self-center" src={image9} alt="img9"></img>
+                <img className="img-fluid imground align-self-center" src={image9} alt="img9"></img>
             </div>
-            <div className="col-lg-7 txt row align-items-center textebottom">
+            <div className="col-lg-7 row align-items-center textbottom">
                 <h3 className="">Qu'est-ce que
                     <img className="img-fluid logoHome text-start" src={thesense} alt="logo the sense" />
                     &nbsp;?
