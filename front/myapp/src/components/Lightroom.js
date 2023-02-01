@@ -4,6 +4,7 @@ import FadeCarousel from "../components/Carousel";
 import Bandeau from "../components/Bandeau";
 import BlocRoom from "../components/BlocRoom";
 import Footerter from "../components/Footer";
+import BookingReady from "./Booking";
 
 
 function Lightroom() {
@@ -35,6 +36,10 @@ function Lightroom() {
 
                 <div className="container col col-lg-12">
                     <BlocRoom />
+                </div>
+
+                <div className="container col col-lg-12">
+                    <BookingReady />
                 </div>
 
                 <div className="carousel">

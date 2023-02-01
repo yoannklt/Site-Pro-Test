@@ -59,6 +59,9 @@ function BookingReady() {
                                         </div>
                                     ))}
                                 </Form>
+                                <div className="cube text-center">
+                                    <p>NON DISPONIBLE</p>
+                                </div>
                             </div>
                             <div className="day2 text-center">
                                 <p className="redday">Vendredi 19dec.</p>
@@ -88,6 +91,9 @@ function BookingReady() {
                                         </div>
                                     ))}
                                 </Form>
+                                <div className="cube text-center">
+                                    <p>RESERVE</p>
+                                </div>
                             </div>
                         </div>
                     </div>
