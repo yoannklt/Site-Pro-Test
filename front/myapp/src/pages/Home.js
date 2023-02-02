@@ -55,7 +55,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="container blocgris">
-                        <div className="blochome">
+                        <div className="container blochome">
                             <h3><strong>Shangri-la : la cité perdue de z</strong></h3>
                             <h3>|</h3>
                             <h3 className="title">light room</h3>

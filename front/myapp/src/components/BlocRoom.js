@@ -1,4 +1,4 @@
-import "../css/Room.css";
+import "../css/BlocRoom.css";
 
 function BlocRoom(props) {
     return (
@@ -8,8 +8,8 @@ function BlocRoom(props) {
                     <img className="img-fluid" src={props.img} alt="the sense" />
                 </div>
             </div>
-            <div className="container bloclight">
-                <div className="blochome">
+            <div className="container blocgris">
+                <div className="container blochome">
                     <h3><strong>{props.name}</strong></h3>
                     <h3>|</h3>
                     <h3 className="title">{props.room}</h3>
@@ -31,8 +31,8 @@ function BlocRoom(props) {
                     <img className="img-fluid" src={props.secondImg} alt="the sense" />
                 </div>
             </div>
-            <div className="container bloclight">
-                <div className="blochome">
+            <div className="container blocgris">
+                <div className="container blochome">
                     <h3><strong>{props.secondName}</strong></h3>
                     <h3>|</h3>
                     <h3 className="title">{props.secondRoom}</h3>
