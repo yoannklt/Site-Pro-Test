@@ -17,10 +17,17 @@
 
 .bloctxt.light {
     --bg-color: #EAFEFF;
+    --h-color: #3B4040;
 }
 
-.bloctxt.battle{
+.bloctxt.battle {
     --bg-color: #CDFFF3;
+    --h-color: #3B4040;
+}
+
+.bloctxt.dark {
+    --bg-color: #3B4040;
+    --h-color: white;
 }
 
 .bloctxt h3 {
@@ -29,15 +36,35 @@
 
 .blochome {
     display: flex;
+    color: var(--h-color);
 }
 
 .blochome h3 {
     margin-left: 20px;
+    font-family: 'Amiko', sans-serif;
 }
 
 .parag h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+}
+
+.parag p {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: var(--pp-color);
+}
+
+.parag p.dark{
+    --pp-color: white;
+}
+
+.tw {
+    color: var(--tw-color);
+}
+
+.tw.dark{
+    --tw-color: #9C0000;
 }
 
 .redirection a {
