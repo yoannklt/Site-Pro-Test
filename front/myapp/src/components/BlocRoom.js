@@ -14,6 +14,8 @@ function BlocRoom(props) {
                     <h3>|</h3>
                     <h3 className="title">{props.room}</h3>
                 </div>
+                <h4>{props.tw}</h4>
+                
                 <div className="row parag">
                     <p>{props.desc}</p>
                 </div>
