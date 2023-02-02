@@ -84,6 +84,10 @@ body {
 }
 
 /*reservation*/
+#reservation {
+    scroll-margin-top: 100px;
+}
+
 .reservebtn {
     display: flex;
     justify-content: center;
@@ -93,6 +97,26 @@ body {
 
 .reservebtn .clc a {
     width: min-content;
+}
+
+.checkbox {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox label {
+    color: white;
+}
+
+.txt-input {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    background-color: #353434;
+    border: 0px;
 }
 
 /*avis*/
@@ -138,6 +162,7 @@ body {
 /*booking*/
 .nwar {
     background-color: #131313;
+    border-radius: 10px;
 }
 
 .nwar h2 {

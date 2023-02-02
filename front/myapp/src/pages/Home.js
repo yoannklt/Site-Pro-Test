@@ -10,6 +10,7 @@ import { RoomContext } from "../context/RoomContext";
 import RoomsData from '../RoomsData.json'
 import Bandeau from "../components/Bandeau";
 import { Link } from "react-router-dom";
+import BookingReady from "../components/Booking";
 
 
 function Home() {
@@ -157,7 +158,7 @@ function Home() {
                 </div>
 
                 <div id="reservation">
-
+                    <BookingReady />
                 </div>
 
 
@@ -199,14 +200,12 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container faq" id="faq">
+                <div id="faq" className="container faq">
                     <h2><strong>Foire aux questions</strong></h2>
-                    <div className="question align-items-center">
+                    <div id="faq" className="question align-items-center">
                         <BasicExample />
                     </div>
                 </div>
-
-
             </div>
             <Footerter />
         </div>

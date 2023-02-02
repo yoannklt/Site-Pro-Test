@@ -5,8 +5,8 @@ function Footerter() {
     <footer className="footer row">
       <div className="bloc1 col-lg-4">
         <a href='/About'>Nous contacter</a>
-        <a href='/'>Réservation</a>
-        <a href='/'>FAQ</a>
+        <a href='/Room'>Réservation</a>
+        <a href='#faq'>FAQ</a>
       </div>
       <div className="bloc2 text-center col-lg-4">
         <span>© THE SENSE, SAS. Tous droits réservés</span>
