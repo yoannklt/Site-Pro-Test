@@ -7,6 +7,7 @@ import RoomsData from "../RoomsData.json";
 import Footerter from "../components/Footer";
 import Bandeau from '../components/Bandeau';
 import BlocRoom from '../components/BlocRoom';
+import Carousel from '../components/Carousel';
 
 export default function Room() {
 
@@ -68,9 +69,9 @@ export default function Room() {
             secondDesc={room.secondbloc.desc}
             secondButton={room.secondbloc.button}
         />
-        
-        
-        
+
+        <Carousel />
+         
         <Footerter />
     </div>
 
