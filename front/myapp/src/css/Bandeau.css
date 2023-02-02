@@ -31,6 +31,14 @@
     align-self: baseline;
 }
 
+.textbottom {
+    color: var(--txt-color);
+}
+
+.textbottom.dark {
+    --txt-color: white;
+}
+
 .textbottom img{
     height: 70px;
     padding-left: 10px;
