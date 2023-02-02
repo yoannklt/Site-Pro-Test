@@ -42,8 +42,8 @@ function Home() {
                     redirection = "Découvrez THE SENSE ->"
                 />
 
-                <div className="container description col-lg-12 align-text-center">
-                    <h2><strong>La réalité à portée de main</strong></h2>
+                <div className="container description col-lg-12 text-center">
+                    <h1 className="home-title"><strong>La réalité à portée de main</strong></h1>
                     <p>Vous rêvez de voyager, de frissoner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis ou en famille et franchissez la frontière de la réalité. Plusieurs dimensions d'offrent à vous, vous donnant accès à de nombreuses expériences.</p>
                 </div>
 

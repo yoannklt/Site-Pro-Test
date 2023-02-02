@@ -22,7 +22,7 @@ export default function Room() {
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.dark)) : room.theme === 'dark' ? (() => setRoom(RoomsData.battle)) : (() => setRoom(RoomsData.light))} 
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
-                     src={room.theme === 'default' ? ('../img/darkroomBlack.png') : room.theme === 'dark' ? ('../img/battleroom.png'):('../img/lightroom.png')}
+                     src={room.theme === 'default' ? ('../img/darkroom.png') : room.theme === 'dark' ? ('../img/battleroomWhite.png'):('../img/lightroom.png')}
                      >
                      </img>
                 </div>
@@ -31,13 +31,13 @@ export default function Room() {
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.battle)) : room.theme === 'dark' ? (() => setRoom(RoomsData.creative)) : (() => setRoom(RoomsData.dark))} 
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
-                     src={room.theme === 'default' ? ('../img/battleroom.png'): room.theme === 'dark' ? ('../img/creativeroomWhite.png'): ('../img/darkroomBlack.png')}
+                     src={room.theme === 'default' ? ('../img/battleroom.png'): room.theme === 'dark' ? ('../img/creativeroomWhite.png'): ('../img/darkroom.png')}
                      ></img>
                 </div>
                 <div className='col-4 img-fluid text-start'>
                     <img  
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.creative)) : room.theme === 'dark' ? (() => setRoom(RoomsData.light)) :room.theme === 'battle' ?(() => setRoom(RoomsData.creative)): (() => setRoom(RoomsData.battle))}
-                     src={room.theme === 'default' ? ('../img/creativeroom.png'): room.theme === 'dark' ? ('../img/lightroom.png'):room.theme === 'battle' ? ('../img/creativeroom.png'):('../img/battleroom.png')}
+                     src={room.theme === 'default' ? ('../img/creativeroom.png'): room.theme === 'dark' ? ('../img/lightroomWhite.png'):room.theme === 'battle' ? ('../img/creativeroom.png'):('../img/battleroom.png')}
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'></img>
                 </div>
