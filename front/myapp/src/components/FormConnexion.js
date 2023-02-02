@@ -22,7 +22,11 @@ function FormConnexion(props) {
             })
             
         }
-    
+        
+    const logout = () => {
+        sessionStorage.removeItem('token');
+        setUser(null);
+    }
 
     return (
         <div>
@@ -46,7 +50,33 @@ function FormConnexion(props) {
                     <Form.Control required className="fout text-end" type="submit" value="Connexion" />
                 </div>
             </Form>
-            ):null
+            ):
+            <>
+            <div className="fromCoo row align-items-center">
+                <div className="labelLog oppai">
+                    <h2>Bonjour, {user.first_name}</h2>
+                </div>
+                <div className="col-lg-3">
+                    <label>Ma réservation </label>
+                </div>
+                <div className="col-lg-9 text-center">
+                    <h3>{user.booking}</h3>
+                </div>
+                <div className="col-3 text-center">
+                    <label>Mes points</label>
+                </div>
+                <div className="col-9 text-center">
+                    {user.points}
+                </div>
+                <div className="col-6">
+                    <Link to='/Account'>Paramètre du compte</Link>
+                </div>
+                <div className="col-6 text-end">
+                    <a href="" onClick={logout}>Déconnexion</a>
+                </div>
+            </div>
+            </>
+            
         } 
 
         </div>
