@@ -133,63 +133,10 @@ body {
     height: 200px;
 }
 
-/*Pour tous les textes en général*/
-h1 {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    color: black;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-}
-
-h3 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-}
-
-p {
-    color: #646363;
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-}
-
-/*Boutton découvrir*/
-.discoverButton {
-    height: 61px;
-    width: 263px;
-    border-radius: 15px;
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
-    font-size: 28px;
-}
-
-.discoverhome {
-    margin-top: 800px;
-    margin-bottom: 100px;
-}
-
-/*description*/
-.description {
-    margin-top: 100px;
-}
-
-/*carousel*/
-.carousel {
-    margin-top: 100px;
-}
-
 /*Reservation*/
 .booking-form {
     height: 650px;
 }
-
 
 .card-header img{
     width: 1915px;

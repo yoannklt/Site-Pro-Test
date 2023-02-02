@@ -14,7 +14,7 @@ function Bandeau(props) {
                     &nbsp;?
                 </h3>
                 <p>{props.content}</p>
-                <h4>{props.redirection}</h4>
+                <a href="/About"><h4>{props.redirection}</h4></a>
             </div>
         </div>
     )

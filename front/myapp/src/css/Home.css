@@ -25,16 +25,9 @@ body {
 
 /*Pour tous les textes en général*/
 h1 {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    color: black;
-}
-
-.home-title{
+    color: #3B4040;
     text-transform: uppercase;
     font-family: 'Amiko', sans-serif;
-    color: #3B4040;
 }
 
 h2 {
@@ -87,7 +80,6 @@ p {
 .reservebtn .clc a {
     width: min-content;
 }
-
 
 /*avis*/
 .avis {
