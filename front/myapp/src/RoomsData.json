@@ -69,18 +69,18 @@
         "bloc":{
             "theme": "battle",
             "h1": "DÉFIEZ VOS ADVERSAIRES",
-            "img": "../img/image10.jpg",
-            "name": "SHANGRI-LA : LA CITÉ PERDUE DE Z",
-            "room": "LIGHT ROOM",
-            "desc": "Shangri-La la cité mythique, symbole de paix, de prospérité et de magnificence. Personne n'a apparemment pu se rendre en ce lieu depuis des décennies ou prouver son existence, du moins depuis votre découverte ! Aventurez-vous au plus profond des légendes, entrez dans la cité de Z avec votre équipe et explorez les lieux à la recherche de Percy Fawcett.",
+            "img": "../img/image2.png",
+            "name": "ULTIMATE FIGHT",
+            "room": "BATTLE ROOM",
+            "desc": "Sentez votre cœur battre, votre souffle se couper, votre concentration monter... Enrôlez des joueurs, formez votre équipe et préparez vous au combat ! Arrachez la victoire à vos adversaires à travers une bataille dans des décors et des maps des plus immersives. En équipe de 4 ou 5 voyez lesquels d'entre vous seront dignes de remporter le trophée.",
             "button": "../img/boutonréserver.png"
         },
         "secondbloc":{
             "theme": "battle",
-            "img": "../img/image14.png",
-            "name": "NORDRËNN : LA LÉGENDE DE GLACE",
-            "room": "LIGHT ROOM",
-            "desc": "Dans le froid du royaume de Nordrënn, il est une légende qui raconte comment un guerrier obtint la force de l'ours et la clairvoyance du corbeau. Il est dit que pour conquérir la femme qu'il aimait, cet homme parti à la recherche du trône d'Odin, artefact perdu depuis des années, qui offrait, disait-on, le pouvoir du Père de Toute Chose. Le guerrier parti et ne revint jamais ; on raconte qu'il aurait trouvé le trône mais, qu'avide de son pouvoir il ne le quitta plus. Partez à la découverte du royaume glacé de Nordrënn et retrouvez le guerrier de la légende.",
+            "img": "../img/image13.png",
+            "name": "GARDEN WAR",
+            "room": "BATTLE ROOM",
+            "desc": "Partez au front, avec vos amis ou votre famille, découvrez un univers certes plus cartoonesque mais ne vous y méprenez pas, vos ennemies vous attendent. Vous avez pour objectifs de remporter les batailles ! Munissez vous de vos plus fidèles soldats et partez en guerre. Cette expérience en équipe de 4-5 joueurs vous propose de découvrir l'univers cartoonesque mais compétitif de notre nouvelle room. Qu'attendez-vous soldat ?",
             "button": "../img/boutonréserver.png"
         }  
     },

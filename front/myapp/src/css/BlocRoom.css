@@ -1,10 +1,10 @@
-/*bloc gris*/
+/*bloc*/
 .blocimg {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-.blocgris {
+.bloctxt {
     width: 95%;
     font-family: 'Abel', sans-serif;
     align-items: center;
@@ -14,15 +14,15 @@
     background-color: var(--bg-color);
 }
 
-.blocgris.light {
+.bloctxt.light {
     --bg-color: #EAFEFF;
 }
 
-.blocgris.dark{
-    --bg-color: #616161;
+.bloctxt.battle{
+    --bg-color: #CDFFF3;
 }
 
-.blocgris h3 {
+.bloctxt h3 {
     margin-top: 20px;
 }
 
@@ -43,6 +43,7 @@
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+    color: #616161;
 }
 
 .blochome .title {
