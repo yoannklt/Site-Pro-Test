@@ -31,7 +31,7 @@ export default function Room() {
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.battle)) : room.theme === 'dark' ? (() => setRoom(RoomsData.creative)) : (() => setRoom(RoomsData.dark))} 
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
-                     src={room.theme === 'default' ? ('../img/battleroom.png'): room.theme === 'dark' ? ('../img/creativeroomWhite.png'): ('../img/darkroom.png')}
+                     src={room.theme === 'default' ? ('../img/battleroom.png'): room.theme === 'dark' ? ('../img/creativeroomWhite.png'): ('../img/darkroomFade.png')}
                      ></img>
                 </div>
                 <div className='col-4 img-fluid text-start'>
@@ -70,8 +70,25 @@ export default function Room() {
                 />      {/* {room.theme == "creative" && <h2>{room.h2}</h2>} */}
             </Container>
         </div>
+        ):room.theme === 'dark'?(
+            <Container>
+                <BlocRoom
+                    theme = {room.bloc.theme}
+                    img = {room.bloc.img}
+                    name = {room.bloc.name}
+                    room = {room.bloc.room}
+                    tw = {room.bloc.tw}
+                    desc = {room.bloc.desc}
+                    button = {room.bloc.button}
+                    secondImg = {room.secondbloc.img}
+                    secondName = {room.secondbloc.name}
+                    secondRoom = {room.secondbloc.room}
+                    secondDesc = {room.secondbloc.desc}
+                    secondButton = {room.secondbloc.button}
+                /> 
+            </Container>
         ):(
-            <div></div>
+            <></>
         )}
         
         
