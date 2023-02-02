@@ -59,7 +59,9 @@ export default function Room() {
             logo={room.banner.logo}
             content={room.banner.content}
         />
-        <div className={'room-content ' + room.theme}>
+
+        {room.theme !== 'creative' ? (
+            <div className={'room-content ' + room.theme}>
             <BlocRoom
                 theme={room.bloc.theme}
                 h1={room.bloc.h1}
@@ -81,6 +83,14 @@ export default function Room() {
 
             <Carousel />
         </div>
+        ):(
+            <div className={'room-content creative row align-items-center align-self-center text-center' + room.theme}>
+                <h1>COMING SOON...</h1>
+                <Carousel/>
+            </div>
+            
+        )}
+        
 
         <Footerter />
     </div>
