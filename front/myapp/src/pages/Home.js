@@ -41,8 +41,8 @@ function Home() {
                     content ="Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité."
                 />
 
-                <div className="container description col-lg-12 align-text-center">
-                    <h2><strong>La réalité à portée de main</strong></h2>
+                <div className="container description col-lg-12 text-center">
+                    <h1 className="home-title"><strong>La réalité à portée de main</strong></h1>
                     <p>Vous rêvez de voyager, de frissoner ou tout simplement de vivre une expérience unique ? Explorez nos univers entre amis ou en famille et franchissez la frontière de la réalité. Plusieurs dimensions d'offrent à vous, vous donnant accès à de nombreuses expériences.</p>
                 </div>
 

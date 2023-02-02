@@ -31,6 +31,12 @@ h1 {
     color: black;
 }
 
+.home-title{
+    text-transform: uppercase;
+    font-family: 'Amiko', sans-serif;
+    color: #3B4040;
+}
+
 h2 {
     text-transform: uppercase;
     font-family: 'Amiko', sans-serif;

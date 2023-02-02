@@ -86,7 +86,7 @@ body {
 .actual-room.dark img{
     --img-height: 300px;
     width: fit-content;
-    --img-url: url(/public/img/darkroom.png);
+    --img-url: url(/public/img/darkroomWhite.png);
     transition: var(--transition-duration);
 }
 
