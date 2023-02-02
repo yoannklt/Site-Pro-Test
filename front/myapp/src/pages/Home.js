@@ -38,7 +38,8 @@ function Home() {
                     title = "Qu'est-ce que "
                     image = "../img/image9.png"
                     logo = "../img/thesense.png"
-                    content ="Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d’autres dimensions et vivez l’impossible en interragissant avec un environnement dynamique et virtuel. Ce n’est pas une expérience en réalité virtuelle que vous vivez, c’est la réalité."
+                    content ="Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions comme vous ne l'avez jamais fait auparavant. Avec THE SENSE explorez d'autres dimensions et vivez l'impossible en interragissant avec un environnement dynamique et virtuel. Ce n'est pas une expérience en réalité virtuelle que vous vivez, c'est la réalité."
+                    redirection = "Découvrez THE SENSE ->"
                 />
 
                 <div className="container description col-lg-12 text-center">
