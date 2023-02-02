@@ -5,6 +5,14 @@
     margin-top: 100px;
 }
 
+.hh {
+    color: var(--txt-color);
+}
+
+.hh.dark{
+    --txt-color: white;
+}
+
 .bloctxt {
     width: 95%;
     font-family: 'Abel', sans-serif;
