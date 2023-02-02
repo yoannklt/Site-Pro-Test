@@ -32,9 +32,9 @@ function BookingReady() {
                         <h4>Du 18 au 19 décembre</h4>
                         <div className="horaires">
                             <div className="day1 align-self-center">
-                                <p className="redday">Vendredi 18dec.</p>
+                                <p className="redday">Vendredi 17 fév.</p>
                                 <Form className="col col-lg-2">
-                                    {['radio'].map((type) => (
+                                    {['checkbox'].map((type) => (
                                         <div key={type} className="mb-3">
                                             <Form.Check.Input type={type} isValid />
                                             <Form.Check.Label><p>10h20</p></Form.Check.Label>
@@ -64,9 +64,9 @@ function BookingReady() {
                                 </div>
                             </div>
                             <div className="day2 text-center">
-                                <p className="redday">Vendredi 19dec.</p>
+                                <p className="redday">Samedi 18 fév.</p>
                                 <Form className="col col-lg-2">
-                                    {['radio'].map((type) => (
+                                    {['checkbox'].map((type) => (
                                         <div key={type} className="mb-3">
                                             <Form.Check.Input type={type} isValid />
                                             <Form.Check.Label><p>10h20</p></Form.Check.Label>

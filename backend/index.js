@@ -157,3 +157,29 @@ app.post('/booking/insert', jsonParser, (req, res) => {
   .then(result => res.status(200).json(result))
   .catch(err => console.error(err));
 });
+
+app.post('booking/update', jsonParser, (req, res) => {
+  const dbConnect = dbo.getDb();
+  const body = req.body;
+  dbConnect
+    .collection("booking")
+    .updateOne( { room:req.query.room }, { $set: { available: false} }, { upsert: true })
+  res.json(body);
+})
+
+app.get('/slots/check', jsonParser, (req, res) => {
+  const dbConnect = dbo.getDb();
+  dbConnect
+  .collection("slots")
+  .findOne({
+    $and: [
+        {room: { $eq: req.query.room }},
+        {day: { $eq: req.query.day}},
+        {time: { $eq: req.query.time}},
+        {available: true}
+    ]
+  })
+  .then(result => res.status(200).json(result!=null))
+  //SI RESULTAT -> TRUE SINON FALSE
+  .catch(err => res.sendStatus(400, "Failed to fetch the user"));
+})
