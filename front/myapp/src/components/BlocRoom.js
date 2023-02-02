@@ -14,8 +14,8 @@ function BlocRoom(props) {
                     <h3>|</h3>
                     <h3 className="title">{props.room}</h3>
                 </div>
-                <h4><strong>{props.tw}</strong></h4>
                 <div className="row parag">
+                    <h4><strong>{props.tw}</strong></h4>
                     <p>{props.desc}</p>
                 </div>
                 <div className="row reservebtn text-center">
@@ -36,8 +36,8 @@ function BlocRoom(props) {
                     <h3>|</h3>
                     <h3 className="title">{props.secondRoom}</h3>
                 </div>
-                <h4><strong>{props.secondTw}</strong></h4>
                 <div className="row parag">
+                    <h4><strong>{props.secondTw}</strong></h4>
                     <p>{props.secondDesc}</p>
                 </div>
                 <div className="row reservebtn text-center">
