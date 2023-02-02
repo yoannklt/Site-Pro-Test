@@ -22,7 +22,7 @@ export default function Room() {
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.dark)) : room.theme === 'dark' ? (() => setRoom(RoomsData.battle)) : (() => setRoom(RoomsData.light))} 
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
-                     src={room.theme === 'default' ? ('../img/darkroom.png') : room.theme === 'dark' ? ('../img/battleroomWhite.png'):('../img/lightroom.png')}
+                     src={room.theme === 'default' ? ('../img/darkroomFade.png') : room.theme === 'dark' ? ('../img/battleroomWhite.png'):('../img/lightroom.png')}
                      >
                      </img>
                 </div>
