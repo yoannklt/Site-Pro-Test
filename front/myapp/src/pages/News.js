@@ -15,6 +15,11 @@ function News() {
 
             <div>
 
+                <div className="container description col-lg-12 align-text-center">
+                    <h2><strong>SUIVEZ TOUTE L'ACTUALITÉ DE THE SENSE</strong></h2>
+                    <p>Nous souhaitons vous offrir toujours plus d'expériences immersives, c'est pourquoi nous avons à coeur de vous proposer de plus en plus de nouvelles aventures. Toute l'année, The Sense vous invite à rejoindre ces rooms événements et à découvrir celles qui arriveront plus tard.</p>
+                </div>
+
                 <div className="container col col-lg-12 blocnews">
                     <div className="container blocimgnews">
                         <img className="img-fluid" src="../img/image26.png" alt="the sense" />

@@ -1,77 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  background-image: url(/public/img/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
-
+/*About*/
 .bodyabout {
   background-color: white;
-  background-image: url(/public/img/bryceforme4.png);
-  background-repeat: no-repeat;
 }
 
-#Home {
-  scroll-margin-top: 71.6px;
-}
-
-.row {
-  --bs-gutter-x: 0;
-}
-
-.labelConnection {
-  height: 200px;
-}
-
-/*Pour tous les textes en général*/
-h1 {
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  color: black;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-family: 'Amiko', sans-serif;
-  color: #3B4040;
-}
-
-h3 {
-  text-transform: uppercase;
-  font-family: 'Amiko', sans-serif;
-  color: #3B4040;
-}
-
-p {
-  color: #646363;
-  font-family: 'Abel', sans-serif;
-  font-size: 25px;
-}
-
-/*Boutton découvrir*/
-.discoverButton {
-  height: 61px;
-  width: 263px;
-  border-radius: 15px;
-  background-color: black;
-  color: white;
-  text-transform: uppercase;
-  font-size: 28px;
-}
-
-.discover {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-/*About*/
 .backgroundabout {
   height: 540px;
   background-image: url(/public/img/image53.png);
@@ -89,38 +20,12 @@ p {
   margin-top: 100px;
 }
 
-/*Bandeau bleu*/
-.bandeaubleu {
-  background-color: #eafffb;
-}
-
-.bandeaubleu p {
-  font-size: 25px;
-}
-
-.imgronde {
-  border-radius: 250px;
-  border: 15px solid #bbccc9;
-}
-
-.img img {
-  height: 350px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-/*description*/
-.description {
-  margin-top: 100px;
-}
-
 /*Team*/
 .backgroundthesense {
   background-image: url(/public/img/Logogris.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .team {
   display: flex;

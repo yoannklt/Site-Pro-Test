@@ -22,7 +22,7 @@ export default function Room() {
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.dark)) : room.theme === 'dark' ? (() => setRoom(RoomsData.battle)) : (() => setRoom(RoomsData.light))} 
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
-                     src={room.theme === 'default' ? ('../img/darkroomBlack.png') : room.theme === 'dark' ? ('../img/battleroom.png'):('../img/lightroom.png')}
+                     src={room.theme === 'default' ? ('../img/darkroomFade.png') : room.theme === 'dark' ? ('../img/battleroomWhite.png'):('../img/lightroom.png')}
                      >
                      </img>
                 </div>
@@ -31,13 +31,13 @@ export default function Room() {
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.battle)) : room.theme === 'dark' ? (() => setRoom(RoomsData.creative)) : (() => setRoom(RoomsData.dark))} 
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'
-                     src={room.theme === 'default' ? ('../img/battleroom.png'): room.theme === 'dark' ? ('../img/creativeroom.png'): ('../img/darkroomBlack.png')}
+                     src={room.theme === 'default' ? ('../img/battleroom.png'): room.theme === 'dark' ? ('../img/creativeroomWhite.png'): ('../img/darkroomFade.png')}
                      ></img>
                 </div>
                 <div className='col-4 img-fluid text-start'>
                     <img  
                      onClick={room.theme === 'default' ? (() => setRoom(RoomsData.creative)) : room.theme === 'dark' ? (() => setRoom(RoomsData.light)) :room.theme === 'battle' ?(() => setRoom(RoomsData.creative)): (() => setRoom(RoomsData.battle))}
-                     src={room.theme === 'default' ? ('../img/creativeroom.png'): room.theme === 'dark' ? ('../img/lightroom.png'):room.theme === 'battle' ? ('../img/creativeroom.png'):('../img/battleroom.png')}
+                     src={room.theme === 'default' ? ('../img/creativeroom.png'): room.theme === 'dark' ? ('../img/lightroomWhite.png'):room.theme === 'battle' ? ('../img/creativeroom.png'):('../img/battleroom.png')}
                      className='img-fluid' 
                      alt='TheSense THESENSE The Sense THE SENSE thesense the sense VR vr AR ar Vr Ar Réalité Vitruelle'></img>
                 </div>
@@ -52,27 +52,23 @@ export default function Room() {
             logo={room.banner.logo}
             content={room.banner.content}
         />
-        {room.theme !== 'creative' ?(
-            <div className="room-content">
-            <Container> 
-                <BlocRoom
-                    theme = {room.bloc.theme}
-                    img = {room.bloc.img}
-                    name = {room.bloc.name}
-                    room = {room.bloc.room}
-                    desc = {room.bloc.desc}
-                    button = {room.bloc.button}
-                    secondImg = {room.secondbloc.img}
-                    secondName = {room.secondbloc.name}
-                    secondRoom = {room.secondbloc.room}
-                    secondDesc = {room.secondbloc.desc}
-                    secondButton = {room.secondbloc.button}
-                />      {/* {room.theme == "creative" && <h2>{room.h2}</h2>} */}
-            </Container>
-        </div>
-        ):(
-            <div></div>
-        )}
+        <BlocRoom
+            theme={room.bloc.theme}
+            img={room.bloc.img}
+            name={room.bloc.name}
+            room={room.bloc.room}
+            tw={room.bloc.tw}
+            desc={room.bloc.desc}
+            button={room.bloc.button}
+            secondTheme={room.secondbloc.theme}
+            secondImg={room.secondbloc.img}
+            secondName={room.secondbloc.name}
+            secondRoom={room.secondbloc.room}
+            secondTw={room.secondbloc.tw}
+            secondDesc={room.secondbloc.desc}
+            secondButton={room.secondbloc.button}
+        />
+        
         
         
         <Footerter />

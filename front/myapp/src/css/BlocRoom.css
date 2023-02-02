@@ -1,0 +1,46 @@
+/*bloc gris*/
+.blocimg {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.blocgris {
+    width: 95%;
+    background-color: #F2F2F2;
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: fit-content;
+}
+
+.blocgris h3 {
+    margin-top: 20px;
+}
+
+.blochome {
+    display: flex;
+}
+
+.blochome h3 {
+    margin-left: 20px;
+}
+
+.parag h4 {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.redirection a {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3B4040;
+}
+
+.blochome .title {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
