@@ -23,30 +23,7 @@ body {
     height: 200px;
 }
 
-/*Pour tous les textes en général*/
-h1 {
-    color: #3B4040;
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-}
 
-h2 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-}
-
-h3 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-}
-
-p {
-    color: #646363;
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-}
 
 /*Boutton découvrir*/
 .discoverButton {

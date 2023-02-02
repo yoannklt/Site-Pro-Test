@@ -17,8 +17,8 @@ function BlocRoom(props) {
                     <h3 className="title">{props.room}</h3>
                 </div>
                 <div className="row parag">
-                    <h4><strong>{props.tw}</strong></h4>
-                    <p>{props.desc}</p>
+                    <h4 className={"tw " + props.theme}><strong>{props.tw}</strong></h4>
+                    <p className={"pp " + props.theme}>{props.desc}</p>
                 </div>
                 <div className="row reservebtn text-center">
                     <div className="clc col-lg-12 align-self-center">
@@ -39,8 +39,8 @@ function BlocRoom(props) {
                     <h3 className="title">{props.secondRoom}</h3>
                 </div>
                 <div className="row parag">
-                    <h4><strong>{props.secondTw}</strong></h4>
-                    <p>{props.secondDesc}</p>
+                    <h4 className={"tw " + props.theme}><strong>{props.secondTw}</strong></h4>
+                    <p className={"pp " + props.theme}>{props.secondDesc}</p>
                 </div>
                 <div className="row reservebtn text-center">
                     <div className="clc col-lg-12 align-self-center">
