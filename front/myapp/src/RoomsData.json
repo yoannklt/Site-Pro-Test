@@ -51,7 +51,7 @@
             "theme": "dark",
             "img": "../img/image12.png",
             "name": "NAMELESS",
-            "room": "DARK ROOM",
+            "room": "DARK ROOM ROOM",
             "tw" : "Expérience interdite au -18",
             "desc": "De retour de soirée avec vos amis, votre voiture tombe soudainement en panne au beau milieu des bois. Coïncidence, c'est dans cette forêt que l'on a signalé de mystérieuses disparitions. Après un long moment à tenter d’appeller une dépanneuse, vous vous rendez compte que vous ne pouvez compter que sur vous-même pour vous en sortir. Mais dans le froid de la nuit et les recoins de la forêt, quelque chose rôde. Travaillez en équipe car sans vos amis, vous n'aurez aucune chance, survivrez-vous assez longtemps ?",
             "button": "../img/boutonréserverXL.png"
@@ -95,21 +95,21 @@
         },
         "bloc":{
             "theme": "creative",
-            "h1": "VOTRE EXPÉRIENCE ENTRE VOS MAINS",
-            "explic": "Suivez les étapes pour créer votre propre aventure. Nous mettons à votre disposition la possibilité de choisir tous les éléments de votre room dans le but de vous offrir l'expérience ultime qui VOUS correspond. Basculez entre chaque étape, modifier vos choix à tout moment pour que ceux-ci correspondent à vos besoins.",
-            "img": "../img/image10.jpg",
-            "name": "SHANGRI-LA : LA CITÉ PERDUE DE Z",
-            "room": "LIGHT ROOM",
-            "desc": "Shangri-La la cité mythique, symbole de paix, de prospérité et de magnificence. Personne n'a apparemment pu se rendre en ce lieu depuis des décennies ou prouver son existence, du moins depuis votre découverte ! Aventurez-vous au plus profond des légendes, entrez dans la cité de Z avec votre équipe et explorez les lieux à la recherche de Percy Fawcett.",
-            "button": "../img/boutonréserver.png"
+            "h1": "COMMING SOON...",
+            "explic": "",
+            "img": "",
+            "name": "",
+            "room": "",
+            "desc": "",
+            "button": ""
         },
         "secondbloc":{
             "theme": "creative",
-            "img": "../img/image14.png",
-            "name": "NORDRËNN : LA LÉGENDE DE GLACE",
-            "room": "LIGHT ROOM",
-            "desc": "Dans le froid du royaume de Nordrënn, il est une légende qui raconte comment un guerrier obtint la force de l'ours et la clairvoyance du corbeau. Il est dit que pour conquérir la femme qu'il aimait, cet homme parti à la recherche du trône d'Odin, artefact perdu depuis des années, qui offrait, disait-on, le pouvoir du Père de Toute Chose. Le guerrier parti et ne revint jamais ; on raconte qu'il aurait trouvé le trône mais, qu'avide de son pouvoir il ne le quitta plus. Partez à la découverte du royaume glacé de Nordrënn et retrouvez le guerrier de la légende.",
-            "button": "../img/boutonréserver.png"
+            "img": "",
+            "name": "",
+            "room": "",
+            "desc": "",
+            "button": ""
         }  
     }
 }
