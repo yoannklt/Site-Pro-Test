@@ -52,25 +52,24 @@ export default function Room() {
             logo={room.banner.logo}
             content={room.banner.content}
         />
-        <BlocRoom
-            theme={room.bloc.theme}
-            img={room.bloc.img}
-            name={room.bloc.name}
-            room={room.bloc.room}
-            tw={room.bloc.tw}
-            desc={room.bloc.desc}
-            button={room.bloc.button}
-            secondTheme={room.secondbloc.theme}
-            secondImg={room.secondbloc.img}
-            secondName={room.secondbloc.name}
-            secondRoom={room.secondbloc.room}
-            secondTw={room.secondbloc.tw}
-            secondDesc={room.secondbloc.desc}
-            secondButton={room.secondbloc.button}
-        />
-        
-        
-        
+        <div className='room-content'>
+            <BlocRoom
+                theme={room.bloc.theme}
+                img={room.bloc.img}
+                name={room.bloc.name}
+                room={room.bloc.room}
+                tw={room.bloc.tw}
+                desc={room.bloc.desc}
+                button={room.bloc.button}
+                secondTheme={room.secondbloc.theme}
+                secondImg={room.secondbloc.img}
+                secondName={room.secondbloc.name}
+                secondRoom={room.secondbloc.room}
+                secondTw={room.secondbloc.tw}
+                secondDesc={room.secondbloc.desc}
+                secondButton={room.secondbloc.button}
+            />
+        </div>
         <Footerter />
     </div>
 
