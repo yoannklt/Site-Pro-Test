@@ -4,15 +4,17 @@ import Navbarbar from "../components/Navbar";
 import FadeCarouselavis from "../components/Carouselavis";
 import BasicExample from "../components/Dropdown";
 import Footerter from "../components/Footer";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { UserContext } from "../context/UserContext";
+import { RoomContext } from "../context/RoomContext";
+import RoomsData from '../RoomsData.json'
 import Bandeau from "../components/Bandeau";
-
-
+import { Link } from "react-router-dom";
 
 
 function Home() {
     const { user, setUser } = useContext(UserContext);
+    const { room, setRoom } = useContext(RoomContext);
 
     const userToken = JSON.parse(sessionStorage.getItem('token'))
     if (userToken && !user) {
@@ -68,7 +70,7 @@ function Home() {
                                 <a href="#reservation"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a /* onClick={setRoom('lightRoom')} */ href="/Room">découvrez la Light room →</a>
+                                <a onClick={() => setRoom(RoomsData.light)}  href="/Room">découvrez la Light room →</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +97,7 @@ function Home() {
                                 <a href="#reservation"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a /* onClick={setRoom('darkRoom')} */ href="/Room">découvrez la Dark room →</a>
+                                <a onClick={() => setRoom(RoomsData.dark)}  href="/Room">découvrez la Dark room →</a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +123,7 @@ function Home() {
                                 <a href="#reservation"><img src="../img/boutonréserver.png" alt="the sense" /></a>
                             </div>
                             <div className="redirection col-lg-2 align-items-end">
-                                <a /* onClick={setRoom('battleRoom')} */ href="/Room">découvrez la battle room →</a>
+                                <Link to='/Room' onClick={() => setRoom(RoomsData.battle)} {...console.log(room)}>Découvrez la battle room →</Link>
                             </div>
                         </div>
                     </div>
