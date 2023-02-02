@@ -15,28 +15,28 @@ body {
     --bg-color: white;
     --bg-header: url(/public/img/Header_LightRoom.png);
     --bg-content: url(/public/img/Content_LightRoom.png);
-    --transition-duration: 300ms;
+    --transition-duration: 0.5s;
 }
 
 .sensei-room.dark{
     --bg-color: #131313;
     --bg-header: url(/public/img/Header_DarkRoom.png);
     --bg-content: url(/public/img/Content_DarkRoom.png);
-    --transition-duration: 300ms;
+    --transition-duration: 0.5s;
 }
 
 .sensei-room.battle{
     --bg-color: white;
     --bg-header: url(/public/img/Header_BattleRoom.png);
     --bg-content: url(/public/img/Content_CreativeRoom.png);
-    --transition-duration: 300ms;
+    --transition-duration: 0.5s;
 }
 
 .sensei-room.creative{
     --bg-color: white;
     --bg-header: url(/public/img/Header_CreativeRoom.png);
     --bg-content: url(/public/img/Content_CreativeRoom.png);
-    --transition-duration: 300ms;
+    --transition-duration: 0.5s;
 }
 
 .sensei-room .room-header{
@@ -61,7 +61,7 @@ body {
     height: fit-content;
     width: 263.98px;
     cursor: pointer;
-    transition: 5s;
+    transition: 0.5s;
 }
 
 .room-header{
@@ -86,7 +86,7 @@ body {
 .actual-room.dark img{
     --img-height: 300px;
     width: fit-content;
-    --img-url: url(/public/img/darkroomBlack.png);
+    --img-url: url(/public/img/darkroom.png);
     transition: var(--transition-duration);
 }
 
