@@ -59,7 +59,7 @@ export default function Room() {
             logo={room.banner.logo}
             content={room.banner.content}
         />
-        <div className='room-content '>
+        <div className={'room-content ' + room.theme}>
             <BlocRoom
                 theme={room.bloc.theme}
                 h1={room.bloc.h1}
