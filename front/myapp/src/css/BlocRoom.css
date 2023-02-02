@@ -1,4 +1,8 @@
 /*bloc gris*/
+.bloc {
+    margin-top: 100px;
+}
+
 .blocimg {
     padding-left: 0 !important;
     padding-right: 0 !important;
