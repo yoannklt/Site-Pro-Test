@@ -1,6 +1,7 @@
 {
     "light":{
         "theme": "default",
+        "price": 8,
         "banner":{
             "theme": "light",
             "title": "Qu'est-ce que la",
@@ -29,6 +30,7 @@
     },
     "dark":{
         "theme": "dark",
+        "price": 8,
         "banner":{
             "theme": "dark",
             "title": "Qu'est-ce que la",
@@ -59,6 +61,7 @@
     },
     "battle":{
         "theme": "battle",
+        "price": 8,
         "banner":{
             "theme": "battle",
             "title": "Qu'est-ce que la",

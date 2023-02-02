@@ -51,3 +51,18 @@ export const DeleteRoom = async (data) => {
     const room = await response.json()
     return room
 }
+
+export const CheckAvailable = async (room, date, time) => {
+    const response = await fetch(
+        'http://localhost:4444/slots/check?room=' + room + 'date=' + date + 'time=' + time,{
+            method:'GET',
+            headers: {  
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        }
+    )
+    const available = await response.json()
+    console.log(available);
+    return available
+}
