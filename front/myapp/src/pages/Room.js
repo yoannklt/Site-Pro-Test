@@ -52,44 +52,23 @@ export default function Room() {
             logo={room.banner.logo}
             content={room.banner.content}
         />
-        {room.theme !== 'creative' ?(
-            <div className="room-content">
-            <Container> 
-                <BlocRoom
-                    theme = {room.bloc.theme}
-                    img = {room.bloc.img}
-                    name = {room.bloc.name}
-                    room = {room.bloc.room}
-                    desc = {room.bloc.desc}
-                    button = {room.bloc.button}
-                    secondImg = {room.secondbloc.img}
-                    secondName = {room.secondbloc.name}
-                    secondRoom = {room.secondbloc.room}
-                    secondDesc = {room.secondbloc.desc}
-                    secondButton = {room.secondbloc.button}
-                />      {/* {room.theme == "creative" && <h2>{room.h2}</h2>} */}
-            </Container>
-        </div>
-        ):room.theme === 'dark'?(
-            <Container>
-                <BlocRoom
-                    theme = {room.bloc.theme}
-                    img = {room.bloc.img}
-                    name = {room.bloc.name}
-                    room = {room.bloc.room}
-                    tw = {room.bloc.tw}
-                    desc = {room.bloc.desc}
-                    button = {room.bloc.button}
-                    secondImg = {room.secondbloc.img}
-                    secondName = {room.secondbloc.name}
-                    secondRoom = {room.secondbloc.room}
-                    secondDesc = {room.secondbloc.desc}
-                    secondButton = {room.secondbloc.button}
-                /> 
-            </Container>
-        ):(
-            <></>
-        )}
+        <BlocRoom
+            theme={room.bloc.theme}
+            img={room.bloc.img}
+            name={room.bloc.name}
+            room={room.bloc.room}
+            tw={room.bloc.tw}
+            desc={room.bloc.desc}
+            button={room.bloc.button}
+            secondTheme={room.secondbloc.theme}
+            secondImg={room.secondbloc.img}
+            secondName={room.secondbloc.name}
+            secondRoom={room.secondbloc.room}
+            secondTw={room.secondbloc.tw}
+            secondDesc={room.secondbloc.desc}
+            secondButton={room.secondbloc.button}
+        />
+        
         
         
         <Footerter />
