@@ -17,6 +17,7 @@ import {
 } from "react-router-dom";
 import Booking from "./components/Booking";
 import RoomsData from "./RoomsData.json";
+import Account from "./pages/Account";
 
 //App.js
 function App(props){
@@ -37,7 +38,7 @@ function App(props){
             <Route exact path="/BtoB"> <BtoB /></Route>
             <Route exact path="/Equipements"> <Equipements /></Route>
             <Route exact path="/HomeTest"> <HomeTest /></Route>
-            <Route exact path="/AccountCreation"> <AccountCreation /></Route>
+            <Route exact path="/Account"> <Account/></Route>
             <Route exact path="/Booking"> <Booking/> </Route>
             <Route exact path="/Room"><Room /></Route>
           </RoomContext.Provider>

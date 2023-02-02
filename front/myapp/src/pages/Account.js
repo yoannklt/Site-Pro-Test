@@ -1,7 +1,16 @@
+import { useContext } from "react";
+import { Button, Form } from "react-bootstrap";
+import { useForm } from "react-hook-form";
+import { existingUser, signUp } from "../api/Users";
+import Footerter from "../components/Footer";
+import Navbarbar from "../components/Navbar";
+import { UserContext } from "../context/UserContext";
+
 export default function Account() {
 
     const { register, handleSubmit } = useForm();
 
+    const { user, setUser } = useContext(UserContext);
 
     const onSubmit = (data) => {
         const existFetched = existingUser(data.email);
