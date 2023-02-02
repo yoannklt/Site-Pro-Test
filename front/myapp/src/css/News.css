@@ -1,4 +1,8 @@
 /*News*/
+.bodynews {
+    background-color: white;
+}
+
 .backgroundnews {
     height: 540px;
     background-image: url(/public/img/image24.png);
@@ -20,7 +24,7 @@
     color: white;
 }
 
-/*bloc gris*/
+/*bloc gris news*/
 .blocnews {
     margin-top: 100px;
 }
@@ -49,8 +53,3 @@
 .blocgrisnews p {
     font-size: 20px;
 }
-
-/*carousel*/
-.carousel {
-    margin-top: 100px;
-  }
