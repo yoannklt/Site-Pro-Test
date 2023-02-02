@@ -34,7 +34,7 @@ function About() {
                 <div className="backgroundthesense">
 
                     <div className="container description col-lg-12 align-text-center">
-                        <h2><strong>Qui sommes-nous ?</strong></h2>
+                        <h1><strong>Qui sommes-nous ?</strong></h1>
                         <p>THE SENSE est une société formée par quatre étudiants de commerce qui détiennent la majorité des parts. Le restant étant la propriété DreamAway, entreprise française spécialisée du milieu de la VR.</p>
                     </div>
 

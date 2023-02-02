@@ -49,3 +49,15 @@
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.bandeau h3 {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+}
+
+.bandeau a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}

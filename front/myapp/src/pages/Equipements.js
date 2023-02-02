@@ -40,7 +40,7 @@ function Equipement() {
                 <div className="troiscase">
                     <div className="row blocbtob">
                         <div className="container col-lg-5 img text-center">
-                            <img className="img-fluid align-self-center" src="../img/ekip1.png" alt="the sense" />
+                            <img className="img-fluid align-self-center" src="../img/image17.png" alt="the sense" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>CASQUE HTC VIVE COSMOS</strong></h3>
@@ -53,12 +53,12 @@ function Equipement() {
                             <p>Haptique Rapture est une combinaison spécialisée pour l’utilisation VR, cette “armure” vous permettra de vous mouvoir sans problème et avec fluidité dans le jeu comme dans la réalité. Votre confort est également assuré grâce à son mantient et sa légéreté impressionnante (à peine 5kg), qualitées vous assurera une expérience réussie.</p>
                         </div>
                         <div className="container col-lg-5 img text-center">    
-                            <img className="img-fluid align-self-center" src="../img/ekip2.png" alt="the sense" />
+                            <img className="img-fluid align-self-center" src="../img/image18.png" alt="the sense" />
                         </div>
                     </div>
                     <div className="row blocbtob">
                         <div className="container col-lg-5 img text-center">
-                            <img className="img-fluid align-self-center" src="../img/ekip3.png" alt="the sense" />
+                            <img className="img-fluid align-self-center" src="../img/image19.png" alt="the sense" />
                         </div>
                         <div className="col-lg-7 text-left align-self-center blocbleu">
                             <h3><strong>COMPLEXE THE SENSE</strong></h3>

@@ -8,32 +8,6 @@
     background-position: center;
 }
 
-/*Pour tous les textes en général*/
-h1 {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    color: black;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-}
-
-h3 {
-    text-transform: uppercase;
-    font-family: 'Amiko', sans-serif;
-    color: #3B4040;
-}
-
-p {
-    color: #646363;
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-}
-
 .backgroundaccount {
     height: 540px;
     background-image: url(/public/img/image53.png);
